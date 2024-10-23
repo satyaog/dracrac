@@ -1,0 +1,498 @@
+AJung_Moon.json
+Aaron_Courville.json
+paper:The Curse of Diversity in Ensemble-Based Exploration
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Diffusion Generative Flow Samplers: Improving learning signals through partial trajectory optimization
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:LOQA: Learning with Opponent Q-Learning Awareness
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+Aishwarya_Agrawal.json
+Blake_Aaron_Richards.json
+paper:Synaptic Weight Distributions Depend on the Geometry of Plasticity
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Sufficient conditions for offline reactivation in recurrent neural networks
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Christopher_Pal.json
+paper:Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Daniko_Bzdok.json
+David_Ifeoluwa_Adelani.json
+David_Krueger.json
+paper:Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Reward Model Ensembles Help Mitigate Overoptimization
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+David_Rolnick.json
+Derek_Nowrouzezahrai.json
+Dhanya_Sridhar.json
+Doina_Precup.json
+paper:Consciousness-Inspired Spatio-Temporal Abstractions for Better Generalization in Reinforcement Learning
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Provable and Practical: Efficient Exploration in Reinforcement Learning via Langevin Monte Carlo
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+Gauthier_Gidel.json
+paper:Deep Equilibrium Models For Algorithmic Reasoning
+  ('ICLR.cc/2024/BlogPosts', 'unknown', '2024-02-16')
+  ('ICLR.cc/2024/BlogPosts', 'unknown', '2024-02-16')
+paper:Expected flow networks in stochastic environments and two-player zero-sum games
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:On the Stability of Iterative Retraining of Generative Models on their own Data
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Synaptic Weight Distributions Depend on the Geometry of Plasticity
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Glen_Berseth.json
+paper:Intelligent Switching for Reset-Free RL
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Closing the Gap between TD Learning and Supervised Learning - A Generalisation Point of View
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Searching for High-Value Molecules Using Reinforcement Learning and Transformers
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Improving Intrinsic Exploration by Creating Stationary Objectives
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Reasoning with Latent Diffusion in Offline Reinforcement Learning
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Golnoosh_Farnadi.json
+paper:Balancing Act: Constraining Disparate Impact in Sparse Models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Guillaume_Lajoie.json
+paper:How connectivity structure shapes rich and lazy learning in neural circuits
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Leveraging Unpaired Data for Vision-Language Generative Models via Cycle Consistency
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Synaptic Weight Distributions Depend on the Geometry of Plasticity
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Delta-AI: Local objectives for amortized inference in sparse graphical models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Amortizing intractable inference in large language models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Sufficient conditions for offline reactivation in recurrent neural networks
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Guillaume_Rabusseau.json
+paper:Towards Foundational Models for Molecular Learning on Large-Scale Multi-Task Datasets
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Guy_Wolf.json
+paper:Towards Foundational Models for Molecular Learning on Large-Scale Multi-Task Datasets
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Ioannis_Mitliagkas.json
+paper:Empirical Analysis of Model Selection for Heterogeneous Causal Effect Estimation
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Empirical Analysis of Model Selection for Heterogenous Causal Effect Estimation
+  ('ICLR', 'journal', '2024')
+Irina_Rish.json
+Jackie_C_K_Cheung.json
+paper:Ensemble Distillation for Unsupervised Constituency Parsing
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+Jian_Tang.json
+paper:Deep Equilibrium Models For Algorithmic Reasoning
+  ('ICLR.cc/2024/BlogPosts', 'unknown', '2024-02-16')
+  ('ICLR.cc/2024/BlogPosts', 'unknown', '2024-02-16')
+paper:Evaluating Representation Learning on the Protein Structure Universe
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Towards Foundational Models for Molecular Learning on Large-Scale Multi-Task Datasets
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Str2Str: A Score-based Framework for Zero-shot Protein Conformation Sampling
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Towards Foundation Models for Knowledge Graph Reasoning
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+Joelle_Pineau.json
+paper:Piecewise Linear Parametrization of Policies: Towards Interpretable Deep Reinforcement Learning
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Kirill_Neklyudov.json
+Laurent_Charlin.json
+Liam_Paull.json
+paper:Ghost on the Shell: An Expressive Representation of General 3D Shapes
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+Pierre-Luc_Bacon.json
+paper:Bridging State and History Representations: Understanding Self-Predictive RL
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Course Correcting Koopman Representations
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Decoupling regularization from the action space
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Motif: Intrinsic Motivation from Artificial Intelligence Feedback
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+Prakash_Panangaden.json
+Reihaneh_Rabbany.json
+paper:Towards Foundational Models for Molecular Learning on Large-Scale Multi-Task Datasets
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Sarath_Chandar.json
+paper:Intelligent Switching for Reset-Free RL
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Mastering Memory Tasks with World Models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+Siamak_Ravanbakhsh.json
+paper:On Diffusion Modeling for Anomaly Detection
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Efficient Dynamics Modeling in Interactive Environments with Koopman Theory
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Simon_Lacoste-Julien.json
+paper:Balancing Act: Constraining Disparate Impact in Sparse Models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+Siva_Reddy.json
+Tai_Arbel.json
+Tegan_Maharaj.json
+Timothy_J_O’Donnell.json
+Yoshua_Bengio.json
+paper:Tree Cross Attention
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Consciousness-Inspired Spatio-Temporal Abstractions for Better Generalization in Reinforcement Learning
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Local Search GFlowNets
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Diffusion Generative Flow Samplers: Improving learning signals through partial trajectory optimization
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Cycle Consistency Driven Object Discovery
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Expected flow networks in stochastic environments and two-player zero-sum games
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:PhyloGFN: Phylogenetic inference with generative flow networks
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Delta-AI: Local objectives for amortized inference in sparse graphical models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Amortizing intractable inference in large language models
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+paper:Pre-Training and Fine-Tuning Generative Flow Networks
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+paper:Object centric architectures enable efficient causal representation learning
+  ('ICLR.cc/2024/Conference', 'conference', '2024-01-16')
+  ('ICLR', 'journal', '2024')
+AJung_Moon.json
+Aaron_Courville.json
+paper:Modeling Caption Diversity in Contrastive Vision-Language Pretraining
+  ('ICML', 'journal', '2024')
+paper:In deep reinforcement learning, a pruned network is a good network
+  ('ICML', 'journal', '2024')
+paper:Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Bigger, Better, Faster: Human-level Atari with human-level efficiency
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Aishwarya_Agrawal.json
+Blake_Aaron_Richards.json
+Christopher_Pal.json
+Daniko_Bzdok.json
+David_Ifeoluwa_Adelani.json
+David_Krueger.json
+paper:Meta- (out-of-context) learning in neural networks
+  ('ICML', 'journal', '2024')
+paper:Mechanistic Mode Connectivity
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+David_Rolnick.json
+paper:Stealing part of a production language model
+  ('ICML', 'journal', '2024')
+paper:Application-Driven Innovation in Machine Learning
+  ('ICML', 'journal', '2024')
+paper:Hidden Symmetries of ReLU Networks
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:FAENet: Frame Averaging Equivariant GNN for Materials Modeling
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Maximal Initial Learning Rates in Deep ReLU Networks
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Derek_Nowrouzezahrai.json
+Dhanya_Sridhar.json
+Doina_Precup.json
+paper:Code as Reward: Empowering Reinforcement Learning with VLMs
+  ('ICML', 'journal', '2024')
+paper:Multi-Environment Pretraining Enables Transfer to Action Limited Datasets
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Gauthier_Gidel.json
+paper:A Persuasive Approach to Combating Misinformation
+  ('ICML', 'journal', '2024')
+paper:High-Probability Convergence for Composite and Distributed Stochastic Minimization and Variational Inequalities with Heavy-Tailed Noise.
+  ('ICML', 'journal', '2024')
+paper:Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
+  ('ICML', 'journal', '2024')
+paper:High-Probability Bounds for Stochastic Optimization and Variational Inequalities: the Case of Unbounded Variance
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Nesterov Meets Optimism: Rate-Optimal Separable Minimax Optimization
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Convergence of Proximal Point and Extragradient-Based Methods Beyond Monotonicity: the Case of Negative Comonotonicity
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Glen_Berseth.json
+Golnoosh_Farnadi.json
+paper:Position: Cracking the Code of Cascading Disparity Towards Marginalized Communities
+  ('ICML', 'journal', '2024')
+Guillaume_Lajoie.json
+paper:Flexible Phase Dynamics for Bio-Plausible Contrastive Learning
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Guillaume_Rabusseau.json
+Guy_Wolf.json
+paper:Neural FIM for learning Fisher information metrics from point cloud data
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Ioannis_Mitliagkas.json
+paper:No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths
+  ('ICML', 'journal', '2024')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Irina_Rish.json
+Jackie_C_K_Cheung.json
+Jian_Tang.json
+paper:ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:FusionRetro: Molecule Representation Fusion via In-Context Learning for Retrosynthetic Planning
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Joelle_Pineau.json
+paper:On the Societal Impact of Open Foundation Models
+  ('ICML', 'journal', '2024')
+Kirill_Neklyudov.json
+Laurent_Charlin.json
+Liam_Paull.json
+Pierre-Luc_Bacon.json
+paper:Do Transformer World Models Give Better Policy Gradients?
+  ('ICML', 'journal', '2024')
+Prakash_Panangaden.json
+Reihaneh_Rabbany.json
+Sarath_Chandar.json
+paper:Faithfulness Measurable Masked Language Models
+  ('ICML', 'journal', '2024')
+paper:Lookbehind-SAM: k steps back, 1 step forward
+  ('ICML', 'journal', '2024')
+Siamak_Ravanbakhsh.json
+paper:Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
+  ('ICML', 'journal', '2024')
+paper:Learning to Reach Goals via Diffusion
+  ('ICML', 'journal', '2024')
+paper:Equivariance with Learned Canonicalization Functions
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Simon_Lacoste-Julien.json
+paper:Can We Scale Transformers to Predict Parameters of Diverse ImageNet Models?
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:CrossSplit: Mitigating Label Noise Memorization through Data Splitting
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Unlocking Slot Attention by Changing Optimal Transport Costs
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+Siva_Reddy.json
+paper:Faithfulness Measurable Masked Language Models
+  ('ICML', 'journal', '2024')
+paper:WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
+  ('ICML', 'journal', '2024')
+Tai_Arbel.json
+Tegan_Maharaj.json
+paper:Meta- (out-of-context) learning in neural networks
+  ('ICML', 'journal', '2024')
+Timothy_J_O’Donnell.json
+Yoshua_Bengio.json
+paper:Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
+  ('ICML', 'journal', '2024')
+paper:Memory Efficient Neural Processes via Constant Memory Attention Block
+  ('ICML', 'journal', '2024')
+paper:Learning to Scale Logits for Temperature-Conditional GFlowNets
+  ('ICML', 'journal', '2024')
+paper:Learning GFlowNets from partial episodes for improved convergence and stability
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Hyena Hierarchy: Towards Larger Convolutional Language Models
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:GFlowNet-EM for Learning Compositional Latent Variable Models
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Better Training of GFlowNets with Local Credit and Incomplete Trajectories
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:FAENet: Frame Averaging Equivariant GNN for Materials Modeling
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:GFlowOut: Dropout with Generative Flow Networks
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:A theory of continuous generative flow networks
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Discrete Key-Value Bottleneck
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Multi-Objective GFlowNets
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Equivariance with Learned Canonicalization Functions
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+paper:Interventional Causal Representation Learning
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+  ('ICML.cc/2023/Conference', 'conference', '2023-04-24')
+AJung_Moon.json
+Aaron_Courville.json
+paper:Language Model Alignment with Elastic Reset
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Versatile Energy-Based Probabilistic Models for High Energy Physics
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Improving Compositional Generalization using Iterated Learning and Simplicial Embeddings
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Double Gumbel Q-Learning.
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Group Robust Classification Without Any Group Information
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Aishwarya_Agrawal.json
+Blake_Aaron_Richards.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Learning better with Dale’s Law: A Spectral Perspective
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Christopher_Pal.json
+paper:Block-State Transformers
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Parallel-mentoring for Offline Model-based Optimization
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Daniko_Bzdok.json
+David_Ifeoluwa_Adelani.json
+paper:Improving Language Plasticity via Pretraining with Active Forgetting
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+David_Krueger.json
+paper:Thinker: Learning to Plan and Act
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+David_Rolnick.json
+paper:ClimateSet: A Large-Scale Climate Model Dataset for Machine Learning
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+paper:Normalization Layers Are All That Sharpness-Aware Minimization Needs
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Derek_Nowrouzezahrai.json
+Dhanya_Sridhar.json
+Doina_Precup.json
+paper:Prediction and Control in Continual Reinforcement Learning
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:A Definition of Continual Reinforcement Learning
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:For SALE: State-Action Representation Learning for Deep Reinforcement Learning
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:When Do Graph Neural Networks Help with Node Classification: Investigating the Homophily Principle on Node Distinguishability
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Gauthier_Gidel.json
+paper:Feature Likelihood Divergence: Evaluating the Generalization of Generative Models Using Samples
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Optimal Extragradient-Based Algorithms for Stochastic Variational Inequalities with Separable Structure
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Glen_Berseth.json
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Golnoosh_Farnadi.json
+Guillaume_Lajoie.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Guillaume_Rabusseau.json
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+Guy_Wolf.json
+paper:A Heat Diffusion Perspective on Geodesic Preserving Dimensionality Reduction
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Ioannis_Mitliagkas.json
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Irina_Rish.json
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Jackie_C_K_Cheung.json
+Jian_Tang.json
+paper:Evaluating Self-Supervised Learning for Molecular Graph Embeddings
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+paper:A*Net: A Scalable Path-based Reasoning Approach for Knowledge Graphs
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Symmetry-Informed Geometric Representation for Molecules, Proteins, and Crystalline Materials
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+paper:Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:GAUCHE: A Library for Gaussian Processes in Chemistry
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Joelle_Pineau.json
+Kirill_Neklyudov.json
+Laurent_Charlin.json
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Liam_Paull.json
+Pierre-Luc_Bacon.json
+paper:Policy Optimization in a Noisy Neighborhood: On Return Landscapes in Continuous Control
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Block-State Transformers
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Double Gumbel Q-Learning.
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Prakash_Panangaden.json
+Reihaneh_Rabbany.json
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+Sarath_Chandar.json
+Siamak_Ravanbakhsh.json
+paper:Equivariant Adaptation of Large Pretrained Models
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Lie Point Symmetry and Physics-Informed Networks
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Simon_Lacoste-Julien.json
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Siva_Reddy.json
+paper:The Impact of Positional Encoding on Length Generalization in Transformers
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+Tai_Arbel.json
+Tegan_Maharaj.json
+Timothy_J_O’Donnell.json
+Yoshua_Bengio.json
+paper:Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+paper:HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Improving *day-ahead* Solar Irradiance Time Series Forecasting by Leveraging Spatio-Temporal Context
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:GEO-Bench: Toward Foundation Models for Earth Monitoring
+  ('NeurIPS.cc/2023/Track/Datasets_and_Benchmarks', 'track', '2023-09-25')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
+paper:Reusable Slotwise Mechanisms
+  ('NeurIPS.cc/2023/Conference', 'conference', '2023-09-21')
