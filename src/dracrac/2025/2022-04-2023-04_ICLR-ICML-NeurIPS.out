@@ -1,0 +1,2631 @@
+AJung_Moon.json
+paper:Roboethics as a Design Challenge: Lessons Learned from the Roboethics to Design and Development Competition
+  ('2022 International Conference on Robotics and Automation (ICRA)', 'journal', '2022-05-23')
+  ('IEEE International Conference on Robotics and Automation', 'journal', '2022-05-23')
+Aaron_Courville.json
+paper:Language Model Alignment with Elastic Reset
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels
+  ('ICML', 'journal', '2023')
+paper:SUNMASK: Mask Enhanced Control in Step Unrolled Denoising Autoencoders
+  ('EvoMUSART@EvoStar', 'journal', '2023')
+paper:Generative Augmented Flow Networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Latent State Marginalization as a Low-cost Approach for Improving Exploration
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Simplicial Embeddings in Self-Supervised Learning and Downstream Classification
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Bigger, Better, Faster: Human-level Atari with human-level efficiency
+  ('ICML', 'journal', '2023')
+paper:Versatile Energy-Based Probabilistic Models for High Energy Physics
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Improving Compositional Generalization using Iterated Learning and Simplicial Embeddings
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Double Gumbel Q-Learning.
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Group Robust Classification Without Any Group Information
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Investigating Multi-task Pretraining and Generalization in Reinforcement Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Invariant representation driven neural classifier for anti-QCD jet tagging
+  ('Journal of High Energy Physics', 'journal', '2022-10-24')
+paper:Multi-label Iterated Learning for Image Classification with Label Ambiguity
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+paper:Expressiveness and Learnability: A Unifying View for Evaluating Self-Supervised Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Unsupervised Dependency Graph Network
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:VIM: Variational Independent Modules for Video Prediction
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Aishwarya_Agrawal.json
+paper:MAPL: Parameter-Efficient Adaptation of Unimodal Pre-Trained Models for Vision-Language Few-Shot Prompting
+  ('EACL', 'journal', '2023')
+paper:Measuring Progress in Fine-grained Vision-and-Language Understanding
+  ('ACL (1)', 'journal', '2023')
+paper:Vision-Language Pretraining: Current Trends and the Future
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts', 'conference', '2022-05')
+Blake_Aaron_Richards.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Learning better with Dale’s Law: A Spectral Perspective
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Catalyzing next-generation Artificial Intelligence through NeuroAI
+  ('Nature Communications', 'review', '2023-03-22')
+  ('Nature Communications', 'journal', '2023-03-22')
+paper:How gradient estimator variance and bias impact learning in neural networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Transfer Entropy Bottleneck: Learning Sequence to Sequence Information Transfer
+  ('TMLR', 'unknown', '2023-03-08')
+paper:Adult neurogenesis acts as a neural regularizer
+  ('Proceedings of the National Academy of Sciences of the United States of America', 'journal', '2022-11-02')
+  ('Proceedings of the National Academy of Sciences of the United States of America', 'journal', '2022-11-02')
+paper:$\alpha$-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Beyond accuracy: generalization properties of bio-plausible temporal credit assignment rules
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions
+  ('Proceedings of the AAAI Conference on Artificial Intelligence', 'journal', '2022-06-28')
+paper:Current State and Future Directions for Learning in Biological Recurrent Neural Networks: A Perspective Piece
+  ('Neurons, Behavior, Data analysis, and Theory', 'journal', '2022-04-27')
+Christopher_Pal.json
+paper:Neural Causal Structure Discovery from Interventions
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:Parallel-mentoring for Offline Model-based Optimization
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Workflow Discovery from Dialogues in the Low Data Regime
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('TMLR', 'unknown', '2023-02-20')
+paper:Towards Learning to Imitate from a Single Video Demonstration
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Block-State Transformers
+  ('NeurIPS', 'journal', '2023')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:SMPL-IK: Learned Morphology-Aware Inverse Kinematics for AI Driven Artistic Workflows
+  ('SIGGRAPH Asia 2022 Technical Communications', 'conference', '2022-11-22')
+paper:MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Does Entity Abstraction Help Generative Transformers Reason?
+  ('TMLR', 'unknown', '2022-11-20')
+Daniko_Bzdok.json
+paper:Age differences in functional brain networks associated with loneliness and empathy
+  ('Network Neuroscience', 'journal', '2022-11-23')
+paper:Endorsing Complexity Through Diversity: Computational Psychiatry Meets Big Data Analytics
+  ('Biological Psychiatry', 'journal', '2022-08-01')
+paper:Investigating the neural correlates of affective mentalizing and their association with general intelligence in patients with schizophrenia
+  ('Schizophrenia Research', 'journal', '2023-03-13')
+paper:Bayesian stroke modeling details sex biases in the white matter substrates of aphasia
+  ('Communications Biology', 'journal', '2023-03-31')
+paper:Homotopic local-global parcellation of the human cerebral cortex from resting-state functional connectivity
+  ('NeuroImage', 'journal', '2023-02-25')
+  ('NeuroImage', 'journal', '2023-03-12')
+paper:Relationship between prediction accuracy and feature importance reliability: An empirical and theoretical study
+  ('NeuroImage', 'journal', '2023-03-06')
+paper:The end game: respecting major sources of population diversity
+  ('Nature Methods', 'journal', '2023-03-03')
+  ('Nature Methods', 'journal', '2023-03-03')
+paper:Rare CNVs and phenome-wide profiling highlight brain structural divergence and phenotypical convergence
+  ('Nature human behaviour', 'journal', '2023-03-02')
+  ('Nature Human Behaviour', 'journal', '2023-03-02')
+paper:Social isolation is linked to classical risk factors of Alzheimer’s disease-related dementias
+  ('PLOS ONE', 'journal', '2023-02-01')
+paper:Disentangling poststroke cognitive deficits and their neuroanatomical correlates through combined multivariable and multioutcome lesion‐symptom mapping
+  ('Human Brain Mapping', 'journal', '2023-01-20')
+  ('Human Brain Mapping', 'journal', '2023-01-20')
+paper:Representational ethical model calibration
+  ('NPJ Digital Medicine', 'journal', '2022-11-04')
+paper:A parsimonious description of global functional brain organization in three spatiotemporal patterns
+  ('Nature Neuroscience', 'journal', '2022-07-28')
+paper:From Precision Medicine to Precision Convergence for Multilevel Resilience—The Aging Brain and Its Social Isolation
+  ('Frontiers in Public Health', 'journal', '2022-07-05')
+  ('Frontiers in Public Health', 'journal', '2022-07-05')
+paper:Interacting brains revisited: A cross‐brain network neuroscience perspective
+  ('Human Brain Mapping', 'journal', '2022-06-06')
+paper:Human brain anatomy reflects separable genetic and environmental components of socioeconomic status
+  ('Science Advances', 'journal', '2022-05-18')
+paper:Multi-tract multi-symptom relationships in pediatric concussion
+  ('eLife', 'journal', '2022-05-17')
+paper:Population heterogeneity in clinical cohorts affects the predictive accuracy of brain imaging
+  ('PLoS Biology', 'journal', '2022-04-29')
+  ('PLoS Biology', 'journal', '2022-04-01')
+paper:Shared and unique brain network features predict cognitive, personality, and mental health scores in the ABCD study
+  ('Nature Communications', 'journal', '2022-04-25')
+  ('Nature Communications', 'journal', '2022-04-25')
+paper:Multivariate, Transgenerational Associations of the COVID-19 Pandemic Across Minoritized and Marginalized Communities.
+  ('JAMA Psychiatry', 'journal', '2022-04-01')
+David_Ifeoluwa_Adelani.json
+paper:Findings of the 1st Shared Task on Multi-lingual Multi-task Information Retrieval at MRL 2023
+  ('MRL', 'unknown', '2023')
+paper:Cross-lingual Open-Retrieval Question Answering for African Languages
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Better Quality Pre-training Data and T5 Models for African Languages
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
+  ('EMNLP', 'journal', '2023')
+paper:Improving Language Plasticity via Pretraining with Active Forgetting
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:MasakhaNEWS: News Topic Classification for African languages
+  ('AfricaNLP', 'journal', '2023')
+paper:MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African languages
+  ('ACL (1)', 'journal', '2023')
+paper:The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+David_Krueger.json
+paper:Metadata Archaeology: Unearthing Data Subsets by Leveraging Training Dynamics
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Mechanistic Mode Connectivity
+  ('ICML', 'journal', '2023')
+paper:Thinker: Learning to Plan and Act
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Broken Neural Scaling Laws
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+David_Rolnick.json
+paper:ClimateSet: A Large-Scale Climate Model Dataset for Machine Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Deep Networks as Paths on the Manifold of Neural Representations
+  ('TAG-ML', 'journal', '2023')
+  ('TAG-ML', 'journal', '2023')
+paper:Bugs in the Data: How ImageNet Misrepresents Biodiversity
+  ('AAAI', 'journal', '2023')
+paper:General Purpose AI Systems in the AI Act: Trying to Fit a Square Peg Into a Round Hole
+  ('SSRN Electronic Journal', 'journal', '2023')
+  ('Social Science Research Network', 'journal', '2023')
+paper:Normalization Layers Are All That Sharpness-Aware Minimization Needs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Understanding the Evolution of Linear Regions in Deep Reinforcement Learning
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Digitalization and the Anthropocene
+  ('Annual Review Environment and Resources', 'review', '2022-09-02')
+  ('Annual Review of Environment and Resources', 'journal', '2022-10-17')
+paper:A portrait of the different configurations between digitally-enabled innovations and climate governance
+  ('Earth System Governance', 'unknown', '2022-08-01')
+  ('Earth System Governance', 'journal', '2022-08')
+paper:Aligning artificial intelligence with climate change mitigation
+  ('Nature Climate Change', 'unknown', '2022-06-01')
+  ('Nature Climate Change', 'journal', '2022-06-09')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+paper:Clustering units in neural networks: upstream vs downstream information
+  ('TMLR', 'unknown', '2022-06-13')
+Derek_Nowrouzezahrai.json
+paper:Learning Neural Implicit Representations with Surface Signal Parameterizations
+  ('Comput. Graph.', 'journal', '2023')
+paper:MeshDiffusion: Score-based Generative 3D Mesh Modeling
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Cone-Traced Supersampling with Subpixel Edge Reconstruction.
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2023')
+paper:Single‐pass stratified importance resampling
+  ('Computer Graphics Forum', 'journal', '2022-07-30')
+  ('Computer graphics forum (Print)', 'journal', '2022-07-01')
+paper:Kubric: A scalable dataset generator
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+Dhanya_Sridhar.json
+paper:Causal inference from text: A commentary
+  ('Science Advances', 'journal', '2022-10-19')
+  ('Science Advances', 'review', '2022-10-01')
+paper:Heterogeneous Supervised Topic Models
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-06-17')
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-06-01')
+paper:Estimating Social Influence from Observational Data
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+paper:Identifiable Deep Generative Models via Sparse Decoding
+  ('TMLR', 'unknown', '2022-10-20')
+paper:Adjusting Machine Learning Decisions for Equal Opportunity and Counterfactual Fairness
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+Doina_Precup.json
+paper:Prediction and Control in Continual Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A Definition of Continual Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Membership Inference Attacks Against Temporally Correlated Data in Deep Reinforcement Learning
+  ('IEEE Access', 'journal', '2023')
+paper:For SALE: State-Action Representation Learning for Deep Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Temporal Abstraction in Reinforcement Learning with the Successor Representation
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:When Do Graph Neural Networks Help with Node Classification: Investigating the Homophily Principle on Node Distinguishability
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Assessing Intrapartum Risk of Hypoxic Ischemic Encephalopathy Using Fetal Heart Rate With Long Short-Term Memory Networks
+  ('2022 Computing in Cardiology (CinC)', 'journal', '2022-09-04')
+  ('Computing in Cardiology Conference (CinC)', 'conference', '2022-12-31')
+paper:Towards Continual Reinforcement Learning: A Review and Perspectives
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-12-22')
+paper:Multi-Environment Pretraining Enables Transfer to Action Limited Datasets
+  ('ICML', 'journal', '2023')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+paper:Estimating individual treatment effect on disability progression in multiple sclerosis using deep learning
+  ('Nature Communications', 'journal', '2022-09-26')
+  ('Nature Communications', 'journal', '2022-09-26')
+paper:PhyloPGM: boosting regulatory function prediction accuracy using evolutionary information
+  ('Bioinformatics', 'journal', '2022-06-27')
+  ('Bioinformatics', 'journal', '2022-06-24')
+paper:Deep Learning Prediction of Response to Disease Modifying Therapy in Primary Progressive Multiple Sclerosis (P1-1.Virtual)
+  ('Neurology', 'journal', '2022-05-03')
+  ('Neurology', 'journal', '2022-05-03')
+paper:Behind the Machine's Gaze: Neural Networks with Biologically-inspired Constraints Exhibit Human-like Visual Attention
+  ('TMLR', 'unknown', '2022-10-30')
+paper:Towards Painless Policy Optimization for Constrained MDPs
+  ('auai.org/UAI/2022/Conference', 'conference', '2022-05-20')
+  ('Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence', 'unknown', '2022-08-17')
+Gauthier_Gidel.json
+paper:Feature Likelihood Divergence: Evaluating the Generalization of Generative Models Using Samples
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Variance Reduction is an Antidote to Byzantines: Better Rates, Weaker Assumptions and Communication Compression as a Cherry on the Top
+  ('International Conference on Learning Representations', 'journal', '2023')
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:A General Framework For Proving The Equivariant Strong Lottery Ticket Hypothesis
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Optimal Extragradient-Based Algorithms for Stochastic Variational Inequalities with Separable Structure
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Nesterov Meets Optimism: Rate-Optimal Separable Minimax Optimization
+  ('ICML', 'journal', '2023')
+paper:Performative Prediction with Neural Networks
+  ('AISTATS', 'journal', '2023')
+paper:On the Limitations of Elo: Real-World Games, are Transitive, not Additive
+  ('AISTATS', 'journal', '2023')
+paper:Convergence of Proximal Point and Extragradient-Based Methods Beyond Monotonicity: the Case of Negative Comonotonicity
+  ('ICML', 'journal', '2023')
+paper:Only tails matter: Average-Case Universality and Robustness in the Convex Regime
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+Glen_Berseth.json
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Towards Learning to Imitate from a Single Video Demonstration
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Hierarchical Reinforcement Learning for Precise Soccer Shooting Skills using a Quadrupedal Robot
+  ('2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)', 'journal', '2022-10-23')
+paper:ASHA: Assistive Teleoperation via Human-in-the-Loop Reinforcement Learning
+  ('2022 International Conference on Robotics and Automation (ICRA)', 'journal', '2022-05-23')
+Golnoosh_Farnadi.json
+Guillaume_Lajoie.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:LEAD: Min-Max Optimization from a Physical Perspective
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Use of Invasive Brain-Computer Interfaces in Pediatric Neurosurgery: Technical and Ethical Considerations
+  ('Journal of Child Neurology', 'review', '2023-03-01')
+paper:Multi-view manifold learning of human brain state trajectories
+  ('Nature Computational Science', 'journal', '2023-03-27')
+paper:Reliability of CKA as a Similarity Measure in Deep Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:« Que notre cerveau soit constitué de neurones n’est pas un accident »
+  ('Pour la science', 'unknown', '2023-01-02')
+  ('Pour la Science', 'journal', '2023-01-02')
+paper:Flexible Phase Dynamics for Bio-Plausible Contrastive Learning
+  ('ICML', 'journal', '2023')
+paper:How gradient estimator variance and bias impact learning in neural networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Transfer Entropy Bottleneck: Learning Sequence to Sequence Information Transfer
+  ('TMLR', 'unknown', '2023-03-08')
+paper:Beyond accuracy: generalization properties of bio-plausible temporal credit assignment rules
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Author Correction: Gradient-based learning drives robust representations in recurrent neural networks by balancing compression and expansion
+  ('Nature Machine Intelligence', 'journal', '2022-10-19')
+  ('Nature Machine Intelligence', 'journal', '2022-10-19')
+paper:Dynamic compression and expansion in a classifying recurrent network
+  ('Nature Machine Intelligence', 'journal', '2022-06-22')
+  ('Nature Machine Intelligence', 'journal', '2022-06-01')
+paper:Performance-gated deliberation: A context-adapted strategy in which urgency is opportunity cost
+  ('PLoS Comput. Biol.', 'journal', '2022-05-01')
+  ('PLoS Computational Biology', 'journal', '2022-05-26')
+paper:Lazy vs hasty: linearization in deep networks impacts learning schedule based on example difficulty
+  ('TMLR', 'unknown', '2022-12-20')
+Guillaume_Rabusseau.json
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Lower Bounds for Active Automata Learning.
+  ('ICGI', 'journal', '2023')
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+paper:Formal and Empirical Studies of Counting Behaviour in ReLU RNNs.
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:Benchmarking State-Merging Algorithms for Learning Regular Languages.
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:Explaining Graph Neural Networks Using Interpretable Local Surrogates
+  ('TAG-ML', 'journal', '2023')
+  ('TAG-ML', 'journal', '2023')
+paper:Identification of Substitutable Context-Free Languages over Infinite Alphabets from Positive Data
+  ('ICGI', 'journal', '2023')
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+paper:Learning Syntactic Monoids from Samples by extending known Algorithms for learning State Machines
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:High-Order Pooling for Graph Neural Networks with Tensor Decomposition
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+Guy_Wolf.json
+paper:A Heat Diffusion Perspective on Geodesic Preserving Dimensionality Reduction
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Inferring Dynamic Regulatory Interaction Graphs From Time Series Data With Perturbations
+  ('LoG', 'journal', '2023')
+paper:Geometry Regularized Autoencoders
+  ('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'journal', '2022-11-14')
+paper:Multi-view manifold learning of human brain state trajectories
+  ('Nature Computational Science', 'journal', '2023-03-27')
+paper:Reliability of CKA as a Similarity Measure in Deep Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Automated liver segmentation and steatosis grading using deep learning on B-mode ultrasound images
+  ('2023 IEEE International Ultrasonics Symposium (IUS)', 'journal', '2023')
+paper:Recipe for a General, Powerful, Scalable Graph Transformer
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Long Range Graph Benchmark
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+paper:Parametric Scattering Networks
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+Ioannis_Mitliagkas.json
+paper:Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants via the Mirror Stochastic Polyak Stepsize
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:LEAD: Min-Max Optimization from a Physical Perspective
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Neural Networks Efficiently Learn Low-Dimensional Representations with SGD
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Performative Prediction with Neural Networks
+  ('AISTATS', 'journal', '2023')
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Gradient Descent Is Optimal Under Lower Restricted Secant Inequality And Upper Error Bound
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Towards efficient representation identification in supervised learning
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Irina_Rish.json
+paper:Gradient Masked Averaging for Federated Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Challenging Common Assumptions about Catastrophic Forgetting and Knowledge Accumulation
+  ('CoLLAs', 'journal', '2023')
+  ('CoLLAs', 'journal', '2023')
+paper:AI Agents Learn to Trust
+  ('Annual Meeting of the Cognitive Science Society', 'journal', '2023')
+  ('CogSci', 'journal', '2023')
+paper:Towards Continual Reinforcement Learning: A Review and Perspectives
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-12-22')
+paper:Broken Neural Scaling Laws
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Continual Learning In Environments With Polynomial Mixing Times
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Optimizing deep learning for Magnetoencephalography (MEG): From sensory perception to sex prediction and brain fingerprinting
+  ('2022 Conference on Cognitive Computational Neuroscience', 'conference', '2022-08-25')
+paper:Generative Models of Brain Dynamics
+  ('Frontiers in Artificial Intelligence', 'review', '2022-07-15')
+  ('Frontiers in Artificial Intelligence', 'journal', '2022-07-15')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Parametric Scattering Networks
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+paper:A Remedy For Distributional Shifts Through Expected Domain Translation
+  ('IEEE International Conference on Acoustics, Speech, and Signal Processing', 'journal', '2022-05-23')
+  ('ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)', 'journal', '2022-05-23')
+paper:Continual Learning with Foundation Models: An Empirical Study of Latent Replay
+  ('Proceedings of The 1st Conference on Lifelong Learning Agents', 'unknown', '2022-11-28')
+Jackie_C_K_Cheung.json
+paper:Responsible AI Considerations in Text Summarization Research: A Review of Current Practices
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Evaluating Dependencies in Fact Editing for Language Models: Specificity and Implication Awareness
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Qualitative Code Suggestion: A Human-Centric Approach to Qualitative Coding
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Balaur: Language Model Pretraining with Lexical Semantic Relations
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Systematic Rectification of Language Models via Dead-end Analysis
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:How Useful Are Educational Questions Generated by Large Language Models?
+  ('AIED (Posters/Late Breaking Results/...)', 'journal', '2023')
+paper:A Multifaceted Framework to Evaluate Evasion, Content Preservation, and Misattribution in Authorship Obfuscation Techniques
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+paper:Does Pre-training Induce Systematic Inference? How Masked Language Models Acquire Commonsense Knowledge
+  ('Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies', 'conference', '2022-07')
+paper:Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Characterizing Idioms: Conventionality and Contingency
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:Learning with Rejection for Abstractive Text Summarization
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+Jian_Tang.json
+paper:Evaluating Self-Supervised Learning for Molecular Graph Embeddings
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:A*Net: A Scalable Path-based Reasoning Approach for Knowledge Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts
+  ('ICML', 'journal', '2023')
+paper:Biomedical discovery through the integrative biomedical knowledge hub (iBKH).
+  ('iScience', 'journal', '2023-03-01')
+paper:Molecular Geometry Pretraining with SE(3)-Invariant Denoising Distance Matching
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Learning on Large-scale Text-attributed Graphs via Variational Inference
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining
+  ('ICML', 'journal', '2023')
+paper:Symmetry-Informed Geometric Representation for Molecules, Proteins, and Crystalline Materials
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing
+  ('Nat. Mac. Intell.', 'journal', '2023')
+paper:FusionRetro: Molecule Representation Fusion via In-Context Learning for Retrosynthetic Planning
+  ('ICML', 'journal', '2023')
+paper:Protein Sequence and Structure Co-Design with Equivariant Translation
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:E3Bind: An End-to-End Equivariant Network for Protein-Ligand Docking
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:High-Order Pooling for Graph Neural Networks with Tensor Decomposition
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Implications of Topological Imbalance for Representation Learning on Biomedical Knowledge Graphs
+  ('Briefings in Bioinformatics', 'journal', '2022-07-26')
+paper:Protein Representation Learning by Geometric Structure Pretraining
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GAUCHE: A Library for Gaussian Processes in Chemistry
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Subgraph Retrieval Enhanced Model for Multi-hop Knowledge Base Question Answering
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+Joelle_Pineau.json
+paper:Questions Are All You Need to Train a Dense Passage Retriever
+  ('Trans. Assoc. Comput. Linguistics', 'journal', '2023')
+paper:Publisher Correction: Advancing ethics review practices in AI research
+  ('Nature Machine Intelligence', 'journal', '2023-01-01')
+  ('Nature Machine Intelligence', 'journal', '2023-01-11')
+paper:Estimating causal effects with optimization-based methods: A review and empirical comparison
+  ('European Journal of Operational Research', 'journal', '2023-01')
+paper:Group Fairness in Reinforcement Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+paper:SPeCiaL: Self-Supervised Pretraining for Continual Learning
+  ('Continual Semi-Supervised Learning', 'conference', '2022-09-28')
+paper:A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions
+  ('Proceedings of the AAAI Conference on Artificial Intelligence', 'journal', '2022-06-28')
+paper:Robust Policy Learning over Multiple Uncertainty Sets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:The Curious Case of Absolute Position Embeddings
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:Improving Passage Retrieval with Zero-Shot Question Generation
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+paper:Block Contextual MDPs for Continual Learning
+  ('Proceedings of The 4th Annual Learning for Dynamics and Control Conference', 'unknown', '2022-05-11')
+Kirill_Neklyudov.json
+Laurent_Charlin.json
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:From IID to the Independent Mechanisms assumption in continual learning
+  ('AAAI.org/2023/Bridge/CCBridge', 'unknown', '2023-01-11')
+  ('AAAI.org/2023/Bridge/CCBridge', 'unknown', '2023-01-11')
+  ('AAAI Bridge Program', 'journal', '2023')
+  ('AAAI Bridge Program', 'journal', '2023')
+paper:Iorl: Inductive-Offline-Reinforcement-Learning for Traffic Signal Control Warmstarting
+  ('Social Science Research Network', 'unknown', '2023')
+paper:Task-Agnostic Continual Reinforcement Learning: Gaining Insights and Overcoming Challenges
+  ('CoLLAs', 'journal', '2023')
+paper:Challenging Common Assumptions about Catastrophic Forgetting and Knowledge Accumulation
+  ('CoLLAs', 'journal', '2023')
+  ('CoLLAs', 'journal', '2023')
+paper:Price Forecasting in the Ontario Electricity Market via TriConvGRU Hybrid Model: Univariate vs. Multivariate Frameworks
+  ('SSRN Electronic Journal', 'journal', '2023')
+paper:The Machine Learning for Combinatorial Optimization Competition (ML4CO): Results and Insights
+  ('Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track', 'unknown', '2022-07-20')
+paper:IG-RL: Inductive Graph Reinforcement Learning for Massive-Scale Traffic Signal Control
+  ('IEEE Transactions on Intelligent Transportation Systems', 'journal', '2022-07')
+paper:Learning To Cut By Looking Ahead: Cutting Plane Selection via Imitation Learning
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Continual Learning with Foundation Models: An Empirical Study of Latent Replay
+  ('Proceedings of The 1st Conference on Lifelong Learning Agents', 'unknown', '2022-11-28')
+Liam_Paull.json
+paper:MeshDiffusion: Score-based Generative 3D Mesh Modeling
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Robust and Controllable Object-Centric Learning through Energy-based Models
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Multi-Agent Reinforcement Learning for Fast-Timescale Demand Response of Residential Loads
+  ('AAMAS', 'journal', '2023')
+paper:Lifelong Topological Visual Navigation
+  ('IEEE Robotics and Automation Letters', 'journal', '2022-10')
+paper:Monocular Robot Navigation with Self-Supervised Pretrained Vision Transformers
+  ('2022 19th Conference on Robots and Vision (CRV)', 'journal', '2022-06-02')
+Pierre-Luc_Bacon.json
+paper:Policy Optimization in a Noisy Neighborhood: On Return Landscapes in Continuous Control
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Block-State Transformers
+  ('NeurIPS', 'journal', '2023')
+paper:Double Gumbel Q-Learning.
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+Prakash_Panangaden.json
+paper:A Kernel Perspective on Behavioural Metrics for Markov Decision Processes
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Behavioural equivalences for continuous-time Markov processes
+  ('Mathematical Structures in Computer Science', 'journal', '2023-03-30')
+  ('Mathematical Structures in Computer Science', 'journal', '2023-03-30')
+paper:Augmenting Human Selves Through Artificial Agents – Lessons From the Brain
+  ('Frontiers in Computational Neuroscience', 'journal', '2022-06-23')
+  ('Frontiers in Computational Neuroscience', 'journal', '2022-06-23')
+Reihaneh_Rabbany.json
+paper:SWEET - Weakly Supervised Person Name Extraction for Fighting Human Trafficking
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Towards Detecting Contextual Real-Time Toxicity for In-Game Chat
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Towards Reliable Misinformation Mitigation: Generalization, Uncertainty, and GPT-4
+  ('EMNLP', 'journal', '2023')
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:DeltaShield: Information Theory for Human- Trafficking Detection
+  ('ACM Transactions on Knowledge Discovery from Data', 'journal', '2023-02-07')
+  ('ACM Transactions on Knowledge Discovery from Data', 'journal', '2023-03-30')
+paper:DisKeyword: Tweet Corpora Exploration for Keyword Selection
+  ('Web Search and Data Mining', 'journal', '2023-02-27')
+  ('Web Search and Data Mining', 'book', '2023-02-27')
+  ('Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining', 'conference', '2023-02-27')
+paper:TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting and Labeling Human Trafficking
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2023-01')
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2022-10-06')
+paper:Towards Better Evaluation for Dynamic Link Prediction
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+paper:VisPaD: Visualization and Pattern Discovery for Fighting Human Trafficking
+  ('The Web Conference', 'book', '2022-04-25')
+  ('Companion Proceedings of the Web Conference 2022', 'conference', '2022-08-16')
+paper:Extracting Person Names from User Generated Text: Named-Entity Recognition for Combating Human Trafficking
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:A Strong Node Classification Baseline for Temporal Graphs
+  ('Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)', 'conference', '2022-04-20')
+Sarath_Chandar.json
+paper:Measuring the Knowledge Acquisition-Utilization Gap in Pretrained Language Models
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Self-Influence Guided Data Reweighting for Language Model Pre-training
+  ('EMNLP', 'journal', '2023')
+paper:EpiK-Eval: Evaluation for Language Models as Epistemic Models
+  ('EMNLP', 'journal', '2023')
+paper:Replay Buffer with Local Forgetting for Adapting to Local Environment Changes in Deep Model-Based Reinforcement Learning
+  ('CoLLAs', 'journal', '2023')
+paper:An Empirical Investigation of the Role of Pre-training in Lifelong Learning
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+paper:Post-hoc Interpretability for Neural NLP: A Survey
+  ('ACM Computing Surveys', 'journal', '2022-12-23')
+paper:Local Structure Matters Most: Perturbation Study in NLU
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+Siamak_Ravanbakhsh.json
+paper:Equivariant Adaptation of Large Pretrained Models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Characterization Of Inpaint Residuals In Interferometric Measurements of the Epoch Of Reionization
+  ('Monthly Notices of the Royal Astronomical Society', 'journal', '2023-02-10')
+paper:Lie Point Symmetry and Physics-Informed Networks
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+Simon_Lacoste-Julien.json
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Unlocking Slot Attention by Changing Optimal Transport Costs
+  ('ICML', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:SVRG meets AdaGrad: painless variance reduction
+  ('Machine Learning', 'journal', '2022-11-10')
+paper:Disentanglement via Mechanism Sparsity Regularization: A New Principle for Nonlinear ICA
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Siva_Reddy.json
+paper:MAGNIFICo: Evaluating the In-Context Learning Ability of Large Language Models to Generalize to Novel Interpretations
+  ('EMNLP', 'journal', '2023')
+paper:Syntactic Substitutability as Unsupervised Dependency Syntax
+  ('EMNLP', 'journal', '2023')
+paper:Evaluating Dependencies in Fact Editing for Language Models: Specificity and Implication Awareness
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Combining Parameter-efficient Modules for Task-level Generalisation
+  ('Conference of the European Chapter of the Association for Computational Linguistics', 'journal', '2023')
+paper:The Impact of Positional Encoding on Length Generalization in Transformers
+  ('NeurIPS', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents
+  ('EACL', 'journal', '2023')
+paper:FaithDial: A Faithful Benchmark for Information-Seeking Dialogue
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-12-23')
+paper:Post-hoc Interpretability for Neural NLP: A Survey
+  ('ACM Computing Surveys', 'journal', '2022-12-23')
+paper:Evaluating the Faithfulness of Importance Measures in NLP by Recursively Masking Allegedly Important Tokens and Retraining
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:An Empirical Survey of the Effectiveness of Debiasing Techniques for Pre-trained Language Models
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Image Retrieval from Contextual Descriptions
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:The Power of Prompt Tuning for Low-Resource Semantic Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)', 'conference', '2022-05')
+paper:Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:Compositional Generalization in Dependency Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:TopiOCQA: Open-domain Conversational Question Answering with Topic Switching
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-04-13')
+paper:Does Entity Abstraction Help Generative Transformers Reason?
+  ('TMLR', 'unknown', '2022-11-20')
+paper:The Curious Case of Absolute Position Embeddings
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+Tai_Arbel.json
+Tegan_Maharaj.json
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:Metadata Archaeology: Unearthing Data Subsets by Leveraging Training Dynamics
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+Timothy_J_O’Donnell.json
+paper:Simplicity and learning to distinguish arguments from modifiers
+  ('Journal of Language Modelling', 'journal', '2022-12-28')
+paper:Characterizing Idioms: Conventionality and Contingency
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Compositional Generalization in Dependency Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+Yoshua_Bengio.json
+paper:Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Neural Causal Structure Discovery from Interventions
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Combining Parameter-efficient Modules for Task-level Generalisation
+  ('Conference of the European Chapter of the Association for Computational Linguistics', 'journal', '2023')
+paper:Learning GFlowNets from partial episodes for improved convergence and stability
+  ('ICML', 'journal', '2023')
+paper:Catalyzing next-generation Artificial Intelligence through NeuroAI
+  ('Nature Communications', 'review', '2023-03-22')
+  ('Nature Communications', 'journal', '2023-03-22')
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:A108 AUTOMATED DETECTION OF ILEOCECAL VALVE, APPENDICEAL ORIFICE, AND POLYP DURING COLONOSCOPY USING A DEEP LEARNING MODEL
+  ('Journal of the Canadian Association of Gastroenterology', 'review', '2023-03-01')
+  ('Journal of the Canadian Association of Gastroenterology', 'journal', '2023-03-07')
+paper:Generative Augmented Flow Networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Latent State Marginalization as a Low-cost Approach for Improving Exploration
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GFlowOut: Dropout with Generative Flow Networks
+  ('ICML', 'journal', '2023')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A theory of continuous generative flow networks
+  ('ICML', 'journal', '2023')
+paper:GFlowNets for AI-Driven Scientific Discovery
+  ('Digital Discovery', 'journal', '2023')
+paper:Stochastic Generative Flow Networks
+  ('UAI', 'journal', '2023')
+paper:MixupE: Understanding and improving Mixup from directional derivative perspective
+  ('UAI', 'journal', '2023')
+paper:Benchmarking Graph Neural Networks
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Latent Bottlenecked Attentive Neural Processes
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Improving *day-ahead* Solar Irradiance Time Series Forecasting by Leveraging Spatio-Temporal Context
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Discrete Key-Value Bottleneck
+  ('ICML', 'journal', '2023')
+paper:P REDICTIVE I NFERENCE WITH F EATURE C ONFORMAL P REDICTION
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GFlowNets and variational inference
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:GEO-Bench: Toward Foundation Models for Earth Monitoring
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Robust and Controllable Object-Centric Learning through Energy-based Models
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Reusable Slotwise Mechanisms
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Inductive biases for deep learning of higher-level cognition
+  ('Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences', 'journal', '2022-10-12')
+paper:Lookback for Learning to Branch
+  ('TMLR', 'unknown', '2022-10-10')
+paper:Stateful active facilitator: Coordination and Environmental Heterogeneity in Cooperative Multi-Agent Reinforcement Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+paper:DEUP: Direct Epistemic Uncertainty Prediction
+  ('TMLR', 'unknown', '2023-02-13')
+paper:VIM: Variational Independent Modules for Video Prediction
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+paper:Temporal Abstractions-Augmented Temporally Contrastive Learning: An Alternative to the Laplacian in RL
+  ('auai.org/UAI/2022/Conference', 'conference', '2022-05-20')
+  ('Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence', 'unknown', '2022-08-17')
+AJung_Moon.json
+paper:Roboethics as a Design Challenge: Lessons Learned from the Roboethics to Design and Development Competition
+  ('2022 International Conference on Robotics and Automation (ICRA)', 'journal', '2022-05-23')
+  ('IEEE International Conference on Robotics and Automation', 'journal', '2022-05-23')
+Aaron_Courville.json
+paper:Language Model Alignment with Elastic Reset
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels
+  ('ICML', 'journal', '2023')
+paper:SUNMASK: Mask Enhanced Control in Step Unrolled Denoising Autoencoders
+  ('EvoMUSART@EvoStar', 'journal', '2023')
+paper:Generative Augmented Flow Networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Latent State Marginalization as a Low-cost Approach for Improving Exploration
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Simplicial Embeddings in Self-Supervised Learning and Downstream Classification
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Bigger, Better, Faster: Human-level Atari with human-level efficiency
+  ('ICML', 'journal', '2023')
+paper:Versatile Energy-Based Probabilistic Models for High Energy Physics
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Improving Compositional Generalization using Iterated Learning and Simplicial Embeddings
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Double Gumbel Q-Learning.
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Group Robust Classification Without Any Group Information
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Investigating Multi-task Pretraining and Generalization in Reinforcement Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Invariant representation driven neural classifier for anti-QCD jet tagging
+  ('Journal of High Energy Physics', 'journal', '2022-10-24')
+paper:Multi-label Iterated Learning for Image Classification with Label Ambiguity
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+paper:Expressiveness and Learnability: A Unifying View for Evaluating Self-Supervised Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Unsupervised Dependency Graph Network
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:VIM: Variational Independent Modules for Video Prediction
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Aishwarya_Agrawal.json
+paper:MAPL: Parameter-Efficient Adaptation of Unimodal Pre-Trained Models for Vision-Language Few-Shot Prompting
+  ('EACL', 'journal', '2023')
+paper:Measuring Progress in Fine-grained Vision-and-Language Understanding
+  ('ACL (1)', 'journal', '2023')
+paper:Vision-Language Pretraining: Current Trends and the Future
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts', 'conference', '2022-05')
+Blake_Aaron_Richards.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Learning better with Dale’s Law: A Spectral Perspective
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Catalyzing next-generation Artificial Intelligence through NeuroAI
+  ('Nature Communications', 'review', '2023-03-22')
+  ('Nature Communications', 'journal', '2023-03-22')
+paper:How gradient estimator variance and bias impact learning in neural networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Transfer Entropy Bottleneck: Learning Sequence to Sequence Information Transfer
+  ('TMLR', 'unknown', '2023-03-08')
+paper:Adult neurogenesis acts as a neural regularizer
+  ('Proceedings of the National Academy of Sciences of the United States of America', 'journal', '2022-11-02')
+  ('Proceedings of the National Academy of Sciences of the United States of America', 'journal', '2022-11-02')
+paper:$\alpha$-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Beyond accuracy: generalization properties of bio-plausible temporal credit assignment rules
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions
+  ('Proceedings of the AAAI Conference on Artificial Intelligence', 'journal', '2022-06-28')
+paper:Current State and Future Directions for Learning in Biological Recurrent Neural Networks: A Perspective Piece
+  ('Neurons, Behavior, Data analysis, and Theory', 'journal', '2022-04-27')
+Christopher_Pal.json
+paper:Neural Causal Structure Discovery from Interventions
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:Parallel-mentoring for Offline Model-based Optimization
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Workflow Discovery from Dialogues in the Low Data Regime
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('TMLR', 'unknown', '2023-02-20')
+paper:Towards Learning to Imitate from a Single Video Demonstration
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Block-State Transformers
+  ('NeurIPS', 'journal', '2023')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:SMPL-IK: Learned Morphology-Aware Inverse Kinematics for AI Driven Artistic Workflows
+  ('SIGGRAPH Asia 2022 Technical Communications', 'conference', '2022-11-22')
+paper:MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Does Entity Abstraction Help Generative Transformers Reason?
+  ('TMLR', 'unknown', '2022-11-20')
+Daniko_Bzdok.json
+paper:Age differences in functional brain networks associated with loneliness and empathy
+  ('Network Neuroscience', 'journal', '2022-11-23')
+paper:Endorsing Complexity Through Diversity: Computational Psychiatry Meets Big Data Analytics
+  ('Biological Psychiatry', 'journal', '2022-08-01')
+paper:Investigating the neural correlates of affective mentalizing and their association with general intelligence in patients with schizophrenia
+  ('Schizophrenia Research', 'journal', '2023-03-13')
+paper:Bayesian stroke modeling details sex biases in the white matter substrates of aphasia
+  ('Communications Biology', 'journal', '2023-03-31')
+paper:Homotopic local-global parcellation of the human cerebral cortex from resting-state functional connectivity
+  ('NeuroImage', 'journal', '2023-02-25')
+  ('NeuroImage', 'journal', '2023-03-12')
+paper:Relationship between prediction accuracy and feature importance reliability: An empirical and theoretical study
+  ('NeuroImage', 'journal', '2023-03-06')
+paper:The end game: respecting major sources of population diversity
+  ('Nature Methods', 'journal', '2023-03-03')
+  ('Nature Methods', 'journal', '2023-03-03')
+paper:Rare CNVs and phenome-wide profiling highlight brain structural divergence and phenotypical convergence
+  ('Nature human behaviour', 'journal', '2023-03-02')
+  ('Nature Human Behaviour', 'journal', '2023-03-02')
+paper:Social isolation is linked to classical risk factors of Alzheimer’s disease-related dementias
+  ('PLOS ONE', 'journal', '2023-02-01')
+paper:Disentangling poststroke cognitive deficits and their neuroanatomical correlates through combined multivariable and multioutcome lesion‐symptom mapping
+  ('Human Brain Mapping', 'journal', '2023-01-20')
+  ('Human Brain Mapping', 'journal', '2023-01-20')
+paper:Representational ethical model calibration
+  ('NPJ Digital Medicine', 'journal', '2022-11-04')
+paper:A parsimonious description of global functional brain organization in three spatiotemporal patterns
+  ('Nature Neuroscience', 'journal', '2022-07-28')
+paper:From Precision Medicine to Precision Convergence for Multilevel Resilience—The Aging Brain and Its Social Isolation
+  ('Frontiers in Public Health', 'journal', '2022-07-05')
+  ('Frontiers in Public Health', 'journal', '2022-07-05')
+paper:Interacting brains revisited: A cross‐brain network neuroscience perspective
+  ('Human Brain Mapping', 'journal', '2022-06-06')
+paper:Human brain anatomy reflects separable genetic and environmental components of socioeconomic status
+  ('Science Advances', 'journal', '2022-05-18')
+paper:Multi-tract multi-symptom relationships in pediatric concussion
+  ('eLife', 'journal', '2022-05-17')
+paper:Population heterogeneity in clinical cohorts affects the predictive accuracy of brain imaging
+  ('PLoS Biology', 'journal', '2022-04-29')
+  ('PLoS Biology', 'journal', '2022-04-01')
+paper:Shared and unique brain network features predict cognitive, personality, and mental health scores in the ABCD study
+  ('Nature Communications', 'journal', '2022-04-25')
+  ('Nature Communications', 'journal', '2022-04-25')
+paper:Multivariate, Transgenerational Associations of the COVID-19 Pandemic Across Minoritized and Marginalized Communities.
+  ('JAMA Psychiatry', 'journal', '2022-04-01')
+David_Ifeoluwa_Adelani.json
+paper:Findings of the 1st Shared Task on Multi-lingual Multi-task Information Retrieval at MRL 2023
+  ('MRL', 'unknown', '2023')
+paper:Cross-lingual Open-Retrieval Question Answering for African Languages
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Better Quality Pre-training Data and T5 Models for African Languages
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
+  ('EMNLP', 'journal', '2023')
+paper:Improving Language Plasticity via Pretraining with Active Forgetting
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:MasakhaNEWS: News Topic Classification for African languages
+  ('AfricaNLP', 'journal', '2023')
+paper:MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African languages
+  ('ACL (1)', 'journal', '2023')
+paper:The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+David_Krueger.json
+paper:Metadata Archaeology: Unearthing Data Subsets by Leveraging Training Dynamics
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Mechanistic Mode Connectivity
+  ('ICML', 'journal', '2023')
+paper:Thinker: Learning to Plan and Act
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Broken Neural Scaling Laws
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+David_Rolnick.json
+paper:ClimateSet: A Large-Scale Climate Model Dataset for Machine Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Deep Networks as Paths on the Manifold of Neural Representations
+  ('TAG-ML', 'journal', '2023')
+  ('TAG-ML', 'journal', '2023')
+paper:Bugs in the Data: How ImageNet Misrepresents Biodiversity
+  ('AAAI', 'journal', '2023')
+paper:General Purpose AI Systems in the AI Act: Trying to Fit a Square Peg Into a Round Hole
+  ('SSRN Electronic Journal', 'journal', '2023')
+  ('Social Science Research Network', 'journal', '2023')
+paper:Normalization Layers Are All That Sharpness-Aware Minimization Needs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Understanding the Evolution of Linear Regions in Deep Reinforcement Learning
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Digitalization and the Anthropocene
+  ('Annual Review Environment and Resources', 'review', '2022-09-02')
+  ('Annual Review of Environment and Resources', 'journal', '2022-10-17')
+paper:A portrait of the different configurations between digitally-enabled innovations and climate governance
+  ('Earth System Governance', 'unknown', '2022-08-01')
+  ('Earth System Governance', 'journal', '2022-08')
+paper:Aligning artificial intelligence with climate change mitigation
+  ('Nature Climate Change', 'unknown', '2022-06-01')
+  ('Nature Climate Change', 'journal', '2022-06-09')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+paper:Clustering units in neural networks: upstream vs downstream information
+  ('TMLR', 'unknown', '2022-06-13')
+Derek_Nowrouzezahrai.json
+paper:Learning Neural Implicit Representations with Surface Signal Parameterizations
+  ('Comput. Graph.', 'journal', '2023')
+paper:MeshDiffusion: Score-based Generative 3D Mesh Modeling
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Cone-Traced Supersampling with Subpixel Edge Reconstruction.
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2023')
+paper:Single‐pass stratified importance resampling
+  ('Computer Graphics Forum', 'journal', '2022-07-30')
+  ('Computer graphics forum (Print)', 'journal', '2022-07-01')
+paper:Kubric: A scalable dataset generator
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+Dhanya_Sridhar.json
+paper:Causal inference from text: A commentary
+  ('Science Advances', 'journal', '2022-10-19')
+  ('Science Advances', 'review', '2022-10-01')
+paper:Heterogeneous Supervised Topic Models
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-06-17')
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-06-01')
+paper:Estimating Social Influence from Observational Data
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+paper:Identifiable Deep Generative Models via Sparse Decoding
+  ('TMLR', 'unknown', '2022-10-20')
+paper:Adjusting Machine Learning Decisions for Equal Opportunity and Counterfactual Fairness
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+Doina_Precup.json
+paper:Prediction and Control in Continual Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A Definition of Continual Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Membership Inference Attacks Against Temporally Correlated Data in Deep Reinforcement Learning
+  ('IEEE Access', 'journal', '2023')
+paper:For SALE: State-Action Representation Learning for Deep Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Temporal Abstraction in Reinforcement Learning with the Successor Representation
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:When Do Graph Neural Networks Help with Node Classification: Investigating the Homophily Principle on Node Distinguishability
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Assessing Intrapartum Risk of Hypoxic Ischemic Encephalopathy Using Fetal Heart Rate With Long Short-Term Memory Networks
+  ('2022 Computing in Cardiology (CinC)', 'journal', '2022-09-04')
+  ('Computing in Cardiology Conference (CinC)', 'conference', '2022-12-31')
+paper:Towards Continual Reinforcement Learning: A Review and Perspectives
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-12-22')
+paper:Multi-Environment Pretraining Enables Transfer to Action Limited Datasets
+  ('ICML', 'journal', '2023')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+paper:Estimating individual treatment effect on disability progression in multiple sclerosis using deep learning
+  ('Nature Communications', 'journal', '2022-09-26')
+  ('Nature Communications', 'journal', '2022-09-26')
+paper:PhyloPGM: boosting regulatory function prediction accuracy using evolutionary information
+  ('Bioinformatics', 'journal', '2022-06-27')
+  ('Bioinformatics', 'journal', '2022-06-24')
+paper:Deep Learning Prediction of Response to Disease Modifying Therapy in Primary Progressive Multiple Sclerosis (P1-1.Virtual)
+  ('Neurology', 'journal', '2022-05-03')
+  ('Neurology', 'journal', '2022-05-03')
+paper:Behind the Machine's Gaze: Neural Networks with Biologically-inspired Constraints Exhibit Human-like Visual Attention
+  ('TMLR', 'unknown', '2022-10-30')
+paper:Towards Painless Policy Optimization for Constrained MDPs
+  ('auai.org/UAI/2022/Conference', 'conference', '2022-05-20')
+  ('Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence', 'unknown', '2022-08-17')
+Gauthier_Gidel.json
+paper:Feature Likelihood Divergence: Evaluating the Generalization of Generative Models Using Samples
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Variance Reduction is an Antidote to Byzantines: Better Rates, Weaker Assumptions and Communication Compression as a Cherry on the Top
+  ('International Conference on Learning Representations', 'journal', '2023')
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:A General Framework For Proving The Equivariant Strong Lottery Ticket Hypothesis
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Optimal Extragradient-Based Algorithms for Stochastic Variational Inequalities with Separable Structure
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Nesterov Meets Optimism: Rate-Optimal Separable Minimax Optimization
+  ('ICML', 'journal', '2023')
+paper:Performative Prediction with Neural Networks
+  ('AISTATS', 'journal', '2023')
+paper:On the Limitations of Elo: Real-World Games, are Transitive, not Additive
+  ('AISTATS', 'journal', '2023')
+paper:Convergence of Proximal Point and Extragradient-Based Methods Beyond Monotonicity: the Case of Negative Comonotonicity
+  ('ICML', 'journal', '2023')
+paper:Only tails matter: Average-Case Universality and Robustness in the Convex Regime
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+Glen_Berseth.json
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Towards Learning to Imitate from a Single Video Demonstration
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Hierarchical Reinforcement Learning for Precise Soccer Shooting Skills using a Quadrupedal Robot
+  ('2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)', 'journal', '2022-10-23')
+paper:ASHA: Assistive Teleoperation via Human-in-the-Loop Reinforcement Learning
+  ('2022 International Conference on Robotics and Automation (ICRA)', 'journal', '2022-05-23')
+Golnoosh_Farnadi.json
+Guillaume_Lajoie.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:LEAD: Min-Max Optimization from a Physical Perspective
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Use of Invasive Brain-Computer Interfaces in Pediatric Neurosurgery: Technical and Ethical Considerations
+  ('Journal of Child Neurology', 'review', '2023-03-01')
+paper:Multi-view manifold learning of human brain state trajectories
+  ('Nature Computational Science', 'journal', '2023-03-27')
+paper:Reliability of CKA as a Similarity Measure in Deep Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:« Que notre cerveau soit constitué de neurones n’est pas un accident »
+  ('Pour la science', 'unknown', '2023-01-02')
+  ('Pour la Science', 'journal', '2023-01-02')
+paper:Flexible Phase Dynamics for Bio-Plausible Contrastive Learning
+  ('ICML', 'journal', '2023')
+paper:How gradient estimator variance and bias impact learning in neural networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Transfer Entropy Bottleneck: Learning Sequence to Sequence Information Transfer
+  ('TMLR', 'unknown', '2023-03-08')
+paper:Beyond accuracy: generalization properties of bio-plausible temporal credit assignment rules
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Author Correction: Gradient-based learning drives robust representations in recurrent neural networks by balancing compression and expansion
+  ('Nature Machine Intelligence', 'journal', '2022-10-19')
+  ('Nature Machine Intelligence', 'journal', '2022-10-19')
+paper:Dynamic compression and expansion in a classifying recurrent network
+  ('Nature Machine Intelligence', 'journal', '2022-06-22')
+  ('Nature Machine Intelligence', 'journal', '2022-06-01')
+paper:Performance-gated deliberation: A context-adapted strategy in which urgency is opportunity cost
+  ('PLoS Comput. Biol.', 'journal', '2022-05-01')
+  ('PLoS Computational Biology', 'journal', '2022-05-26')
+paper:Lazy vs hasty: linearization in deep networks impacts learning schedule based on example difficulty
+  ('TMLR', 'unknown', '2022-12-20')
+Guillaume_Rabusseau.json
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Lower Bounds for Active Automata Learning.
+  ('ICGI', 'journal', '2023')
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+paper:Formal and Empirical Studies of Counting Behaviour in ReLU RNNs.
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:Benchmarking State-Merging Algorithms for Learning Regular Languages.
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:Explaining Graph Neural Networks Using Interpretable Local Surrogates
+  ('TAG-ML', 'journal', '2023')
+  ('TAG-ML', 'journal', '2023')
+paper:Identification of Substitutable Context-Free Languages over Infinite Alphabets from Positive Data
+  ('ICGI', 'journal', '2023')
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+paper:Learning Syntactic Monoids from Samples by extending known Algorithms for learning State Machines
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:High-Order Pooling for Graph Neural Networks with Tensor Decomposition
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+Guy_Wolf.json
+paper:A Heat Diffusion Perspective on Geodesic Preserving Dimensionality Reduction
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Inferring Dynamic Regulatory Interaction Graphs From Time Series Data With Perturbations
+  ('LoG', 'journal', '2023')
+paper:Geometry Regularized Autoencoders
+  ('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'journal', '2022-11-14')
+paper:Multi-view manifold learning of human brain state trajectories
+  ('Nature Computational Science', 'journal', '2023-03-27')
+paper:Reliability of CKA as a Similarity Measure in Deep Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Automated liver segmentation and steatosis grading using deep learning on B-mode ultrasound images
+  ('2023 IEEE International Ultrasonics Symposium (IUS)', 'journal', '2023')
+paper:Recipe for a General, Powerful, Scalable Graph Transformer
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Long Range Graph Benchmark
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+paper:Parametric Scattering Networks
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+Ioannis_Mitliagkas.json
+paper:Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants via the Mirror Stochastic Polyak Stepsize
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:LEAD: Min-Max Optimization from a Physical Perspective
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Neural Networks Efficiently Learn Low-Dimensional Representations with SGD
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Performative Prediction with Neural Networks
+  ('AISTATS', 'journal', '2023')
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Gradient Descent Is Optimal Under Lower Restricted Secant Inequality And Upper Error Bound
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Towards efficient representation identification in supervised learning
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Irina_Rish.json
+paper:Gradient Masked Averaging for Federated Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Challenging Common Assumptions about Catastrophic Forgetting and Knowledge Accumulation
+  ('CoLLAs', 'journal', '2023')
+  ('CoLLAs', 'journal', '2023')
+paper:AI Agents Learn to Trust
+  ('Annual Meeting of the Cognitive Science Society', 'journal', '2023')
+  ('CogSci', 'journal', '2023')
+paper:Towards Continual Reinforcement Learning: A Review and Perspectives
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-12-22')
+paper:Broken Neural Scaling Laws
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Continual Learning In Environments With Polynomial Mixing Times
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Optimizing deep learning for Magnetoencephalography (MEG): From sensory perception to sex prediction and brain fingerprinting
+  ('2022 Conference on Cognitive Computational Neuroscience', 'conference', '2022-08-25')
+paper:Generative Models of Brain Dynamics
+  ('Frontiers in Artificial Intelligence', 'review', '2022-07-15')
+  ('Frontiers in Artificial Intelligence', 'journal', '2022-07-15')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Parametric Scattering Networks
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+paper:A Remedy For Distributional Shifts Through Expected Domain Translation
+  ('IEEE International Conference on Acoustics, Speech, and Signal Processing', 'journal', '2022-05-23')
+  ('ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)', 'journal', '2022-05-23')
+paper:Continual Learning with Foundation Models: An Empirical Study of Latent Replay
+  ('Proceedings of The 1st Conference on Lifelong Learning Agents', 'unknown', '2022-11-28')
+Jackie_C_K_Cheung.json
+paper:Responsible AI Considerations in Text Summarization Research: A Review of Current Practices
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Evaluating Dependencies in Fact Editing for Language Models: Specificity and Implication Awareness
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Qualitative Code Suggestion: A Human-Centric Approach to Qualitative Coding
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Balaur: Language Model Pretraining with Lexical Semantic Relations
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Systematic Rectification of Language Models via Dead-end Analysis
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:How Useful Are Educational Questions Generated by Large Language Models?
+  ('AIED (Posters/Late Breaking Results/...)', 'journal', '2023')
+paper:A Multifaceted Framework to Evaluate Evasion, Content Preservation, and Misattribution in Authorship Obfuscation Techniques
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+paper:Does Pre-training Induce Systematic Inference? How Masked Language Models Acquire Commonsense Knowledge
+  ('Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies', 'conference', '2022-07')
+paper:Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Characterizing Idioms: Conventionality and Contingency
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:Learning with Rejection for Abstractive Text Summarization
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+Jian_Tang.json
+paper:Evaluating Self-Supervised Learning for Molecular Graph Embeddings
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:A*Net: A Scalable Path-based Reasoning Approach for Knowledge Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts
+  ('ICML', 'journal', '2023')
+paper:Biomedical discovery through the integrative biomedical knowledge hub (iBKH).
+  ('iScience', 'journal', '2023-03-01')
+paper:Molecular Geometry Pretraining with SE(3)-Invariant Denoising Distance Matching
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Learning on Large-scale Text-attributed Graphs via Variational Inference
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining
+  ('ICML', 'journal', '2023')
+paper:Symmetry-Informed Geometric Representation for Molecules, Proteins, and Crystalline Materials
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing
+  ('Nat. Mac. Intell.', 'journal', '2023')
+paper:FusionRetro: Molecule Representation Fusion via In-Context Learning for Retrosynthetic Planning
+  ('ICML', 'journal', '2023')
+paper:Protein Sequence and Structure Co-Design with Equivariant Translation
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:E3Bind: An End-to-End Equivariant Network for Protein-Ligand Docking
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:High-Order Pooling for Graph Neural Networks with Tensor Decomposition
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Implications of Topological Imbalance for Representation Learning on Biomedical Knowledge Graphs
+  ('Briefings in Bioinformatics', 'journal', '2022-07-26')
+paper:Protein Representation Learning by Geometric Structure Pretraining
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GAUCHE: A Library for Gaussian Processes in Chemistry
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Subgraph Retrieval Enhanced Model for Multi-hop Knowledge Base Question Answering
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+Joelle_Pineau.json
+paper:Questions Are All You Need to Train a Dense Passage Retriever
+  ('Trans. Assoc. Comput. Linguistics', 'journal', '2023')
+paper:Publisher Correction: Advancing ethics review practices in AI research
+  ('Nature Machine Intelligence', 'journal', '2023-01-01')
+  ('Nature Machine Intelligence', 'journal', '2023-01-11')
+paper:Estimating causal effects with optimization-based methods: A review and empirical comparison
+  ('European Journal of Operational Research', 'journal', '2023-01')
+paper:Group Fairness in Reinforcement Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+paper:SPeCiaL: Self-Supervised Pretraining for Continual Learning
+  ('Continual Semi-Supervised Learning', 'conference', '2022-09-28')
+paper:A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions
+  ('Proceedings of the AAAI Conference on Artificial Intelligence', 'journal', '2022-06-28')
+paper:Robust Policy Learning over Multiple Uncertainty Sets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:The Curious Case of Absolute Position Embeddings
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:Improving Passage Retrieval with Zero-Shot Question Generation
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+paper:Block Contextual MDPs for Continual Learning
+  ('Proceedings of The 4th Annual Learning for Dynamics and Control Conference', 'unknown', '2022-05-11')
+Kirill_Neklyudov.json
+Laurent_Charlin.json
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:From IID to the Independent Mechanisms assumption in continual learning
+  ('AAAI.org/2023/Bridge/CCBridge', 'unknown', '2023-01-11')
+  ('AAAI.org/2023/Bridge/CCBridge', 'unknown', '2023-01-11')
+  ('AAAI Bridge Program', 'journal', '2023')
+  ('AAAI Bridge Program', 'journal', '2023')
+paper:Iorl: Inductive-Offline-Reinforcement-Learning for Traffic Signal Control Warmstarting
+  ('Social Science Research Network', 'unknown', '2023')
+paper:Task-Agnostic Continual Reinforcement Learning: Gaining Insights and Overcoming Challenges
+  ('CoLLAs', 'journal', '2023')
+paper:Challenging Common Assumptions about Catastrophic Forgetting and Knowledge Accumulation
+  ('CoLLAs', 'journal', '2023')
+  ('CoLLAs', 'journal', '2023')
+paper:Price Forecasting in the Ontario Electricity Market via TriConvGRU Hybrid Model: Univariate vs. Multivariate Frameworks
+  ('SSRN Electronic Journal', 'journal', '2023')
+paper:The Machine Learning for Combinatorial Optimization Competition (ML4CO): Results and Insights
+  ('Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track', 'unknown', '2022-07-20')
+paper:IG-RL: Inductive Graph Reinforcement Learning for Massive-Scale Traffic Signal Control
+  ('IEEE Transactions on Intelligent Transportation Systems', 'journal', '2022-07')
+paper:Learning To Cut By Looking Ahead: Cutting Plane Selection via Imitation Learning
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Continual Learning with Foundation Models: An Empirical Study of Latent Replay
+  ('Proceedings of The 1st Conference on Lifelong Learning Agents', 'unknown', '2022-11-28')
+Liam_Paull.json
+paper:MeshDiffusion: Score-based Generative 3D Mesh Modeling
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Robust and Controllable Object-Centric Learning through Energy-based Models
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Multi-Agent Reinforcement Learning for Fast-Timescale Demand Response of Residential Loads
+  ('AAMAS', 'journal', '2023')
+paper:Lifelong Topological Visual Navigation
+  ('IEEE Robotics and Automation Letters', 'journal', '2022-10')
+paper:Monocular Robot Navigation with Self-Supervised Pretrained Vision Transformers
+  ('2022 19th Conference on Robots and Vision (CRV)', 'journal', '2022-06-02')
+Pierre-Luc_Bacon.json
+paper:Policy Optimization in a Noisy Neighborhood: On Return Landscapes in Continuous Control
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Block-State Transformers
+  ('NeurIPS', 'journal', '2023')
+paper:Double Gumbel Q-Learning.
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+Prakash_Panangaden.json
+paper:A Kernel Perspective on Behavioural Metrics for Markov Decision Processes
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Behavioural equivalences for continuous-time Markov processes
+  ('Mathematical Structures in Computer Science', 'journal', '2023-03-30')
+  ('Mathematical Structures in Computer Science', 'journal', '2023-03-30')
+paper:Augmenting Human Selves Through Artificial Agents – Lessons From the Brain
+  ('Frontiers in Computational Neuroscience', 'journal', '2022-06-23')
+  ('Frontiers in Computational Neuroscience', 'journal', '2022-06-23')
+Reihaneh_Rabbany.json
+paper:SWEET - Weakly Supervised Person Name Extraction for Fighting Human Trafficking
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Towards Detecting Contextual Real-Time Toxicity for In-Game Chat
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Towards Reliable Misinformation Mitigation: Generalization, Uncertainty, and GPT-4
+  ('EMNLP', 'journal', '2023')
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:DeltaShield: Information Theory for Human- Trafficking Detection
+  ('ACM Transactions on Knowledge Discovery from Data', 'journal', '2023-02-07')
+  ('ACM Transactions on Knowledge Discovery from Data', 'journal', '2023-03-30')
+paper:DisKeyword: Tweet Corpora Exploration for Keyword Selection
+  ('Web Search and Data Mining', 'journal', '2023-02-27')
+  ('Web Search and Data Mining', 'book', '2023-02-27')
+  ('Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining', 'conference', '2023-02-27')
+paper:TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting and Labeling Human Trafficking
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2023-01')
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2022-10-06')
+paper:Towards Better Evaluation for Dynamic Link Prediction
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+paper:VisPaD: Visualization and Pattern Discovery for Fighting Human Trafficking
+  ('The Web Conference', 'book', '2022-04-25')
+  ('Companion Proceedings of the Web Conference 2022', 'conference', '2022-08-16')
+paper:Extracting Person Names from User Generated Text: Named-Entity Recognition for Combating Human Trafficking
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:A Strong Node Classification Baseline for Temporal Graphs
+  ('Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)', 'conference', '2022-04-20')
+Sarath_Chandar.json
+paper:Measuring the Knowledge Acquisition-Utilization Gap in Pretrained Language Models
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Self-Influence Guided Data Reweighting for Language Model Pre-training
+  ('EMNLP', 'journal', '2023')
+paper:EpiK-Eval: Evaluation for Language Models as Epistemic Models
+  ('EMNLP', 'journal', '2023')
+paper:Replay Buffer with Local Forgetting for Adapting to Local Environment Changes in Deep Model-Based Reinforcement Learning
+  ('CoLLAs', 'journal', '2023')
+paper:An Empirical Investigation of the Role of Pre-training in Lifelong Learning
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+paper:Post-hoc Interpretability for Neural NLP: A Survey
+  ('ACM Computing Surveys', 'journal', '2022-12-23')
+paper:Local Structure Matters Most: Perturbation Study in NLU
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+Siamak_Ravanbakhsh.json
+paper:Equivariant Adaptation of Large Pretrained Models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Characterization Of Inpaint Residuals In Interferometric Measurements of the Epoch Of Reionization
+  ('Monthly Notices of the Royal Astronomical Society', 'journal', '2023-02-10')
+paper:Lie Point Symmetry and Physics-Informed Networks
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+Simon_Lacoste-Julien.json
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Unlocking Slot Attention by Changing Optimal Transport Costs
+  ('ICML', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:SVRG meets AdaGrad: painless variance reduction
+  ('Machine Learning', 'journal', '2022-11-10')
+paper:Disentanglement via Mechanism Sparsity Regularization: A New Principle for Nonlinear ICA
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Siva_Reddy.json
+paper:MAGNIFICo: Evaluating the In-Context Learning Ability of Large Language Models to Generalize to Novel Interpretations
+  ('EMNLP', 'journal', '2023')
+paper:Syntactic Substitutability as Unsupervised Dependency Syntax
+  ('EMNLP', 'journal', '2023')
+paper:Evaluating Dependencies in Fact Editing for Language Models: Specificity and Implication Awareness
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Combining Parameter-efficient Modules for Task-level Generalisation
+  ('Conference of the European Chapter of the Association for Computational Linguistics', 'journal', '2023')
+paper:The Impact of Positional Encoding on Length Generalization in Transformers
+  ('NeurIPS', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents
+  ('EACL', 'journal', '2023')
+paper:FaithDial: A Faithful Benchmark for Information-Seeking Dialogue
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-12-23')
+paper:Post-hoc Interpretability for Neural NLP: A Survey
+  ('ACM Computing Surveys', 'journal', '2022-12-23')
+paper:Evaluating the Faithfulness of Importance Measures in NLP by Recursively Masking Allegedly Important Tokens and Retraining
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:An Empirical Survey of the Effectiveness of Debiasing Techniques for Pre-trained Language Models
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Image Retrieval from Contextual Descriptions
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:The Power of Prompt Tuning for Low-Resource Semantic Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)', 'conference', '2022-05')
+paper:Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:Compositional Generalization in Dependency Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:TopiOCQA: Open-domain Conversational Question Answering with Topic Switching
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-04-13')
+paper:Does Entity Abstraction Help Generative Transformers Reason?
+  ('TMLR', 'unknown', '2022-11-20')
+paper:The Curious Case of Absolute Position Embeddings
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+Tai_Arbel.json
+Tegan_Maharaj.json
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:Metadata Archaeology: Unearthing Data Subsets by Leveraging Training Dynamics
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+Timothy_J_O’Donnell.json
+paper:Simplicity and learning to distinguish arguments from modifiers
+  ('Journal of Language Modelling', 'journal', '2022-12-28')
+paper:Characterizing Idioms: Conventionality and Contingency
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Compositional Generalization in Dependency Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+Yoshua_Bengio.json
+paper:Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Neural Causal Structure Discovery from Interventions
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Combining Parameter-efficient Modules for Task-level Generalisation
+  ('Conference of the European Chapter of the Association for Computational Linguistics', 'journal', '2023')
+paper:Learning GFlowNets from partial episodes for improved convergence and stability
+  ('ICML', 'journal', '2023')
+paper:Catalyzing next-generation Artificial Intelligence through NeuroAI
+  ('Nature Communications', 'review', '2023-03-22')
+  ('Nature Communications', 'journal', '2023-03-22')
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:A108 AUTOMATED DETECTION OF ILEOCECAL VALVE, APPENDICEAL ORIFICE, AND POLYP DURING COLONOSCOPY USING A DEEP LEARNING MODEL
+  ('Journal of the Canadian Association of Gastroenterology', 'review', '2023-03-01')
+  ('Journal of the Canadian Association of Gastroenterology', 'journal', '2023-03-07')
+paper:Generative Augmented Flow Networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Latent State Marginalization as a Low-cost Approach for Improving Exploration
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GFlowOut: Dropout with Generative Flow Networks
+  ('ICML', 'journal', '2023')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A theory of continuous generative flow networks
+  ('ICML', 'journal', '2023')
+paper:GFlowNets for AI-Driven Scientific Discovery
+  ('Digital Discovery', 'journal', '2023')
+paper:Stochastic Generative Flow Networks
+  ('UAI', 'journal', '2023')
+paper:MixupE: Understanding and improving Mixup from directional derivative perspective
+  ('UAI', 'journal', '2023')
+paper:Benchmarking Graph Neural Networks
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Latent Bottlenecked Attentive Neural Processes
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Improving *day-ahead* Solar Irradiance Time Series Forecasting by Leveraging Spatio-Temporal Context
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Discrete Key-Value Bottleneck
+  ('ICML', 'journal', '2023')
+paper:P REDICTIVE I NFERENCE WITH F EATURE C ONFORMAL P REDICTION
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GFlowNets and variational inference
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:GEO-Bench: Toward Foundation Models for Earth Monitoring
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Robust and Controllable Object-Centric Learning through Energy-based Models
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Reusable Slotwise Mechanisms
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Inductive biases for deep learning of higher-level cognition
+  ('Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences', 'journal', '2022-10-12')
+paper:Lookback for Learning to Branch
+  ('TMLR', 'unknown', '2022-10-10')
+paper:Stateful active facilitator: Coordination and Environmental Heterogeneity in Cooperative Multi-Agent Reinforcement Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+paper:DEUP: Direct Epistemic Uncertainty Prediction
+  ('TMLR', 'unknown', '2023-02-13')
+paper:VIM: Variational Independent Modules for Video Prediction
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+paper:Temporal Abstractions-Augmented Temporally Contrastive Learning: An Alternative to the Laplacian in RL
+  ('auai.org/UAI/2022/Conference', 'conference', '2022-05-20')
+  ('Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence', 'unknown', '2022-08-17')
+AJung_Moon.json
+paper:Roboethics as a Design Challenge: Lessons Learned from the Roboethics to Design and Development Competition
+  ('2022 International Conference on Robotics and Automation (ICRA)', 'journal', '2022-05-23')
+  ('IEEE International Conference on Robotics and Automation', 'journal', '2022-05-23')
+Aaron_Courville.json
+paper:Language Model Alignment with Elastic Reset
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Mastering the Unsupervised Reinforcement Learning Benchmark from Pixels
+  ('ICML', 'journal', '2023')
+paper:SUNMASK: Mask Enhanced Control in Step Unrolled Denoising Autoencoders
+  ('EvoMUSART@EvoStar', 'journal', '2023')
+paper:Generative Augmented Flow Networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Latent State Marginalization as a Low-cost Approach for Improving Exploration
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Simplicial Embeddings in Self-Supervised Learning and Downstream Classification
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Bigger, Better, Faster: Human-level Atari with human-level efficiency
+  ('ICML', 'journal', '2023')
+paper:Versatile Energy-Based Probabilistic Models for High Energy Physics
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Improving Compositional Generalization using Iterated Learning and Simplicial Embeddings
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Double Gumbel Q-Learning.
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Group Robust Classification Without Any Group Information
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Investigating Multi-task Pretraining and Generalization in Reinforcement Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Invariant representation driven neural classifier for anti-QCD jet tagging
+  ('Journal of High Energy Physics', 'journal', '2022-10-24')
+paper:Multi-label Iterated Learning for Image Classification with Label Ambiguity
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+paper:Expressiveness and Learnability: A Unifying View for Evaluating Self-Supervised Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Unsupervised Dependency Graph Network
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:VIM: Variational Independent Modules for Video Prediction
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Aishwarya_Agrawal.json
+paper:MAPL: Parameter-Efficient Adaptation of Unimodal Pre-Trained Models for Vision-Language Few-Shot Prompting
+  ('EACL', 'journal', '2023')
+paper:Measuring Progress in Fine-grained Vision-and-Language Understanding
+  ('ACL (1)', 'journal', '2023')
+paper:Vision-Language Pretraining: Current Trends and the Future
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts', 'conference', '2022-05')
+Blake_Aaron_Richards.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Learning better with Dale’s Law: A Spectral Perspective
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Catalyzing next-generation Artificial Intelligence through NeuroAI
+  ('Nature Communications', 'review', '2023-03-22')
+  ('Nature Communications', 'journal', '2023-03-22')
+paper:How gradient estimator variance and bias impact learning in neural networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Transfer Entropy Bottleneck: Learning Sequence to Sequence Information Transfer
+  ('TMLR', 'unknown', '2023-03-08')
+paper:Adult neurogenesis acts as a neural regularizer
+  ('Proceedings of the National Academy of Sciences of the United States of America', 'journal', '2022-11-02')
+  ('Proceedings of the National Academy of Sciences of the United States of America', 'journal', '2022-11-02')
+paper:$\alpha$-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Beyond accuracy: generalization properties of bio-plausible temporal credit assignment rules
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions
+  ('Proceedings of the AAAI Conference on Artificial Intelligence', 'journal', '2022-06-28')
+paper:Current State and Future Directions for Learning in Biological Recurrent Neural Networks: A Perspective Piece
+  ('Neurons, Behavior, Data analysis, and Theory', 'journal', '2022-04-27')
+Christopher_Pal.json
+paper:Neural Causal Structure Discovery from Interventions
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:Parallel-mentoring for Offline Model-based Optimization
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Workflow Discovery from Dialogues in the Low Data Regime
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('TMLR', 'unknown', '2023-02-20')
+paper:Towards Learning to Imitate from a Single Video Demonstration
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Block-State Transformers
+  ('NeurIPS', 'journal', '2023')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:SMPL-IK: Learned Morphology-Aware Inverse Kinematics for AI Driven Artistic Workflows
+  ('SIGGRAPH Asia 2022 Technical Communications', 'conference', '2022-11-22')
+paper:MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Does Entity Abstraction Help Generative Transformers Reason?
+  ('TMLR', 'unknown', '2022-11-20')
+Daniko_Bzdok.json
+paper:Age differences in functional brain networks associated with loneliness and empathy
+  ('Network Neuroscience', 'journal', '2022-11-23')
+paper:Endorsing Complexity Through Diversity: Computational Psychiatry Meets Big Data Analytics
+  ('Biological Psychiatry', 'journal', '2022-08-01')
+paper:Investigating the neural correlates of affective mentalizing and their association with general intelligence in patients with schizophrenia
+  ('Schizophrenia Research', 'journal', '2023-03-13')
+paper:Bayesian stroke modeling details sex biases in the white matter substrates of aphasia
+  ('Communications Biology', 'journal', '2023-03-31')
+paper:Homotopic local-global parcellation of the human cerebral cortex from resting-state functional connectivity
+  ('NeuroImage', 'journal', '2023-02-25')
+  ('NeuroImage', 'journal', '2023-03-12')
+paper:Relationship between prediction accuracy and feature importance reliability: An empirical and theoretical study
+  ('NeuroImage', 'journal', '2023-03-06')
+paper:The end game: respecting major sources of population diversity
+  ('Nature Methods', 'journal', '2023-03-03')
+  ('Nature Methods', 'journal', '2023-03-03')
+paper:Rare CNVs and phenome-wide profiling highlight brain structural divergence and phenotypical convergence
+  ('Nature human behaviour', 'journal', '2023-03-02')
+  ('Nature Human Behaviour', 'journal', '2023-03-02')
+paper:Social isolation is linked to classical risk factors of Alzheimer’s disease-related dementias
+  ('PLOS ONE', 'journal', '2023-02-01')
+paper:Disentangling poststroke cognitive deficits and their neuroanatomical correlates through combined multivariable and multioutcome lesion‐symptom mapping
+  ('Human Brain Mapping', 'journal', '2023-01-20')
+  ('Human Brain Mapping', 'journal', '2023-01-20')
+paper:Representational ethical model calibration
+  ('NPJ Digital Medicine', 'journal', '2022-11-04')
+paper:A parsimonious description of global functional brain organization in three spatiotemporal patterns
+  ('Nature Neuroscience', 'journal', '2022-07-28')
+paper:From Precision Medicine to Precision Convergence for Multilevel Resilience—The Aging Brain and Its Social Isolation
+  ('Frontiers in Public Health', 'journal', '2022-07-05')
+  ('Frontiers in Public Health', 'journal', '2022-07-05')
+paper:Interacting brains revisited: A cross‐brain network neuroscience perspective
+  ('Human Brain Mapping', 'journal', '2022-06-06')
+paper:Human brain anatomy reflects separable genetic and environmental components of socioeconomic status
+  ('Science Advances', 'journal', '2022-05-18')
+paper:Multi-tract multi-symptom relationships in pediatric concussion
+  ('eLife', 'journal', '2022-05-17')
+paper:Population heterogeneity in clinical cohorts affects the predictive accuracy of brain imaging
+  ('PLoS Biology', 'journal', '2022-04-29')
+  ('PLoS Biology', 'journal', '2022-04-01')
+paper:Shared and unique brain network features predict cognitive, personality, and mental health scores in the ABCD study
+  ('Nature Communications', 'journal', '2022-04-25')
+  ('Nature Communications', 'journal', '2022-04-25')
+paper:Multivariate, Transgenerational Associations of the COVID-19 Pandemic Across Minoritized and Marginalized Communities.
+  ('JAMA Psychiatry', 'journal', '2022-04-01')
+David_Ifeoluwa_Adelani.json
+paper:Findings of the 1st Shared Task on Multi-lingual Multi-task Information Retrieval at MRL 2023
+  ('MRL', 'unknown', '2023')
+paper:Cross-lingual Open-Retrieval Question Answering for African Languages
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Better Quality Pre-training Data and T5 Models for African Languages
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
+  ('EMNLP', 'journal', '2023')
+paper:Improving Language Plasticity via Pretraining with Active Forgetting
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:MasakhaNEWS: News Topic Classification for African languages
+  ('AfricaNLP', 'journal', '2023')
+paper:MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African languages
+  ('ACL (1)', 'journal', '2023')
+paper:The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+David_Krueger.json
+paper:Metadata Archaeology: Unearthing Data Subsets by Leveraging Training Dynamics
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Mechanistic Mode Connectivity
+  ('ICML', 'journal', '2023')
+paper:Thinker: Learning to Plan and Act
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Broken Neural Scaling Laws
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+David_Rolnick.json
+paper:ClimateSet: A Large-Scale Climate Model Dataset for Machine Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Deep Networks as Paths on the Manifold of Neural Representations
+  ('TAG-ML', 'journal', '2023')
+  ('TAG-ML', 'journal', '2023')
+paper:Bugs in the Data: How ImageNet Misrepresents Biodiversity
+  ('AAAI', 'journal', '2023')
+paper:General Purpose AI Systems in the AI Act: Trying to Fit a Square Peg Into a Round Hole
+  ('SSRN Electronic Journal', 'journal', '2023')
+  ('Social Science Research Network', 'journal', '2023')
+paper:Normalization Layers Are All That Sharpness-Aware Minimization Needs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Understanding the Evolution of Linear Regions in Deep Reinforcement Learning
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Digitalization and the Anthropocene
+  ('Annual Review Environment and Resources', 'review', '2022-09-02')
+  ('Annual Review of Environment and Resources', 'journal', '2022-10-17')
+paper:A portrait of the different configurations between digitally-enabled innovations and climate governance
+  ('Earth System Governance', 'unknown', '2022-08-01')
+  ('Earth System Governance', 'journal', '2022-08')
+paper:Aligning artificial intelligence with climate change mitigation
+  ('Nature Climate Change', 'unknown', '2022-06-01')
+  ('Nature Climate Change', 'journal', '2022-06-09')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+paper:Clustering units in neural networks: upstream vs downstream information
+  ('TMLR', 'unknown', '2022-06-13')
+Derek_Nowrouzezahrai.json
+paper:Learning Neural Implicit Representations with Surface Signal Parameterizations
+  ('Comput. Graph.', 'journal', '2023')
+paper:MeshDiffusion: Score-based Generative 3D Mesh Modeling
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Cone-Traced Supersampling with Subpixel Edge Reconstruction.
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2023')
+paper:Single‐pass stratified importance resampling
+  ('Computer Graphics Forum', 'journal', '2022-07-30')
+  ('Computer graphics forum (Print)', 'journal', '2022-07-01')
+paper:Kubric: A scalable dataset generator
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+Dhanya_Sridhar.json
+paper:Causal inference from text: A commentary
+  ('Science Advances', 'journal', '2022-10-19')
+  ('Science Advances', 'review', '2022-10-01')
+paper:Heterogeneous Supervised Topic Models
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-06-17')
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-06-01')
+paper:Estimating Social Influence from Observational Data
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+paper:Identifiable Deep Generative Models via Sparse Decoding
+  ('TMLR', 'unknown', '2022-10-20')
+paper:Adjusting Machine Learning Decisions for Equal Opportunity and Counterfactual Fairness
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+Doina_Precup.json
+paper:Prediction and Control in Continual Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A Definition of Continual Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Membership Inference Attacks Against Temporally Correlated Data in Deep Reinforcement Learning
+  ('IEEE Access', 'journal', '2023')
+paper:For SALE: State-Action Representation Learning for Deep Reinforcement Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Temporal Abstraction in Reinforcement Learning with the Successor Representation
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:When Do Graph Neural Networks Help with Node Classification: Investigating the Homophily Principle on Node Distinguishability
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Assessing Intrapartum Risk of Hypoxic Ischemic Encephalopathy Using Fetal Heart Rate With Long Short-Term Memory Networks
+  ('2022 Computing in Cardiology (CinC)', 'journal', '2022-09-04')
+  ('Computing in Cardiology Conference (CinC)', 'conference', '2022-12-31')
+paper:Towards Continual Reinforcement Learning: A Review and Perspectives
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-12-22')
+paper:Multi-Environment Pretraining Enables Transfer to Action Limited Datasets
+  ('ICML', 'journal', '2023')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+paper:Estimating individual treatment effect on disability progression in multiple sclerosis using deep learning
+  ('Nature Communications', 'journal', '2022-09-26')
+  ('Nature Communications', 'journal', '2022-09-26')
+paper:PhyloPGM: boosting regulatory function prediction accuracy using evolutionary information
+  ('Bioinformatics', 'journal', '2022-06-27')
+  ('Bioinformatics', 'journal', '2022-06-24')
+paper:Deep Learning Prediction of Response to Disease Modifying Therapy in Primary Progressive Multiple Sclerosis (P1-1.Virtual)
+  ('Neurology', 'journal', '2022-05-03')
+  ('Neurology', 'journal', '2022-05-03')
+paper:Behind the Machine's Gaze: Neural Networks with Biologically-inspired Constraints Exhibit Human-like Visual Attention
+  ('TMLR', 'unknown', '2022-10-30')
+paper:Towards Painless Policy Optimization for Constrained MDPs
+  ('auai.org/UAI/2022/Conference', 'conference', '2022-05-20')
+  ('Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence', 'unknown', '2022-08-17')
+Gauthier_Gidel.json
+paper:Feature Likelihood Divergence: Evaluating the Generalization of Generative Models Using Samples
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Variance Reduction is an Antidote to Byzantines: Better Rates, Weaker Assumptions and Communication Compression as a Cherry on the Top
+  ('International Conference on Learning Representations', 'journal', '2023')
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:A General Framework For Proving The Equivariant Strong Lottery Ticket Hypothesis
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Optimal Extragradient-Based Algorithms for Stochastic Variational Inequalities with Separable Structure
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Nesterov Meets Optimism: Rate-Optimal Separable Minimax Optimization
+  ('ICML', 'journal', '2023')
+paper:Performative Prediction with Neural Networks
+  ('AISTATS', 'journal', '2023')
+paper:On the Limitations of Elo: Real-World Games, are Transitive, not Additive
+  ('AISTATS', 'journal', '2023')
+paper:Convergence of Proximal Point and Extragradient-Based Methods Beyond Monotonicity: the Case of Negative Comonotonicity
+  ('ICML', 'journal', '2023')
+paper:Only tails matter: Average-Case Universality and Robustness in the Convex Regime
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+Glen_Berseth.json
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Towards Learning to Imitate from a Single Video Demonstration
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Hierarchical Reinforcement Learning for Precise Soccer Shooting Skills using a Quadrupedal Robot
+  ('2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)', 'journal', '2022-10-23')
+paper:ASHA: Assistive Teleoperation via Human-in-the-Loop Reinforcement Learning
+  ('2022 International Conference on Robotics and Automation (ICRA)', 'journal', '2022-05-23')
+Golnoosh_Farnadi.json
+Guillaume_Lajoie.json
+paper:A Unified, Scalable Framework for Neural Population Decoding
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:LEAD: Min-Max Optimization from a Physical Perspective
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Use of Invasive Brain-Computer Interfaces in Pediatric Neurosurgery: Technical and Ethical Considerations
+  ('Journal of Child Neurology', 'review', '2023-03-01')
+paper:Multi-view manifold learning of human brain state trajectories
+  ('Nature Computational Science', 'journal', '2023-03-27')
+paper:Reliability of CKA as a Similarity Measure in Deep Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:« Que notre cerveau soit constitué de neurones n’est pas un accident »
+  ('Pour la science', 'unknown', '2023-01-02')
+  ('Pour la Science', 'journal', '2023-01-02')
+paper:Flexible Phase Dynamics for Bio-Plausible Contrastive Learning
+  ('ICML', 'journal', '2023')
+paper:How gradient estimator variance and bias impact learning in neural networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Formalizing locality for normative synaptic plasticity models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Transfer Entropy Bottleneck: Learning Sequence to Sequence Information Transfer
+  ('TMLR', 'unknown', '2023-03-08')
+paper:Beyond accuracy: generalization properties of bio-plausible temporal credit assignment rules
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Author Correction: Gradient-based learning drives robust representations in recurrent neural networks by balancing compression and expansion
+  ('Nature Machine Intelligence', 'journal', '2022-10-19')
+  ('Nature Machine Intelligence', 'journal', '2022-10-19')
+paper:Dynamic compression and expansion in a classifying recurrent network
+  ('Nature Machine Intelligence', 'journal', '2022-06-22')
+  ('Nature Machine Intelligence', 'journal', '2022-06-01')
+paper:Performance-gated deliberation: A context-adapted strategy in which urgency is opportunity cost
+  ('PLoS Comput. Biol.', 'journal', '2022-05-01')
+  ('PLoS Computational Biology', 'journal', '2022-05-26')
+paper:Lazy vs hasty: linearization in deep networks impacts learning schedule based on example difficulty
+  ('TMLR', 'unknown', '2022-12-20')
+Guillaume_Rabusseau.json
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Lower Bounds for Active Automata Learning.
+  ('ICGI', 'journal', '2023')
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+paper:Formal and Empirical Studies of Counting Behaviour in ReLU RNNs.
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:Benchmarking State-Merging Algorithms for Learning Regular Languages.
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:Explaining Graph Neural Networks Using Interpretable Local Surrogates
+  ('TAG-ML', 'journal', '2023')
+  ('TAG-ML', 'journal', '2023')
+paper:Identification of Substitutable Context-Free Languages over Infinite Alphabets from Positive Data
+  ('ICGI', 'journal', '2023')
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+paper:Learning Syntactic Monoids from Samples by extending known Algorithms for learning State Machines
+  ('International Conference on Graphics and Interaction', 'journal', '2023')
+  ('ICGI', 'journal', '2023')
+paper:High-Order Pooling for Graph Neural Networks with Tensor Decomposition
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+Guy_Wolf.json
+paper:A Heat Diffusion Perspective on Geodesic Preserving Dimensionality Reduction
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Inferring Dynamic Regulatory Interaction Graphs From Time Series Data With Perturbations
+  ('LoG', 'journal', '2023')
+paper:Geometry Regularized Autoencoders
+  ('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'journal', '2022-11-14')
+paper:Multi-view manifold learning of human brain state trajectories
+  ('Nature Computational Science', 'journal', '2023-03-27')
+paper:Reliability of CKA as a Similarity Measure in Deep Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Automated liver segmentation and steatosis grading using deep learning on B-mode ultrasound images
+  ('2023 IEEE International Ultrasonics Symposium (IUS)', 'journal', '2023')
+paper:Recipe for a General, Powerful, Scalable Graph Transformer
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Long Range Graph Benchmark
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+paper:Parametric Scattering Networks
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+Ioannis_Mitliagkas.json
+paper:Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants via the Mirror Stochastic Polyak Stepsize
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:LEAD: Min-Max Optimization from a Physical Perspective
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Neural Networks Efficiently Learn Low-Dimensional Representations with SGD
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Performative Prediction with Neural Networks
+  ('AISTATS', 'journal', '2023')
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+paper:Gradient Descent Is Optimal Under Lower Restricted Secant Inequality And Upper Error Bound
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Towards efficient representation identification in supervised learning
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Irina_Rish.json
+paper:Gradient Masked Averaging for Federated Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Maximum State Entropy Exploration using Predecessor and Successor Representations
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Challenging Common Assumptions about Catastrophic Forgetting and Knowledge Accumulation
+  ('CoLLAs', 'journal', '2023')
+  ('CoLLAs', 'journal', '2023')
+paper:AI Agents Learn to Trust
+  ('Annual Meeting of the Cognitive Science Society', 'journal', '2023')
+  ('CogSci', 'journal', '2023')
+paper:Towards Continual Reinforcement Learning: A Review and Perspectives
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-12-22')
+paper:Broken Neural Scaling Laws
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Continual Learning In Environments With Polynomial Mixing Times
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Optimizing deep learning for Magnetoencephalography (MEG): From sensory perception to sex prediction and brain fingerprinting
+  ('2022 Conference on Cognitive Computational Neuroscience', 'conference', '2022-08-25')
+paper:Generative Models of Brain Dynamics
+  ('Frontiers in Artificial Intelligence', 'review', '2022-07-15')
+  ('Frontiers in Artificial Intelligence', 'journal', '2022-07-15')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Parametric Scattering Networks
+  ('2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 'journal', '2022-06-18')
+paper:A Remedy For Distributional Shifts Through Expected Domain Translation
+  ('IEEE International Conference on Acoustics, Speech, and Signal Processing', 'journal', '2022-05-23')
+  ('ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)', 'journal', '2022-05-23')
+paper:Continual Learning with Foundation Models: An Empirical Study of Latent Replay
+  ('Proceedings of The 1st Conference on Lifelong Learning Agents', 'unknown', '2022-11-28')
+Jackie_C_K_Cheung.json
+paper:Responsible AI Considerations in Text Summarization Research: A Review of Current Practices
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Evaluating Dependencies in Fact Editing for Language Models: Specificity and Implication Awareness
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Qualitative Code Suggestion: A Human-Centric Approach to Qualitative Coding
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Balaur: Language Model Pretraining with Lexical Semantic Relations
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Systematic Rectification of Language Models via Dead-end Analysis
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:How Useful Are Educational Questions Generated by Large Language Models?
+  ('AIED (Posters/Late Breaking Results/...)', 'journal', '2023')
+paper:A Multifaceted Framework to Evaluate Evasion, Content Preservation, and Misattribution in Authorship Obfuscation Techniques
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+paper:Does Pre-training Induce Systematic Inference? How Masked Language Models Acquire Commonsense Knowledge
+  ('Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies', 'conference', '2022-07')
+paper:Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Characterizing Idioms: Conventionality and Contingency
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:Learning with Rejection for Abstractive Text Summarization
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+Jian_Tang.json
+paper:Evaluating Self-Supervised Learning for Molecular Graph Embeddings
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:A*Net: A Scalable Path-based Reasoning Approach for Knowledge Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts
+  ('ICML', 'journal', '2023')
+paper:Biomedical discovery through the integrative biomedical knowledge hub (iBKH).
+  ('iScience', 'journal', '2023-03-01')
+paper:Molecular Geometry Pretraining with SE(3)-Invariant Denoising Distance Matching
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Learning on Large-scale Text-attributed Graphs via Variational Inference
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining
+  ('ICML', 'journal', '2023')
+paper:Symmetry-Informed Geometric Representation for Molecules, Proteins, and Crystalline Materials
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing
+  ('Nat. Mac. Intell.', 'journal', '2023')
+paper:FusionRetro: Molecule Representation Fusion via In-Context Learning for Retrosynthetic Planning
+  ('ICML', 'journal', '2023')
+paper:Protein Sequence and Structure Co-Design with Equivariant Translation
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:E3Bind: An End-to-End Equivariant Network for Protein-Ligand Docking
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:High-Order Pooling for Graph Neural Networks with Tensor Decomposition
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+  ('NeurIPS.cc/2022/Conference', 'conference', '2022-10-31')
+paper:Implications of Topological Imbalance for Representation Learning on Biomedical Knowledge Graphs
+  ('Briefings in Bioinformatics', 'journal', '2022-07-26')
+paper:Protein Representation Learning by Geometric Structure Pretraining
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GAUCHE: A Library for Gaussian Processes in Chemistry
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Subgraph Retrieval Enhanced Model for Multi-hop Knowledge Base Question Answering
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+Joelle_Pineau.json
+paper:Questions Are All You Need to Train a Dense Passage Retriever
+  ('Trans. Assoc. Comput. Linguistics', 'journal', '2023')
+paper:Publisher Correction: Advancing ethics review practices in AI research
+  ('Nature Machine Intelligence', 'journal', '2023-01-01')
+  ('Nature Machine Intelligence', 'journal', '2023-01-11')
+paper:Estimating causal effects with optimization-based methods: A review and empirical comparison
+  ('European Journal of Operational Research', 'journal', '2023-01')
+paper:Group Fairness in Reinforcement Learning
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Low-Rank Representation of Reinforcement Learning Policies
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+  ('Journal of Artificial Intelligence Research', 'journal', '2022-10-27')
+paper:SPeCiaL: Self-Supervised Pretraining for Continual Learning
+  ('Continual Semi-Supervised Learning', 'conference', '2022-09-28')
+paper:A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions
+  ('Proceedings of the AAAI Conference on Artificial Intelligence', 'journal', '2022-06-28')
+paper:Robust Policy Learning over Multiple Uncertainty Sets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:The Curious Case of Absolute Position Embeddings
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:Improving Passage Retrieval with Zero-Shot Question Generation
+  ('Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing', 'conference', '2022-12')
+paper:Block Contextual MDPs for Continual Learning
+  ('Proceedings of The 4th Annual Learning for Dynamics and Control Conference', 'unknown', '2022-05-11')
+Kirill_Neklyudov.json
+Laurent_Charlin.json
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:From IID to the Independent Mechanisms assumption in continual learning
+  ('AAAI.org/2023/Bridge/CCBridge', 'unknown', '2023-01-11')
+  ('AAAI.org/2023/Bridge/CCBridge', 'unknown', '2023-01-11')
+  ('AAAI Bridge Program', 'journal', '2023')
+  ('AAAI Bridge Program', 'journal', '2023')
+paper:Iorl: Inductive-Offline-Reinforcement-Learning for Traffic Signal Control Warmstarting
+  ('Social Science Research Network', 'unknown', '2023')
+paper:Task-Agnostic Continual Reinforcement Learning: Gaining Insights and Overcoming Challenges
+  ('CoLLAs', 'journal', '2023')
+paper:Challenging Common Assumptions about Catastrophic Forgetting and Knowledge Accumulation
+  ('CoLLAs', 'journal', '2023')
+  ('CoLLAs', 'journal', '2023')
+paper:Price Forecasting in the Ontario Electricity Market via TriConvGRU Hybrid Model: Univariate vs. Multivariate Frameworks
+  ('SSRN Electronic Journal', 'journal', '2023')
+paper:The Machine Learning for Combinatorial Optimization Competition (ML4CO): Results and Insights
+  ('Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track', 'unknown', '2022-07-20')
+paper:IG-RL: Inductive Graph Reinforcement Learning for Massive-Scale Traffic Signal Control
+  ('IEEE Transactions on Intelligent Transportation Systems', 'journal', '2022-07')
+paper:Learning To Cut By Looking Ahead: Cutting Plane Selection via Imitation Learning
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Continual Learning with Foundation Models: An Empirical Study of Latent Replay
+  ('Proceedings of The 1st Conference on Lifelong Learning Agents', 'unknown', '2022-11-28')
+Liam_Paull.json
+paper:MeshDiffusion: Score-based Generative 3D Mesh Modeling
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Robust and Controllable Object-Centric Learning through Energy-based Models
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Multi-Agent Reinforcement Learning for Fast-Timescale Demand Response of Residential Loads
+  ('AAMAS', 'journal', '2023')
+paper:Lifelong Topological Visual Navigation
+  ('IEEE Robotics and Automation Letters', 'journal', '2022-10')
+paper:Monocular Robot Navigation with Self-Supervised Pretrained Vision Transformers
+  ('2022 19th Conference on Robots and Vision (CRV)', 'journal', '2022-06-02')
+Pierre-Luc_Bacon.json
+paper:Policy Optimization in a Noisy Neighborhood: On Return Landscapes in Continuous Control
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Block-State Transformers
+  ('NeurIPS', 'journal', '2023')
+paper:Double Gumbel Q-Learning.
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+  ('International Conference on Learning Representations', 'journal', '2023')
+Prakash_Panangaden.json
+paper:A Kernel Perspective on Behavioural Metrics for Markov Decision Processes
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Behavioural equivalences for continuous-time Markov processes
+  ('Mathematical Structures in Computer Science', 'journal', '2023-03-30')
+  ('Mathematical Structures in Computer Science', 'journal', '2023-03-30')
+paper:Augmenting Human Selves Through Artificial Agents – Lessons From the Brain
+  ('Frontiers in Computational Neuroscience', 'journal', '2022-06-23')
+  ('Frontiers in Computational Neuroscience', 'journal', '2022-06-23')
+Reihaneh_Rabbany.json
+paper:SWEET - Weakly Supervised Person Name Extraction for Fighting Human Trafficking
+  ('Conference on Empirical Methods in Natural Language Processing', 'journal', '2023')
+paper:Towards Detecting Contextual Real-Time Toxicity for In-Game Chat
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Towards Reliable Misinformation Mitigation: Generalization, Uncertainty, and GPT-4
+  ('EMNLP', 'journal', '2023')
+paper:Temporal Graph Benchmark for Machine Learning on Temporal Graphs
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:DeltaShield: Information Theory for Human- Trafficking Detection
+  ('ACM Transactions on Knowledge Discovery from Data', 'journal', '2023-02-07')
+  ('ACM Transactions on Knowledge Discovery from Data', 'journal', '2023-03-30')
+paper:DisKeyword: Tweet Corpora Exploration for Keyword Selection
+  ('Web Search and Data Mining', 'journal', '2023-02-27')
+  ('Web Search and Data Mining', 'book', '2023-02-27')
+  ('Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining', 'conference', '2023-02-27')
+paper:TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting and Labeling Human Trafficking
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2023-01')
+  ('IEEE Transactions on Visualization and Computer Graphics', 'journal', '2022-10-06')
+paper:Towards Better Evaluation for Dynamic Link Prediction
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+  ('NeurIPS.cc/2022/Track/Datasets_and_Benchmarks', 'track', '2022-09-16')
+paper:VisPaD: Visualization and Pattern Discovery for Fighting Human Trafficking
+  ('The Web Conference', 'book', '2022-04-25')
+  ('Companion Proceedings of the Web Conference 2022', 'conference', '2022-08-16')
+paper:Extracting Person Names from User Generated Text: Named-Entity Recognition for Combating Human Trafficking
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:A Strong Node Classification Baseline for Temporal Graphs
+  ('Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)', 'conference', '2022-04-20')
+Sarath_Chandar.json
+paper:Measuring the Knowledge Acquisition-Utilization Gap in Pretrained Language Models
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Self-Influence Guided Data Reweighting for Language Model Pre-training
+  ('EMNLP', 'journal', '2023')
+paper:EpiK-Eval: Evaluation for Language Models as Epistemic Models
+  ('EMNLP', 'journal', '2023')
+paper:Replay Buffer with Local Forgetting for Adapting to Local Environment Changes in Deep Model-Based Reinforcement Learning
+  ('CoLLAs', 'journal', '2023')
+paper:An Empirical Investigation of the Role of Pre-training in Lifelong Learning
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+paper:Post-hoc Interpretability for Neural NLP: A Survey
+  ('ACM Computing Surveys', 'journal', '2022-12-23')
+paper:Local Structure Matters Most: Perturbation Study in NLU
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+Siamak_Ravanbakhsh.json
+paper:Equivariant Adaptation of Large Pretrained Models
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Characterization Of Inpaint Residuals In Interferometric Measurements of the Epoch Of Reionization
+  ('Monthly Notices of the Royal Astronomical Society', 'journal', '2023-02-10')
+paper:Lie Point Symmetry and Physics-Informed Networks
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+Simon_Lacoste-Julien.json
+paper:Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Unlocking Slot Attention by Changing Optimal Transport Costs
+  ('ICML', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:SVRG meets AdaGrad: painless variance reduction
+  ('Machine Learning', 'journal', '2022-11-10')
+paper:Disentanglement via Mechanism Sparsity Regularization: A New Principle for Nonlinear ICA
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+Siva_Reddy.json
+paper:MAGNIFICo: Evaluating the In-Context Learning Ability of Large Language Models to Generalize to Novel Interpretations
+  ('EMNLP', 'journal', '2023')
+paper:Syntactic Substitutability as Unsupervised Dependency Syntax
+  ('EMNLP', 'journal', '2023')
+paper:Evaluating Dependencies in Fact Editing for Language Models: Specificity and Implication Awareness
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
+  ('EMNLP (Findings)', 'journal', '2023')
+paper:Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Combining Parameter-efficient Modules for Task-level Generalisation
+  ('Conference of the European Chapter of the Association for Computational Linguistics', 'journal', '2023')
+paper:The Impact of Positional Encoding on Length Generalization in Transformers
+  ('NeurIPS', 'journal', '2023')
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Are Diffusion Models Vision-And-Language Reasoners?
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:The StatCan Dialogue Dataset: Retrieving Data Tables through Conversations with Genuine Intents
+  ('EACL', 'journal', '2023')
+paper:FaithDial: A Faithful Benchmark for Information-Seeking Dialogue
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-12-23')
+paper:Post-hoc Interpretability for Neural NLP: A Survey
+  ('ACM Computing Surveys', 'journal', '2022-12-23')
+paper:Evaluating the Faithfulness of Importance Measures in NLP by Recursively Masking Allegedly Important Tokens and Retraining
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:An Empirical Survey of the Effectiveness of Debiasing Techniques for Pre-trained Language Models
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Image Retrieval from Contextual Descriptions
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:The Power of Prompt Tuning for Low-Resource Semantic Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)', 'conference', '2022-05')
+paper:Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment
+  ('Findings of the Association for Computational Linguistics: ACL 2022', 'conference', '2022-05')
+paper:Compositional Generalization in Dependency Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:TopiOCQA: Open-domain Conversational Question Answering with Topic Switching
+  ('Transactions of the Association for Computational Linguistics', 'journal', '2022-04-13')
+paper:Does Entity Abstraction Help Generative Transformers Reason?
+  ('TMLR', 'unknown', '2022-11-20')
+paper:The Curious Case of Absolute Position Embeddings
+  ('Findings of the Association for Computational Linguistics: EMNLP 2022', 'conference', '2022-12')
+paper:IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+Tai_Arbel.json
+Tegan_Maharaj.json
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:Metadata Archaeology: Unearthing Data Subsets by Leveraging Training Dynamics
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+Timothy_J_O’Donnell.json
+paper:Simplicity and learning to distinguish arguments from modifiers
+  ('Journal of Language Modelling', 'journal', '2022-12-28')
+paper:Characterizing Idioms: Conventionality and Contingency
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+paper:Compositional Generalization in Dependency Parsing
+  ('Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)', 'conference', '2022-05')
+Yoshua_Bengio.json
+paper:Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Neural Causal Structure Discovery from Interventions
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+  ('Trans. Mach. Learn. Res.', 'journal', '2023')
+paper:Joint Bayesian Inference of Graphical Structure and Parameters with a Single Generative Flow Network
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+paper:Combining Parameter-efficient Modules for Task-level Generalisation
+  ('Conference of the European Chapter of the Association for Computational Linguistics', 'journal', '2023')
+paper:Learning GFlowNets from partial episodes for improved convergence and stability
+  ('ICML', 'journal', '2023')
+paper:Catalyzing next-generation Artificial Intelligence through NeuroAI
+  ('Nature Communications', 'review', '2023-03-22')
+  ('Nature Communications', 'journal', '2023-03-22')
+paper:Proactive Contact Tracing
+  ('PLOS Digital Health', 'journal', '2023-03-13')
+  ('PLOS Digital Health', 'journal', '2023-03-01')
+paper:A108 AUTOMATED DETECTION OF ILEOCECAL VALVE, APPENDICEAL ORIFICE, AND POLYP DURING COLONOSCOPY USING A DEEP LEARNING MODEL
+  ('Journal of the Canadian Association of Gastroenterology', 'review', '2023-03-01')
+  ('Journal of the Canadian Association of Gastroenterology', 'journal', '2023-03-07')
+paper:Generative Augmented Flow Networks
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Latent State Marginalization as a Low-cost Approach for Improving Exploration
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GFlowOut: Dropout with Generative Flow Networks
+  ('ICML', 'journal', '2023')
+paper:SatBird: a Dataset for Bird Species Distribution Modeling using Remote Sensing and Citizen Science Data
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:A theory of continuous generative flow networks
+  ('ICML', 'journal', '2023')
+paper:GFlowNets for AI-Driven Scientific Discovery
+  ('Digital Discovery', 'journal', '2023')
+paper:Stochastic Generative Flow Networks
+  ('UAI', 'journal', '2023')
+paper:MixupE: Understanding and improving Mixup from directional derivative perspective
+  ('UAI', 'journal', '2023')
+paper:Benchmarking Graph Neural Networks
+  ('J. Mach. Learn. Res.', 'journal', '2023')
+  ('Journal of Machine Learning Research', 'unknown', '2023')
+paper:Latent Bottlenecked Attentive Neural Processes
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Improving *day-ahead* Solar Irradiance Time Series Forecasting by Leveraging Spatio-Temporal Context
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Discrete Key-Value Bottleneck
+  ('ICML', 'journal', '2023')
+paper:P REDICTIVE I NFERENCE WITH F EATURE C ONFORMAL P REDICTION
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:GFlowNets and variational inference
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:GEO-Bench: Toward Foundation Models for Earth Monitoring
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning
+  ('ICML', 'journal', '2023')
+paper:Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Robust and Controllable Object-Centric Learning through Energy-based Models
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+  ('ICLR', 'journal', '2023')
+paper:Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('Neural Information Processing Systems', 'journal', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Reusable Slotwise Mechanisms
+  ('Advances in Neural Information Processing Systems 36  (NeurIPS 2023)', 'unknown', '2023')
+  ('NeurIPS', 'journal', '2023')
+paper:Inductive biases for deep learning of higher-level cognition
+  ('Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences', 'journal', '2022-10-12')
+paper:Lookback for Learning to Branch
+  ('TMLR', 'unknown', '2022-10-10')
+paper:Stateful active facilitator: Coordination and Environmental Heterogeneity in Cooperative Multi-Agent Reinforcement Learning
+  ('ICLR.cc/2023/Conference', 'conference', '2023-02-01')
+paper:Towards Scaling Difference Target Propagation by Learning Backprop Targets
+  ('Proceedings of the 39th International Conference on Machine Learning', 'unknown', '2022-06-28')
+paper:Tackling Climate Change with Machine Learning
+  ('ACM Comput. Surv.', 'journal', '2023')
+paper:DEUP: Direct Epistemic Uncertainty Prediction
+  ('TMLR', 'unknown', '2023-02-13')
+paper:VIM: Variational Independent Modules for Video Prediction
+  ('Proceedings of the First Conference on Causal Learning and Reasoning', 'unknown', '2022-06-28')
+paper:Temporal Abstractions-Augmented Temporally Contrastive Learning: An Alternative to the Laplacian in RL
+  ('auai.org/UAI/2022/Conference', 'conference', '2022-05-20')
+  ('Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence', 'unknown', '2022-08-17')

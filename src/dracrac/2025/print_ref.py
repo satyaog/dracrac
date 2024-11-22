@@ -141,7 +141,7 @@ def format_plain(papers: list):
 FORMAT_MAP = {
     "html": format_html,
     "json": format_json,
-    "txt": format_plain,
+    "out": format_plain,
 }
 
 
@@ -163,7 +163,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--format",
         metavar="FMT",
-        default="txt",
+        default="out",
         choices=list(FORMAT_MAP.keys()),
         type=str,
         help="Output format",
