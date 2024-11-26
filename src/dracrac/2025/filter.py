@@ -8,6 +8,7 @@ import json
 import logging
 import re
 from pathlib import Path
+import sys
 import unicodedata
 
 logging.basicConfig(level=logging.DEBUG)
@@ -31,26 +32,45 @@ def filter_on_releases(papers: list, check: callable):
         yield p
 
 
-def filter_authors(papers: list, author: str):
-    author = str_normalize(author)
+def filter_authors(papers: list, authors: list):
+    authors = {str_normalize(author) for author in authors}
     for p in papers:
-        authors = [str_normalize(a["author"]["name"]) for a in p["authors"]]
+        p_authors = {str_normalize(a["author"]["name"]) for a in p["authors"]}
 
-        if author not in authors:
+        _check = authors & p_authors
+
+        if not _check:
+            logging.debug(f"Based on {sorted(authors)} not intersecting with {sorted(p_authors)}, filtered out {p['title']}")
+
+        if _check:
             continue
 
         yield p
 
 
 def filter_peer_reviewed(papers: list):
-    check = lambda v: v["peer_reviewed"] and v["status"] != "rejected"
+    def check(v:dict):
+        _check = v["peer_reviewed"] and v["status"] not in ["rejected", "withdrawn"]
+
+        if not _check:
+            logging.debug(f"Based on peer reviewed:{v['peer_reviewed']} and status:{v['status']}, filtered out {v['venue']['name']}")
+
+        return _check
+
     yield from filter_on_releases(papers, check=check)
 
 
 def filter_date(papers: list, start: datetime, end: datetime):
     def check(v:dict):
         date = datetime.fromtimestamp(v["venue"]["date"]["timestamp"])
-        return date >= start and date < end
+
+        _check = date >= start and date < end
+
+        if not _check:
+            logging.debug(f"Based on {start} <= {date} < {end}, filtered out {v['venue']['name']}")
+
+        return _check
+
     yield from filter_on_releases(papers, check=check)
 
 
@@ -58,7 +78,14 @@ def filter_venue(papers: list, venue: str):
     venue = str_normalize(venue)
     def check(v:dict):
         name = str_normalize(v["venue"]["name"])
-        return re.match(f".*{venue}.*", name)
+
+        _check = re.match(f".*{venue}.*", name)
+
+        if not _check:
+            logging.debug(f"Based on {name} not matching {venue}, filtered out {v['venue']['name']}")
+
+        return _check
+
     yield from filter_on_releases(papers, check=check)
 
 
@@ -91,10 +118,11 @@ if __name__ == "__main__":
         help="Paperoni json output of papers to filter",
     )
     parser.add_argument(
-        "--author",
+        "--authors",
         metavar="STR",
+        nargs="*",
         default=None,
-        help="Author name",
+        help="Authors names",
     )
     parser.add_argument(
         "--start",
@@ -106,7 +134,7 @@ if __name__ == "__main__":
         "--end",
         metavar="YYYY-MM-DD",
         type=lambda value: datetime.strptime(value, "%Y-%m-%d"),
-        default=(datetime.now() + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0),
+        default=datetime.now() + timedelta(weeks=52)
     )
     parser.add_argument(
         "--venue",
@@ -115,12 +143,13 @@ if __name__ == "__main__":
     )
     options = parser.parse_args()
 
-    logging.info(f"Filtering papers for author {options.author}")
+    logging.info(f"Filtering papers for authors {options.authors}")
 
-    papers = filter_peer_reviewed(json.loads(options.paperoni.read_text()))
+    # papers = filter_peer_reviewed(json.loads(options.paperoni.read_text()))
+    papers = json.loads(options.paperoni.read_text())
 
-    if options.author:
-        papers = filter_authors(papers, options.author)
+    if options.authors:
+        papers = filter_authors(papers, options.authors)
 
     if options.start or options.end:
         papers = filter_date(papers, options.start, options.end)
@@ -129,6 +158,6 @@ if __name__ == "__main__":
         papers = filter_venue(papers, options.venue)
 
     papers = list(papers)
-    print(json.dumps(papers))
+    print(json.dumps(papers, indent=2, sort_keys=True))
 
     logging.info(f"Filtered {len(papers)} papers")

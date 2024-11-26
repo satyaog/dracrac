@@ -6,12 +6,12 @@ start=$(echo "${dates}" | cut -d'-' -f1-2)-01
 end=$(echo "${dates}" | cut -d'-' -f3-4)-01
 json="paperoni-2024-10-09-2022-2025"
 
-for venue in ICLR ICML NeurIPS
+for venue in ICLR
 do
     mkdir -p "${dir}/${venue}"
     cat "${dir}/../2022-2025/authors" | while read author
     do
-        python3 filter.py "${dir}/../2022-2025/paperoni/${json}.json" --author "${author}" --start "${start}" --end "${end}" --venue "${venue}" \
+        python3 filter.py "${dir}/../2022-2025/paperoni/${json}.json" --authors "${author}" \
         > "${dir}/${venue}/${author// /_}.json"
     done
 done
