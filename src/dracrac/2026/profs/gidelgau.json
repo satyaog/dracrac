@@ -1,0 +1,5945 @@
+[
+  {
+    "paper_id": "9d85b72ce3d28358c1dc94d7670b7a8d",
+    "title": "Self-Play $Q$-Learners Can Provably Collude in the Iterated Prisoner's Dilemma",
+    "abstract": "A growing body of computational studies shows that simple machine learning agents converge to cooperative behaviors in social dilemmas, such as collusive price-setting in oligopoly markets, raising questions about what drives this outcome. In this work, we provide theoretical foundations for this phenomenon in the context of self-play multi-agent Q-learners in the iterated prisoner’s dilemma. We characterize broad conditions under which such agents provably learn the cooperative Pavlov (win-stay, lose-shift) policy rather than the Pareto-dominated “always defect” policy. We validate our theoretical results through additional experiments, demonstrating their robustness across a broader class of deep learning algorithms.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "d6c638e1818b26c4f62c47cedaa4462a",
+          "name": "Quentin Bertrand",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Quentin_Bertrand1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "14205549"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249757559"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333899810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "57067f14c42c9677c836d42630124599",
+            "name": "Laboratoire Hubert Curien UMR 5516",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6bf789b3f0ad04e282c53a034a1ef501",
+            "name": "Inria",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "79ff5c92f50648b08bc853a27bf0db95",
+            "name": "CNRS",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c7cc566cff401c3b2d18b185dce27feb",
+          "name": "Juan Agustin Duque",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Juan_Agustin_Duque1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2274107882"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "85ddc0c1cae7e9e9ab2a682a92e0bc86",
+          "name": "Emilio Calvano",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Emilio_Calvano1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "41048467"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Q-learning"
+      },
+      {
+        "name": "self-play"
+      },
+      {
+        "name": "cooperation"
+      },
+      {
+        "name": "iterated prisoner's dilemma"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "q6zwUeWkZL",
+        "url": "https://openreview.net/forum?id=q6zwUeWkZL"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "q6zwUeWkZL",
+        "url": "https://openreview.net/pdf?id=q6zwUeWkZL"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2312.08484",
+        "url": "https://arxiv.org/abs/2312.08484"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2312.08484",
+        "url": "https://arxiv.org/pdf/2312.08484.pdf"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "18bf78b994b1bf1033f22ad08257fe67cbb64c18",
+        "url": "https://www.semanticscholar.org/paper/18bf78b994b1bf1033f22ad08257fe67cbb64c18"
+      },
+      {
+        "type": "corpusid",
+        "link": "266210046"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d84a41e801db27ba4beec56ee9e9a6e3",
+    "title": "Performative Prediction on Games and Mechanism Design",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c41fbefdb87513b96bf419e602301330",
+          "name": "António Góis",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~António_Góis1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2060583060"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "92eb348dadad960f7684b86fc0154ea2",
+          "name": "Mehrnaz Mofakhami",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mehrnaz_Mofakhami1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2193460252"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351059048"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c3e9d7ac9f7f423200294f76aa46cbe4",
+          "name": "Fernando P. Santos",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Fernando_P._Santos1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315985753"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "57789483f9f1ca01027e02d98f4b43e3",
+            "name": "Informatics Institute, University of Amsterdam",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5a71dcb7d269209d8fd1e3b1b22d263b",
+            "name": "University of Amsterdam",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "740d738029438f70cc5112151169933d",
+            "name": "University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ff02f1e7da4102df9438105d053223da",
+          "name": "Simon Lacoste-Julien",
+          "links": [
+            {
+              "type": "bio",
+              "link": "simon-lacoste-julien"
+            },
+            {
+              "type": "email.mila",
+              "link": "slacoste@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2302858353"
+            },
+            {
+              "type": "mag",
+              "link": "2945780820"
+            },
+            {
+              "type": "mag",
+              "link": "3026785906"
+            },
+            {
+              "type": "mag",
+              "link": "3169564281"
+            },
+            {
+              "type": "openreview",
+              "link": "~Simon_Lacoste-Julien1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1388317459"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1388563173"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1685481"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265492933"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2289357465"
+            },
+            {
+              "type": "wpid_en",
+              "link": "3261"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "3265"
+            },
+            {
+              "type": "xplore",
+              "link": "37085631641"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "48e5c1112f5693b0c6b6acd9d7be01f6",
+          "name": "Proceedings of The 28th International Conference on Artificial Intelligence and Statistics",
+          "type": "unknown",
+          "date": {
+            "text": "2025-04-23",
+            "timestamp": 1745380800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "258"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "1855-1863"
+      },
+      {
+        "venue": {
+          "venue_id": "7d45fadf74b79009282fa726bb983319",
+          "name": "aistats.org/AISTATS/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "aistats.org/AISTATS/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "AISTATS 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "multi-agent systems"
+      },
+      {
+        "name": "strategic classification"
+      },
+      {
+        "name": "game theory"
+      },
+      {
+        "name": "mechanism design"
+      },
+      {
+        "name": "performative prediction"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2408.05146",
+        "url": "https://doi.org/10.48550/arXiv.2408.05146"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "258/gois25a",
+        "url": "https://proceedings.mlr.press/v258/gois25a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "Bz92EvEeD1",
+        "url": "https://openreview.net/forum?id=Bz92EvEeD1"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "Qi9HokKRMu",
+        "url": "https://openreview.net/forum?id=Qi9HokKRMu"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "SmRJbofPi7",
+        "url": "https://openreview.net/forum?id=SmRJbofPi7"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "Bz92EvEeD1",
+        "url": "https://openreview.net/pdf?id=Bz92EvEeD1"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "Qi9HokKRMu",
+        "url": "https://openreview.net/pdf?id=Qi9HokKRMu"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "SmRJbofPi7",
+        "url": "https://openreview.net/pdf?id=SmRJbofPi7"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2408.05146",
+        "url": "https://arxiv.org/abs/2408.05146"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2408.05146",
+        "url": "https://arxiv.org/pdf/2408.05146.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2408-05146",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2408-05146"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v258/main/assets/gois25a/gois25a.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "c29279721602e3062c682af1972717e994400a39",
+        "url": "https://www.semanticscholar.org/paper/c29279721602e3062c682af1972717e994400a39"
+      },
+      {
+        "type": "corpusid",
+        "link": "271843481"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "e4a132dd5e96bc1581649b19851d6dbd",
+    "title": "Advantage Alignment Algorithms",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c7cc566cff401c3b2d18b185dce27feb",
+          "name": "Juan Agustin Duque",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Juan_Agustin_Duque1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2274107882"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "28e9e3e07d018dc25de1f00cbc5087eb",
+            "name": "University of Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8815577f9b30f822f2721294fcac63b8",
+          "name": "Milad Aghajohari",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Milad_Aghajohari1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "113383974"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "28e9e3e07d018dc25de1f00cbc5087eb",
+            "name": "University of Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a76203231cc3654d45ba77847794d42b",
+          "name": "Tim Cooijmans",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tim_Cooijmans1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348758"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "28e9e3e07d018dc25de1f00cbc5087eb",
+            "name": "University of Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "4b5a20562fd8d2f1149e33bc014ab78b",
+          "name": "razvan ciuca",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~razvan_ciuca1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e9d6cfa401f6f1d633a9ee9dffa6371b",
+          "name": "Tianyu Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tianyu_Zhang6"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2146331448"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2146333387"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2205718676"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2217338826"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256233111"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287878184"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305815558"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334462225"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2367754724"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "28e9e3e07d018dc25de1f00cbc5087eb",
+            "name": "University of Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "af124735e9e612f5e1fb5c8554090d16",
+          "name": "Aaron C. Courville",
+          "links": [
+            {
+              "type": "bio",
+              "link": "aaron-courville"
+            },
+            {
+              "type": "email.mila",
+              "link": "courvila@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2328522601"
+            },
+            {
+              "type": "mag",
+              "link": "2798494353"
+            },
+            {
+              "type": "mag",
+              "link": "2808959862"
+            },
+            {
+              "type": "mag",
+              "link": "2989558766"
+            },
+            {
+              "type": "openreview",
+              "link": "~Aaron_Courville3"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-6223-0301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1760871"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2058336670"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253653152"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262443562"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285877959"
+            },
+            {
+              "type": "wpid_en",
+              "link": "364"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "319"
+            },
+            {
+              "type": "xplore",
+              "link": "37079943300"
+            },
+            {
+              "type": "xplore",
+              "link": "37089407178"
+            },
+            {
+              "type": "xplore",
+              "link": "37325922000"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "28e9e3e07d018dc25de1f00cbc5087eb",
+            "name": "University of Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Opponent Shaping"
+      },
+      {
+        "name": "Social Dilemmas"
+      },
+      {
+        "name": "General-Sum Games"
+      },
+      {
+        "name": "Deep Reinforcement Learning"
+      },
+      {
+        "name": "Multi-agent Reinforcement Learning"
+      },
+      {
+        "name": "General Sum Games"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "QFO1asgas2",
+        "url": "https://openreview.net/forum?id=QFO1asgas2"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "XK5981wGkW",
+        "url": "https://openreview.net/forum?id=XK5981wGkW"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "QFO1asgas2",
+        "url": "https://openreview.net/pdf?id=QFO1asgas2"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "XK5981wGkW",
+        "url": "https://openreview.net/pdf?id=XK5981wGkW"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8888f9b6f8469b979b0ad241138aacb3",
+    "title": "Learning diverse attacks on large language models for robust red-teaming and safety tuning",
+    "abstract": "Red-teaming, or identifying prompts that elicit harmful responses, is a critical step in ensuring the safe and responsible deployment of large language models (LLMs). Developing effective protection against many modes of attack prompts requires discovering diverse attacks. Automated red-teaming typically uses reinforcement learning to fine-tune an attacker language model to generate prompts that elicit undesirable responses from a target LLM, as measured, for example, by an auxiliary toxicity classifier. We show that even with explicit regularization to favor novelty and diversity, existing approaches suffer from mode collapse or fail to generate effective attacks. As a flexible and probabilistically principled alternative, we propose to use GFlowNet fine-tuning, followed by a secondary smoothing phase, to train the attacker model to generate diverse and effective attack prompts. We find that the attacks generated by our method are effective against a wide range of target LLMs, both with and without safety tuning, and transfer well between target LLMs. Finally, we demonstrate that models safety-tuned using a dataset of red-teaming prompts generated by our method are robust to attacks from other RL-based red-teaming approaches.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "d21577e13e1263d174de76e344bcf134",
+          "name": "Seanie Lee",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Seanie_Lee1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1472875852"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2356458482"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "55b2058f3bcbf4c5d92903738b3d61a5",
+            "name": "KAIST",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "da30bcc7881b37e174b6697bf253a381",
+          "name": "Minsu Kim",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Minsu_Kim2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2116507411"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253812491"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283985513"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303794981"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351722156"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362450406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362621125"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "55b2058f3bcbf4c5d92903738b3d61a5",
+            "name": "KAIST",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ad5048d9c610df6763c7be048d8fb6ee",
+          "name": "Lynn Cherif",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Lynn_Cherif1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303651581"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334572812"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9d8248ad8bdaa0ea9fe6900d15f242fd",
+          "name": "David Dobre",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Dobre1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "103080507"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e6d20b781f76a310865de244a04a7483",
+          "name": "Juho Lee",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Juho_Lee2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303491102"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "55b2058f3bcbf4c5d92903738b3d61a5",
+            "name": "KAIST",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "99599a8f8afc05c038ece5dd5b4334c6",
+          "name": "Sung Ju Hwang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sung_Ju_Hwang1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303581394"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "55b2058f3bcbf4c5d92903738b3d61a5",
+            "name": "KAIST",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "afd9214c0969b985644943445e4e166c",
+          "name": "Kenji Kawaguchi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kenji_Kawaguchi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1392876047"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2244295298"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256995498"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259976976"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2324666"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "55719f3bbd2b061f4774b224860ae7af",
+            "name": "National University of Singapore",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fd676bfd2d2cc8ea03ecb12bb22bcd30",
+          "name": "Yoshua Bengio",
+          "links": [
+            {
+              "type": "bio",
+              "link": "bengio-yoshua"
+            },
+            {
+              "type": "email.mila",
+              "link": "yoshua.bengio@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "161269817"
+            },
+            {
+              "type": "mag",
+              "link": "2550477701"
+            },
+            {
+              "type": "mag",
+              "link": "2762122187"
+            },
+            {
+              "type": "mag",
+              "link": "2969309771"
+            },
+            {
+              "type": "mag",
+              "link": "3049675594"
+            },
+            {
+              "type": "openreview",
+              "link": "~Yoshua_Bengio1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1751762"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1865800402"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2211024206"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285114502"
+            },
+            {
+              "type": "wpid_en",
+              "link": "348"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "96"
+            },
+            {
+              "type": "xplore",
+              "link": "37089048258"
+            },
+            {
+              "type": "xplore",
+              "link": "37089315098"
+            },
+            {
+              "type": "xplore",
+              "link": "37323338000"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "84b49ceacd9fed809b78b413b4d3f666",
+          "name": "Nikolay Malkin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kolya_Malkin1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Nikolay_Malkin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2067020770"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "931f6be511615f042b91db68b03b5015",
+          "name": "Moksh J. Jain",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Moksh_Jain1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1383135665"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "0f594c4031b8803ff34b6648f833802f",
+          "name": "ICLR",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "safety-tuning"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "red-teaming"
+      },
+      {
+        "name": "diversity"
+      },
+      {
+        "name": "redteaming"
+      },
+      {
+        "name": "LLM"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2405.18540",
+        "url": "https://doi.org/10.48550/arXiv.2405.18540"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "1mXufFuv95",
+        "url": "https://openreview.net/forum?id=1mXufFuv95"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "nnGITZZw9N",
+        "url": "https://openreview.net/forum?id=nnGITZZw9N"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "1mXufFuv95",
+        "url": "https://openreview.net/pdf?id=1mXufFuv95"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "nnGITZZw9N",
+        "url": "https://openreview.net/pdf?id=nnGITZZw9N"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2405.18540",
+        "url": "https://arxiv.org/abs/2405.18540"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2405.18540",
+        "url": "https://arxiv.org/pdf/2405.18540.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/iclr/LeeKCD0HKGBMJ25",
+        "url": "https://dblp.uni-trier.de/rec/conf/iclr/LeeKCD0HKGBMJ25"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2405-18540",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2405-18540"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=1mXufFuv95"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "3b5e7f456043fa96dc4673dc11156834fd9a985e",
+        "url": "https://www.semanticscholar.org/paper/3b5e7f456043fa96dc4673dc11156834fd9a985e"
+      },
+      {
+        "type": "corpusid",
+        "link": "270094680"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "c187033f771fb70cd6846ac0b973f86b",
+    "title": "Local Linearity is All You Need (in Data-Driven Teleoperation)",
+    "abstract": "One of the critical aspects of assistive robotics is to provide a control system of a high-dimensional robot from a low-dimensional user input (i.e. a 2D joystick). Data-driven teleoperation seeks to provide an intuitive user interface called an action map to map the low dimensional input to robot velocities from human demonstrations. Action maps are machine learning models trained on robotic demonstration data to map user input directly to desired movements as opposed to aspects of robot pose (\"move to cup or pour content\" vs. \"move along x- or y-axis\"). Many works have investigated nonlinear action maps with multi-layer perceptrons, but recent work suggests that local-linear neural approximations provide better control of the system. However, local linear models assume actions exist on a linear subspace and may not capture nuanced motions in training data. In this work, we hypothesize that local-linear neural networks are effective because they make the action map odd w.r.t. the user input, enhancing the intuitiveness of the controller. Based on this assumption, we propose two nonlinear means of encoding odd behavior that do not constrain the action map to a local linear function. However, our analysis reveals that these models effectively behave like local linear models for relevant mappings between user joysticks and robot movements. We support this claim in simulation, and show on a realworld use case that there is no statistical benefit of using non-linear maps, according to the users experience. These negative results suggest that further investigation into model architectures beyond local linear models may offer diminishing returns for improving user experience in data-driven teleoperation systems.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a3b5ad58573e07eea375ccaca9a7d445",
+          "name": "Michael Przystupa",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Michael_Przystupa1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "52349140"
+            },
+            {
+              "type": "xplore",
+              "link": "37088998333"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "32ebbff97ac1c3f9ffcadc4544b53f9e",
+            "name": "University of Alberta",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3fc107802d4112fbc034cfe0295b5394",
+            "name": "Universite de Montreal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d9f0d2040aa5711a2b04115563764df4",
+          "name": "Matthew E. Taylor",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Matthew_E._Taylor2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1389208435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2312909860"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2328268184"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "39286677"
+            },
+            {
+              "type": "xplore",
+              "link": "37086012047"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "32ebbff97ac1c3f9ffcadc4544b53f9e",
+            "name": "University of Alberta",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c69d49332f142100a7fb1ee743b4f96f",
+          "name": "Martin Jagersand",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "4089056"
+            },
+            {
+              "type": "xplore",
+              "link": "37269568300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "32ebbff97ac1c3f9ffcadc4544b53f9e",
+            "name": "University of Alberta",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e6fb47994c8b1b7dfbf93cab3836790d",
+          "name": "Justus Piater",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2328087515"
+            },
+            {
+              "type": "xplore",
+              "link": "832233746097035"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "73f21e8c3d77534819d953bb2bb85e61",
+            "name": "University of Innsbruck",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9323e150e66b94fa105447fc78320baa",
+          "name": "Samuele Tosatto",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "20827107"
+            },
+            {
+              "type": "xplore",
+              "link": "37086325207"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "73f21e8c3d77534819d953bb2bb85e61",
+            "name": "University of Innsbruck",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "7a6cdfb3e51d74b1e49dba0d9fc7d7d6",
+          "name": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+          "type": "journal",
+          "date": {
+            "text": "2024-10-14",
+            "timestamp": 1728878400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "IEEE",
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "12148-12155"
+      },
+      {
+        "venue": {
+          "venue_id": "24be39c3e48b5ba7c208008f492e050f",
+          "name": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+          "type": "journal",
+          "date": {
+            "text": "2024-10-14",
+            "timestamp": 1728878400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "1e2528619e63e633ee3942773d806206",
+          "name": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+          "type": "conference",
+          "date": {
+            "text": "2024-10-14",
+            "timestamp": 1728878400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "User Experience"
+      },
+      {
+        "name": "Velocity Of The Robot"
+      },
+      {
+        "name": "Local Linear Approximation"
+      },
+      {
+        "name": "Cognitive Map"
+      },
+      {
+        "name": "Nonlinear Mapping"
+      },
+      {
+        "name": "Machine learning"
+      },
+      {
+        "name": "System Dynamics"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Subjective Metrics"
+      },
+      {
+        "name": "User Input"
+      },
+      {
+        "name": "Vector Subspace"
+      },
+      {
+        "name": "Neural networks"
+      },
+      {
+        "name": "Local Function"
+      },
+      {
+        "name": "Analytical models"
+      },
+      {
+        "name": "Morphine"
+      },
+      {
+        "name": "User experience"
+      },
+      {
+        "name": "Neural Network"
+      },
+      {
+        "name": "Odd Behavior"
+      },
+      {
+        "name": "User Study"
+      },
+      {
+        "name": "Nonlinear Model"
+      },
+      {
+        "name": "Regularization Term"
+      },
+      {
+        "name": "Control System"
+      },
+      {
+        "name": "End-effector"
+      },
+      {
+        "name": "Linear Subspace"
+      },
+      {
+        "name": "Local Linear Estimator"
+      },
+      {
+        "name": "Simulation Experiments"
+      },
+      {
+        "name": "Linearity"
+      },
+      {
+        "name": "Multilayer Perceptron"
+      },
+      {
+        "name": "Mode Switching"
+      },
+      {
+        "name": "User interfaces"
+      },
+      {
+        "name": "Robot Movement"
+      },
+      {
+        "name": "Discrete Steps"
+      },
+      {
+        "name": "Robotic Assistance"
+      },
+      {
+        "name": "Local Linear"
+      },
+      {
+        "name": "Odd Function"
+      },
+      {
+        "name": "Improve User Experience"
+      },
+      {
+        "name": "Control systems"
+      },
+      {
+        "name": "Learning Function"
+      },
+      {
+        "name": "Robots"
+      },
+      {
+        "name": "Metrics For Each Subject"
+      },
+      {
+        "name": "Training data"
+      },
+      {
+        "name": "Data-driven Systems"
+      },
+      {
+        "name": "Data models"
+      },
+      {
+        "name": "Real-world Use Cases"
+      },
+      {
+        "name": "Robot State"
+      },
+      {
+        "name": "Nonlinear Function"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1109/IROS58592.2024.10802052",
+        "url": "https://doi.org/10.1109/IROS58592.2024.10802052"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/iros/PrzystupaGTJPT24",
+        "url": "https://dblp.uni-trier.de/rec/conf/iros/PrzystupaGTJPT24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "92b032715ef842e5d87f60cd4ab6778d04ef9f20",
+        "url": "https://www.semanticscholar.org/paper/92b032715ef842e5d87f60cd4ab6778d04ef9f20"
+      },
+      {
+        "type": "corpusid",
+        "link": "275020550"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d7ee9c5d9aa753633907c6a93805ce49",
+    "title": "Solving Hidden Monotone Variational Inequalities with Surrogate Losses",
+    "abstract": "Deep learning has proven to be effective in a wide variety of loss minimization problems. However, many applications of interest, like minimizing projected Bellman error and min-max optimization, cannot be modelled as minimizing a scalar loss function but instead correspond to solving a variational inequality (VI) problem. This difference in setting has caused many practical challenges as naive gradient-based approaches from supervised learning tend to diverge and cycle in the VI case. In this work, we propose a principled surrogate-based approach compatible with deep learning to solve VIs. We show that our surrogate-based approach has three main benefits: (1) under assumptions that are realistic in practice (when hidden monotone structure is present, interpolation, and sufficient optimization of the surrogates), it guarantees convergence, (2) it provides a unifying perspective of existing methods, and (3) is amenable to existing deep learning optimizers like ADAM. Experimentally, we demonstrate our surrogate-based approach is effective in min-max optimization and minimizing projected Bellman error. Furthermore, in the deep reinforcement learning case, we propose a novel variant of TD(0) which is more compute and sample efficient.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b2460fd1ce4526436d96de45f2368773",
+          "name": "Ryan D'Orazio",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryan_D'Orazio1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1414056326"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330082785"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e6b7ccfa2c196937d27b646f95803bfd",
+          "name": "Danilo Vucetic",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Danilo_Vucetic1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2164093453"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253655066"
+            },
+            {
+              "type": "xplore",
+              "link": "37089594358"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9121d2fca475e3e0d6bc4d8de2b0be83",
+          "name": "Zichu Liu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Zichu_Liu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330169817"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c28342afb089418e4596d3fadfa5ebe1",
+          "name": "Junhyung Lyle Kim",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Junhyung_Lyle_Kim1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2120215686"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "593d1326e75476ef17fd7c19ee90db27",
+            "name": "Department of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7fbbdee264abb92529d85ab61fea539f",
+            "name": "Rice University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2546c6e9d8c21e4c211681939b29ef03",
+            "name": "CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2546c6e9d8c21e4c211681939b29ef03",
+            "name": "CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "0f594c4031b8803ff34b6648f833802f",
+          "name": "ICLR",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Mathematics"
+      },
+      {
+        "name": "Variational Inequality"
+      },
+      {
+        "name": "Optimization and Control (math.OC)"
+      },
+      {
+        "name": "Surrogate"
+      },
+      {
+        "name": "Hidden Monotone"
+      },
+      {
+        "name": "Min-max"
+      },
+      {
+        "name": "Optimization"
+      },
+      {
+        "name": "Projected Bellman Error"
+      },
+      {
+        "name": "Min-max Optimization"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      },
+      {
+        "name": "FOS: Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2411.05228",
+        "url": "https://doi.org/10.48550/arXiv.2411.05228"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "4ZX2a3OKEV",
+        "url": "https://openreview.net/forum?id=4ZX2a3OKEV"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "YAeS4mKyz5",
+        "url": "https://openreview.net/forum?id=YAeS4mKyz5"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "4ZX2a3OKEV",
+        "url": "https://openreview.net/pdf?id=4ZX2a3OKEV"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "YAeS4mKyz5",
+        "url": "https://openreview.net/pdf?id=YAeS4mKyz5"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2411.05228",
+        "url": "https://arxiv.org/abs/2411.05228"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2411.05228",
+        "url": "https://arxiv.org/pdf/2411.05228.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/iclr/DOrazioVLKMG25",
+        "url": "https://dblp.uni-trier.de/rec/conf/iclr/DOrazioVLKMG25"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2411-05228",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2411-05228"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=4ZX2a3OKEV"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "6079ecad1868fed9a3f68e223d5647007351fec0",
+        "url": "https://www.semanticscholar.org/paper/6079ecad1868fed9a3f68e223d5647007351fec0"
+      },
+      {
+        "type": "corpusid",
+        "link": "273950322"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2411.05228"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "ec32d9da69ae4ae6f65b63f2bd426f0f",
+    "title": "Self-Consuming Generative Models with Curated Data Provably Optimize Human Preferences",
+    "abstract": "The rapid progress in generative models has resulted in impressive leaps in generation quality, blurring the lines between synthetic and real data. Web-scale datasets are now prone to the inevitable contamination by synthetic data, directly impacting the training of future generated models. Already, some theoretical results on self-consuming generative models (a.k.a., iterative retraining) have emerged in the literature, showcasing that either model collapse or stability could be possible depending on the fraction of generated data used at each retraining step. However, in practice, synthetic data is often subject to human feedback and curated by users before being used and uploaded online. For instance, many interfaces of popular text-to-image generative models, such as Stable Diffusion or Midjourney, produce several variations of an image for a given query which can eventually be curated by the users. In this paper, we theoretically study the impact of data curation on iterated retraining of generative models and show that it can be seen as an \\emph{implicit preference optimization mechanism}. However, unlike standard preference optimization, the generative model does not have access to the reward function or negative samples needed for pairwise comparisons. Moreover, our study doesn't require access to the density function, only to samples. We prove that, if the data is curated according to a reward model, then the expected reward of the iterative retraining procedure is maximized. We further provide theoretical results on the stability of the retraining loop when using a positive fraction of real data at each step. Finally, we conduct illustrative experiments on both synthetic datasets and on CIFAR10 showing that such a procedure amplifies biases of the reward model.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "90bc01ffcefd5270aba0765cbe356a22",
+          "name": "Damien Ferbach",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Damien_Ferbach1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2169577739"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d6c638e1818b26c4f62c47cedaa4462a",
+          "name": "Quentin Bertrand",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Quentin_Bertrand1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "14205549"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249757559"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333899810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fa7f7dc336fdeab4646b4b8c74635e60",
+          "name": "Avishek Joey Bose",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "bosejoey@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Joey_Bose1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249757968"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2360319439"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "26418299"
+            },
+            {
+              "type": "xplore",
+              "link": "37086602413"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "759e9de929f83b30f105ce952ce77e58",
+            "name": "University of Oxford",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "spotlight",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "self-consuming"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "generative model"
+      },
+      {
+        "name": "curating"
+      },
+      {
+        "name": "Mathematics"
+      },
+      {
+        "name": "retraining"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2407.09499",
+        "url": "https://doi.org/10.48550/arXiv.2407.09499"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "cyv0LkIaoH",
+        "url": "https://openreview.net/forum?id=cyv0LkIaoH"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "cyv0LkIaoH",
+        "url": "https://openreview.net/pdf?id=cyv0LkIaoH"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2407.09499",
+        "url": "https://arxiv.org/abs/2407.09499"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2407.09499",
+        "url": "https://arxiv.org/pdf/2407.09499.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2407-09499",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2407-09499"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "4ef4bb74612fedb4933de2b463a7f1b588193f43",
+        "url": "https://www.semanticscholar.org/paper/4ef4bb74612fedb4933de2b463a7f1b588193f43"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "d1bf0c0381d9c02813c671cd1b26f1a8bbf711db",
+        "url": "https://www.semanticscholar.org/paper/d1bf0c0381d9c02813c671cd1b26f1a8bbf711db"
+      },
+      {
+        "type": "corpusid",
+        "link": "271213167"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "b86741b89d422f6d800b93bb48828f26",
+    "title": "Soft Prompt Threats: Attacking Safety Alignment and Unlearning in Open-Source LLMs through the Embedding Space",
+    "abstract": "Current research in adversarial robustness of LLMs focuses on discrete input manipulations in the natural language space, which can be directly transferred to closed-source models. However, this approach neglects the steady progression of open-source models. As open-source models advance in capability, ensuring their safety also becomes increasingly imperative. Yet, attacks tailored to open-source LLMs that exploit full model access remain largely unexplored. We address this research gap and propose the embedding space attack, which directly attacks the continuous embedding representation of input tokens. We find that embedding space attacks circumvent model alignments and trigger harmful behaviors more efficiently than discrete attacks or model fine-tuning. Furthermore, we present a novel threat model in the context of unlearning and show that embedding space attacks can extract supposedly deleted information from unlearned LLMs across multiple datasets and models. Our findings highlight embedding space attacks as an important threat model in open-source LLMs. Trigger Warning: the appendix contains LLM-generated text with violence and harassment.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "eb338378c2f638fe9c7204ea0b611228",
+          "name": "Leo Schwinn",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Leo_Schwinn1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1502273680"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2264381478"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6366ea3b2ffb90a8e342519bf5345a95",
+            "name": "Technical University of Munich",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9d8248ad8bdaa0ea9fe6900d15f242fd",
+          "name": "David Dobre",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Dobre1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "103080507"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "93f2c7179a81932f0018ea20d2efac25",
+          "name": "Sophie Xhonneux",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sophie_Xhonneux1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2204462616"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327338190"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e45c5d8096c9357bbf0996048d3296cb",
+          "name": "Stephan Günnemann",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Stephan_Günnemann1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2241501445"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2302331450"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2343752358"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51249380"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6366ea3b2ffb90a8e342519bf5345a95",
+            "name": "Technical University of Munich",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Adversarial Attacks"
+      },
+      {
+        "name": "Large Language Models"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2402.09063",
+        "url": "https://doi.org/10.48550/arXiv.2402.09063"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "CLxcLPfARc",
+        "url": "https://openreview.net/forum?id=CLxcLPfARc"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "CLxcLPfARc",
+        "url": "https://openreview.net/pdf?id=CLxcLPfARc"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2402.09063",
+        "url": "https://arxiv.org/abs/2402.09063"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2402.09063",
+        "url": "https://arxiv.org/pdf/2402.09063.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/nips/SchwinnDXGG24",
+        "url": "https://dblp.uni-trier.de/rec/conf/nips/SchwinnDXGG24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2402-09063",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2402-09063"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "http://papers.nips.cc/paper_files/paper/2024/hash/10f34ee79b62627b7ebf6279d35ea480-Abstract-Conference.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "9a7187386eb6ea93d41d7e2baa88accedc702fc2",
+        "url": "https://www.semanticscholar.org/paper/9a7187386eb6ea93d41d7e2baa88accedc702fc2"
+      },
+      {
+        "type": "corpusid",
+        "link": "267657556"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a80a405d930391bc398cd377b161d295",
+    "title": "Efficient Adversarial Training in LLMs with Continuous Attacks",
+    "abstract": "Large language models (LLMs) are vulnerable to adversarial attacks that can bypass their safety guardrails. In many domains, adversarial training has proven to be one of the most promising methods to reliably improve robustness against such attacks. Yet, in the context of LLMs, current methods for adversarial training are hindered by the high computational costs required to perform discrete adversarial attacks at each training iteration. We address this problem by instead calculating adversarial attacks in the continuous embedding space of the LLM, which is orders of magnitudes more efficient. We propose a fast adversarial training algorithm (C-AdvUL) composed of two losses: the first makes the model robust on continuous embedding attacks computed on an adversarial behaviour dataset; the second ensures the usefulness of the final model by fine-tuning on utility data. Moreover, we introduce C-AdvIPO, an adversarial variant of IPO that does not require utility data for adversarially robust alignment. Our empirical evaluation on five models from different families (Gemma, Phi3, Mistral, Zephyr, Llama2) and at different scales (2B, 3.8B, 7B) shows that both algorithms substantially enhance LLM robustness against discrete attacks (GCG, AutoDAN, PAIR), while maintaining utility. Our results demonstrate that robustness to continuous perturbations can extrapolate to discrete threat models. Thereby, we present a path toward scalable adversarial training algorithms for robustly aligning LLMs.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "93f2c7179a81932f0018ea20d2efac25",
+          "name": "Sophie Xhonneux",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sophie_Xhonneux1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2204462616"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327338190"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d826419f97237c49236b0e8fdd511e8c",
+          "name": "Alessandro Sordoni",
+          "links": [
+            {
+              "type": "bio",
+              "link": "alessandro-sordoni"
+            },
+            {
+              "type": "email.mila",
+              "link": "alessandro.sordoni@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "65685553"
+            },
+            {
+              "type": "openreview",
+              "link": "~Alessandro_Sordoni1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Alessandro_Sordoni2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2041695"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2344248516"
+            },
+            {
+              "type": "wpid_en",
+              "link": "52620"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "52652"
+            },
+            {
+              "type": "xplore",
+              "link": "37088488915"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4451a1ae8149cca63b2d51dc7541fb98",
+            "name": "Microsoft Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e45c5d8096c9357bbf0996048d3296cb",
+          "name": "Stephan Günnemann",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Stephan_Günnemann1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2241501445"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2302331450"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2343752358"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51249380"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6366ea3b2ffb90a8e342519bf5345a95",
+            "name": "Technical University of Munich",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "eb338378c2f638fe9c7204ea0b611228",
+          "name": "Leo Schwinn",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Leo_Schwinn1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1502273680"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2264381478"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6366ea3b2ffb90a8e342519bf5345a95",
+            "name": "Technical University of Munich",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "spotlight",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Adversarial Training"
+      },
+      {
+        "name": "Robustness"
+      },
+      {
+        "name": "Large Language Models"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2405.15589",
+        "url": "https://doi.org/10.48550/arXiv.2405.15589"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "8jB6sGqvgQ",
+        "url": "https://openreview.net/forum?id=8jB6sGqvgQ"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "8jB6sGqvgQ",
+        "url": "https://openreview.net/pdf?id=8jB6sGqvgQ"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2405.15589",
+        "url": "https://arxiv.org/abs/2405.15589"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2405.15589",
+        "url": "https://arxiv.org/pdf/2405.15589.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/nips/XhonneuxSGGS24",
+        "url": "https://dblp.uni-trier.de/rec/conf/nips/XhonneuxSGGS24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2405-15589",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2405-15589"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "http://papers.nips.cc/paper_files/paper/2024/hash/0302fb83c62991efbccf0a003e4f5a92-Abstract-Conference.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "723ae07c5c8921eb94ac52528c8a53bec837c5a9",
+        "url": "https://www.semanticscholar.org/paper/723ae07c5c8921eb94ac52528c8a53bec837c5a9"
+      },
+      {
+        "type": "corpusid",
+        "link": "270045755"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8785318a3cbf58d6e2a345d43237f658",
+    "title": "On the Scalability of Certified Adversarial Robustness with Generated Data",
+    "abstract": "Certified defenses against adversarial attacks offer formal guarantees on the robustness of a model, making them more reliable than empirical methods such as adversarial training, whose effectiveness is often later reduced by unseen attacks. Still, the limited certified robustness that is currently achievable has been a bottleneck for their practical adoption. Gowal et al. and Wang et al. have shown that generating additional training data using state-of-the-art diffusion models can considerably improve the robustness of adversarial training. In this work, we demonstrate that a similar approach can substantially improve deterministic certified defenses but also reveal notable differences in the scaling behavior between certified and empirical methods. In addition, we provide a list of recommendations to scale the robustness of certified training approaches. Our approach achieves state-of-the-art deterministic robustness certificates on CIFAR-10 for the $\\ell_2$ ($\\epsilon = 36/255$) and $\\ell_{\\infty}$ ($\\epsilon = 8/255$) threat models, outperforming the previous results by $+3.95$ and $+1.39$ percentage points, respectively. Furthermore, we report similar improvements for CIFAR-100.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a9f92539e8f2ee58cf130616e89072cf",
+          "name": "Thomas Altstidl",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Thomas_Altstidl1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2140507445"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9d8248ad8bdaa0ea9fe6900d15f242fd",
+          "name": "David Dobre",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Dobre1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "103080507"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "03e1d01e42de4fe29190a2dd8c4acbb7",
+            "name": "Technische Universität München",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d314bfec1ffdf5b6d88ce629696ecec2",
+          "name": "Arthur Kosmala",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Arthur_Kosmala1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2339710053"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "03e1d01e42de4fe29190a2dd8c4acbb7",
+            "name": "Technische Universität München",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "91e6b57c809bc13ad9512db05a7bb1d8",
+          "name": "Bjoern Eskofier",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Bjoern_Eskofier1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2150112963"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2185864292"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "03e1d01e42de4fe29190a2dd8c4acbb7",
+            "name": "Technische Universität München",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "eb338378c2f638fe9c7204ea0b611228",
+          "name": "Leo Schwinn",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Leo_Schwinn1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1502273680"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2264381478"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "03e1d01e42de4fe29190a2dd8c4acbb7",
+            "name": "Technische Universität München",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "generated data"
+      },
+      {
+        "name": "scaling"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "certified robustness"
+      },
+      {
+        "name": "adversarial robustness"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "TFAG9UznPv",
+        "url": "https://openreview.net/forum?id=TFAG9UznPv"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "TFAG9UznPv",
+        "url": "https://openreview.net/pdf?id=TFAG9UznPv"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/nips/AltstidlDKEGS24",
+        "url": "https://dblp.uni-trier.de/rec/conf/nips/AltstidlDKEGS24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "http://papers.nips.cc/paper_files/paper/2024/hash/b96ce7d38339874a8704e8895f743284-Abstract-Conference.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "c656da6cd05375604954ff8a27688f01e0bdf6e9",
+        "url": "https://www.semanticscholar.org/paper/c656da6cd05375604954ff8a27688f01e0bdf6e9"
+      },
+      {
+        "type": "corpusid",
+        "link": "275465837"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "dc5c6b1321b90edc4456fb8ac6602ec8",
+    "title": "A Persuasive Approach to Combating Misinformation",
+    "abstract": "Bayesian Persuasion is proposed as a tool for social media platforms to combat the spread of misinformation. Since platforms can use machine learning to predict the popularity and misinformation features of to-be-shared posts, and users are largely motivated to share popular content, platforms can strategically signal this informational advantage to change user beliefs and persuade them not to share misinformation. We characterize the optimal signaling scheme with imperfect predictions as a linear program and give sufficient and necessary conditions on the classifier to ensure optimal platform utility is non-decreasing and continuous. Next, this interaction is considered under a performative model, wherein platform intervention affects the user's future behaviour. The convergence and stability of optimal signaling under this performative process are fully characterized. Lastly, we experimentally validate that our approach significantly reduces misinformation in both the single round and performative setting.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "bd6817ba00601a7e4fae7a007b31737e",
+          "name": "Safwan Hossain",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Safwan_Hossain1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259919611"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "37d506ef133b384a32a99777a47a44d1",
+            "name": "Harvard University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ad44185d693aa8f2846464bd73e84537",
+          "name": "Andjela Mladenovic",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Andjela_Mladenovic1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1643966780"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e4750e11f3eb8fd90a08fa6524e91c23",
+          "name": "Yiling Chen",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yiling_Chen1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259978210"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "37d506ef133b384a32a99777a47a44d1",
+            "name": "Harvard University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "18926-18943"
+      },
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2310.12065",
+        "url": "https://doi.org/10.48550/arXiv.2310.12065"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/hossain24b",
+        "url": "https://proceedings.mlr.press/v235/hossain24b.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "UIxOkdBmxh",
+        "url": "https://openreview.net/forum?id=UIxOkdBmxh"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "UIxOkdBmxh",
+        "url": "https://openreview.net/pdf?id=UIxOkdBmxh"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2310.12065",
+        "url": "https://arxiv.org/abs/2310.12065"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2310.12065",
+        "url": "https://arxiv.org/pdf/2310.12065.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/icml/HossainM0G24",
+        "url": "https://dblp.uni-trier.de/rec/conf/icml/HossainM0G24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2310-12065",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2310-12065"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/hossain24b/hossain24b.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=UIxOkdBmxh"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "2fc628e941d44a1cb190342e5d33fb9e642b8507",
+        "url": "https://www.semanticscholar.org/paper/2fc628e941d44a1cb190342e5d33fb9e642b8507"
+      },
+      {
+        "type": "corpusid",
+        "link": "264288790"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "db4c2961e790608d7bf4a33e8e6e14e5",
+    "title": "High-Probability Convergence for Composite and Distributed Stochastic Minimization and Variational Inequalities with Heavy-Tailed Noise.",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9c7ecb265f938a6c3a708b3020c4ed16",
+          "name": "Eduard Gorbunov",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eduard_Gorbunov1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144044688"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258721508"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2300474635"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "55b948266963c13b45d321c480b661a4",
+            "name": "Mohamed bin Zayed University of Artificial Intelligence, UAE",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8025b17ce0428c3e607afa2340629365",
+          "name": "Abdurakhmon Sadiev",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Abdurakhmon_Sadiev1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1698081417"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4641bcac4054240fcc0bc40356f9dfea",
+            "name": "King Abdullah University of Science and Technology, KSA",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8b1503742f33152114a355aa1d8ee888",
+          "name": "Marina Danilova",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Marina_Danilova1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065834337"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291639824"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "54da64fedfcbf92c8c24802d01c9abfd",
+            "name": "Moscow Institute of Physics and Technology, Russia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ecce589cc573f7dab97f6253d5f9e56f",
+          "name": "Samuel Horváth",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Samuel_Horváth1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2204165143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305188763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2319130568"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "65876806"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "55b948266963c13b45d321c480b661a4",
+            "name": "Mohamed bin Zayed University of Artificial Intelligence, UAE",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8fb08c16136a591d3c55211246de2c1a",
+          "name": "Pavel Dvurechensky",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pavel_Dvurechensky1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2960542"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e8050b4131180a388ba00f1fef30735c",
+          "name": "Alexander Gasnikov",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alexander_Gasnikov1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258072329"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2300474560"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2663409"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "54da64fedfcbf92c8c24802d01c9abfd",
+            "name": "Moscow Institute of Physics and Technology, Russia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ce9619b5305d57e3a001bdd95fa0ba80",
+          "name": "Peter Richtárik",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Peter_Richtárik1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2137372662"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259308658"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291961596"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2319129463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2662221"
+            },
+            {
+              "type": "xplore",
+              "link": "37085345348"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4641bcac4054240fcc0bc40356f9dfea",
+            "name": "King Abdullah University of Science and Technology, KSA",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "15951-16070"
+      }
+    ],
+    "topics": [
+      {
+        "name": "variational inequalities"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "distributed minimization"
+      },
+      {
+        "name": "Mathematics"
+      },
+      {
+        "name": "composite minimization"
+      },
+      {
+        "name": "heavy-tailed noise"
+      },
+      {
+        "name": "high-probability bounds"
+      },
+      {
+        "name": "clipping"
+      },
+      {
+        "name": "gradient descent-ascent"
+      },
+      {
+        "name": "extragradient method"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2310.01860",
+        "url": "https://doi.org/10.48550/arXiv.2310.01860"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/gorbunov24a",
+        "url": "https://proceedings.mlr.press/v235/gorbunov24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "DBI6AuCD4a",
+        "url": "https://openreview.net/forum?id=DBI6AuCD4a"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "qOFLn0pMoe",
+        "url": "https://openreview.net/forum?id=qOFLn0pMoe"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "DBI6AuCD4a",
+        "url": "https://openreview.net/pdf?id=DBI6AuCD4a"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "qOFLn0pMoe",
+        "url": "https://openreview.net/pdf?id=qOFLn0pMoe"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2310.01860",
+        "url": "https://arxiv.org/abs/2310.01860"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2310.01860",
+        "url": "https://arxiv.org/pdf/2310.01860.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/icml/GorbunovSDHGDGR24",
+        "url": "https://dblp.uni-trier.de/rec/conf/icml/GorbunovSDHGDGR24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2310-01860",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2310-01860"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://export.arxiv.org/pdf/2310.01860"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/gorbunov24a/gorbunov24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=DBI6AuCD4a"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "1dd38fbb9edc55cb8a7212c80808d19cfab760a8",
+        "url": "https://www.semanticscholar.org/paper/1dd38fbb9edc55cb8a7212c80808d19cfab760a8"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "5fcec63cfb84f42b79436f839b85ec781acb6071",
+        "url": "https://www.semanticscholar.org/paper/5fcec63cfb84f42b79436f839b85ec781acb6071"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "87d9f8b63202fa4b4cc03a3d61f099157f04cc44",
+        "url": "https://www.semanticscholar.org/paper/87d9f8b63202fa4b4cc03a3d61f099157f04cc44"
+      },
+      {
+        "type": "corpusid",
+        "link": "263609248"
+      },
+      {
+        "type": "corpusid",
+        "link": "272330274"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "bd1c33ad8e7fba77c8f8cac43bdfbdb8",
+    "title": "Iterated Denoising Energy Matching for Sampling from Boltzmann Densities",
+    "abstract": "Efficiently generating statistically independent samples from an unnormalized probability distribution, such as equilibrium samples of many-body systems, is a foundational problem in science. In this paper, we propose Iterated Denoising Energy Matching (iDEM), an iterative algorithm that uses a novel stochastic score matching objective leveraging solely the energy function and its gradient---and no data samples---to train a diffusion-based sampler. Specifically, iDEM alternates between (I) sampling regions of high model density from a diffusion-based sampler and (II) using these samples in our stochastic matching objective to further improve the sampler. iDEM is scalable to high dimensions as the inner matching objective, is *simulation-free*, and requires no MCMC samples. Moreover, by leveraging the fast mode mixing behavior of diffusion, iDEM smooths out the energy landscape enabling efficient exploration and learning of an amortized sampler. We evaluate iDEM on a suite of tasks ranging from standard synthetic energy functions to invariant $n$-body particle systems. We show that the proposed approach achieves state-of-the-art performance on all metrics and trains $2-5\\times$ faster, which allows it to be the first method to train using energy on the challenging $55$-particle Lennard-Jones system.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "8a933111440e1af713b6ce0101b7cb23",
+          "name": "Tara Akhound-Sadegh",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tara_Akhound-Sadegh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265649571"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9fc83da85b3d2ea11e158782f589a064",
+          "name": "Jarrid Rector-Brooks",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jarrid_Rector-Brooks2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1416982829"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fa7f7dc336fdeab4646b4b8c74635e60",
+          "name": "Avishek Joey Bose",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "bosejoey@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Joey_Bose1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249757968"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2360319439"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "26418299"
+            },
+            {
+              "type": "xplore",
+              "link": "37086602413"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a06abbe1eb04c1d7d97d3598db6b8fa2",
+          "name": "Sarthak Mittal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sarthak_Mittal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51519654"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b75dd1aae662034ff4af08cfceafaac7",
+          "name": "Pablo Lemos",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pablo_Lemos1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2166044573"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262443515"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303841755"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ab451527fc6fea7c34b2bce5bfb6ca1b",
+          "name": "Cheng-Hao Liu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Cheng-Hao_Liu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1990744755"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2255410845"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "80246588d302f03aa6cfcd822d0fae18",
+          "name": "Marcin Sendera",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Marcin_Sendera1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283138286"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d75fcd4203d360e3326c9cf85e3a985",
+            "name": "Jagiellonian University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f61cfea0eeb3e24288c85f6ca7ef0db0",
+          "name": "Siamak Ravanbakhsh",
+          "links": [
+            {
+              "type": "bio",
+              "link": "siamak-ravanbakhsh"
+            },
+            {
+              "type": "email.mila",
+              "link": "siamak.ravanbakhsh@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2052072531"
+            },
+            {
+              "type": "openreview",
+              "link": "~Siamak_Ravanbakhsh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "108046894"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2111187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36207"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36265"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fd676bfd2d2cc8ea03ecb12bb22bcd30",
+          "name": "Yoshua Bengio",
+          "links": [
+            {
+              "type": "bio",
+              "link": "bengio-yoshua"
+            },
+            {
+              "type": "email.mila",
+              "link": "yoshua.bengio@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "161269817"
+            },
+            {
+              "type": "mag",
+              "link": "2550477701"
+            },
+            {
+              "type": "mag",
+              "link": "2762122187"
+            },
+            {
+              "type": "mag",
+              "link": "2969309771"
+            },
+            {
+              "type": "mag",
+              "link": "3049675594"
+            },
+            {
+              "type": "openreview",
+              "link": "~Yoshua_Bengio1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1751762"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1865800402"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2211024206"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285114502"
+            },
+            {
+              "type": "wpid_en",
+              "link": "348"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "96"
+            },
+            {
+              "type": "xplore",
+              "link": "37089048258"
+            },
+            {
+              "type": "xplore",
+              "link": "37089315098"
+            },
+            {
+              "type": "xplore",
+              "link": "37323338000"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "84b49ceacd9fed809b78b413b4d3f666",
+          "name": "Nikolay Malkin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kolya_Malkin1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Nikolay_Malkin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2067020770"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "be63e1db3691655d9b5445251637db1f",
+          "name": "Alexander Tong",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alexander_Tong1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2031-4096"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1505823696"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253700118"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2254259269"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258958778"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269801450"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283768319"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2328010022"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2347039112"
+            },
+            {
+              "type": "xplore",
+              "link": "37085544785"
+            },
+            {
+              "type": "xplore",
+              "link": "37088538278"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0df1fe71c9f42077ba53f420dd3d78ed",
+            "name": "Mila – Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "760-786"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2402.06121",
+        "url": "https://doi.org/10.48550/arXiv.2402.06121"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/akhound-sadegh24a",
+        "url": "https://proceedings.mlr.press/v235/akhound-sadegh24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "gVjMwLDFoQ",
+        "url": "https://openreview.net/forum?id=gVjMwLDFoQ"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "gVjMwLDFoQ",
+        "url": "https://openreview.net/pdf?id=gVjMwLDFoQ"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2402.06121",
+        "url": "https://arxiv.org/abs/2402.06121"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2402.06121",
+        "url": "https://arxiv.org/pdf/2402.06121.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/icml/Akhound-SadeghR24",
+        "url": "https://dblp.uni-trier.de/rec/conf/icml/Akhound-SadeghR24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2402-06121",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2402-06121"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/akhound-sadegh24a/akhound-sadegh24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=gVjMwLDFoQ"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "9f0f134bc53f9aea130f1a561acb5fa6b08ae4ce",
+        "url": "https://www.semanticscholar.org/paper/9f0f134bc53f9aea130f1a561acb5fa6b08ae4ce"
+      },
+      {
+        "type": "corpusid",
+        "link": "267617166"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9eab995f1816eb7bba78b8e89ef730d9",
+    "title": "Sarah Frank-Wolfe: Methods for Constrained Optimization with Best Rates and Practical Features",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "aea8b4f3bc373ef75e99d0faa7af5cc8",
+          "name": "Aleksandr Beznosikov",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Aleksandr_Beznosikov1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1429835115"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1f0d267f58247b33ffbbd41104394a3a",
+            "name": "Université de Montréal.",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6166be8bac75a16a738c73c0bbf3695a",
+            "name": "Mila, Université de Montréal, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9d8248ad8bdaa0ea9fe6900d15f242fd",
+          "name": "David Dobre",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Dobre1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "103080507"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6166be8bac75a16a738c73c0bbf3695a",
+            "name": "Mila, Université de Montréal, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6166be8bac75a16a738c73c0bbf3695a",
+            "name": "Mila, Université de Montréal, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "3725-3750"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2304.11737",
+        "url": "https://doi.org/10.48550/arXiv.2304.11737"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/beznosikov24a",
+        "url": "https://proceedings.mlr.press/v235/beznosikov24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "Zw52bJCZXc",
+        "url": "https://openreview.net/forum?id=Zw52bJCZXc"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "Zw52bJCZXc",
+        "url": "https://openreview.net/pdf?id=Zw52bJCZXc"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2304.11737",
+        "url": "https://arxiv.org/abs/2304.11737"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2304.11737",
+        "url": "https://arxiv.org/pdf/2304.11737.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2304-11737",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2304-11737"
+      },
+      {
+        "type": "pdf",
+        "link": "http://export.arxiv.org/pdf/2304.11737"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/beznosikov24a/beznosikov24a.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "0adb96554efb918bb232a5ae25c681335b67fcc4",
+        "url": "https://www.semanticscholar.org/paper/0adb96554efb918bb232a5ae25c681335b67fcc4"
+      },
+      {
+        "type": "corpusid",
+        "link": "258298809"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "e60f2dd1351065afd371f7981bdd7fbe",
+    "title": " Stochastic Frank-Wolfe: Unified Analysis and Zoo of Special Cases ",
+    "abstract": " The Conditional Gradient (or Frank-Wolfe) method is one of the most well-known methods for solving constrained optimization problems appearing in various machine learning tasks. The simplicity of iteration and applicability to many practical problems helped the method to gain popularity in the community. In recent years, the Frank-Wolfe algorithm received many different extensions, including stochastic modifications with variance reduction and coordinate sampling for training of huge models or distributed variants for big data problems. In this paper, we present a unified convergence analysis of the Stochastic Frank-Wolfe method that covers a large number of particular practical cases that may have completely different nature of stochasticity, intuitions and application areas. Our analysis is based on a key parametric assumption on the variance of the stochastic gradients. But unlike most works on unified analysis of other methods, such as SGD, we do not assume an unbiasedness of the real gradient estimation. We conduct analysis for convex and non-convex problems due to the popularity of both cases in machine learning. With this general theoretical framework, we not only cover rates of many known methods, but also develop numerous new methods. This shows the flexibility of our approach in developing new algorithms based on the Conditional Gradient approach. We also demonstrate the properties of the new methods through numerical experiments. ",
+    "authors": [
+      {
+        "author": {
+          "author_id": "cd994356b345adb67eb0736700bf73c1",
+          "name": "Ruslan Nazykov",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300474260"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "92f93615db11f8b69ef7aae0fa616de2",
+          "name": "Aleksandr Shestakov",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300474222"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "952ba2d990b6b021027c9c20da1f76f6",
+          "name": "Vladimir Solodkin",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300474478"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aea8b4f3bc373ef75e99d0faa7af5cc8",
+          "name": "Aleksandr Beznosikov",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Aleksandr_Beznosikov1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1429835115"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e8050b4131180a388ba00f1fef30735c",
+          "name": "Alexander Gasnikov",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alexander_Gasnikov1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258072329"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2300474560"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2663409"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "1700eecf728afe415427673fc4883183",
+          "name": "Proceedings of The 27th International Conference on Artificial Intelligence and Statistics",
+          "type": "unknown",
+          "date": {
+            "text": "2024-04-18",
+            "timestamp": 1713412800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "238"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "4870-4878"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "mlr.abstract",
+        "link": "238/nazykov24a",
+        "url": "https://proceedings.mlr.press/v238/nazykov24a.html"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2406.06788",
+        "url": "https://arxiv.org/abs/2406.06788"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2406.06788",
+        "url": "https://arxiv.org/pdf/2406.06788.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/aistats/NazykovSSBGG24",
+        "url": "https://dblp.uni-trier.de/rec/conf/aistats/NazykovSSBGG24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://proceedings.mlr.press/v238/nazykov24a/nazykov24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://proceedings.mlr.press/v238/nazykov24a.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "be2f6b66ce8caf2153829e24032ab2d2c7444561",
+        "url": "https://www.semanticscholar.org/paper/be2f6b66ce8caf2153829e24032ab2d2c7444561"
+      },
+      {
+        "type": "corpusid",
+        "link": "269648568"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "849b6fb82f7515000e5dc72f5623d2ac",
+    "title": " Proving Linear Mode Connectivity of Neural Networks via Optimal Transport ",
+    "abstract": " The energy landscape of high-dimensional non-convex optimization problems is crucial to understanding the effectiveness of modern deep neural network architectures. Recent works have experimentally shown that two different solutions found after two runs of a stochastic training are often connected by very simple continuous paths (e.g., linear) modulo a permutation of the weights. In this paper, we provide a framework theoretically explaining this empirical observation. Based on convergence rates in Wasserstein distance of empirical measures, we show that, with high probability, two wide enough two-layer neural networks trained with stochastic gradient descent are linearly connected. Additionally, we express upper and lower bounds on the width of each layer of two deep neural networks with independent neuron weights to be linearly connected. Finally, we empirically demonstrate the validity of our approach by showing how the dimension of the support of the weight distribution of neurons, which dictates Wasserstein convergence rates is correlated with linear mode connectivity. ",
+    "authors": [
+      {
+        "author": {
+          "author_id": "90bc01ffcefd5270aba0765cbe356a22",
+          "name": "Damien Ferbach",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Damien_Ferbach1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2169577739"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9a05cf45110e711fce13c84a9d0dfbd5",
+          "name": "Baptiste Goujaud",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Baptiste_Goujaud1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "88700064"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5d0006f7cb1d7cae330eedcb17b341aa",
+            "name": "Ecole Polytechnique",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cc348ef7e6ca8c7c81864a5e9b5bdf44",
+          "name": "Aymeric Dieuleveut",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "3382798"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5d0006f7cb1d7cae330eedcb17b341aa",
+            "name": "Ecole Polytechnique",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "1700eecf728afe415427673fc4883183",
+          "name": "Proceedings of The 27th International Conference on Artificial Intelligence and Statistics",
+          "type": "unknown",
+          "date": {
+            "text": "2024-04-18",
+            "timestamp": 1713412800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "238"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "3853-3861"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2310.19103",
+        "url": "https://doi.org/10.48550/arXiv.2310.19103"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "238/ferbach24a",
+        "url": "https://proceedings.mlr.press/v238/ferbach24a.html"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2310.19103",
+        "url": "https://arxiv.org/abs/2310.19103"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2310.19103",
+        "url": "https://arxiv.org/pdf/2310.19103.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/aistats/FerbachGGD24",
+        "url": "https://dblp.uni-trier.de/rec/conf/aistats/FerbachGGD24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2310-19103",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2310-19103"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://proceedings.mlr.press/v238/ferbach24a/ferbach24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://proceedings.mlr.press/v238/ferbach24a.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "5fcb839799d6a009c3b1437394ae691b9bdc5383",
+        "url": "https://www.semanticscholar.org/paper/5fcb839799d6a009c3b1437394ae691b9bdc5383"
+      },
+      {
+        "type": "corpusid",
+        "link": "264824302"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

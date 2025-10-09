@@ -1,0 +1,1763 @@
+[
+  {
+    "paper_id": "cf0c0f8d142918dc606e6c1567608bc2",
+    "title": "Sparsity regularization via tree-structured environments for disentangled representations",
+    "abstract": "Many causal systems such as biological processes in cells can only be observed indirectly via measurements, such as gene expression. Causal representation learning -- the task of correctly mapping low-level observations to latent causal variables -- could advance scientific understanding by enabling inference of latent variables such as pathway activation. In this paper, we develop methods for inferring latent variables from multiple related datasets (environments) and tasks. As a running example, we consider the task of predicting a phenotype from gene expression, where we often collect data from multiple cell types or organisms that are related in known ways. The key insight is that the mapping from latent variables driven by gene expression to the phenotype of interest changes sparsely across closely related environments. To model sparse changes, we introduce Tree-Based Regularization (TBR), an objective that minimizes both prediction error and regularizes closely related environments to learn similar predictors. We prove that under assumptions about the degree of sparse changes, TBR identifies the true latent variables up to some simple transformations. We evaluate the theory empirically with both simulations and ground-truth gene expression data. We find that TBR recovers the latent causal variables better than related methods across these settings, even under settings that violate some assumptions of the theory.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c845d57852e0120c64c534279776acda",
+          "name": "Elliot Layne",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Elliot_Layne2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2043255450"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "520eb76afec40752b16071469980ee08",
+            "name": "McGill University, Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c860d935457cdc5073648ec9c2732b92",
+          "name": "Jason Hartford",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jason_Hartford1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281940571"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2294568643"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "32745519"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3ce99aa8af48f342294c01669e91cede",
+            "name": "Valence Labs",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c70973f14825e9e14e46e6c2fa69bcd2",
+          "name": "Sébastien Lachapelle",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sebastien_Lachapelle1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "134730235"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0b1847fd61d72cd82f9a3130f23c9c94",
+            "name": "Université de Montréal, Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "32f7de6d2a224a070ed2d28abe6d4e8a",
+            "name": "Samsung - SAIT AI Lab, Montreal",
+            "category": "academia"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cafdf13a32e757ef3190e2e3d6a620de",
+          "name": "Mathieu Blanchette",
+          "links": [
+            {
+              "type": "bio",
+              "link": "mathieu-blanchette"
+            },
+            {
+              "type": "email.mila",
+              "link": "mathieu.blanchette@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2159255402"
+            },
+            {
+              "type": "mag",
+              "link": "2974207986"
+            },
+            {
+              "type": "openreview",
+              "link": "~Mathieu_Blanchette1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-9555-860X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258068412"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258552334"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287137645"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2317008925"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3176289"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33443"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33439"
+            },
+            {
+              "type": "xplore",
+              "link": "37407679700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "520eb76afec40752b16071469980ee08",
+            "name": "McGill University, Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c9e91423c57b6f0445746a153a96ac92",
+          "name": "Dhanya Sridhar",
+          "links": [
+            {
+              "type": "bio",
+              "link": "dhanya-sridhar"
+            },
+            {
+              "type": "email.mila",
+              "link": "dhanya.sridhar@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Dhanya_Sridhar2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "153485411"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303347"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295668212"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301795845"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308018690"
+            },
+            {
+              "type": "wpid_en",
+              "link": "46501"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "46503"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0b1847fd61d72cd82f9a3130f23c9c94",
+            "name": "Université de Montréal, Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "378fbd4ca941585e46f21b52307f00fa",
+          "name": "Trans. Mach. Learn. Res.",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "2bf255c1dc3d7697768e68051a69782b",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2025-07-26",
+            "timestamp": 1753502400,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "ZzUz0jo200",
+        "url": "https://openreview.net/forum?id=ZzUz0jo200"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "ZzUz0jo200",
+        "url": "https://openreview.net/pdf?id=ZzUz0jo200"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2405.20482",
+        "url": "https://arxiv.org/abs/2405.20482"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2405.20482",
+        "url": "https://arxiv.org/pdf/2405.20482.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/tmlr/LayneHLBS25",
+        "url": "https://dblp.uni-trier.de/rec/journals/tmlr/LayneHLBS25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=ZzUz0jo200"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "828daf97066cdcac9612888fea4854de9c05ee25",
+        "url": "https://www.semanticscholar.org/paper/828daf97066cdcac9612888fea4854de9c05ee25"
+      },
+      {
+        "type": "corpusid",
+        "link": "252647135"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "90a930a354e3e2da94eec78de9ae3bab",
+    "title": "The Landscape of Causal Discovery Data: Grounding Causal Discovery in Real-World Applications",
+    "abstract": "Causal discovery aims to automatically uncover causal relationships from data, a capability with significant potential across many scientific disciplines. However, its real-world applications remain limited. Current methods often rely on unrealistic assumptions and are evaluated only on simple synthetic toy datasets, often with inadequate evaluation metrics. In this paper, we substantiate these claims by performing a systematic review of the recent causal discovery literature. We present applications in biology, neuroscience, and Earth sciences - fields where causal discovery holds promise for addressing key challenges. We highlight available simulated and real-world datasets from these domains and discuss common assumption violations that have spurred the development of new methods. Our goal is to encourage the community to adopt better evaluation practices by utilizing realistic datasets and more adequate metrics.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "d2952b6075439e75ed4d41bf8a90fb2c",
+          "name": "Philippe Brouillard",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~PHILIPPE_BROUILLARD1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Philippe_Brouillard2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265583861"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "23138044"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d824f4200ff6e3190b1c158c548185e6",
+          "name": "Chandler Squires",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Chandler_Squires1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333426480"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "81010730"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5cffccc10fbdaa58bd9db5868356af9a",
+            "name": "Carnegie Mellon University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8b58ccd1d9b755e8fafb349a3ee48d72",
+          "name": "Jonas Wahl",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jonas_Wahl1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333428775"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f1dee79a1918ee417cab71b3fb929fab",
+          "name": "Konrad Paul Kording",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Konrad_Kording1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-8408-4499"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "150174214"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065566758"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265968368"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269465157"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376333772"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3282030"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a5fa2ea061c516dbd1000fd983938936",
+          "name": "Karen Sachs",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Karen_Sachs1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333427345"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7e1f6dccfc6f7a6b7f9ddf84b0cbe826",
+            "name": "Université Laval",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "df7054d11b9f7430f8faf3dfba85d669",
+          "name": "Alexandre Drouin",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "1410975155"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "1491798402"
+            },
+            {
+              "type": "bio",
+              "link": "alexandre-drouin"
+            },
+            {
+              "type": "email.mila",
+              "link": "alexandre.drouin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2226942910"
+            },
+            {
+              "type": "openreview",
+              "link": "~Alexandre_Drouin2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "14757354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253399166"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295670715"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326294658"
+            },
+            {
+              "type": "wpid_en",
+              "link": "57069"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "57071"
+            },
+            {
+              "type": "xplore",
+              "link": "37086815556"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7e1f6dccfc6f7a6b7f9ddf84b0cbe826",
+            "name": "Université Laval",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c9e91423c57b6f0445746a153a96ac92",
+          "name": "Dhanya Sridhar",
+          "links": [
+            {
+              "type": "bio",
+              "link": "dhanya-sridhar"
+            },
+            {
+              "type": "email.mila",
+              "link": "dhanya.sridhar@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Dhanya_Sridhar2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "153485411"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303347"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295668212"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301795845"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308018690"
+            },
+            {
+              "type": "wpid_en",
+              "link": "46501"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "46503"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "2b5ef56ad18c6f069ed0813ab7f0ad49",
+          "name": "cclear.cc/CLeaR/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-28",
+            "timestamp": 1738040400,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "cclear.cc/CLeaR/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "CLeaR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "39dce9a7c8444629c83ad435b0c39644",
+          "name": "Proceedings of the Fourth Conference on Causal Learning and Reasoning",
+          "type": "unknown",
+          "date": {
+            "text": "2025-06-15",
+            "timestamp": 1749960000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "275"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "834-873"
+      },
+      {
+        "venue": {
+          "venue_id": "0d2d07d1901f065e44babaae9dda32df",
+          "name": "CLEaR",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "17292dc59f3ba374fae45b378023a0e6",
+          "name": "CLeaR",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "834-873"
+      }
+    ],
+    "topics": [
+      {
+        "name": "real-world datasets"
+      },
+      {
+        "name": "Methodology (stat.ME)"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Mathematics"
+      },
+      {
+        "name": "real-world applications"
+      },
+      {
+        "name": "evaluation metrics"
+      },
+      {
+        "name": "Causal discovery"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2412.01953",
+        "url": "https://doi.org/10.48550/arXiv.2412.01953"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "275/brouillard25a",
+        "url": "https://proceedings.mlr.press/v275/brouillard25a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "CmHB3stKLz",
+        "url": "https://openreview.net/forum?id=CmHB3stKLz"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "Gl5I7k84zC",
+        "url": "https://openreview.net/forum?id=Gl5I7k84zC"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "CmHB3stKLz",
+        "url": "https://openreview.net/pdf?id=CmHB3stKLz"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "Gl5I7k84zC",
+        "url": "https://openreview.net/pdf?id=Gl5I7k84zC"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2412.01953",
+        "url": "https://arxiv.org/abs/2412.01953"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2412.01953",
+        "url": "https://arxiv.org/pdf/2412.01953.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/clear2/BrouillardSWKSDS25",
+        "url": "https://dblp.uni-trier.de/rec/conf/clear2/BrouillardSWKSDS25"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2412-01953",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2412-01953"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v275/main/assets/brouillard25a/brouillard25a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://proceedings.mlr.press/v275/brouillard25a.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "3c38e5203b261433a5be2c7061cee19053a8eba9",
+        "url": "https://www.semanticscholar.org/paper/3c38e5203b261433a5be2c7061cee19053a8eba9"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "9a7abd967029205b4180abafef0967b83954b99b",
+        "url": "https://www.semanticscholar.org/paper/9a7abd967029205b4180abafef0967b83954b99b"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "d2bfe33f6e1b2954ed481e3295857b90b3adb645",
+        "url": "https://www.semanticscholar.org/paper/d2bfe33f6e1b2954ed481e3295857b90b3adb645"
+      },
+      {
+        "type": "corpusid",
+        "link": "274446165"
+      },
+      {
+        "type": "corpusid",
+        "link": "280692699"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2412.01953"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "c116f1678bb89853a5e706141a6ff99d",
+    "title": "Does learning the right latent variables necessarily improve in-context learning?",
+    "abstract": "Large autoregressive models like Transformers can solve tasks through in-context learning (ICL) without learning new weights, suggesting avenues for efficiently solving new tasks. For many tasks, e.g., linear regression, the data factorizes: examples are independent given a task latent that generates the data, e.g., linear coefficients. While an optimal predictor leverages this factorization by inferring task latents, it is unclear if Transformers implicitly do so or if they instead exploit heuristics and statistical shortcuts enabled by attention layers. Both scenarios have inspired active ongoing work. In this paper, we systematically investigate the effect of explicitly inferring task latents. We minimally modify the Transformer architecture with a bottleneck designed to prevent shortcuts in favor of more structured solutions, and then compare performance against standard Transformers across various ICL tasks. Contrary to intuition and some recent works, we find little discernible difference between the two; biasing towards task-relevant latent variables does not lead to better out-of-distribution performance, in general. Curiously, we find that while the bottleneck effectively learns to extract latent task variables from context, downstream processing struggles to utilize them for robust prediction. Our study highlights the intrinsic limitations of Transformers in achieving structured ICL solutions that generalize, and shows that while inferring the right latents aids interpretability, it is not sufficient to alleviate this problem.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a06abbe1eb04c1d7d97d3598db6b8fa2",
+          "name": "Sarthak Mittal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sarthak_Mittal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51519654"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b4caad4dd9ab7b913baa72736d4bc9ae",
+          "name": "Eric Elmoznino",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eric_Elmoznino1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326838414"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66964504"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c1432b37d2e262c6bb6d593e3c9ccdbb",
+          "name": "Leo Gagnon",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Leo_Gagnon1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2156115673"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8dee96e14770943b88566622a7267ea8",
+          "name": "Sangnie Bhardwaj",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sangnie_Bhardwaj1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1381645735"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c9e91423c57b6f0445746a153a96ac92",
+          "name": "Dhanya Sridhar",
+          "links": [
+            {
+              "type": "bio",
+              "link": "dhanya-sridhar"
+            },
+            {
+              "type": "email.mila",
+              "link": "dhanya.sridhar@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Dhanya_Sridhar2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "153485411"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303347"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295668212"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301795845"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308018690"
+            },
+            {
+              "type": "wpid_en",
+              "link": "46501"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "46503"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2eec89bc75abb41329e7dc3a0acd32e",
+          "name": "Guillaume Lajoie",
+          "links": [
+            {
+              "type": "bio",
+              "link": "guillaume-lajoie"
+            },
+            {
+              "type": "email.mila",
+              "link": "guillaume.lajoie@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104265377"
+            },
+            {
+              "type": "openreview",
+              "link": "~Guillaume_Lajoie1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237996672"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253462182"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261390836"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276569996"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281705425"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284250160"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287810628"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309379331"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310335041"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2342207019"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362091793"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366006096"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "33970865"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49921594"
+            },
+            {
+              "type": "wpid_en",
+              "link": "30429"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "30432"
+            },
+            {
+              "type": "xplore",
+              "link": "37088414698"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "transformers"
+      },
+      {
+        "name": "latent variable"
+      },
+      {
+        "name": "shortcuts"
+      },
+      {
+        "name": "in-context learning"
+      },
+      {
+        "name": "attention"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2405.19162",
+        "url": "https://doi.org/10.48550/arXiv.2405.19162"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "TSlJ3ikcBZ",
+        "url": "https://openreview.net/forum?id=TSlJ3ikcBZ"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "tuYmhlu62K",
+        "url": "https://openreview.net/forum?id=tuYmhlu62K"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "TSlJ3ikcBZ",
+        "url": "https://openreview.net/pdf?id=TSlJ3ikcBZ"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "tuYmhlu62K",
+        "url": "https://openreview.net/pdf?id=tuYmhlu62K"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2405.19162",
+        "url": "https://arxiv.org/abs/2405.19162"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2405.19162",
+        "url": "https://arxiv.org/pdf/2405.19162.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2405-19162",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2405-19162"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "04cc28264cd4f1c0602ba2a607124320ffe9c06d",
+        "url": "https://www.semanticscholar.org/paper/04cc28264cd4f1c0602ba2a607124320ffe9c06d"
+      },
+      {
+        "type": "corpusid",
+        "link": "270095225"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8b61942b7a3b88cfe37f826b70eb3ed8",
+    "title": "In-context learning and Occam's razor",
+    "abstract": "A central goal of machine learning is generalization. While the No Free Lunch Theorem states that we cannot obtain theoretical guarantees for generalization without further assumptions, in practice we observe that simple models which explain the training data generalize best: a principle called Occam's razor. Despite the need for simple models, most current approaches in machine learning only minimize the training error, and at best indirectly promote simplicity through regularization or architecture design. Here, we draw a connection between Occam's razor and in-context learning: an emergent ability of certain sequence models like Transformers to learn at inference time from past observations in a sequence. In particular, we show that the next-token prediction loss used to train in-context learners is directly equivalent to a data compression technique called prequential coding, and that minimizing this loss amounts to jointly minimizing both the training error and the complexity of the model that was implicitly learned from context. Our theory and the empirical experiments we use to support it not only provide a normative account of in-context learning, but also elucidate the shortcomings of current in-context learning methods, suggesting ways in which they can be improved. We make our code available at https://github.com/3rdCore/PrequentialCode.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b4caad4dd9ab7b913baa72736d4bc9ae",
+          "name": "Eric Elmoznino",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eric_Elmoznino1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326838414"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66964504"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "94b7be1b85a287433591b07eab9abec1",
+          "name": "Tom Marty",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tom_Marty1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "153125998"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2290917693"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326838429"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "929b9d6042adc63a46943b991801de92",
+          "name": "Tejas Kasetty",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tejas_Kasetty1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295669214"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c1432b37d2e262c6bb6d593e3c9ccdbb",
+          "name": "Leo Gagnon",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Leo_Gagnon1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2156115673"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a06abbe1eb04c1d7d97d3598db6b8fa2",
+          "name": "Sarthak Mittal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sarthak_Mittal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51519654"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8078428c669722ddb51672b492ce765b",
+          "name": "Mahan Fathi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mahan_Fathi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2220214230"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c9e91423c57b6f0445746a153a96ac92",
+          "name": "Dhanya Sridhar",
+          "links": [
+            {
+              "type": "bio",
+              "link": "dhanya-sridhar"
+            },
+            {
+              "type": "email.mila",
+              "link": "dhanya.sridhar@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Dhanya_Sridhar2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "153485411"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303347"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295668212"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301795845"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308018690"
+            },
+            {
+              "type": "wpid_en",
+              "link": "46501"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "46503"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2eec89bc75abb41329e7dc3a0acd32e",
+          "name": "Guillaume Lajoie",
+          "links": [
+            {
+              "type": "bio",
+              "link": "guillaume-lajoie"
+            },
+            {
+              "type": "email.mila",
+              "link": "guillaume.lajoie@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104265377"
+            },
+            {
+              "type": "openreview",
+              "link": "~Guillaume_Lajoie1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237996672"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253462182"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261390836"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276569996"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281705425"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284250160"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287810628"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309379331"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310335041"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2342207019"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362091793"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366006096"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "33970865"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49921594"
+            },
+            {
+              "type": "wpid_en",
+              "link": "30429"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "30432"
+            },
+            {
+              "type": "xplore",
+              "link": "37088414698"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "complexity"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "compression"
+      },
+      {
+        "name": "generalization"
+      },
+      {
+        "name": "meta-learning"
+      },
+      {
+        "name": "in-context learning"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2410.14086",
+        "url": "https://doi.org/10.48550/arXiv.2410.14086"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "2PKLRmU7ne",
+        "url": "https://openreview.net/forum?id=2PKLRmU7ne"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "t0ZDijoZbD",
+        "url": "https://openreview.net/forum?id=t0ZDijoZbD"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "2PKLRmU7ne",
+        "url": "https://openreview.net/pdf?id=2PKLRmU7ne"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "t0ZDijoZbD",
+        "url": "https://openreview.net/pdf?id=t0ZDijoZbD"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2410.14086",
+        "url": "https://arxiv.org/abs/2410.14086"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2410.14086",
+        "url": "https://arxiv.org/pdf/2410.14086.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2410-14086",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2410-14086"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "5e728e7956220e9eeb7a90d387002061e58735f2",
+        "url": "https://www.semanticscholar.org/paper/5e728e7956220e9eeb7a90d387002061e58735f2"
+      },
+      {
+        "type": "corpusid",
+        "link": "273482528"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2410.14086"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

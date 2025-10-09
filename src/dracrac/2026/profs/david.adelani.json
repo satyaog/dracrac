@@ -1,0 +1,5391 @@
+[
+  {
+    "paper_id": "af68cd4670307fe70a0bde7c494d5929",
+    "title": "AfroBench: How Good are Large Language Models on African Languages?",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "921cc38c8c922d29d39bd7e351353197",
+          "name": "Jessica Ojo",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2214806280"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2329736246"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a07472c4c8dd5aa7ae91e2a2b93f23bc",
+          "name": "Kelechi Ogueji",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1452683268"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b7e786e1cdfeeac00b576177ab4d47f9",
+          "name": "Pontus Stenetorp",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pontus_Stenetorp1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1918552"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295987472"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362573297"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "334c8e72797d1b29390aae06eefb85ed",
+          "name": "Findings of the Association for Computational Linguistics: ACL 2025",
+          "type": "conference",
+          "date": {
+            "text": "2025-07",
+            "timestamp": 1751342400,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.18653/v1/2025.findings-acl.976",
+        "url": "https://doi.org/10.18653/v1/2025.findings-acl.976"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2311.07978",
+        "url": "https://arxiv.org/abs/2311.07978"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2311.07978",
+        "url": "https://arxiv.org/pdf/2311.07978.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/acl/OjoOOOLSA25",
+        "url": "https://dblp.uni-trier.de/rec/conf/acl/OjoOOOLSA25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://aclanthology.org/2025.findings-acl.976/"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "c7972d2993d9de92062a55fa844d2b13b981a037",
+        "url": "https://www.semanticscholar.org/paper/c7972d2993d9de92062a55fa844d2b13b981a037"
+      },
+      {
+        "type": "corpusid",
+        "link": "265157948"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "aca28fdaa84a7a54f1cd43d8a9f81766",
+    "title": "Warmup Generations: A Task-Agnostic Approach for Guiding Sequence-to-Sequence Learning with Unsupervised Initial State Generation",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c77f71860ac8f1cda3fb9a362e8d5fda",
+          "name": "Senyu Li",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2329854350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2345958705"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bea55f9c6b37268ee4ef077dac06e9da",
+          "name": "Zipeng Sun",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2149930802"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346056682"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d5990cbd8ea5e774e824fbc45a3c46f8",
+          "name": "Jiayi Wang",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2130182145"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267003990"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331253064"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d16dea472a31672f0f3a394b4a1e0892",
+          "name": "Xue Liu",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "liuxue@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Xue_Liu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "120280976"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "153201680"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1723807"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2151058626"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2151058890"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2151060345"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2151060489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2151060939"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2151061048"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2161533150"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2163745826"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2180038312"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2243903453"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268796561"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2274071689"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286779100"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2347029440"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2374152919"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "48032683"
+            },
+            {
+              "type": "xplore",
+              "link": "37086022925"
+            },
+            {
+              "type": "xplore",
+              "link": "37086031886"
+            },
+            {
+              "type": "xplore",
+              "link": "37088387407"
+            },
+            {
+              "type": "xplore",
+              "link": "37089719412"
+            },
+            {
+              "type": "xplore",
+              "link": "37089919928"
+            },
+            {
+              "type": "xplore",
+              "link": "37090054413"
+            },
+            {
+              "type": "xplore",
+              "link": "37292951400"
+            },
+            {
+              "type": "xplore",
+              "link": "747535755014027"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b7e786e1cdfeeac00b576177ab4d47f9",
+          "name": "Pontus Stenetorp",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pontus_Stenetorp1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1918552"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295987472"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362573297"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d76795e0f68451af897d827a76a9dceb",
+          "name": "Siva Reddy",
+          "links": [
+            {
+              "type": "bio",
+              "link": "siva-reddy"
+            },
+            {
+              "type": "email.mila",
+              "link": "siva.reddy@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2169793708"
+            },
+            {
+              "type": "mag",
+              "link": "2924809679"
+            },
+            {
+              "type": "openreview",
+              "link": "~Siva_Reddy1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145732771"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256152032"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258337753"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260275234"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283521815"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283521818"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284034011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286656700"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2289239506"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2289876704"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295857229"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301150002"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2312109206"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313693935"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2323901201"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334439130"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2345887031"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2364563207"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36949"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37332"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "3edeff95de07cf53f1b11315c3607a02",
+          "name": "ACL (1)",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "8870-8880"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      },
+      {
+        "name": "Computation and Language (cs.CL)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2502.12304",
+        "url": "https://doi.org/10.48550/arXiv.2502.12304"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2502.12304",
+        "url": "https://arxiv.org/abs/2502.12304"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2502.12304",
+        "url": "https://arxiv.org/pdf/2502.12304.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/acl/LiSWLSRA25",
+        "url": "https://dblp.uni-trier.de/rec/conf/acl/LiSWLSRA25"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2502-12304",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2502-12304"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://aclanthology.org/2025.acl-long.434/"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "4c5f7bbef5b1b49b6b927284304acb56d0ef807e",
+        "url": "https://www.semanticscholar.org/paper/4c5f7bbef5b1b49b6b927284304acb56d0ef807e"
+      },
+      {
+        "type": "corpusid",
+        "link": "276421417"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2502.12304"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9b4546cca4d6a2fce97afdcab605d011",
+    "title": "Fleurs-SLU: A Massively Multilingual Benchmark for Spoken Language Understanding",
+    "abstract": "Spoken language understanding (SLU) is indispensable for half of all living languages that lack a formal writing system, since these languages cannot pair automatic speech recognition (ASR) with language models to benefit from language technology. Even if low-resource languages possess a writing system, ASR for these languages remains unreliable due to limited bimodal speech and text training data. Better SLU can strengthen the robustness of massively multilingual ASR by levering language semantics to disambiguate utterances via context or exploiting semantic similarities across languages. However, the evaluation of multilingual SLU remains limited to shallow tasks such as intent classification or language identification. To address this, we present Fleurs-SLU, a multilingual SLU benchmark that encompasses (i) 692 hours of speech for topical utterance classification in 102 languages and (ii) multiple-choice question answering through listening comprehension spanning 944 hours of speech across 92 languages. We extensively evaluate both end-to-end speech classification models and cascaded systems that combine speech-to-text transcription with subsequent classification by large language models on Fleurs-SLU. Our results show that cascaded systems exhibit greater robustness in multilingual SLU tasks, though speech encoders can achieve competitive performance in topical speech classification when appropriately pre-trained. We further find a strong correlation between robust multilingual ASR, effective speech-to-text translation, and strong multilingual SLU, highlighting the mutual benefits between acoustic and semantic speech representations.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b37cbf1ffe4bdf20f202cbbfd2b63b6e",
+          "name": "Fabian David Schmidt",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Fabian_David_Schmidt1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2067934339"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366164373"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5364d4274007bc8442209c587725d340",
+            "name": "University of Würzburg",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8d77bf845aa74225c0ff1b1ad1b1dbeb",
+          "name": "Ivan Vulić",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ivan_Vulić1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1747849"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2339667880"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2349639074"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e2e06e58ac4f809e7461a5a77bacf559",
+          "name": "Goran Glavaš",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Goran_Glavaš1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1666177566"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5364d4274007bc8442209c587725d340",
+            "name": "University of Würzburg",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "5de0fe32a82e8d276db15c116ef3d123",
+          "name": "colmweb.org/COLM/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-07-07",
+            "timestamp": 1751860800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "colmweb.org/COLM/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "COLM 2025"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "multilingual evaluation"
+      },
+      {
+        "name": "spoken language understanding"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "multilingual benchmarks"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2501.06117",
+        "url": "https://doi.org/10.48550/arXiv.2501.06117"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "Tqj3fYqhwS",
+        "url": "https://openreview.net/forum?id=Tqj3fYqhwS"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "Tqj3fYqhwS",
+        "url": "https://openreview.net/pdf?id=Tqj3fYqhwS"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2501.06117",
+        "url": "https://arxiv.org/abs/2501.06117"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2501.06117",
+        "url": "https://arxiv.org/pdf/2501.06117.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2501-06117",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2501-06117"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "1075e77526e1667f463893471b241d8ae6ca6f12",
+        "url": "https://www.semanticscholar.org/paper/1075e77526e1667f463893471b241d8ae6ca6f12"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "5b31b286aa481316d995a6e8218802c5326add62",
+        "url": "https://www.semanticscholar.org/paper/5b31b286aa481316d995a6e8218802c5326add62"
+      },
+      {
+        "type": "corpusid",
+        "link": "275458371"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8871a34a1b8ba60f46d1276fd91d1f63",
+    "title": "Does Generative AI speak Nigerian-Pidgin?: Issues about Representativeness and Bias for Multilingualism in LLMs",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bdd6384d8b7bcf62ffc3a7ad25c21f41",
+          "name": "A. Seza Doğruöz",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2158660846"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d4792c41fa1a00fc1b9f639192285dea",
+          "name": "Iyanuoluwa Shode",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Iyanuoluwa_Shode1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2163094493"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aafd8f11bd24272495cec19fc373cd71",
+          "name": "Aremu Anuoluwapo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Anuoluwapo_Aremu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2047583795"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2056773747"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "54e9c0d553d9d71f174f43a8c38ee077",
+          "name": "Findings of the Association for Computational Linguistics: NAACL 2025",
+          "type": "conference",
+          "date": {
+            "text": "2025-04",
+            "timestamp": 1743480000,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "0f226bfbd7a527d5b94413dca842e988",
+          "name": "NAACL (Findings)",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "1571-1583"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.18653/v1/2025.findings-naacl.85",
+        "url": "https://doi.org/10.18653/v1/2025.findings-naacl.85"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2404.19442",
+        "url": "https://arxiv.org/abs/2404.19442"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2404.19442",
+        "url": "https://arxiv.org/pdf/2404.19442.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/naacl/AdelaniDSA25",
+        "url": "https://dblp.uni-trier.de/rec/conf/naacl/AdelaniDSA25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://aclanthology.org/2025.findings-naacl.85/"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "05c8f6bd9eb30faeb2a61d61e8dc524dd3f83417",
+        "url": "https://www.semanticscholar.org/paper/05c8f6bd9eb30faeb2a61d61e8dc524dd3f83417"
+      },
+      {
+        "type": "corpusid",
+        "link": "269456990"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d66314ceb8555922499b7501c9d0b658",
+    "title": "The Responsible Foundation Model Development Cheatsheet: A Review of Tools&Resources",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c8af106384a18ed5f09177bfdf5be6d2",
+          "name": "Shayne Longpre",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Shayne_Longpre1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283848744"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "29909347"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ddf7ff0da46316b2b8bb00204b184c5b",
+          "name": "Stella Biderman",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Stella_Biderman1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "103476203"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273535086"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273535088"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ca5e17c278fb236e38d07c1ded64c82e",
+          "name": "Alon Albalak",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alon_Albalak1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2044198106"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cc8185023cf8cdacfd4609621754dd04",
+          "name": "Hailey Schoelkopf",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hailey_Schoelkopf1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2184031883"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2359095527"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bdf596239c589ae51540a7b0678417af",
+          "name": "Daniel McDuff",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Daniel_McDuff1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2266474644"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "837ff314c1ea3e34ce97eadf0086c055",
+          "name": "Sayash Kapoor",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sayash_Kapoor2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "39893263"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bd9a590820bac67b968cf34914c3ff8d",
+          "name": "Kevin Klyman",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kevin_Klyman1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260341611"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "169960bde09bf54813d1939487973bc9",
+            "name": "Stanford University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "37d506ef133b384a32a99777a47a44d1",
+            "name": "Harvard University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f802940baf20f1912cb28d3b82fd09e9",
+          "name": "Kyle Lo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kyle_Lo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285152499"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306959711"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "46258841"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ae75beb44b356a726e41f0c31c2e0a84",
+          "name": "Gabriel Ilharco",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gabriel_Ilharco1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273910379"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "92f53c2062f9a56505e3a1378d52cfe6",
+          "name": "Nay San",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Nay_San1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308047700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "169960bde09bf54813d1939487973bc9",
+            "name": "Stanford University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a00a1a5f0df95ad9c1161b8ed77490ca",
+          "name": "Maribeth Rauh",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Maribeth_Rauh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "94483529"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ad831c5937fc5bea46a0602af44adb6f",
+          "name": "Aviya Skowron",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Aviya_Skowron1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2213349418"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c21375209b3a2f4b3974c00362d058a2",
+          "name": "Bertie Vidgen",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Bertie_Vidgen1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2737827"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "af75c937090bd882e92944f53d4e02c8",
+          "name": "Laura Weidinger",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Laura_Weidinger1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51932191"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dc9b9e646b7bbb7bf7e7ddd6a8c32f3e",
+          "name": "Arvind Narayanan",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Arvind_Narayanan1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064013115"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285608332"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "7ec86b4c6bba99408f0ee04995bfa897",
+            "name": "Princeton University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a11f6f835dd7800e4b2b63ff0f762c33",
+          "name": "Victor Sanh",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Victor_Sanh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285868436"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51918868"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "be3623dce9637b9dccd2d429693caa3e",
+          "name": "Percy Liang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Percy_Liang1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249641250"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260342171"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285346298"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288853438"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316436038"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331409670"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2345922409"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "169960bde09bf54813d1939487973bc9",
+            "name": "Stanford University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "87dc2f40e640a944f6b07cf7139a040b",
+          "name": "Rishi Bommasani",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rishi_Bommasani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "150272855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2223138553"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "169960bde09bf54813d1939487973bc9",
+            "name": "Stanford University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b604f474ba3d2ecb9d76d8bbf43184ba",
+          "name": "Peter Henderson",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Peter_Henderson1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2071773966"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2250986700"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288186753"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288871218"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "40068904"
+            },
+            {
+              "type": "xplore",
+              "link": "37086334149"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "7ec86b4c6bba99408f0ee04995bfa897",
+            "name": "Princeton University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "91c3b790345c5ad61dbb844f7bfd7040",
+          "name": "Sasha Luccioni",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sasha_Luccioni1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2165225321"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c351524742b5f8cb10bc3525d6bfad42",
+          "name": "Yacine Jernite",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yacine_Jernite1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262249"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268491803"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b4ff6e95acc37bccc795e43d486bd56",
+            "name": "University College London",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d896fc6a06f7325be677833e13ca6242",
+          "name": "Luca Soldaini",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Luca_Soldaini1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2280666145"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3328733"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38350c96e4e4eaf5e3ba5b709ee98f8d",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2024-12-07",
+            "timestamp": 1733547600,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2406.16746",
+        "url": "https://doi.org/10.48550/arXiv.2406.16746"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "tH1dQH20eZ",
+        "url": "https://openreview.net/forum?id=tH1dQH20eZ"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "tH1dQH20eZ",
+        "url": "https://openreview.net/pdf?id=tH1dQH20eZ"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2406.16746",
+        "url": "https://arxiv.org/abs/2406.16746"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2406.16746",
+        "url": "https://arxiv.org/pdf/2406.16746.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2406-16746",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2406-16746"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/tmlr/LongpreBASMKKLI24",
+        "url": "https://dblp.uni-trier.de/rec/journals/tmlr/LongpreBASMKKLI24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=tH1dQH20eZ"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "6fd11b64fca4f15982ebed01d2bc0c03f78fa2e0",
+        "url": "https://www.semanticscholar.org/paper/6fd11b64fca4f15982ebed01d2bc0c03f78fa2e0"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "bd0729af55a79e4e9ec8405e019d598bf7248b86",
+        "url": "https://www.semanticscholar.org/paper/bd0729af55a79e4e9ec8405e019d598bf7248b86"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "e5b3e02748e9d5aabb8f2756a90d7ac9feb4d49d",
+        "url": "https://www.semanticscholar.org/paper/e5b3e02748e9d5aabb8f2756a90d7ac9feb4d49d"
+      },
+      {
+        "type": "corpusid",
+        "link": "270702885"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a42fc09d26efa378b367a5ac6fc9ed9f",
+    "title": "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9c7ef317ec1207b212b2f9f0f9350ba7",
+          "name": "David LE MEUR",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_LE_MEUR1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305602940"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5dccef41870354e16fd55fbde2db5aba",
+            "name": "Equal Contribution",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "aef07a1ca6214364bf6d914cd876ecac",
+          "name": "David Orlando Romero Mogrovejo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Orlando_Romero_Mogrovejo1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "915d2864bdbe36130fce8cc462f53032",
+          "name": "Chenyang Lyu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Chenyang_Lyu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2266387313"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5dccef41870354e16fd55fbde2db5aba",
+            "name": "Equal Contribution",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cffed09079644edd479eed3f4eed0867",
+          "name": "Haryo Akbarianto Wibowo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Haryo_Akbarianto_Wibowo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49918371"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8c755133d9b97c16b84e581a1e6f7ee8",
+          "name": "Teresa Lynn",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Teresa_Lynn1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2298756162"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ad4264746a5ce3f7bcb87af698b0d640",
+          "name": "Injy Hamed",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Injy_Hamed1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3248560"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a132491c19c6833e63eac60520f3f031",
+          "name": "Aditya Nanda Kishore Khandavally",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Aditya_Nanda_Kishore_Khandavally1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305619033"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b5cbce1017d6993fd5f1ebf39abe7463",
+          "name": "Aishik Mandal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Aishik_Mandal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2130101667"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305622255"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c7b52401ebb4a48f99699058fc8feffc",
+          "name": "Alina Dragonetti",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alina_Dragonetti1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305619182"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bd63356abbdce8cfae84a85e15f58a44",
+          "name": "Artem Abzaliev",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Artem_Abzaliev1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1396213362"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "94e12ac58c5c27d73b08aab4c6affdb4",
+          "name": "Atnafu Lambebo Tonja",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Atnafu_Lambebo_Tonja1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2148631756"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "98131dda44d7bd3c37a2d543072d7ca1",
+          "name": "Bontu Fufa Balcha",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Bontu_Fufa_Balcha1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305622331"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bdaab9e7eb93ccf1ea30ae2afe99a591",
+          "name": "Chenxi Whitehouse",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Chenxi_Whitehouse1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2161240241"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dacc27521d35900fd24b8954bc404c1b",
+          "name": "Christian Salamea-Palacios",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Christian_Salamea-Palacios1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51124788"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ce4094e3be63c798927f4dab23ff035c",
+          "name": "Dan John Velasco",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Dan_John_Velasco1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1994718316"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8338e9f2d31f3b201dddd1a5040bd943",
+          "name": "D. Meur",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "70145452"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "90e243d40585d94916fe5ec3d99e1ae2",
+          "name": "Emilio Villa Cueva",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Emilio_Villa_Cueva1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2183780558"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "db1acf92fc1920a858b328edc1d38f07",
+          "name": "Fajri Koto",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Fajri_Koto1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346108543"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2789148"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b2a0ed2754226c2d4a5d1d116a538180",
+          "name": "Fauzan Farooqui",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Fauzan_Farooqui1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2266756359"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b55ff2ee603375c3ba40d37d989d3c2b",
+          "name": "Frederico Belcavello",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Frederico_Belcavello1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1738707459"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8207f416bbfbbb459ec3fe1dc66b099a",
+          "name": "Ganzorig Batnasan",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ganzorig_Batnasan1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2151970366"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f0707d1554aae3a10ae305b8076e39de",
+          "name": "Gisela Vallejo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gisela_Vallejo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305623074"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "be86893b4718823c1311318c75bdc82f",
+          "name": "Gráinne Caulfield",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gráinne_Caulfield1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305619231"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c69598a494d85598822c1f6ff1e10631",
+          "name": "Guido Ivetta",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Guido_Ivetta1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2213060824"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "940f0ff977e3a939141d7bb8fb76cd32",
+          "name": "Haiyue Song",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Haiyue_Song1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2980506"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8ae5aba2ea0486d7ca088f12f1fa603b",
+          "name": "Henok Biadglign Ademtew",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Henok_Biadglign_Ademtew1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305619369"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9a8b162b332c444eaa74ed40b62e494b",
+          "name": "Hernán Maina",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hernán_Maina1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2139773809"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aa61ebd125d00a7539819ac1c5725e8e",
+          "name": "Holy Lovenia",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Holy_Lovenia1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "116344405"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a545428f9b5ac9fff0ee2cec8188fa60",
+          "name": "Israel Abebe Azime",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Israel_Abebe_Azime1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2052358080"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304752238"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "91c0780d31013e349d44d57252048fb7",
+          "name": "Jan Christian Blaise Cruz",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jan_Christian_Blaise_Cruz1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282499634"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d8865ceae34550381ce5d0118800b6f0",
+          "name": "Jay Gala",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jay_Gala1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1992915388"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303842971"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8087f637e1b73b9fc1dc8793df1c5666",
+          "name": "Jiahui Geng",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jiahui_Geng3"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2266466915"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a332bc41f7394343cdd61d11efcd0143",
+          "name": "Jesus-German Ortiz-Barajas",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jesus-German_Ortiz-Barajas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1724941617"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "873a4b5bb1e2356c220db6437d6315c6",
+          "name": "Jinheon Baek",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jinheon_Baek1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "90765684"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bc47352c2d5f1c7afb7569edd0671175",
+          "name": "Jocelyn Dunstan",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jocelyn_Dunstan1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305082736"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8fea39857014948f123c1225f69e4fa2",
+          "name": "Laura Alonso Alemany",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Laura_Alonso_Alemany2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276687"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bd5e021d1c52114f4c53fb7f46c5c872",
+          "name": "Teresa Clifford",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Teresa_Clifford1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ec31e16700075ca2555032f4de40c7d9",
+          "name": "Kumaranage Ravindu Yasas Nagasinghe",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kumaranage_Ravindu_Yasas_Nagasinghe1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2290013575"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "df8a49fa380f9f6c61534252a8a24d5b",
+          "name": "Luciana Benotti",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Luciana_Benotti1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066254822"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a7f5c850dc1dbecdb773ddcd17681b38",
+          "name": "Luis Fernando D'Haro",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Luis_Fernando_D'Haro2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1405511901"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d4fe565ad57e03070d01eefd804ca747",
+          "name": "Marcelo Viridiano",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Marcelo_Viridiano1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1738707461"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "eff84689b060ea8499a1ae20b54367b7",
+          "name": "Marcos Estecha-Garitagoitia",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Marcos_Estecha-Garitagoitia1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2168569460"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b4b8036514770110a0a5bdbae3fd7cb8",
+          "name": "Maria Camila Buitrago Cabrera",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Maria_Camila_Buitrago_Cabrera1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305622553"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8deeecb2f52010e0bf5bcc0edebcbb5e",
+          "name": "Mario Rodríguez-Cantelar",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mario_Rodríguez-Cantelar1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2220406508"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "88484624a6a5b2772f107e61e655c798",
+          "name": "Mélanie Jouitteau",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mélanie_Jouitteau1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "71090258"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "997cd88fb7a1774adb69dc48f65a9b61",
+          "name": "Mihail Minkov Mihaylov",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mihail_Minkov_Mihaylov1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "121947924"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9e1d327afca2a073bd716db408544441",
+          "name": "Mohamed Fazli Mohamed Imam",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mohamed_Fazli_Mohamed_Imam1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305619376"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "86e204b0548a2bf216a3b7ab79091f34",
+          "name": "Muhammad Farid Adilazuarda",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Muhammad_Farid_Adilazuarda1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2191731497"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "befa3932640306d38cd1bc846d31e702",
+          "name": "Munkhjargal Gochoo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Munkhjargal_Gochoo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66556569"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "983dfaa6106e7e0fc96a6a0d53134433",
+          "name": "Munkh-Erdene Otgonbold",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Munkh-Erdene_Otgonbold1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2159634278"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b9d8d03000783cfe2db3a5102e1bf372",
+          "name": "Naome Etori",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Naome_A_Etori1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1742219452"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a8c69650a26fdfb28bb105196cc275f6",
+          "name": "Olivier NIYOMUGISHA",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Olivier_NIYOMUGISHA1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305623065"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b4f319fc7b4c1ae18f2ae349169cb2cd",
+          "name": "Paula Mónica Silva",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Paula_Mónica_Silva1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307313242"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d57f66f34f3fae57f9917cf02ba1ac59",
+          "name": "Pranjal A Chitale",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pranjal_A_Chitale1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2040713514"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "cd451497862955e4f7a28898882091f3",
+          "name": "Raj Dabre",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Raj_Dabre1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331624900"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3209719"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "993e05b65bfe27a1dada82c765c3b86b",
+          "name": "Rendi Chevi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rendi_Chevi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2148764367"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c3590270d5b7a4589433b02d32f6a0d7",
+          "name": "Ruochen Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ruochen_Zhang1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282505237"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49775305"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aa67a2fedcd75c4087a7680a7dca8396",
+          "name": "Ryandito Diandaru",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryandito_Diandaru1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2197070752"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e85f3bfccef16dc5a545b929eb62b775",
+          "name": "Samuel Cahyawijaya",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Samuel_Cahyawijaya1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2220548276"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66986482"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f91915bbd0fa1ca6afbc2eb18b4b7287",
+          "name": "Santiago Góngora",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Santiago_Góngora1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2003583640"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305622481"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b977f33e9a71e79b5e7c4cb8c8552a91",
+          "name": "Soyeong Jeong",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Soyeong_Jeong1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307113511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8599185"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9b39df8e7eadec249ac01ed523fe976e",
+          "name": "Sukannya Purkayastha",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sukannya_Purkayastha1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "152881983"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "80f69ed5617e206f19a876a0542e0e9b",
+          "name": "Tatsuki Kuribayashi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tatsuki_Kuribayashi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "83446147"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b551642cc63af3f182dcc6ad36de89e5",
+          "name": "Thanmay Jayakumar",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Thanmay_Jayakumar1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2219413815"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c037eb7e6690ffb7506e33cc9430a696",
+          "name": "Tiago Timponi Torrent",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tiago_Timponi_Torrent1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2244512282"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "46308692"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8dee186b0ec00f4e41ecc9093e8d152d",
+          "name": "Toqeer Ehsan",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Toqeer_Ehsan1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305621229"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "91461cd751b53729f5e6be054f44b04d",
+          "name": "Vladimir Araujo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Vladimir_Araujo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283931820"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "88988180"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "81e51f70a6dde953244fe0ffc8d36bc9",
+          "name": "Yova Kementchedjhieva",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yova_Kementchedjhieva1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51208524"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b36bf4fb4b9830e146d8e7afb550cae3",
+          "name": "Zara Burzo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Zara_Burzo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305621242"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ab3e9dd0b060a66be82f9c25babb40cb",
+          "name": "Zheng Wei Lim",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Zheng_Wei_Lim1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066416516"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305621264"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d20e91ff891c6f855748056d90086bb1",
+          "name": "Zheng Xin Yong",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Zheng_Xin_Yong1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1725420331"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282475073"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "896bfc57c4128f077ba92deab37f6fb9",
+          "name": "Oana Ignat",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Oana_Ignat1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293317558"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c72230e3594d2610bc07132800b36dc7",
+          "name": "Joan Nwatu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Joan_Nwatu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2218338376"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b23d81c0b0a7dbdf3d239dc0b5a3f132",
+          "name": "Rada Mihalcea",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rada_Mihalcea1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2105984203"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3fdc390309551fb1c893d710cf356ea",
+          "name": "Thamar Solorio",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Thamar_Solorio2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1794626"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8b9a9fc6983c80e13c475d4f484dd495",
+          "name": "Alham Fikri Aji",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alham_Fikri_Aji1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8129718"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38d149f31276f4b2b56ff618712cc42e",
+          "name": "NeurIPS.cc/2024/Datasets_and_Benchmarks_Track",
+          "type": "track",
+          "date": {
+            "text": "2024-09-26",
+            "timestamp": 1727323200,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Datasets_and_Benchmarks_Track"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS Track Datasets and Benchmarks 2024"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Benchmark"
+      },
+      {
+        "name": "Multimodality"
+      },
+      {
+        "name": "Multilingual"
+      },
+      {
+        "name": "Multicultural"
+      },
+      {
+        "name": "VQA"
+      },
+      {
+        "name": "Dataset"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2406.05967",
+        "url": "https://doi.org/10.48550/arXiv.2406.05967"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "E18kRXTGmV",
+        "url": "https://openreview.net/forum?id=E18kRXTGmV"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "E18kRXTGmV",
+        "url": "https://openreview.net/pdf?id=E18kRXTGmV"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2406.05967",
+        "url": "https://arxiv.org/abs/2406.05967"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2406.05967",
+        "url": "https://arxiv.org/pdf/2406.05967.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2406-05967",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2406-05967"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "3aabd69e13f64f10fd210e4e9e6b2e75c0e734d1",
+        "url": "https://www.semanticscholar.org/paper/3aabd69e13f64f10fd210e4e9e6b2e75c0e734d1"
+      },
+      {
+        "type": "corpusid",
+        "link": "270371898"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "cbaeb778627954b6b8b686649134eb37",
+    "title": "Meta's AI translation model embraces overlooked languages.",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "5ff5ebd5c1eefc223b6ce5147901204a",
+          "name": "Nature",
+          "type": "journal",
+          "date": {
+            "text": "2024-06-05",
+            "timestamp": 1717560000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "426b7b241d60a24ac34db66f0818fdb3",
+          "name": "Nature",
+          "type": "journal",
+          "date": {
+            "text": "2024-06-05",
+            "timestamp": 1717560000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1038/d41586-024-00964-2",
+        "url": "https://doi.org/10.1038/d41586-024-00964-2"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "38839996",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38839996"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "8edbd09453dc78e485fc75c6030adcac1c318dca",
+        "url": "https://www.semanticscholar.org/paper/8edbd09453dc78e485fc75c6030adcac1c318dca"
+      },
+      {
+        "type": "corpusid",
+        "link": "270283107"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "da45b69303fd87077a4efdb6f5aad9df",
+    "title": "AfriMTE and AfriCOMET: Enhancing COMET to Embrace Under-resourced African Languages",
+    "abstract": "Despite the recent progress on scaling multilingual machine translation (MT) to several under-resourced African languages, accurately measuring this progress remains challenging, since evaluation is often performed on n-gram matching metrics such as BLEU, which typically show a weaker correlation with human judgments. Learned metrics such as COMET have higher correlation; however, the lack of evaluation data with human ratings for under-resourced languages, complexity of annotation guidelines like Multidimensional Quality Metrics (MQM), and limited language coverage of multilingual encoders have hampered their applicability to African languages. In this paper, we address these challenges by creating high-quality human evaluation data with simplified MQM guidelines for error detection and direct assessment (DA) scoring for 13 typologically diverse African languages. Furthermore, we develop AfriCOMET: COMET evaluation metrics for African languages by leveraging DA data from well-resourced languages and an African-centric multilingual encoder (AfroXLM-R) to create the state-of-the-art MT evaluation metrics for African languages with respect to Spearman-rank correlation with human judgments (0.441).",
+    "authors": [
+      {
+        "author": {
+          "author_id": "d5990cbd8ea5e774e824fbc45a3c46f8",
+          "name": "Jiayi Wang",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2130182145"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267003990"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331253064"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fdc4102807adc7550b2cb3b19bc5a04a",
+          "name": "David Ifeoluwa Adelani",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "david.adelani@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Ifeoluwa_Adelani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273673245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326118350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379662831"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2518906"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8b5894939f927b376929894bc7373ce3",
+          "name": "Sweta Agrawal",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "5112699"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "96143cabde27aa8ee00f0fee632a17d1",
+          "name": "Marek Masiak",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2091150316"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c472849eddea43365854438f23ebf637",
+          "name": "Ricardo Rei",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "15631652"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461024"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291068001"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2323502750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2367741063"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "928a37c589db45eab4798296c932c3ef",
+          "name": "Eleftheria Briakou",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2343507548"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "40914545"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8215344812d0f289c97806831bc8a1c9",
+          "name": "Marine Carpuat",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2954727"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a69136560619c9d66f1c2e96d2963a98",
+          "name": "Xuanli He",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266420502"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288269593"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b458210bda534f1808c1fb1ae4a4375f",
+          "name": "Sofia Bourhim",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266839087"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "83d03594f088060ac3cdc963c7644bca",
+          "name": "Andiswa Bukula",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2164122773"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dfe82d85b6ee2a18bc49ef2b308b7a41",
+          "name": "Muhidin A. Mohamed",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2238220180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "47302320"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a79550ebd2ec2b8da6861650a72360d8",
+          "name": "Temitayo Olatoye",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2165730492"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dac84d6e9040fbf3681428dfdecb2407",
+          "name": "Tosin Adewumi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "51221489"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c64f08f56c501a6cfce3cb4377436f62",
+          "name": "Hamam Mokayed",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266838725"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8a492c3be66da9a6834788410441b004",
+          "name": "Christine Mwase",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Christine_Mwase1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282726762"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dee461bcf367657117128cda731069c3",
+          "name": "Wangui Kimotho",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2119906481"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a300291eb50a01ba4bdff86245eda00c",
+          "name": "Foutse Yuehgoh",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2183603314"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "aafd8f11bd24272495cec19fc373cd71",
+          "name": "Aremu Anuoluwapo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Anuoluwapo_Aremu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2047583795"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2056773747"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "921cc38c8c922d29d39bd7e351353197",
+          "name": "Jessica Ojo",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2214806280"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2329736246"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9bb9b9de2029a222c9a950fc43b6b011",
+          "name": "Shamsuddeen Hassan Muhammad",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Shamsuddeen_Hassan_Muhammad1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "7744881"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d863191531567ee58cf4a2d71d149b92",
+          "name": "Salomey Osei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Salomey_Osei1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1486204986"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a8482ad9c4716e3f085b7e8e633a50ec",
+          "name": "Abdul-Hakeem Omotayo",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2212894510"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "aaaae58f53050fa9b2bca9c5176b5710",
+          "name": "Chiamaka Ijeoma Chukwuneke",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Chiamaka_Ijeoma_Chukwuneke1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262821052"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "73054967"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e9b9d68da5d4810ebd0cb14630ff16f6",
+          "name": "Perez Ogayo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Perez_Ogayo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1988654955"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "acfaabe4c01e09263c1ffa2d31972c49",
+          "name": "Oumaima Hourrane",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Oumaima_Hourrane1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "23245535"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cf373ce1fce85b40eca3fe834d37e250",
+          "name": "Salma El Anigri",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2112890178"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "826fd85cb22994ac38aad2f5c0f5c674",
+          "name": "Lolwethu Ndolela",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2214814174"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9d4b62782ef20e5d7e259f9c15115c1f",
+          "name": "Thabiso Mangwana",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266838169"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cdbbc662cda2e0af703cba3d04cca0bd",
+          "name": "Shafie Abdi Mohamed",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2192964958"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "156540780cffdd9c6fb962b0e3c32e16",
+          "name": "Hassan Ayinde",
+          "links": []
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "978cdf2eef29d90c6f5d8734d224e99d",
+          "name": "Ayinde Hassan",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266980508"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b26ec64c2da91aaf697ad96f4b856a36",
+          "name": "Oluwabusayo Olufunke Awoyomi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2190104797"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a55cab05c389d567f57fc295c21af0ce",
+          "name": "Lama Alkhaled",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2056905102"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "92ff4f8029cc9c78d08f8f71d06eeb41",
+          "name": "sana Sabah al-azzawi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2094432651"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b9d8d03000783cfe2db3a5102e1bf372",
+          "name": "Naome Etori",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Naome_A_Etori1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1742219452"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d2344d8bfd22349ec2c7ccc8e60dd68b",
+          "name": "Millicent Ochieng",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "104014275"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8fb90bfb77a389f4d1ae5fdc0b854d99",
+          "name": "Clemencia Siro",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Clemencia_Siro1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2056776870"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "96adbbef9a1a74592ffeae57b6e5fab5",
+          "name": "Samuel Njoroge",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266838957"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a0ee14e85c7cd26b053485a713d8a7cc",
+          "name": "Njoroge Kiragu",
+          "links": []
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "93a774808ef4a94e81b8eab75fb8b7bc",
+          "name": "Eric Muchiri",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266838253"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ade91e1c53d24a1d9f572a83a06442b2",
+          "name": "Wangari Kimotho",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2214806253"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c515832268000dfd1e7dc6ce16d9d5ee",
+          "name": "Lyse Naomi Wamba",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2215777954"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d335434b7ea6887a7763be8a3107064c",
+          "name": "Daud Abolade",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Daud_Abolade1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2266838146"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c8554d4343ebda06c451a99457ad7199",
+          "name": "Simbiat Ajao",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266838303"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d4792c41fa1a00fc1b9f639192285dea",
+          "name": "Iyanuoluwa Shode",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Iyanuoluwa_Shode1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2163094493"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "88aa9b35dca8a96118d36dc9d133e125",
+          "name": "Ricky Macharm",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1988655656"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a46a442393555b50f8d85483c2ecbda8",
+          "name": "Ruqayya Nasir Iro",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ruqayya_Nasir_Iro1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "82370080"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a2d2fe7a775ab2422d3f6f5235a11486",
+          "name": "Saheed Salahudeen Abdullahi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1492068759"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a4aa00318a139eeb0fadab56650e7767",
+          "name": "Stephen Moore",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2113618023"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "90588c5e2a273cd24195594451a7f59e",
+          "name": "Bernard Opoku",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Bernard_Opoku1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2060867724"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a40be3ce2aadbb3252b686adec7257d7",
+          "name": "Zainab Akinjobi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266838340"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8f6b0ea36181d02892e47be69e99deb7",
+          "name": "Abeeb Afolabi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266838336"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f4a0cba3c0d13105a3ce7c6c4275bfd8",
+          "name": "Nnaemeka Casmir Obiefuna",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2214807035"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ebb27e3aca3a2c5adc72fbfe86e0327f",
+          "name": "Onyekachi Ogbu",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2214814462"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a0f4e8916c0f92127779dbef64491a88",
+          "name": "Sam Brian",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2266837834"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "854d1591932226353f0133a7eef22e61",
+          "name": "Sam Ochieng’",
+          "links": []
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e25fa60e596f19b08aae410bd56e0aec",
+          "name": "Verrah Akinyi Otiende",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Verrah_Akinyi_Otiende1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "90459153"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cd8fcd0ff1e47cea5c8738e743483743",
+          "name": "CHINEDU EMMANUEL MBONU",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~CHINEDU_EMMANUEL_MBONU1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2158396538"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2216786546"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "808af24e96f31aa840b9b8dde09b5464",
+          "name": "Toadoum Sari Sakayo",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2214809578"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cdd67d2a480f5a0fda9a230bbdf20aff",
+          "name": "Yao Lu",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2143370859"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2143370890"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258561332"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2296484825"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325123689"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "40282678"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "47006148"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b7e786e1cdfeeac00b576177ab4d47f9",
+          "name": "Pontus Stenetorp",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pontus_Stenetorp1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1918552"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295987472"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362573297"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10a8aa745c8b9c150673140b17272ec2",
+            "name": "China",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3e34c6be8b5c7a41c3feaddf87d6c305",
+            "name": "Sweden",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "7826a56e6c0bdcfb885481ec5d4a032a",
+          "name": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+          "type": "conference",
+          "date": {
+            "text": "2024-06",
+            "timestamp": 1717214400,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.18653/v1/2024.naacl-long.334",
+        "url": "https://doi.org/10.18653/v1/2024.naacl-long.334"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2311.09828",
+        "url": "https://arxiv.org/abs/2311.09828"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2311.09828",
+        "url": "https://arxiv.org/pdf/2311.09828.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/naacl/WangAAMRBCHBBMO24",
+        "url": "https://dblp.uni-trier.de/rec/conf/naacl/WangAAMRBCHBBMO24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "8ab1f774befd453364f65272f0b8ac5689cc4a96",
+        "url": "https://www.semanticscholar.org/paper/8ab1f774befd453364f65272f0b8ac5689cc4a96"
+      },
+      {
+        "type": "corpusid",
+        "link": "269042892"
+      },
+      {
+        "type": "acl",
+        "link": "2024.naacl-long.334"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

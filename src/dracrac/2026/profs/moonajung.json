@@ -1,0 +1,798 @@
+[
+  {
+    "paper_id": "9eb454a30dd75cbfcb7852f3bfcb9cbb",
+    "title": "Opening the Scope of Openness in AI",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "943289951150c632fceca670b595c145",
+          "name": "Tamara Paris",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2360371490"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "56c7bfb8fc042bf6e4e3fd76d13b6509",
+            "name": "McGill University, Montréal, Québec, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fe5e6474cda884d4cb80e3a174c18380",
+          "name": "Ajung Moon",
+          "links": [
+            {
+              "type": "bio",
+              "link": "ajung-moon"
+            },
+            {
+              "type": "email.mila",
+              "link": "moonajung@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2148111579"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-9387-6284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291212705"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2360367048"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "37074673"
+            },
+            {
+              "type": "wpid_en",
+              "link": "35928"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37683"
+            },
+            {
+              "type": "xplore",
+              "link": "37088901874"
+            },
+            {
+              "type": "xplore",
+              "link": "38230575700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "56c7bfb8fc042bf6e4e3fd76d13b6509",
+            "name": "McGill University, Montréal, Québec, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9157d7cb32a6596b722be40ec0f3ae15",
+          "name": "Jin L.C. Guo",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "145983093"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2044455830"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "46197387"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "47825073"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "49595956"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "6064067"
+            },
+            {
+              "type": "bio",
+              "link": "jin-l-c-guo"
+            },
+            {
+              "type": "email.mila",
+              "link": "guojin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2223580030"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-1782-1545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1994701040"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2157959410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267721081"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33463"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33459"
+            },
+            {
+              "type": "xplore",
+              "link": "37077711800"
+            },
+            {
+              "type": "xplore",
+              "link": "37086462748"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "56c7bfb8fc042bf6e4e3fd76d13b6509",
+            "name": "McGill University, Montréal, Québec, Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "77995dc6df7577378fe8ef43ed336800",
+          "name": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency",
+          "type": "conference",
+          "date": {
+            "text": "2025-06-23",
+            "timestamp": 1750651200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1145/3715275.3732087",
+        "url": "https://doi.org/10.1145/3715275.3732087"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2505.06464",
+        "url": "https://arxiv.org/abs/2505.06464"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2505.06464",
+        "url": "https://arxiv.org/pdf/2505.06464.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/fat/ParisMG25",
+        "url": "https://dblp.uni-trier.de/rec/conf/fat/ParisMG25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "76533427000aa8fb2006e5818c47b8a67250299c",
+        "url": "https://www.semanticscholar.org/paper/76533427000aa8fb2006e5818c47b8a67250299c"
+      },
+      {
+        "type": "corpusid",
+        "link": "278501759"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "ab2c01f41e35116c5785784a5eed2672",
+    "title": "Roboethics for everyone – A hands-on teaching module for K-12 and beyond",
+    "abstract": "\n \n \nIn this work, we address the evolving landscape of roboethics, expanding beyond physical safety to encompass broader societal implications. Recognizing the siloed nature of existing initiatives to teach and inform ethical implications of artificial intelligence (AI) and robotic systems, we present a roboethics teaching module designed for K-12 students and general audiences. The module focuses on the high-level analysis of the interplay between robot behaviour design choices and ethics, using everyday social dilemmas. We delivered the module in a workshop to high school students in Montreal, Canada. From this experience, we observed that the module successfully fostered critical thinking and ethical considerations in students, without requiring advanced technical knowledge. This teaching module holds promise to reach a wider range of populations. We urge the education community to explore similar approaches and engage in interdisciplinary training opportunities regarding the ethical implications of AI and robotics. \n \n \n",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a39b6cdaa4471ea3d1c58281b81b40e5",
+          "name": "Rahatul Amin Ananto",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "147870272"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a98b1f3392bd700e594b450550e110f8",
+          "name": "Shalaleh Rismani",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "7389108"
+            },
+            {
+              "type": "xplore",
+              "link": "37085422978"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bd0fb5a0c71ad4b25bda47edb900f7e9",
+          "name": "Lixiao Zhu",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2291513141"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "de6014d52a9610be0129fc97ac587afb",
+          "name": "Christopher Yee Wong",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2291553553"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2337083905"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "47433951"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "fe5e6474cda884d4cb80e3a174c18380",
+          "name": "Ajung Moon",
+          "links": [
+            {
+              "type": "bio",
+              "link": "ajung-moon"
+            },
+            {
+              "type": "email.mila",
+              "link": "moonajung@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2148111579"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-9387-6284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291212705"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2360367048"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "37074673"
+            },
+            {
+              "type": "wpid_en",
+              "link": "35928"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37683"
+            },
+            {
+              "type": "xplore",
+              "link": "37088901874"
+            },
+            {
+              "type": "xplore",
+              "link": "38230575700"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "7394eb341d231f6f0768324a7df7a5a3",
+          "name": "Proceedings of the Canadian Engineering Education Association (CEEA)",
+          "type": "journal",
+          "date": {
+            "text": "2024-12-20",
+            "timestamp": 1734670800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "6c5ee316a4a0d3743c96f843591d722c",
+          "name": "Proceedings of the Canadian Engineering Education Association (CEEA)",
+          "type": "journal",
+          "date": {
+            "text": "2024-12-20",
+            "timestamp": 1734670800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.24908/pceea.2024.18568",
+        "url": "https://doi.org/10.24908/pceea.2024.18568"
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.24908/pceea.2024.18568"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "1e7b66f13364e30fb4b195ba11e72245726a97f6",
+        "url": "https://www.semanticscholar.org/paper/1e7b66f13364e30fb4b195ba11e72245726a97f6"
+      },
+      {
+        "type": "corpusid",
+        "link": "274972599"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "818c696dc51fcab42c73af7fa1fc0e8c",
+    "title": "Socially Assistive Robots for patients with Alzheimer's Disease: A scoping review.",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "834654007b0696fb8401e27d13d1ebbc",
+          "name": "Vania Karami",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2291213230"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "166e0e17a54c980f36e1a94f50b17f15",
+            "name": "Lady Davis Institute for Medical Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1bd436f2de4eb70d66bca91ae05f095c",
+            "name": "Department of Family Medicine",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4253f2f684273eaf424586d64c760922",
+            "name": "Jewish General Hospital",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7172bdaf6bfed322add99795e9bf8fbc",
+            "name": "Faculty of Medicine and Health Sciences",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9b38d2db7239fbe99065de76f34e9f8d",
+          "name": "Mark J. Yaffe",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2263264615"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1baf1f87dfb6367fbd8dac5f8e5b0547",
+            "name": "St. Mary's Hospital Center",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1bd436f2de4eb70d66bca91ae05f095c",
+            "name": "Department of Family Medicine",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7172bdaf6bfed322add99795e9bf8fbc",
+            "name": "Faculty of Medicine and Health Sciences",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a542c90f9d8926e4e8007f110075811e",
+          "name": "Genevieve Gore",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2255638413"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282350110"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291212700"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "48459521"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3a21c562bb3ed34db26c0287f75af81a",
+            "name": "Schulich Library of Physical Sciences",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "46c022e55c56f5871807ec72447df4e3",
+            "name": "Life Sciences",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "68d95fdf6ee3bd8f852be3c7f2e32030",
+            "name": "and Engineering",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fe5e6474cda884d4cb80e3a174c18380",
+          "name": "Ajung Moon",
+          "links": [
+            {
+              "type": "bio",
+              "link": "ajung-moon"
+            },
+            {
+              "type": "email.mila",
+              "link": "moonajung@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2148111579"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-9387-6284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291212705"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2360367048"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "37074673"
+            },
+            {
+              "type": "wpid_en",
+              "link": "35928"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37683"
+            },
+            {
+              "type": "xplore",
+              "link": "37088901874"
+            },
+            {
+              "type": "xplore",
+              "link": "38230575700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1d083613a2d80a45b229aa11aa45d650",
+            "name": "Department of Electrical & Computer Engineering, Faculty of Engineering",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b92885b07328cc9e3bf0ae78e7c50027",
+          "name": "S. A. Rahimi",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "1807593339"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2106016699"
+            },
+            {
+              "type": "bio",
+              "link": "samira-abbasgholizadeh-rahimi"
+            },
+            {
+              "type": "email.mila",
+              "link": "samira.rahimi@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2109776171"
+            },
+            {
+              "type": "mag",
+              "link": "2616651206"
+            },
+            {
+              "type": "mag",
+              "link": "2978697257"
+            },
+            {
+              "type": "openreview",
+              "link": "~Samira_Abbasgholizadeh_Rahimi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1423056324"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258232069"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273563936"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284046110"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "23531518"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2389962"
+            },
+            {
+              "type": "wpid_en",
+              "link": "45222"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "45218"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "166e0e17a54c980f36e1a94f50b17f15",
+            "name": "Lady Davis Institute for Medical Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1bd436f2de4eb70d66bca91ae05f095c",
+            "name": "Department of Family Medicine",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4253f2f684273eaf424586d64c760922",
+            "name": "Jewish General Hospital",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "43485d107170cb30ef80a457b97942b5",
+            "name": "Faculty of Dental Medicine and Oral Health Sciences",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7172bdaf6bfed322add99795e9bf8fbc",
+            "name": "Faculty of Medicine and Health Sciences",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "00ad8180413d086d13ab59b19debed8a",
+          "name": "Archives of Gerontology and Geriatrics",
+          "type": "journal",
+          "date": {
+            "text": "2024-08",
+            "timestamp": 1722484800,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1016/j.archger.2024.105409",
+        "url": "https://doi.org/10.1016/j.archger.2024.105409"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "38565072",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38565072"
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.1016/j.archger.2024.105409"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "1e9be5866f0fe61ca8c356f831a59aea0620daf5",
+        "url": "https://www.semanticscholar.org/paper/1e9be5866f0fe61ca8c356f831a59aea0620daf5"
+      },
+      {
+        "type": "corpusid",
+        "link": "268389590"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

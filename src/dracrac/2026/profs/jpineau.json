@@ -1,0 +1,1055 @@
+[
+  {
+    "paper_id": "8a88b80acfb8fc73061ac56dcf4b3050",
+    "title": "Advancing science- and evidence-based AI policy.",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "87dc2f40e640a944f6b07cf7139a040b",
+          "name": "Rishi Bommasani",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rishi_Bommasani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "150272855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2223138553"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "430cd4adbaea0a05a5c48eaaa1cc092d",
+            "name": "Stanford Institute for Human-Centered Artificial Intelligence, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "be8ebf044ec60cffc56b756979b62845",
+          "name": "Sanjeev Arora",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sanjeev_Arora1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261737783"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2358477535"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "18caa6e3a886d459c44990ef993997e1",
+            "name": "Princeton Language and Intelligence, Princeton University, Princeton, NJ, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "794b1af3d7f56d190440c41462698e6c",
+            "name": "Department of Computer Science, Princeton University, Princeton, NJ, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "805b60e20779391d203e1ac156208741",
+          "name": "Jennifer Chayes",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2374227632"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "07c8f1d3fbec014d336d16e4fdfb8fad",
+            "name": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1b44347d00c3b10c192e79d489788552",
+            "name": "College of Computing, Data Science, and Society, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1c752da49bd6a036c8530acd93fa6dc6",
+            "name": "School of Information, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "488b5a7276cc1c32427bd427c437500a",
+            "name": "Department of Statistics, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5b51275b7de46e7944ac39c9ac01c80a",
+            "name": "Department of Mathematics, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cb0c8e9224bbbcc358a1176e6d1975eb",
+          "name": "Yejin Choi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yejin_Choi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253903625"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2257385140"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2296751113"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311569892"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2374284148"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2a6394c1cc53876de47d35b3cd69df5b",
+            "name": "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "430cd4adbaea0a05a5c48eaaa1cc092d",
+            "name": "Stanford Institute for Human-Centered Artificial Intelligence, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8f2875967f10d08367e146e87b0e37c6",
+          "name": "Mariano-Florentino Cuéllar",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2333594246"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3c94febcf374ec9824abe8b8d2b19235",
+            "name": "Carnegie Endowment for International Peace, Washington, DC, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9afc97378b91e376b630a759064dcd3a",
+          "name": "Li Fei-Fei",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2343596281"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2a6394c1cc53876de47d35b3cd69df5b",
+            "name": "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "430cd4adbaea0a05a5c48eaaa1cc092d",
+            "name": "Stanford Institute for Human-Centered Artificial Intelligence, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b55f3ba4bbfbc3337992ab652bc11333",
+          "name": "Daniel E. Ho",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2286801381"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2a6394c1cc53876de47d35b3cd69df5b",
+            "name": "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "36862191a6907ee88a3cfaa8f3b2e820",
+            "name": "Department of Political Science, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3ad23b10b1376a8891cfcc84c21e2cef",
+            "name": "Stanford Law School, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "430cd4adbaea0a05a5c48eaaa1cc092d",
+            "name": "Stanford Institute for Human-Centered Artificial Intelligence, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "48ab1bf381613f074c1a1cd1af33aecf",
+            "name": "Stanford Institute for Economic Policy Research, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4be5826d133e0ea8f9840e6a54a4fb48",
+            "name": "RegLab, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a1cfbea2de959eaab60491cb28967449",
+          "name": "Dan Jurafsky",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1746807"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256674786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380368499"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2a6394c1cc53876de47d35b3cd69df5b",
+            "name": "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "551de7a2ef599d2affb5d7dafd525290",
+            "name": "Department of Linguistics, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ec3a34856a5eab731884bb3f0521fcb8",
+          "name": "Sanmi Koyejo",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sanmi_Koyejo1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "123593472"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "143812875"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2a6394c1cc53876de47d35b3cd69df5b",
+            "name": "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cc1e1f4e97031dc4256a453e39b3075b",
+          "name": "Hima Lakkaraju",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2374227636"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1c377ba195261b5712fc9e7a3732a3e6",
+            "name": "Harvard Business School, Harvard University, Boston, MA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "50cad0570c559fa0d62dfd56c0ccf1d2",
+            "name": "Department of Computer Science, Harvard University, Boston, MA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dc9b9e646b7bbb7bf7e7ddd6a8c32f3e",
+          "name": "Arvind Narayanan",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Arvind_Narayanan1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064013115"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285608332"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "04a986cd89fea5d199537ac70682bae8",
+            "name": "Center for Information Technology Policy, Princeton University, Princeton, NJ, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "794b1af3d7f56d190440c41462698e6c",
+            "name": "Department of Computer Science, Princeton University, Princeton, NJ, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf26faba25259444fc8167c983da7949",
+          "name": "Alondra Nelson",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2288617349"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "26f6cf9689e9b2f19a4fc404085f9467",
+            "name": "Science, Technology, and Social Values Lab, Institute for Advanced Study, Princeton, NJ, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2ba291d9ecd61f388f92b7c604376d8d",
+            "name": "School of Social Science, Institute for Advanced Study, Princeton, NJ, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d62a38c407a2739ca633000927f2c1cb",
+          "name": "Emma Pierson",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2374229752"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "07c8f1d3fbec014d336d16e4fdfb8fad",
+            "name": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ab122e4b735b931769ae53c0cead5b37",
+          "name": "Joelle Pineau",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "118177488"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "121255513"
+            },
+            {
+              "type": "bio",
+              "link": "joelle-pineau"
+            },
+            {
+              "type": "email.mila",
+              "link": "jpineau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2092672596"
+            },
+            {
+              "type": "mag",
+              "link": "2790188805"
+            },
+            {
+              "type": "mag",
+              "link": "2904896043"
+            },
+            {
+              "type": "mag",
+              "link": "3007097022"
+            },
+            {
+              "type": "openreview",
+              "link": "~Joelle_Pineau1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "121255513"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145134884"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145134886"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2196942799"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256734397"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281941987"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286173765"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2361812442"
+            },
+            {
+              "type": "wpid_en",
+              "link": "26121"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "26117"
+            },
+            {
+              "type": "xplore",
+              "link": "37089042232"
+            },
+            {
+              "type": "xplore",
+              "link": "37442456400"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4428faaaf7c3571e6a3d6194facabb",
+            "name": "School of Computer Science, McGill University, Montréal, QC, Canada.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c7be7b5d8b5c96a9de1405576d0baa2",
+          "name": "Scott Singer",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2370932517"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "061bb20736f224f46bab842b49b662ee",
+            "name": "Oxford China Policy Lab, Oxford, UK.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "0c121f73004769a607b0ecbdc74a5bfd",
+            "name": "Oxford Martin AI Governance Initiative, University of Oxford, Oxford, UK.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c94febcf374ec9824abe8b8d2b19235",
+            "name": "Carnegie Endowment for International Peace, Washington, DC, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a6b5d2204a1a2ae89f293259dd9aa372",
+          "name": "Gael Varoquaux",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2298316221"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3025780"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "589deb630293e932d57b5d7031b37190",
+            "name": "Inria Saclay – Île-de-France, Palaiseau, France.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9f87f1e126562c7852bb1bbc488ec38b",
+          "name": "Suresh Venkatasubramanian",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2374229098"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "12c4b882cf57c0a29167c4ca0725d716",
+            "name": "Department of Computer Science, Brown University, Providence, RI, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "31b0260fa37ca61c559f48a864837f4a",
+            "name": "Data Science Institute, Brown University, Providence, RI, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f23033e02d34fe03cff0cc845baa7c03",
+          "name": "Ion Stoica",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "144467753"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2055174324"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2374227234"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "07c8f1d3fbec014d336d16e4fdfb8fad",
+            "name": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "be3623dce9637b9dccd2d429693caa3e",
+          "name": "Percy Liang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Percy_Liang1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249641250"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260342171"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285346298"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288853438"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316436038"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331409670"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2345922409"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2a6394c1cc53876de47d35b3cd69df5b",
+            "name": "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "430cd4adbaea0a05a5c48eaaa1cc092d",
+            "name": "Stanford Institute for Human-Centered Artificial Intelligence, Stanford University, Stanford, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e0d7f68f25d860b6f98db852edf7edf4",
+          "name": "Dawn Song",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "143711382"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262420606"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2289316508"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307594459"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2355642874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375303830"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "07c8f1d3fbec014d336d16e4fdfb8fad",
+            "name": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA.",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "671f09868a8970ff84c5ed094c5a99b1",
+            "name": "Berkeley Center for Responsible Decentralized Intelligence, Berkeley, CA, USA.",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "646115fd5f6ac8967149f9f32ff17a90",
+          "name": "Science",
+          "type": "journal",
+          "date": {
+            "text": "2025-07-31",
+            "timestamp": 1753934400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1126/science.adu8449",
+        "url": "https://doi.org/10.1126/science.adu8449"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2508.02748",
+        "url": "https://arxiv.org/abs/2508.02748"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2508.02748",
+        "url": "https://arxiv.org/pdf/2508.02748.pdf"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "40743343",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40743343"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2508-02748",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2508-02748"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "a4e71497bd270d9810324119407104e6aaecd355",
+        "url": "https://www.semanticscholar.org/paper/a4e71497bd270d9810324119407104e6aaecd355"
+      },
+      {
+        "type": "corpusid",
+        "link": "280404214"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "e172dcd0be0584675cadf666840abd08",
+    "title": "A flexible machine learning Mendelian randomization estimator applied to predict the safety and efficacy of sclerostin inhibition",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "dc2d17c0d3dab3ac9d0ce339211b66b0",
+          "name": "Marc-André Legault",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "marc-andre.legault@mila.quebec"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2352592"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c860d935457cdc5073648ec9c2732b92",
+          "name": "Jason Hartford",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jason_Hartford1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281940571"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2294568643"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "32745519"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a445a99aefc01f408b6449f6d80dcafa",
+          "name": "Benoît J. Arsenault",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2281942089"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "af05c79f2d27a78855cbb082d4fd1f76",
+          "name": "Archer Y Yang",
+          "links": [
+            {
+              "type": "bio",
+              "link": "archer-yi-yang"
+            },
+            {
+              "type": "email.mila",
+              "link": "archer.yang@mila.quebec"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2143686078"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2192064206"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275606693"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284267134"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363497543"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56848"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56850"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ab122e4b735b931769ae53c0cead5b37",
+          "name": "Joelle Pineau",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "118177488"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "121255513"
+            },
+            {
+              "type": "bio",
+              "link": "joelle-pineau"
+            },
+            {
+              "type": "email.mila",
+              "link": "jpineau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2092672596"
+            },
+            {
+              "type": "mag",
+              "link": "2790188805"
+            },
+            {
+              "type": "mag",
+              "link": "2904896043"
+            },
+            {
+              "type": "mag",
+              "link": "3007097022"
+            },
+            {
+              "type": "openreview",
+              "link": "~Joelle_Pineau1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "121255513"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145134884"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145134886"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2196942799"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256734397"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281941987"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286173765"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2361812442"
+            },
+            {
+              "type": "wpid_en",
+              "link": "26121"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "26117"
+            },
+            {
+              "type": "xplore",
+              "link": "37089042232"
+            },
+            {
+              "type": "xplore",
+              "link": "37442456400"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "0e1fa53403ba638309c3dab152a3ba48",
+          "name": "American Journal of Human Genetics",
+          "type": "journal",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "40aed8c31e6f6ac93b80fdffd5c2cb4e",
+          "name": "The American Journal of Human Genetics",
+          "type": "journal",
+          "date": {
+            "text": "2025-05",
+            "timestamp": 1746072000,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1016/j.ajhg.2025.04.010",
+        "url": "https://doi.org/10.1016/j.ajhg.2025.04.010"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "40378846",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40378846"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "570c12edc7445d1b03ca0475ecfdff0218d421bf",
+        "url": "https://www.semanticscholar.org/paper/570c12edc7445d1b03ca0475ecfdff0218d421bf"
+      },
+      {
+        "type": "corpusid",
+        "link": "278675131"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

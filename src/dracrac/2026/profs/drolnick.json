@@ -1,0 +1,6568 @@
+[
+  {
+    "paper_id": "af4218ec5982314d08d63e452d37d7ac",
+    "title": "Galileo: Learning Global&Local Features of Many Remote Sensing Modalities",
+    "abstract": "We introduce a highly multimodal transformer to represent many remote sensing modalities - multispectral optical, synthetic aperture radar, elevation, weather, pseudo-labels, and more - across space and time. These inputs are useful for diverse remote sensing tasks, such as crop mapping and flood detection. However, learning shared representations of remote sensing data is challenging, given the diversity of relevant data modalities, and because objects of interest vary massively in scale, from small boats (1-2 pixels and fast) to glaciers (thousands of pixels and slow). We present a novel self-supervised learning algorithm that extracts multi-scale features across a flexible set of input modalities through masked modeling. Our dual global and local contrastive losses differ in their targets (deep representations vs. shallow input projections) and masking strategies (structured vs. not). Our Galileo is a single generalist model that outperforms SoTA specialist models for satellite images and pixel time series across eleven benchmarks and multiple tasks.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b10565c8f7709e37796ee2164649161a",
+          "name": "Gabriel Tseng",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gabriel_Tseng1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1782337568"
+            },
+            {
+              "type": "xplore",
+              "link": "37088953960"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9f120f70c04fe12ccee2d7ea3f767955",
+          "name": "Anthony Fuller",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Anthony_Fuller1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2063969144"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5a6ff40aa6e86703be02341e0853b06e",
+            "name": "Carleton University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "826f2cfd9748b342ce182ed54151dc3b",
+          "name": "Marlena Reil",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Marlena_Reil1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2345183664"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "887a185a42575a0d3d412aa52499b170",
+          "name": "Henry Herzog",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Henry_Herzog1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270054988"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ce36f00e29d7a22e5cec968812798c6a",
+          "name": "Patrick Beukema",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Patrick_Beukema1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270793007"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a52b2f660c4997fe5cc99875946af21c",
+          "name": "Favyen Bastani",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Favyen_Bastani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2995635"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "91d4e86b86f344d8ea78957d4be764c2",
+          "name": "James R Green",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~James_R_Green1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2264718115"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8cd8a8148101ff68b6caba91cec981ee",
+          "name": "Evan Shelhamer",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Evan_Shelhamer2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2345183553"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "59e9c458a753a30c5f6b46de9cb633b0",
+            "name": "University of British Columbia",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5a6ff40aa6e86703be02341e0853b06e",
+            "name": "Carleton University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e5685349df700a17bbb2ca0a0f21ad2e",
+          "name": "Hannah Kerner",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hannah_Kerner1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "151024247"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293393658"
+            },
+            {
+              "type": "xplore",
+              "link": "959487177668113"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "deep learning"
+      },
+      {
+        "name": "ai for good"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "land cover mapping"
+      },
+      {
+        "name": "self-supervised learning"
+      },
+      {
+        "name": "satellite data"
+      },
+      {
+        "name": "remote sensing"
+      },
+      {
+        "name": "agriculture"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "a2Qn7lTYWL",
+        "url": "https://openreview.net/forum?id=a2Qn7lTYWL"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "gqZO3eSZRy",
+        "url": "https://openreview.net/forum?id=gqZO3eSZRy"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "a2Qn7lTYWL",
+        "url": "https://openreview.net/pdf?id=a2Qn7lTYWL"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "gqZO3eSZRy",
+        "url": "https://openreview.net/pdf?id=gqZO3eSZRy"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2502.09356",
+        "url": "https://arxiv.org/abs/2502.09356"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2502.09356",
+        "url": "https://arxiv.org/pdf/2502.09356.pdf"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "e459025655b0d4967a7cb28d54a71e2424cfccda",
+        "url": "https://www.semanticscholar.org/paper/e459025655b0d4967a7cb28d54a71e2424cfccda"
+      },
+      {
+        "type": "corpusid",
+        "link": "276317224"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "81821c6b605fb7c84f28cd4e6b45c743",
+    "title": "The Butterfly Effect: Neural Network Training Trajectories Are Highly Sensitive to Initial Conditions",
+    "abstract": "Neural network training is inherently sensitive to initialization and the randomness induced by stochastic gradient descent. However, it is unclear to what extent such effects lead to meaningfully different networks, either in terms of the models' weights or the underlying functions that were learned. In this work, we show that during the initial \"chaotic\" phase of training, even extremely small perturbations reliably causes otherwise identical training trajectories to diverge-an effect that diminishes rapidly over training time. We quantify this divergence through (i) $L^2$ distance between parameters, (ii) the loss barrier when interpolating between networks, (iii) $L^2$ and barrier between parameters after permutation alignment, and (iv) representational similarity between intermediate activations; revealing how perturbations across different hyperparameter or fine-tuning settings drive training trajectories toward distinct loss minima. Our findings provide insights into neural network training stability, with practical implications for fine-tuning, model merging, and diversity of model ensembles.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9fe76e64bcd43381643bfe2af7498133",
+          "name": "Devin Kwok",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Devin_Kwok1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1606149866"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461969"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2aa59d788c520398277bcc897ca91be",
+          "name": "Gül Sena Altıntaş",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gül_Sena_Altıntaş1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2274937417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2367196362"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "11b5e8c2fa1083e2523234db1a4c8c6c",
+            "name": "Vector Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c46922bf5626ee65ddae036da59128b",
+            "name": "University of Toronto",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ff226ff146969b1591f40ae89833314f",
+          "name": "Colin Raffel",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Colin_Raffel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269733851"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2367196519"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2402716"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "11b5e8c2fa1083e2523234db1a4c8c6c",
+            "name": "Vector Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c46922bf5626ee65ddae036da59128b",
+            "name": "University of Toronto",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "linear mode connectivity"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "loss landscape"
+      },
+      {
+        "name": "perturbation sensitivity"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      },
+      {
+        "name": "permutation symmetry"
+      },
+      {
+        "name": "early training"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2506.13234",
+        "url": "https://doi.org/10.48550/arXiv.2506.13234"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "L1Bm396P0X",
+        "url": "https://openreview.net/forum?id=L1Bm396P0X"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "L1Bm396P0X",
+        "url": "https://openreview.net/pdf?id=L1Bm396P0X"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2506.13234",
+        "url": "https://arxiv.org/abs/2506.13234"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2506.13234",
+        "url": "https://arxiv.org/pdf/2506.13234.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2506-13234",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2506-13234"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "c805dccf7cf2dd52b47c93c332265d255366802c",
+        "url": "https://www.semanticscholar.org/paper/c805dccf7cf2dd52b47c93c332265d255366802c"
+      },
+      {
+        "type": "corpusid",
+        "link": "279403277"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2506.13234"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "910f6088c94f99227f99057cdba5fc73",
+    "title": "FoMo: Multi-Modal, Multi-Scale and Multi-Task Remote Sensing Foundation Models for Forest Monitoring",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "8fbdaf0d06d2cc971ab7a4c7e37451c7",
+          "name": "Nikolaos Ioannis Bountos",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2007384465"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "82eadd08031b33a3db120b89dffd6d7a",
+          "name": "Arthur Ouaknine",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2264461387"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8e8be1a47ef3286ec6ddff134a1960a2",
+          "name": "Ioannis Papoutsis",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2273653469"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "75f049dd6d3ab7e9ccea9feb30a5c114",
+          "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "type": "journal",
+          "date": {
+            "text": "2025-04-11",
+            "timestamp": 1744344000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1609/aaai.v39i27.35002",
+        "url": "https://doi.org/10.1609/aaai.v39i27.35002"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2312.10114",
+        "url": "https://arxiv.org/abs/2312.10114"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2312.10114",
+        "url": "https://arxiv.org/pdf/2312.10114.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/aaai/BountosOPR25",
+        "url": "https://dblp.uni-trier.de/rec/conf/aaai/BountosOPR25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.1609/aaai.v39i27.35002"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "a325e149fd4034034ba74d55949b3db222817c83",
+        "url": "https://www.semanticscholar.org/paper/a325e149fd4034034ba74d55949b3db222817c83"
+      },
+      {
+        "type": "corpusid",
+        "link": "266348663"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d95c71bb3689fa9c0d1d6538795c1afe",
+    "title": "OpenForest: a data catalog for machine learning in forest monitoring",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "82eadd08031b33a3db120b89dffd6d7a",
+          "name": "Arthur Ouaknine",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2264461387"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e14a14129511187e97e8edcdc0373d2",
+            "name": "School of Computer Science, McGill University, Montréal, QC, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bede8a98a30b77a05e944e9a1777b1ce",
+          "name": "Teja Kattenborn",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2617037"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "72463aae2c056478a6dc90ad58542c59",
+            "name": "Leipzig University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b0ab9642c9412cdd099c3241a6b9195c",
+          "name": "Etienne Lalibert'e",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2264510606"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366013723"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e14a14129511187e97e8edcdc0373d2",
+            "name": "School of Computer Science, McGill University, Montréal, QC, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "131eb6afe0805441e8516bebcbfa92e9",
+          "name": "Environmental Data Science",
+          "type": "journal",
+          "date": {
+            "text": "2025-02-27",
+            "timestamp": 1740632400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1017/eds.2024.53",
+        "url": "https://doi.org/10.1017/eds.2024.53"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2311.00277",
+        "url": "https://arxiv.org/abs/2311.00277"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2311.00277",
+        "url": "https://arxiv.org/pdf/2311.00277.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2311-00277",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2311-00277"
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.1017/eds.2024.53"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "7be1d30baf49230b262416320fcfb31b5aac7a4c",
+        "url": "https://www.semanticscholar.org/paper/7be1d30baf49230b262416320fcfb31b5aac7a4c"
+      },
+      {
+        "type": "corpusid",
+        "link": "264832635"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d77c73b3133c54f6a88656309cf221cf",
+    "title": "Harnessing artificial intelligence to fill global shortfalls in biodiversity knowledge",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "dfccc6a5340f83ed7b54ecd05bba4f0d",
+          "name": "Laura J. Pollock",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "laura.pollock@mila.quebec"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2239946143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2240958298"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2242977453"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282461196"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "40628834"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e525f199893a106f372fc6b0d7e8d2e4",
+          "name": "Justin Kitzes",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2248919660"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346582721"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d2efda828bc0fbaf68e722f1e8d91f54",
+          "name": "Sara Beery",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sara_Beery1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275612461"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b2a01111d52732c014899422c44f5395",
+          "name": "Kaitlyn M. Gaynor",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2271645263"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c85adf61858cbdf57f38e1fd724c2582",
+          "name": "Marta A. Jarzyna",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "4927581"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9270a1152ca3fa680d93274abda78293",
+          "name": "Oisin Mac Aodha",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2918822"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "99dc9e9cd6fe4819f715ca82dbc496b5",
+          "name": "Bernd Meyer",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2346594328"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f73b0ca05bb8cddca148c7cce31e485d",
+          "name": "Graham W. Taylor",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Graham_W._Taylor1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1405620261"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144639556"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346931063"
+            },
+            {
+              "type": "xplore",
+              "link": "37085420871"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ad15878df26d541cf2945d6511ea9dba",
+          "name": "Devis Tuia",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2977931"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bde735c1a73fe4b6a2a389289503835a",
+          "name": "Tanya Berger-Wolf",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2275613634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346589568"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "34e4aca1280c5f272b7dd064e6f21e35",
+          "name": "Nature Reviews Biodiversity",
+          "type": "journal",
+          "date": {
+            "text": "2025-02-20",
+            "timestamp": 1740027600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "289d2161a04268b52f687ec341be9d77",
+          "name": "Nature Reviews Biodiversity",
+          "type": "journal",
+          "date": {
+            "text": "2025-02-20",
+            "timestamp": 1740027600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1038/s44358-025-00022-3",
+        "url": "https://doi.org/10.1038/s44358-025-00022-3"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "c0a44b3b45b865db3e40f4fe747c3dc87a92370b",
+        "url": "https://www.semanticscholar.org/paper/c0a44b3b45b865db3e40f4fe747c3dc87a92370b"
+      },
+      {
+        "type": "corpusid",
+        "link": "276518915"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9f82cb683733f2eed1374cc65afc644a",
+    "title": "Using Image-based AI for insect monitoring and conservation - InsectAI COST Action",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "e04c4f3344353a2fa4ad092d9be1ea2b",
+          "name": "Tom August",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2272049818"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2300055105"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "538bf0d4657655d358f86b2feb9f8977",
+            "name": "UK Centre for Ecology and Hydrology, Wallingford, United Kingdom",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c23407e991fba70ddfa8e1b9fea4db4",
+          "name": "Mario Balzan",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2268099227"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "259c4a62d59ca5b40c53b037121de526",
+            "name": "Malta College of Arts, Science and Technology, Paola, Malta",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ca94c40b72d71b1f45696af8b78d3b76",
+          "name": "Paul Bodesheim",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1686282"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "476de22198ca5333153e6c02c6b6d3bf",
+            "name": "Friedrich Schiller University, Jena, Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a2e0362eaa1d1dd5981603b3866783a9",
+          "name": "Gunnar Brehm",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344903418"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "476de22198ca5333153e6c02c6b6d3bf",
+            "name": "Friedrich Schiller University, Jena, Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bebc6720f26996d4762c2b1820c44809",
+          "name": "Lisette Cantú-Salazar",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1417235784"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2f62225612c99390ac17f4b67028a303",
+            "name": "Luxembourg Institute of Science and Technology, Esch-Sur-Alzette, Luxembourg",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d63b97e2b3140183288717f7d6b5c35b",
+          "name": "Sílvia Castro",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2240219200"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6d1e96f30e3eb580dbd9deeac84a8333",
+            "name": "Centre for Functional Ecology, Associate Laboratory TERRA, Department of Life Sciences, University of Coimbra, Coimbra, Portugal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9dc326a6e1e2fcdf2f52e8602213b0a1",
+          "name": "Joseph Chipperfield",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344902225"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0f161b5d4ae74935dd6170fb51e175b3",
+            "name": "Norwegian Institute for Nature Research, Trondheim, Norway",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d65ef5c97a3c8e374758410d60f7fcfa",
+          "name": "Guillaume Ghisbain",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1396523849"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5fbac059cc1f0b25299f032be9a0266a",
+            "name": "Université de Mons, Mons, Belgium",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9f94893da851ccf18dca3a6d9441dd53",
+          "name": "Alba Gomez-Segura",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054344"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "538bf0d4657655d358f86b2feb9f8977",
+            "name": "UK Centre for Ecology and Hydrology, Wallingford, United Kingdom",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8dfe06173ca9075f3fc98d33826d5369",
+          "name": "Jérémie Goulnik",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344905578"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5262e5c5f36285bb0ad3cbbfe2a120b5",
+            "name": "Association Noé, Paris, France",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a6af3bc1186c6de7f3c2a5559208c70b",
+          "name": "Quentin Groom",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2262293692"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1377ca7c4f83bce88c77aeb6876efeb1",
+            "name": "Meise Botanic Garden, Meise, Belgium",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8ae03420b3b96d23bd901f87f793c098",
+          "name": "Laurens Hogeweg",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2950455"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "181a17094b585d49c607638da4a7031a",
+            "name": "Naturalis Biodiversity Center, Leiden, Netherlands",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "93825b115c5d3db35d28eaa4553b2d62",
+          "name": "Chantal Huijbers",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344948863"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "181a17094b585d49c607638da4a7031a",
+            "name": "Naturalis Biodiversity Center, Leiden, Netherlands",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ccf4756746b5f5df792e89ee9dda1f35",
+          "name": "Andreas Kamilaris",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2327391364"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3235501376d1f3dd3514f033cabcbdf6",
+            "name": "University of Twente, Enschede, Netherlands",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "90bb464bdeebf324692acc476da85afd",
+          "name": "Karolis Kazlauskis",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344907961"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "67253b05827876b8a382793ebe3f308d",
+            "name": "Flumens, Kaunas, Lithuania",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a27a81aeb3f90c341723cb476b3c5bec",
+          "name": "Wouter Koch",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2060053259"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "702d3396ed10fddecaa07843b4fc9f53",
+            "name": "Norwegian Biodiversity Information Centre, Trondheim, Norway",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "88a887eb6220dbf96942880c66c7d248",
+          "name": "Dimitri Korsch",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "49016378"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "476de22198ca5333153e6c02c6b6d3bf",
+            "name": "Friedrich Schiller University, Jena, Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9b06c429a0916ece27b9a88ee170daa5",
+          "name": "João Loureiro",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2256497621"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6d1e96f30e3eb580dbd9deeac84a8333",
+            "name": "Centre for Functional Ecology, Associate Laboratory TERRA, Department of Life Sciences, University of Coimbra, Coimbra, Portugal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2326c7abe9770b71491aaff1cb29c10",
+          "name": "Youri Martin",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "144087512"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2f62225612c99390ac17f4b67028a303",
+            "name": "Luxembourg Institute of Science and Technology, Esch-Sur-Alzette, Luxembourg",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "928ae865558d784e3f5b723e1259857f",
+          "name": "Angeliki Martinou",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "48991997"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "080730c338c9fd010733850452c083e3",
+            "name": "Laboratory of Vector Ecology and Applied Entomology, Joint Services Health Unit, Akrotiri, Cyprus",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5040d9fd29380a81aebb85e7a6a78e48",
+            "name": "Enalia Physis Environmental Research Centre, Nicosia, Cyprus",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "54aba20cd51e5d288bfc52c8b0648ce6",
+            "name": "The Cyprus Institute, Nicosia, Cyprus",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9f3969bc33473dbe5969370f6821ad49",
+          "name": "Kent McFarland",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344910177"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "51dda3e5dd33f182e32ae8ae927f7b74",
+            "name": "Vermont Center for Ecostudies, Norwich, United States of America",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "aac0d639fa5e6cb7dd858c270d725250",
+          "name": "Xavier Mestdagh",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1394911888"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2f62225612c99390ac17f4b67028a303",
+            "name": "Luxembourg Institute of Science and Technology, Esch-Sur-Alzette, Luxembourg",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a0231de8573ca0102bc074ea6fe2438d",
+          "name": "Denis Michez",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2276113588"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1e1665149d5d49f4db3b2bd3524ee5b4",
+            "name": "University of Mons, Mons, Belgium",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8760345db01984eb5bb533d853c0e74c",
+          "name": "Charlie Outhwaite",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2239290855"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d86e57523f0c151a5d14b4cda88d293",
+            "name": "University College London, London, United Kingdom",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ad949ab021de5250b39be528e9037355",
+          "name": "Luca Pegoraro",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344948831"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0271e0b2a08ff4a795ba274fedbb8dc6",
+            "name": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL, Birmensdorf, Switzerland",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "86967e073578e1a217bed72f0db4431b",
+          "name": "Nadja Pernat",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1415383327"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4b4a62004f17467c8a74b7136466d8e2",
+            "name": "Institute of Landscape Ecology & Centre for Integrative Biodiversity Research and Applied Ecology (CIBRA), University of Münster, Münster, Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cca412abdeb214d368590e6f180a813a",
+          "name": "Lars Pettersson",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2302428507"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "082cb799f9b16dde4dbdcb984ef18088",
+            "name": "Biodiversity Unit, Department of Biology, Lund University, Lund, Sweden",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a0b7905fb2515f1c2f8fbf49deb1c18e",
+          "name": "Pavel Pipek",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "5095528"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2520feb56277c083402286f6f5ce9c1a",
+            "name": "Charles University in Prague, Faculty of Science, Praha, Czech Republic",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "859b1fec79d7685d9333b02f1fd5692c",
+          "name": "Cristina Preda",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2183425712"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "73aa854243921d4a1e5671d1545783bd",
+            "name": "Ovidius University of Constanta, Constanta, Romania",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "11c91e77c8a6f67f2efcd61d458fcefe",
+            "name": "McGill University; Mila Quebec AI Institute, Montreal, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c1b3b6b739d4adc2287101ab9fd9a72",
+          "name": "Tobias Roth",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2252280300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "267c002bc1ebf5734582d1f9ffa000f1",
+            "name": "Ökologische Beratung, Planung und Forschung, Reinach, Switzerland",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f1868f78d1d5c5df72d3eaf610e65ede",
+          "name": "David Roy",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2271923499"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307080561"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2131c7da77369bfa0292dae6a5fe7566",
+            "name": "University of Exeter, Falmouth, United Kingdom",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c29d74a5a8009e44f7deca17662850d",
+            "name": "Centre for Ecology & Hydrology, Crowmarsh Gifford, Wallingford, Wallingford, United Kingdom",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "87e120d453bc83dcbaef5f07f593c3f7",
+          "name": "Helen Roy",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2248082332"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "538bf0d4657655d358f86b2feb9f8977",
+            "name": "UK Centre for Ecology and Hydrology, Wallingford, United Kingdom",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "854c9d7490de30fd4c4933ab15a7409d",
+          "name": "Veljo Runnel",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "27686455"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2c369cac0cd47f243fe0246a59d8ae7d",
+            "name": "University of Tartu, Tartu, Estonia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c24cf2ca390fa60d657cc56ccdc7b338",
+          "name": "Martina Sasic",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "34790188"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4df2f4291656986f65ee51420c6eed0e",
+            "name": "Croatian Natural History Museum, Zagreb, Croatia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "989624d6995657eaab241e537cdff106",
+          "name": "Dmitry Schigel",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2238655289"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "76298d6e8ba5dea932646a4fc233d23d",
+            "name": "Global Biodiversity Information Facility - Secretariat, Copenhagen Ø, Denmark",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9f83dbcf10154b8b35b5a158fe96838a",
+          "name": "Julie Sheard",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2344905800"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1208ea666b5245ddfc144e9a179cb279",
+            "name": "Friedrich Schiller University Jena, Institute of Biodiversity, Jena, Germany",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "71eac4a633706fd9943f175fa6674c8b",
+            "name": "Helmholtz – Centre for Environmental Research – UFZ, Leipzig, Germany",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7d3c4565d367588a22e7a299718d5811",
+            "name": "German Centre for Integrative Biodiversity Research (iDiv) Halle Jena Leipzig, Leipzig, Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ae094494386c4f35b426ecff830b91f6",
+          "name": "Cecilie Svenningsen",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1957317181"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2962bd0beef7b236df49e607a84c5763",
+            "name": "University of Copenhagen, Copenhagen, Denmark",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d5b0f0d8154c70b1164f119aa9400d3d",
+          "name": "Heliana Teixeira",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2269581024"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6c8d139859f4be8b1881bac8ce0c0524",
+            "name": "CESAM & Department of Biology, University of Aveiro, Aveiro, Portugal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "88e2043966f8a1d14e92238789919f64",
+          "name": "Nicolas Titeux",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "4915725"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2f62225612c99390ac17f4b67028a303",
+            "name": "Luxembourg Institute of Science and Technology, Esch-Sur-Alzette, Luxembourg",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8774da2ba4816e7eafe309b1a5b73557",
+          "name": "Thomas Tscheulin",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2281191104"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "08cdbfff4f0d4a25a76efdd2eb8394c7",
+            "name": "University of the Aegean, Μytilene, Greece",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8a098ab22b52495333d28bf80f00643e",
+          "name": "Elli Tzirkalli",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "4415226"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6ad2197e9301a4a3fc4640ab1ddc0585",
+            "name": "Faculty of Pure and Applied Sciences, Open University of Cyprus, Nicosia, Cyprus",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "94ea4c6fdc454b8f99dd32b40cf7941b",
+          "name": "Marijn van der Velde",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "49118457"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "50f8f0e1eda4c4168de588dc4a7a6109",
+            "name": "European Commission, Joint Research Centre (JRC), Ispra, Italy",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d0a56693542b2fa43c0c0293c6d2f9a4",
+          "name": "Roel van Klink",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "37934562"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "74aff814ccd7b111e63dd7c9715b2e90",
+            "name": "Martin-Luther University, Department of Computer Science, Halle, Germany",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7d3c4565d367588a22e7a299718d5811",
+            "name": "German Centre for Integrative Biodiversity Research (iDiv) Halle Jena Leipzig, Leipzig, Germany",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d09972ccbba5ea1843c3feaa590103a0",
+          "name": "Nicolas Vereecken",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "4660557"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "698dd38b37a20c794f699111ed2945e6",
+            "name": "Agroecology Lab, Université libre de Bruxelles (ULB), Brussel, Belgium",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbd59c30276871c6f47da354aac01ff6",
+          "name": "Sarah Vray",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "8784858"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a3272b675599d47ec4ea27076dc9490",
+            "name": "Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a020da814ddf6ece711777929fc3dc1a",
+          "name": "Toke Thomas Høye",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0001-5387-3284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1403067350"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "375601f84b87d51eaae4d558145df8fb",
+            "name": "Aarhus University, Aarhus, Denmark",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "64237a681dc384863f4299214624bb79",
+          "name": "Research Ideas and Outcomes",
+          "type": "journal",
+          "date": {
+            "text": "2025-02-10",
+            "timestamp": 1739163600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "6b78fe5c0c718e3a497d1691b328c90d",
+          "name": "Research Ideas and Outcomes",
+          "type": "journal",
+          "date": {
+            "text": "2025-02-10",
+            "timestamp": 1739163600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.3897/rio.10.e134825",
+        "url": "https://doi.org/10.3897/rio.10.e134825"
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.3897/rio.10.e134825"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "843d3afd3326713994cdb1a4969ae634eed53d8f",
+        "url": "https://www.semanticscholar.org/paper/843d3afd3326713994cdb1a4969ae634eed53d8f"
+      },
+      {
+        "type": "corpusid",
+        "link": "276272313"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "c21a5bc1bd7d1f9554599a7477722ffc",
+    "title": "Alberta Wells Dataset: Pinpointing Oil and Gas Wells from Satellite Imagery",
+    "abstract": "Millions of abandoned oil and gas wells are scattered across the world, leaching methane into the atmosphere and toxic compounds into the groundwater. Many of these locations are unknown, preventing the wells from being plugged and their polluting effects averted. Remote sensing is a relatively unexplored tool for pinpointing abandoned wells at scale. We introduce the first large-scale benchmark dataset for this problem, leveraging medium-resolution multi-spectral satellite imagery from Planet Labs. Our curated dataset comprises over 213,000 wells (abandoned, suspended, and active) from Alberta, a region with especially high well density, sourced from the Alberta Energy Regulator and verified by domain experts. We evaluate baseline algorithms for well detection and segmentation, showing the promise of computer vision approaches but also significant room for improvement.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "fa2d98401d33353cbd7a3ce6171c82f2",
+          "name": "Pratinav Seth",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pratinav_Seth1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2138282585"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "7394476719513187439e799de62e8788",
+            "name": "Manipal Institute of Technology",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf84c42cb492a420b7211218c30c2e9e",
+          "name": "Michelle Lin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Michelle_Lin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2161625891"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325916074"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d0394d44a2aec759831ae32163a3b387",
+          "name": "BREFO DWAMENA YAW",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~BREFO_DWAMENA_YAW1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325727477"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b2c272d7bf410f50938295477c5130c5",
+          "name": "Jade Boutot",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jade_Boutot1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2119378927"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b26625d27aec6591a1cafd3d17db0fb5",
+          "name": "Mary Kang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mary_Kang1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326074666"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7dcc44e02fb7c28073f4af008653c472",
+            "name": "Mila – Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Satellite Imagery"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Remote Sensing"
+      },
+      {
+        "name": "AI for Good"
+      },
+      {
+        "name": "Climate Change"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2410.09032",
+        "url": "https://doi.org/10.48550/arXiv.2410.09032"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "WGBf2xwsgX",
+        "url": "https://openreview.net/forum?id=WGBf2xwsgX"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "urgpcr7kFR",
+        "url": "https://openreview.net/forum?id=urgpcr7kFR"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "zLHn677EMS",
+        "url": "https://openreview.net/forum?id=zLHn677EMS"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "WGBf2xwsgX",
+        "url": "https://openreview.net/pdf?id=WGBf2xwsgX"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "urgpcr7kFR",
+        "url": "https://openreview.net/pdf?id=urgpcr7kFR"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "zLHn677EMS",
+        "url": "https://openreview.net/pdf?id=zLHn677EMS"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2410.09032",
+        "url": "https://arxiv.org/abs/2410.09032"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2410.09032",
+        "url": "https://arxiv.org/pdf/2410.09032.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2410-09032",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2410-09032"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "b3fdc98141f56326163e8382f1f2cfb42ce81c11",
+        "url": "https://www.semanticscholar.org/paper/b3fdc98141f56326163e8382f1f2cfb42ce81c11"
+      },
+      {
+        "type": "corpusid",
+        "link": "273323506"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": false,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "f36e238cad8a0b6fd9f22a9561c19c0e",
+    "title": "Linear Weight Interpolation Leads to Transient Performance Gains",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ad8b1da8ed327785e7122452fb0fd774",
+          "name": "Gaurav Iyer",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gaurav_Iyer1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2005003855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321546291"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a5135e9cc55c0cc41d02537b5101374f",
+          "name": "Gintare Karolina Dziugaite",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gintare-karolina-dziugaite"
+            },
+            {
+              "type": "email.mila",
+              "link": "gintare-karolina.dziugaite@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "867185886"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gintare_Karolina_Dziugaite1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2215482536"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2337687665"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2533850"
+            },
+            {
+              "type": "xplore",
+              "link": "37089474333"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "398e07d02ee107789d8769eeaa265de1",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2024-09-28",
+            "timestamp": 1727496000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Weight Interpolation"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Loss Landscapes"
+      },
+      {
+        "name": "Example Importance"
+      },
+      {
+        "name": "Efficient Training"
+      },
+      {
+        "name": "Linear Mode Connectivity"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "RaLLLLofSw",
+        "url": "https://openreview.net/forum?id=RaLLLLofSw"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "XGAdBXlFcj",
+        "url": "https://openreview.net/forum?id=XGAdBXlFcj"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "RaLLLLofSw",
+        "url": "https://openreview.net/pdf?id=RaLLLLofSw"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "XGAdBXlFcj",
+        "url": "https://openreview.net/pdf?id=XGAdBXlFcj"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/tmlr/IyerDR24",
+        "url": "https://dblp.uni-trier.de/rec/journals/tmlr/IyerDR24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=XGAdBXlFcj"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "e5efa344110a032dc926daf1527c5101b97abe50",
+        "url": "https://www.semanticscholar.org/paper/e5efa344110a032dc926daf1527c5101b97abe50"
+      },
+      {
+        "type": "corpusid",
+        "link": "272703359"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "bd1b860c1033632ae60f3880025a1093",
+    "title": "Pushing the frontiers in climate modelling and analysis with machine learning",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "aa9c607e69e920fce92e7134d6dff212",
+          "name": "Veronika Eyring",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2237536159"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bc04ee85abf3c879c678036285866b9f",
+          "name": "William D. Collins",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2244769958"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "baa66fa334d9d2a1697c6e657e9398a1",
+          "name": "Pierre Gentine",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2258450509"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f1dd093c9ae13a6a10389235aeefd567",
+          "name": "Elizabeth A. Barnes",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2248366131"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b4170baa4b8cb9482f2216584c98380d",
+          "name": "Marcelo Barreiro",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2190901039"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ca60768ef0cd04c76d72e11992bf8d73",
+          "name": "Tom Beucler",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "102947589"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "807b744f842bf817c564136e01b17ced",
+          "name": "Marc Bocquet",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2261222882"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a1e093a8e9558284bf9a0ee090ad4e74",
+          "name": "Christopher S. Bretherton",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2240017193"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bfd2b46c369ad95f4f7dff340ff01ecd",
+          "name": "Hannah M. Christensen",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2186027546"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b41d416a67797b8f3861e2c1352980ef",
+          "name": "Katherine Dagon",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "102325220"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "98557d674cc44995f3eed3f72294cfb7",
+          "name": "David John Gagne",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2256990563"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d3ed514f52f4479763ebf56d4c84e9b8",
+          "name": "David Hall",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "122067584"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2317264678"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bdb84e954133ab792e9f5ed1a2da6cb6",
+          "name": "Dorit Hammerling",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "3420744"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "98899a92ace743cf7f4676b8928b8ca1",
+          "name": "Stephan Hoyer",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2257229905"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "7018631"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "958c0210f502e03bc7d322e9e72d5d53",
+          "name": "Fernando Iglesias-Suarez",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1403715027"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ae3024dd7e9670a10b3c6991b6d65b58",
+          "name": "Ignacio Lopez-Gomez",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1422415932"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "cd6db13341cdadb4c1da4a78ea7ae6bb",
+          "name": "Marie C. McGraw",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "92875784"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d201c660ee5457509e8b985e449add8f",
+          "name": "Gerald A. Meehl",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "3221562"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9c47e14b0a25ac372b4209c9663ba29e",
+          "name": "Maria J. Molina",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2268328753"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e16235f54258f30d787953fb40f352ce",
+          "name": "Claire Monteleoni",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Claire_Monteleoni1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1806678"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f5db2d3f5f6843590ad790a1b6848104",
+          "name": "Juliane Mueller",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2318707655"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9af47c2f56d20206ef851b26c146389f",
+          "name": "Michael S. Pritchard",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2242002399"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8a8c1b7424d014adfcd9f2ffb40fdacf",
+          "name": "Jakob Runge",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jakob_Runge2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265584121"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "83ae5903ca1961847ba86814fc6b7d4e",
+          "name": "Philip Stier",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2296385198"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ad81b71717fab5bf2e6db061a5bef29c",
+          "name": "Oliver Watt-Meyer",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1422180330"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "955f17dd5606a0e87bde8bc108db53e7",
+          "name": "Katja Weigel",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2237537478"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "829423a2c15ce83728fd3a1c536e1f7e",
+          "name": "Rose Yu",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2308241298"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a115d91b7965250a95cfa421b2e84c18",
+          "name": "Laure Zanna",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2273644600"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "34e86939b6662608da93024483c5e361",
+          "name": "Nature Climate Change",
+          "type": "journal",
+          "date": {
+            "text": "2024-08-23",
+            "timestamp": 1724385600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "1fec8a1dd5ba8c0c987f32f295f124ce",
+          "name": "Nature Climate Change",
+          "type": "journal",
+          "date": {
+            "text": "2024-08-23",
+            "timestamp": 1724385600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1038/s41558-024-02095-y",
+        "url": "https://doi.org/10.1038/s41558-024-02095-y"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "907df33a6575657b1b7d3b73870cae9f4603eb24",
+        "url": "https://www.semanticscholar.org/paper/907df33a6575657b1b7d3b73870cae9f4603eb24"
+      },
+      {
+        "type": "corpusid",
+        "link": "272079430"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a7850ed875405e7d27b7cf3c9e3c817f",
+    "title": "Simultaneous linear connectivity of neural networks modulo permutation",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "87903b6c6a133143d005acc296f02237",
+          "name": "Ekansh Sharma",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "8125549"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "11b5e8c2fa1083e2523234db1a4c8c6c",
+            "name": "Vector Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c46922bf5626ee65ddae036da59128b",
+            "name": "University of Toronto",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9fe76e64bcd43381643bfe2af7498133",
+          "name": "Devin Kwok",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Devin_Kwok1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1606149866"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461969"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2d20e3e3aaae92b209696c3601758a3",
+          "name": "Tom Denton",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2295729526"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2298270920"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3ed660bb948b546c97f8ec9f6f1c9574",
+            "name": "Google Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a9730c31464de000e72be809d7875544",
+          "name": "Daniel M. Roy",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Daniel_M._Roy1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Daniel_Roy1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2257304927"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "39331522"
+            },
+            {
+              "type": "xplore",
+              "link": "38237265000"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a5135e9cc55c0cc41d02537b5101374f",
+          "name": "Gintare Karolina Dziugaite",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gintare-karolina-dziugaite"
+            },
+            {
+              "type": "email.mila",
+              "link": "gintare-karolina.dziugaite@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "867185886"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gintare_Karolina_Dziugaite1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2215482536"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2337687665"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2533850"
+            },
+            {
+              "type": "xplore",
+              "link": "37089474333"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0711161da2c891f5c83cdf6ef78daa9b",
+            "name": "Google DeepMind",
+            "category": "industry"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "21ffd4fc772b846f12df1a8039619d8c",
+          "name": "Lecture Notes in Computer Science",
+          "type": "conference",
+          "date": {
+            "text": "2024-08-22",
+            "timestamp": 1724299200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1007/978-3-031-70368-3_16",
+        "url": "https://doi.org/10.1007/978-3-031-70368-3_16"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2404.06498",
+        "url": "https://doi.org/10.48550/arXiv.2404.06498"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2404.06498",
+        "url": "https://arxiv.org/abs/2404.06498"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2404.06498",
+        "url": "https://arxiv.org/pdf/2404.06498.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/pkdd/SharmaKDRRD24",
+        "url": "https://dblp.uni-trier.de/rec/conf/pkdd/SharmaKDRRD24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2404-06498",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2404-06498"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "2bc1a2330df6d2ca3b891402b9f46e21d2b8b01c",
+        "url": "https://www.semanticscholar.org/paper/2bc1a2330df6d2ca3b891402b9f46e21d2b8b01c"
+      },
+      {
+        "type": "corpusid",
+        "link": "269009465"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "831d987bb09dbe2a3b3319001f30815f",
+    "title": "Tree semantic segmentation from aerial image time series",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "94510e1ccd7f5ae3b5c2b550c81eb02d",
+          "name": "Venkatesh Ramesh",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Venkatesh_Ramesh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2142450672"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a8c98bc403f482347363a1f17a3a24a",
+            "name": "Département d’informatique et de recherche opérationnelle",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "82eadd08031b33a3db120b89dffd6d7a",
+          "name": "Arthur Ouaknine",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2264461387"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "24f84e9d96525af13a71d7205e6e6e6d",
+          "name": "Environmental Data Science",
+          "type": "journal",
+          "date": {
+            "text": "2025-07-29",
+            "timestamp": 1753761600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1017/eds.2025.10013",
+        "url": "https://doi.org/10.1017/eds.2025.10013"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2407.13102",
+        "url": "https://doi.org/10.48550/arXiv.2407.13102"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2407.13102",
+        "url": "https://arxiv.org/abs/2407.13102"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2407.13102",
+        "url": "https://arxiv.org/pdf/2407.13102.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2407-13102",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2407-13102"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "f0c39b0b839897fff5d43d94b4ef6e29ebaff5d5",
+        "url": "https://www.semanticscholar.org/paper/f0c39b0b839897fff5d43d94b4ef6e29ebaff5d5"
+      },
+      {
+        "type": "corpusid",
+        "link": "271270649"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8c58ca392edf74d300c5270539521106",
+    "title": "Towards a standardized framework for AI-assisted, image-based monitoring of nocturnal insects",
+    "abstract": "Automated sensors have potential to standardize and expand the monitoring of insects across the globe. As one of the most scalable and fastest developing sensor technologies, we describe a framework for automated, image-based monitoring of nocturnal insects—from sensor development and field deployment to workflows for data processing and publishing. Sensors comprise a light to attract insects, a camera for collecting images and a computer for scheduling, data storage and processing. Metadata is important to describe sampling schedules that balance the capture of relevant ecological information against power and data storage limitations. Large data volumes of images from automated systems necessitate scalable and effective data processing. We describe computer vision approaches for the detection, tracking and classification of insects, including models built from existing aggregations of labelled insect images. Data from automated camera systems necessitate approaches that account for inherent biases. We advocate models that explicitly correct for bias in species occurrence or abundance estimates resulting from the imperfect detection of species or individuals present during sampling occasions. We propose ten priorities towards a step-change in automated monitoring of nocturnal insects, a vital task in the face of rapid biodiversity loss from global threats. This article is part of the theme issue ‘Towards a toolkit for global insect biodiversity monitoring’.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "0b002a113d5f7afcd07dac209271fb78",
+          "name": "D. B. Roy",
+          "links": []
+        },
+        "affiliations": [
+          {
+            "institution_id": "4c325cb368d6e7f1acaa365a314a8cd0",
+            "name": "University of Exeter",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "621a5cf3f5e856def640343aef257f01",
+            "name": "UK Centre for Ecology & Hydrology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f1868f78d1d5c5df72d3eaf610e65ede",
+          "name": "David Roy",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2271923499"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307080561"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8745877242e07f4adbf024b44cb57c46",
+          "name": "J. Alison",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "8572737"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0e5e2e610ff301a01576a40ac0ff9d04",
+            "name": "Aarhus University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e04c4f3344353a2fa4ad092d9be1ea2b",
+          "name": "Tom August",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2272049818"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2300055105"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "621a5cf3f5e856def640343aef257f01",
+            "name": "UK Centre for Ecology & Hydrology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b8b641b5b753cedb83b074ad7914dd31",
+          "name": "M. Bélisle",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055052"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "02ab569321c8cdd78c4bd504640be0af",
+            "name": "Université de Sherbrooke",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9d02d858645f096dc462bed5d2aec2e7",
+          "name": "K. Bjerge",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0001-6742-9504"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2130652"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0e5e2e610ff301a01576a40ac0ff9d04",
+            "name": "Aarhus University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "99e7adbd43796149eedd734aee2f03c3",
+          "name": "J. J. Bowden",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054486"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3fa2b4ea01b56e0ae92c476e8ab6f648",
+            "name": "Canadian Forest Service – Atlantic Forestry Centre",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a750aeedd6ef137bcd34b633fb946897",
+          "name": "M. J. Bunsen",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054355"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1fd29bc4a984f1701efd1a3bca98bd5b",
+            "name": "Mila – Québec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9df43cd74836778226e8436d8c1a87ae",
+          "name": "F. Cunha",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055266"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1fd29bc4a984f1701efd1a3bca98bd5b",
+            "name": "Mila – Québec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "28ea87b56d2df45c55269d27877e5085",
+            "name": "Federal University of Amazonas",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "80b5e79f1212c06ec42a8af1d962680d",
+          "name": "Q. Geissmann",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2205752"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0e5e2e610ff301a01576a40ac0ff9d04",
+            "name": "Aarhus University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8f4ea5a04dddf332ac1be590b5b2293c",
+          "name": "K. Goldmann",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054524"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5c6a23f408778e9fb4b1a1b672167a52",
+            "name": "The Alan Turing Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9f94893da851ccf18dca3a6d9441dd53",
+          "name": "Alba Gomez-Segura",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054344"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "621a5cf3f5e856def640343aef257f01",
+            "name": "UK Centre for Ecology & Hydrology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a62b9f88c5ab0734a79cb75e93ba0269",
+          "name": "A. Jain",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300138784"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1fd29bc4a984f1701efd1a3bca98bd5b",
+            "name": "Mila – Québec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8c8bcc19a753fbe4b3158c654b02639d",
+          "name": "C. Huijbers",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055101"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5983adfc7540cec814b2df595431192a",
+            "name": "Naturalis Biodiversity Centre",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c136c2bd289b8c1dc057d3e4f9082343",
+          "name": "M. Larrivée",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055094"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5496d175abef41d388cda909cd2f8dca",
+            "name": "Insectarium de Montreal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d7561967c9e549b179ac6e7319e12f7f",
+          "name": "J. L. Lawson",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055561"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "621a5cf3f5e856def640343aef257f01",
+            "name": "UK Centre for Ecology & Hydrology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d61ef6241666a29e08bab096f7de3e8f",
+          "name": "H. M. Mann",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055188"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0e5e2e610ff301a01576a40ac0ff9d04",
+            "name": "Aarhus University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bc70f177640d58a9f2f76fa2bf92059e",
+          "name": "M. J. Mazerolle",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "88646748"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "7e1f6dccfc6f7a6b7f9ddf84b0cbe826",
+            "name": "Université Laval",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8bb7357ed3ac915148101b8af32686b8",
+          "name": "K. P. McFarland",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055214"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5f9fa0c52a6f8e29337a78df75bac4d2",
+            "name": "Vermont Centre for Ecostudies",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9772f0cf3d4652d1bf9c477ec0adec4d",
+          "name": "L. Pasi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054936"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1fd29bc4a984f1701efd1a3bca98bd5b",
+            "name": "Mila – Québec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5a14e30792222aa4d57cf6ed3f188e60",
+            "name": "Ecole Polytechnique, Federale de Lausanne",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e04f430bffa497c97fce3be1e8ed70f7",
+          "name": "S. Peters",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055784"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "47112315"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6d2a57054526936113a2b0f1c4353b8e",
+            "name": "Faunabit",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "af99c3da94c1e63132f23abaa7a10a90",
+          "name": "N. Pinoy",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300056498"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0e5e2e610ff301a01576a40ac0ff9d04",
+            "name": "Aarhus University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1fd29bc4a984f1701efd1a3bca98bd5b",
+            "name": "Mila – Québec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c50a2b0475bd886f2e35ce53b5e40887",
+          "name": "G. L. Skinner",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2222712917"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "621a5cf3f5e856def640343aef257f01",
+            "name": "UK Centre for Ecology & Hydrology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c6ea0b7ae1fd362d4dc58cb9e4636fb9",
+          "name": "O. T. Strickson",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054500"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5c6a23f408778e9fb4b1a1b672167a52",
+            "name": "The Alan Turing Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8b7d5ac90fe79b18300bde4f18521a82",
+          "name": "A. Svenning",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054498"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0e5e2e610ff301a01576a40ac0ff9d04",
+            "name": "Aarhus University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b3d8a63ada0247810f336c7d724bf872",
+          "name": "S. Teagle",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054496"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "621a5cf3f5e856def640343aef257f01",
+            "name": "UK Centre for Ecology & Hydrology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a020da814ddf6ece711777929fc3dc1a",
+          "name": "Toke Thomas Høye",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0001-5387-3284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1403067350"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0e5e2e610ff301a01576a40ac0ff9d04",
+            "name": "Aarhus University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "3f91424aec727f56629bec1d2a2c2abb",
+          "name": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+          "type": "journal",
+          "date": {
+            "text": "2024-06-24",
+            "timestamp": 1719201600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "The Royal Society",
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "500a5d9d5b2396bd55d4890f71538cf6",
+          "name": "Philosophical Transactions of the Royal Society of London. Biological Sciences",
+          "type": "review",
+          "date": {
+            "text": "2024-05-06",
+            "timestamp": 1714968000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "379"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "moths"
+      },
+      {
+        "name": "camera trap"
+      },
+      {
+        "name": "biodiversity monitoring"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1098/rstb.2023.0108",
+        "url": "https://doi.org/10.1098/rstb.2023.0108"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "38705190",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38705190"
+      },
+      {
+        "type": "pmc.abstract",
+        "link": "11070254",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11070254"
+      },
+      {
+        "type": "pdf",
+        "link": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2023.0108"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "cfbcec4ea00480a9b2306b3242b8ca070345f6e4",
+        "url": "https://www.semanticscholar.org/paper/cfbcec4ea00480a9b2306b3242b8ca070345f6e4"
+      },
+      {
+        "type": "corpusid",
+        "link": "269601759"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a901a8ce8033914c15d3322931da56e3",
+    "title": "Insect Identification in the Wild: The AMI Dataset",
+    "abstract": "Insects represent half of all global biodiversity, yet many of the world's insects are disappearing, with severe implications for ecosystems and agriculture. Despite this crisis, data on insect diversity and abundance remain woefully inadequate, due to the scarcity of human experts and the lack of scalable tools for monitoring. Ecologists have started to adopt camera traps to record and study insects, and have proposed computer vision algorithms as an answer for scalable data processing. However, insect monitoring in the wild poses unique challenges that have not yet been addressed within computer vision, including the combination of long-tailed data, extremely similar classes, and significant distribution shifts. We provide the first large-scale machine learning benchmarks for fine-grained insect recognition, designed to match real-world tasks faced by ecologists. Our contributions include a curated dataset of images from citizen science platforms and museums, and an expert-annotated dataset drawn from automated camera traps across multiple continents, designed to test out-of-distribution generalization under field conditions. We train and evaluate a variety of baseline algorithms and introduce a combination of data augmentation techniques that enhance generalization across geographies and hardware setups.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a842e1b7c607277a01055c7c80b2a37b",
+          "name": "Aditya Jain",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307990814"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8fe0f09904838d708c563aeb4c65e6eb",
+          "name": "Fagner Cunha",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307078648"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a750aeedd6ef137bcd34b633fb946897",
+          "name": "M. J. Bunsen",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054355"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8f9a0059bccf0c46acd78be55e53437f",
+          "name": "Juan Sebastián Cañas",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307076854"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9772f0cf3d4652d1bf9c477ec0adec4d",
+          "name": "L. Pasi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300054936"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "af99c3da94c1e63132f23abaa7a10a90",
+          "name": "N. Pinoy",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300056498"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c5577fc5d16b08f0ef4d82c105a98f5b",
+          "name": "Flemming Helsing",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307079766"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "99432307795accee47070619d37d4d1d",
+          "name": "JoAnne Russo",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0009-0000-6229-5092"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307078424"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ccfa6936275e9962b05374cc9f9242ab",
+          "name": "Marc Botham",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307078287"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ae045b073da622de57eb81ec75ee8984",
+          "name": "Michael Sabourin",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307076671"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "94620d93980fbdd434a7ffb904ea8309",
+          "name": "Jonathan Fréchette",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307078466"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9c8b220b43abf7424ed5571cd3c6e4bc",
+          "name": "Alexandre Anctil",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307076653"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c91b9c6bbdcb76a2c6934d1aac4fc427",
+          "name": "Yacksecari Lopez",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "30712100"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a023f1a7a662d18a5d6bbeb264df4b81",
+          "name": "Eduardo Navarro",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307076903"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bb92b3d1e0c789f5d13c7afe33863357",
+          "name": "Filonila Perez Pimentel",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307078338"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d2af907d2c3195c3f6dcd8426d6416fb",
+          "name": "Ana Cecilia Zamora",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "146226485"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a7dd91d8e60d90c3672eeef587a654bf",
+          "name": "José Alejandro Ramirez Silva",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2161464929"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "81579f647626bfaa433398e3b521f53f",
+          "name": "Jonathan Gagnon",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307079823"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e04c4f3344353a2fa4ad092d9be1ea2b",
+          "name": "Tom August",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2272049818"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2300055105"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9d02d858645f096dc462bed5d2aec2e7",
+          "name": "K. Bjerge",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0001-6742-9504"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2130652"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b6376b49a11d83fe95a86a40c67d0d91",
+          "name": "Alba Gomez Segura",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0002-9575-7262"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307076676"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "800f5eca9015258232347604fc78d7a3",
+          "name": "Marc Bélisle",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307078453"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a6dfbea4c5e33d2601e98a01bce1bec3",
+          "name": "Yves Basset",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2295538642"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8bb7357ed3ac915148101b8af32686b8",
+          "name": "K. P. McFarland",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2300055214"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f1868f78d1d5c5df72d3eaf610e65ede",
+          "name": "David Roy",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2271923499"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307080561"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a020da814ddf6ece711777929fc3dc1a",
+          "name": "Toke Thomas Høye",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0001-5387-3284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1403067350"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a6bf4384de5bd25efce388e2deba4db7",
+          "name": "Maxim Larrivée",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2307079897"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "68071094779cf5f8d59f789c2c7145c6",
+          "name": "Lecture Notes in Computer Science",
+          "type": "conference",
+          "date": {
+            "text": "2024-12-02",
+            "timestamp": 1733115600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Computer Vision and Pattern Recognition (cs.CV)"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1007/978-3-031-72913-3_4",
+        "url": "https://doi.org/10.1007/978-3-031-72913-3_4"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2406.12452",
+        "url": "https://doi.org/10.48550/arXiv.2406.12452"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2406.12452",
+        "url": "https://arxiv.org/abs/2406.12452"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2406.12452",
+        "url": "https://arxiv.org/pdf/2406.12452.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/eccv/JainCBCPPHRBSFALNPZSGAB24",
+        "url": "https://dblp.uni-trier.de/rec/conf/eccv/JainCBCPPHRBSFALNPZSGAB24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "6c323297cb6fd5453b6459265cd7531ac65b9954",
+        "url": "https://www.semanticscholar.org/paper/6c323297cb6fd5453b6459265cd7531ac65b9954"
+      },
+      {
+        "type": "corpusid",
+        "link": "270562351"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2406.12452"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "ecb00dabbada7cb50d9e2eb08bd2fbaa",
+    "title": "Stealing part of a production language model",
+    "abstract": "We introduce the first model-stealing attack that extracts precise,\n  nontrivial information from black-box production language models like OpenAI's ChatGPT or Google's PaLM-2.\n  Specifically, our attack recovers the embedding projection layer (up to symmetries) \n  of a transformer model, given typical API access.\n  For under \\\\$20 USD, our attack extracts the entire projection matrix of OpenAI's Ada and Babbage language models. We\n  thereby confirm, for the first time, that these black-box models\n  have a hidden dimension of 1024 and 2048, respectively.\n  We also recover the exact hidden dimension size of the GPT-3.5-turbo model,\n  and estimate it would cost under \\\\$2,000 in queries to recover the entire projection matrix.\n  We conclude with potential defenses and mitigations,\n  and discuss the implications of possible future work that\n  could extend our attack.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9113a1522797ac1d717db0005172ea5b",
+          "name": "Nicholas Carlini",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Nicholas_Carlini1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2483738"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0711161da2c891f5c83cdf6ef78daa9b",
+            "name": "Google DeepMind",
+            "category": "industry"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "af7e3e9f8d9cbbeafa34d571c139aab7",
+          "name": "Daniel Paleka",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Daniel_Paleka1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2175557610"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "07d3631d1e38e68873ee73247e57a6bc",
+            "name": "ETH Zurich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "912078fb2cfe1ff35a0d4b2d74b5cf49",
+          "name": "Krishnamurthy Dj Dvijotham",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Krishnamurthy_Dj_Dvijotham1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1729912"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aad1ed4cc01e774d21c6332afe8a60b7",
+          "name": "Thomas Steinke",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Thomas_Steinke2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256996526"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2290850864"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0711161da2c891f5c83cdf6ef78daa9b",
+            "name": "Google DeepMind",
+            "category": "industry"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ce39ad9f15c5c3d82743fc225913cfa9",
+          "name": "Jonathan Hayase",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jonathan_Hayase2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268494505"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "12170b8cd0174fd437692f321465fb08",
+            "name": "University of Washington",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a5eb9969ee7ef9371e2eaaacb1c30156",
+          "name": "A. Feder Cooper",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~A._Feder_Cooper1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261492943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331330824"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f451ae90c67a0dbf1549498219095938",
+          "name": "Katherine Lee",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Katherine_Lee1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3844009"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0711161da2c891f5c83cdf6ef78daa9b",
+            "name": "Google DeepMind",
+            "category": "industry"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cbd44087252cac44b553ed0db040d17a",
+          "name": "Matthew Jagielski",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Matthew_Jagielski1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "40844378"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0711161da2c891f5c83cdf6ef78daa9b",
+            "name": "Google DeepMind",
+            "category": "industry"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ca86b9f6ba59752f8a3862611210066c",
+          "name": "Milad Nasr",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Milad_Nasr2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3490923"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0711161da2c891f5c83cdf6ef78daa9b",
+            "name": "Google DeepMind",
+            "category": "industry"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2f0c0c2181652a3dbb24648da59cfd5",
+          "name": "Arthur Conmy",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Arthur_Conmy1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2131632310"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0711161da2c891f5c83cdf6ef78daa9b",
+            "name": "Google DeepMind",
+            "category": "industry"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9d09c893b28fea6eeb641cbff0600c90",
+          "name": "Eric Wallace",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eric_Wallace1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268494584"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "42f2ac11b7a2802c81d05af60adc39d4",
+            "name": "OpenAI",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "59f91880f966d424b4df348553e5d4db",
+            "name": "McGill University.",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cd1698d5a4ba315a1d15956b156f225c",
+          "name": "Florian Tramèr",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Florian_Tramèr1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267733649"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2444919"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "07d3631d1e38e68873ee73247e57a6bc",
+            "name": "ETH Zurich",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "5680-5705"
+      },
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2403.06634",
+        "url": "https://doi.org/10.48550/arXiv.2403.06634"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/carlini24a",
+        "url": "https://proceedings.mlr.press/v235/carlini24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "VE3yWXt3KB",
+        "url": "https://openreview.net/forum?id=VE3yWXt3KB"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "VE3yWXt3KB",
+        "url": "https://openreview.net/pdf?id=VE3yWXt3KB"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2403.06634",
+        "url": "https://arxiv.org/abs/2403.06634"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2403.06634",
+        "url": "https://arxiv.org/pdf/2403.06634.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/icml/CarliniPD0HCLJN24",
+        "url": "https://dblp.uni-trier.de/rec/conf/icml/CarliniPD0HCLJN24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2403-06634",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2403-06634"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/carlini24a/carlini24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=VE3yWXt3KB"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "b232f468de0b1d4ff1c2dfe5dbb03ec093160c48",
+        "url": "https://www.semanticscholar.org/paper/b232f468de0b1d4ff1c2dfe5dbb03ec093160c48"
+      },
+      {
+        "type": "corpusid",
+        "link": "268357903"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d3662e8c0eeffa9c1dad89444294e593",
+    "title": "Position: Application-Driven Innovation in Machine Learning",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "dbb417d4872254b18aecb04aad35b5aa",
+          "name": "David Rolnick",
+          "links": [
+            {
+              "type": "bio",
+              "link": "david-rolnick"
+            },
+            {
+              "type": "email.mila",
+              "link": "drolnick@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2125877594"
+            },
+            {
+              "type": "mag",
+              "link": "2970012678"
+            },
+            {
+              "type": "openreview",
+              "link": "~David_Rolnick1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2855-393X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269461545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276709870"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288572143"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588790"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346588800"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2381187"
+            },
+            {
+              "type": "wpid_en",
+              "link": "41729"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "41755"
+            },
+            {
+              "type": "xplore",
+              "link": "37087231039"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "839de290c5a7c83bab3d6f5fa7da91c4",
+          "name": "Alan Aspuru-Guzik",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alan_Aspuru-Guzik2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259938434"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "11b5e8c2fa1083e2523234db1a4c8c6c",
+            "name": "Vector Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c46922bf5626ee65ddae036da59128b",
+            "name": "University of Toronto",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d2efda828bc0fbaf68e722f1e8d91f54",
+          "name": "Sara Beery",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sara_Beery1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275612461"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "54b4dad10dd895626be532873832177d",
+            "name": "Massachusetts Institute of Technology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c35dd98d5cd1174f19044c2aed5d3505",
+          "name": "Bistra Dilkina",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Bistra_Dilkina2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1796375"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "60dba7d2fae54aede0173022a3c25d6e",
+            "name": "University of Southern California",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "865e1d688917ff395c11f742951f73cc",
+          "name": "Priya L. Donti",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Priya_L._Donti1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49698491"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "54b4dad10dd895626be532873832177d",
+            "name": "Massachusetts Institute of Technology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cf7360b3c04f72151688852a08c96d5d",
+          "name": "Marzyeh Ghassemi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Marzyeh_Ghassemi1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Marzyeh_Ghassemi2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2107040300"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2257659779"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293393759"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2804918"
+            },
+            {
+              "type": "xplore",
+              "link": "37089496857"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "54b4dad10dd895626be532873832177d",
+            "name": "Massachusetts Institute of Technology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e5685349df700a17bbb2ca0a0f21ad2e",
+          "name": "Hannah Kerner",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hannah_Kerner1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "151024247"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293393658"
+            },
+            {
+              "type": "xplore",
+              "link": "959487177668113"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1fa3fd141b3402cf749759526c4f026d",
+            "name": "Arizona State University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e16235f54258f30d787953fb40f352ce",
+          "name": "Claire Monteleoni",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Claire_Monteleoni1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1806678"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "371fa75dd5f0244b7a25b37c43779c41",
+            "name": "University of Colorado Boulder",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6ff8c312e06ecc4c29da59ebeafdc207",
+            "name": "Inria Paris",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a500d51af2c83ed0532d3f08f108c49b",
+          "name": "Esther Rolf",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Esther_Rolf1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144322309"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293393198"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "371fa75dd5f0244b7a25b37c43779c41",
+            "name": "University of Colorado Boulder",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b8db442bf95eff782415c99a1ec69950",
+          "name": "Milind Tambe",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Milind_Tambe1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288282318"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b5b534fc6753c7f14649ee9f2e20fffd",
+          "name": "Adam White",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Adam_White1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145240145"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293432571"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "32ebbff97ac1c3f9ffcadc4544b53f9e",
+            "name": "University of Alberta",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "42707-42718"
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "mlr.abstract",
+        "link": "235/rolnick24a",
+        "url": "https://proceedings.mlr.press/v235/rolnick24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "xEB2oF3vvb",
+        "url": "https://openreview.net/forum?id=xEB2oF3vvb"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "xEB2oF3vvb",
+        "url": "https://openreview.net/pdf?id=xEB2oF3vvb"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/rolnick24a/rolnick24a.pdf"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

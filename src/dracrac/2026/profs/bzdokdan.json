@@ -1,0 +1,1454 @@
+[
+  {
+    "paper_id": "a1f578fee9eddbc8a30b8e140ce7a2eb",
+    "title": "Large language models deconstruct the clinical intuition behind diagnosing autism",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a0081d78c541ca209ffe0f6c67bd4f87",
+          "name": "Jack Stanley",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2346332588"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "840dac8f7a20d9aac92e2a6b8e121029",
+          "name": "Emmett Rabot",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2352093881"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d76795e0f68451af897d827a76a9dceb",
+          "name": "Siva Reddy",
+          "links": [
+            {
+              "type": "bio",
+              "link": "siva-reddy"
+            },
+            {
+              "type": "email.mila",
+              "link": "siva.reddy@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2169793708"
+            },
+            {
+              "type": "mag",
+              "link": "2924809679"
+            },
+            {
+              "type": "openreview",
+              "link": "~Siva_Reddy1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145732771"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256152032"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258337753"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260275234"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283521815"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283521818"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284034011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286656700"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2289239506"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2289876704"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295857229"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301150002"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2312109206"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313693935"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2323901201"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334439130"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2345887031"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2364563207"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36949"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37332"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d0c47b30e0cea5225348d2849f57d3de",
+          "name": "Eugene Belilovsky",
+          "links": [
+            {
+              "type": "bio",
+              "link": "eugene-belilovsky"
+            },
+            {
+              "type": "email.mila",
+              "link": "belilove@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1237683228"
+            },
+            {
+              "type": "openreview",
+              "link": "~Eugene_Belilovsky1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1829344"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064781956"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303395571"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2352096360"
+            },
+            {
+              "type": "wpid_en",
+              "link": "30940"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "30945"
+            },
+            {
+              "type": "xplore",
+              "link": "37681020400"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "854acd15bd5de8b10ec277ef30177add",
+          "name": "L. Mottron",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2256828095"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "fcb5b79db78faf363d07c4af0870279c",
+          "name": "Danilo Bzdok",
+          "links": [
+            {
+              "type": "bio",
+              "link": "danilo-bzdok"
+            },
+            {
+              "type": "email.mila",
+              "link": "bzdokdan@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1763364542"
+            },
+            {
+              "type": "mag",
+              "link": "2982808439"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok2"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-3466-6620"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1700231"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260668075"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2352104861"
+            },
+            {
+              "type": "wpid_en",
+              "link": "37629"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37624"
+            },
+            {
+              "type": "xplore",
+              "link": "37074504400"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "57cb20cbfeeb416b9d6607d0ca56057b",
+          "name": "Cell",
+          "type": "journal",
+          "date": {
+            "text": "2025-03",
+            "timestamp": 1740805200,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "6dee24870cdadf162b927173410873db",
+          "name": "Cell",
+          "type": "journal",
+          "date": {
+            "text": "2025-03-01",
+            "timestamp": 1740805200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "5dd8b7be62a39d7aa3d5baf71b897316",
+          "name": "Cell",
+          "type": "journal",
+          "date": {
+            "text": "2025-03-01",
+            "timestamp": 1740805200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "188"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "7236b9541f080a5539b8c29db6c467e3",
+          "name": "Cell",
+          "type": "journal",
+          "date": {
+            "text": "2025-03-24",
+            "timestamp": 1742788800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1016/j.cell.2025.02.025",
+        "url": "https://doi.org/10.1016/j.cell.2025.02.025"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "40147442",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40147442"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.1016/j.cell.2025.02.025"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "417977a797dd79dad4b6aeca97fdf0dc05bc3e13",
+        "url": "https://www.semanticscholar.org/paper/417977a797dd79dad4b6aeca97fdf0dc05bc3e13"
+      },
+      {
+        "type": "corpusid",
+        "link": "277320903"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "836fc27782ed9140c875dad5f95fd2bf",
+    "title": "A hierarchical Bayesian brain parcellation framework for fusion of functional imaging datasets",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "96c89604965d7c0d171b3ba2fa5c3cc4",
+          "name": "Da Zhi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2091996748"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "29a290499c8bddc6aa480225ec208407",
+            "name": "Western Institute for Neuroscience, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3a112a8ce5b6fa7fdda54890c613f05a",
+            "name": "Department of Computer Science, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3fe668c1346b87620be52d133fa07d07",
+            "name": "Department of Computer Science, Western University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "45945aa37ce18f3b687cb6519af8121b",
+            "name": "Western Institute for Neuroscience, Western University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ab65efd378bb87af62fff6271d24a7ea",
+          "name": "Ladan Shahshahani",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1394102402"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "29a290499c8bddc6aa480225ec208407",
+            "name": "Western Institute for Neuroscience, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "45945aa37ce18f3b687cb6519af8121b",
+            "name": "Western Institute for Neuroscience, Western University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "921555c9dca1bd8f798cf0fcc2b9f6ad",
+          "name": "Caroline Nettekoven",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "66668218"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "29a290499c8bddc6aa480225ec208407",
+            "name": "Western Institute for Neuroscience, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3a112a8ce5b6fa7fdda54890c613f05a",
+            "name": "Department of Computer Science, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "45945aa37ce18f3b687cb6519af8121b",
+            "name": "Western Institute for Neuroscience, Western University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a9270b8e7d4c29fa0e3a7782541ccb7d",
+          "name": "Ana Lúısa Pinho",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "32204192"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "29a290499c8bddc6aa480225ec208407",
+            "name": "Western Institute for Neuroscience, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3a112a8ce5b6fa7fdda54890c613f05a",
+            "name": "Department of Computer Science, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3fe668c1346b87620be52d133fa07d07",
+            "name": "Department of Computer Science, Western University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "45945aa37ce18f3b687cb6519af8121b",
+            "name": "Western Institute for Neuroscience, Western University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fcb5b79db78faf363d07c4af0870279c",
+          "name": "Danilo Bzdok",
+          "links": [
+            {
+              "type": "bio",
+              "link": "danilo-bzdok"
+            },
+            {
+              "type": "email.mila",
+              "link": "bzdokdan@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1763364542"
+            },
+            {
+              "type": "mag",
+              "link": "2982808439"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok2"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-3466-6620"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1700231"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260668075"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2352104861"
+            },
+            {
+              "type": "wpid_en",
+              "link": "37629"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37624"
+            },
+            {
+              "type": "xplore",
+              "link": "37074504400"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2b275e802aa8dec27bac65dea5ab1f4a",
+            "name": "Biological & Biomedical Engineering, McGill University, Montreal, QC, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "59a1c55f636b2267c03b00243aaf46d2",
+            "name": "Biological & Biomedical Engineering, McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "90110abdefbc57e6015b00fee306c375",
+          "name": "Jörn Diedrichsen",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2345808317"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2935706"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "29a290499c8bddc6aa480225ec208407",
+            "name": "Western Institute for Neuroscience, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3a112a8ce5b6fa7fdda54890c613f05a",
+            "name": "Department of Computer Science, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3fe668c1346b87620be52d133fa07d07",
+            "name": "Department of Computer Science, Western University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "45945aa37ce18f3b687cb6519af8121b",
+            "name": "Western Institute for Neuroscience, Western University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6aa105597e01eb5ca48346b94a0aaccc",
+            "name": "Department of Statistical and Actuarial Sciences, Western University, London, Ontario, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6aca11e3c0c9f8007b1f4d2855ec6983",
+            "name": "Department of Statistical and Actuarial Sciences, Western University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "4214b79bb3823b5d4992bc00c4049a49",
+          "name": "Imaging Neuroscience",
+          "type": "journal",
+          "date": {
+            "text": "2025-01-02",
+            "timestamp": 1735794000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "MIT Press",
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "430cb93b63450a19a88ddbbaf1c85569",
+          "name": "Imaging Neuroscience",
+          "type": "journal",
+          "date": {
+            "text": "2025-01-02",
+            "timestamp": 1735794000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "hierarchical Bayesian model"
+      },
+      {
+        "name": "functional brain parcellation"
+      },
+      {
+        "name": "Biology"
+      },
+      {
+        "name": "task-based fMRI"
+      },
+      {
+        "name": "Keywords: Hierarchical Bayesian model"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1101/2023.05.24.542121",
+        "url": "https://doi.org/10.1101/2023.05.24.542121"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.1162/imag_a_00408",
+        "url": "https://doi.org/10.1162/imag_a_00408"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "40800847",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40800847"
+      },
+      {
+        "type": "pmc.abstract",
+        "link": "12319954",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12319954"
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.1162/imag_a_00408"
+      },
+      {
+        "type": "pdf",
+        "link": "https://www.biorxiv.org/content/biorxiv/early/2023/05/24/2023.05.24.542121.full.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "21d4313bf6bae7a6cd90f3f6d3f6f6d2be651f0d",
+        "url": "https://www.semanticscholar.org/paper/21d4313bf6bae7a6cd90f3f6d3f6f6d2be651f0d"
+      },
+      {
+        "type": "corpusid",
+        "link": "258948842"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a73a13e5aa9ed7fda61d46b216e84bf5",
+    "title": "Estimating Unknown Population Sizes Using the Hypergeometric Distribution",
+    "abstract": "The multivariate hypergeometric distribution describes sampling without replacement from a discrete population of elements divided into multiple categories. Addressing a gap in the literature, we tackle the challenge of estimating discrete distributions when both the total population size and the category sizes are unknown. Here, we propose a novel solution using the hypergeometric likelihood to solve this estimation problem, even in the presence of severe under-sampling. Our approach accounts for a data generating process where the ground-truth is a mixture of distributions conditional on a continuous latent variable, as seen in collaborative filtering, using the variational autoencoder framework. Empirical data simulation demonstrates that our method outperforms other likelihood functions used to model count data, both in terms of accuracy of population size estimate and learning an informative latent space. We showcase our method’s versatility through applications in NLP, by inferring and estimating the complexity of latent vocabularies in reading passage excerpts, and in biology, by accurately recovering the true number of gene transcripts from sparse single-cell genomics data.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ab4f26140c531a06a7a213cb66243a07",
+          "name": "Liam Hodgson",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2284994274"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7d526a8b89b99fed4b95411cd49a806e",
+            "name": "McGill University, Montréal, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fcb5b79db78faf363d07c4af0870279c",
+          "name": "Danilo Bzdok",
+          "links": [
+            {
+              "type": "bio",
+              "link": "danilo-bzdok"
+            },
+            {
+              "type": "email.mila",
+              "link": "bzdokdan@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1763364542"
+            },
+            {
+              "type": "mag",
+              "link": "2982808439"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok2"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-3466-6620"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1700231"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260668075"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2352104861"
+            },
+            {
+              "type": "wpid_en",
+              "link": "37629"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37624"
+            },
+            {
+              "type": "xplore",
+              "link": "37074504400"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7d526a8b89b99fed4b95411cd49a806e",
+            "name": "McGill University, Montréal, Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "18394-18408"
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "mlr.abstract",
+        "link": "235/hodgson24a",
+        "url": "https://proceedings.mlr.press/v235/hodgson24a.html"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/hodgson24a/hodgson24a.pdf"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "91b32e5b3660ae9c0d6b608d2646347d",
+    "title": "Supervised latent factor modeling isolates cell-type-specific transcriptomic modules that underlie Alzheimer’s disease progression",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ab4f26140c531a06a7a213cb66243a07",
+          "name": "Liam Hodgson",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2284994274"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "08c1f717e28952e24844011c86fa0483",
+            "name": "Mila - Quebec Artificial Intelligence Institute, ",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "190c2cad945cbbf1d66d4b8a94ee84d9",
+            "name": "School of Computer Science, ",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "deba25f27f1f5b8049f96e3175c2c01c",
+          "name": "Yuemei Li",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "liyue@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Yue_Li15"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-3844-4865"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1527097867"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1891284943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2000883360"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2144461960"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2144462301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2144463108"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2144463500"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2144463711"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2144464122"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2155293767"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237772717"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2243332566"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2247698674"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265427033"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269510196"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311967675"
+            },
+            {
+              "type": "xplore",
+              "link": "347774292408568"
+            },
+            {
+              "type": "xplore",
+              "link": "37085539453"
+            },
+            {
+              "type": "xplore",
+              "link": "37090081674"
+            },
+            {
+              "type": "xplore",
+              "link": "37538189700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "190c2cad945cbbf1d66d4b8a94ee84d9",
+            "name": "School of Computer Science, ",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c1feb8fa3b6aa5e6b2d0ab7c6f985675",
+          "name": "Yasser Iturria-Medina",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1398049410"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "20f2a99b3bf66303306b227f4f685244",
+            "name": "Ludmer Centre for Neuroinformatics and Mental Health, ",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "47420d8bbdcb32388c5aa633c6c6d419",
+            "name": "Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, ",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "57e0dd9b41ee88ef77104637539521a3",
+            "name": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, ",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8b69b48cceacb92d2a2522b1c95cb578",
+          "name": "Jo Anne Stratton",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2240912957"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "47420d8bbdcb32388c5aa633c6c6d419",
+            "name": "Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, ",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ecc9a1f85be52768d378498157775ba6",
+          "name": "Guy Wolf",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "144310425"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "1485516441"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2057280166"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2057280374"
+            },
+            {
+              "type": "bio",
+              "link": "guy-wolf"
+            },
+            {
+              "type": "email.mila",
+              "link": "wolfguy@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2194841685"
+            },
+            {
+              "type": "mag",
+              "link": "3213955234"
+            },
+            {
+              "type": "openreview",
+              "link": "~Guy_Wolf1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-6740-059X"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2057280374"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2206769693"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2241227889"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253461096"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256829271"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2257002400"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2264975452"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265673223"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269465673"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282961619"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366020409"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2367040963"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2683398"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36407"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36403"
+            },
+            {
+              "type": "xplore",
+              "link": "37086880773"
+            },
+            {
+              "type": "xplore",
+              "link": "37090075230"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "08c1f717e28952e24844011c86fa0483",
+            "name": "Mila - Quebec Artificial Intelligence Institute, ",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7d1a09f87fe832b4f14aca5b77f211bb",
+            "name": "Department of Mathematics & Statistics, ",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ace9bf70542fa8860df0a5e38aa7f14a",
+          "name": "Smita Krishnaswamy",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "smita.krishnaswamy@mila.quebec"
+            },
+            {
+              "type": "openreview",
+              "link": "~Smita_Krishnaswamy1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-5823-1985"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144586483"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261740502"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2289039551"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "32911702"
+            },
+            {
+              "type": "xplore",
+              "link": "37086886520"
+            },
+            {
+              "type": "xplore",
+              "link": "37088535546"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6f1a7ff054e09469152ccd79ec09b4ad",
+            "name": "Department of Computer Science, Department of Genetics, ",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a9bb317fc9475258171ae5be8dc0013e",
+          "name": "David A. Bennett",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2251093703"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5f4e27774f4de1da72691809f19660b7",
+            "name": "Rush Alzheimer’s Disease Center, ",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fcb5b79db78faf363d07c4af0870279c",
+          "name": "Danilo Bzdok",
+          "links": [
+            {
+              "type": "bio",
+              "link": "danilo-bzdok"
+            },
+            {
+              "type": "email.mila",
+              "link": "bzdokdan@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1763364542"
+            },
+            {
+              "type": "mag",
+              "link": "2982808439"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Danilo_Bzdok2"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-3466-6620"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1700231"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2260668075"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2352104861"
+            },
+            {
+              "type": "wpid_en",
+              "link": "37629"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "37624"
+            },
+            {
+              "type": "xplore",
+              "link": "37074504400"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "08c1f717e28952e24844011c86fa0483",
+            "name": "Mila - Quebec Artificial Intelligence Institute, ",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "25a31d95dcaf844424687108fa1c4d02",
+            "name": "The Neuro - Montréal Neurological Institute, McConnell Brain Imaging Centre, Faculty of Medicine, ",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7b4e1dab3fd7677b84710a0bb79daa16",
+            "name": "Department of Biomedical Engineering, Faculty of Medicine, ",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6fd969e74b40ef0bad60d073ce8191e3",
+          "name": "Communications Biology",
+          "type": "journal",
+          "date": {
+            "text": "2024-05-17",
+            "timestamp": 1715918400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "Nature Publishing Group UK",
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "4df12c711296f9b70fbfb346b70c4da3",
+          "name": "Communications Biology",
+          "type": "journal",
+          "date": {
+            "text": "2024-05-17",
+            "timestamp": 1715918400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "7"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Computational models"
+      },
+      {
+        "name": "Gene expression"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1038/s42003-024-06273-8",
+        "url": "https://doi.org/10.1038/s42003-024-06273-8"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "38760483",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38760483"
+      },
+      {
+        "type": "pmc.abstract",
+        "link": "11101463",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11101463"
+      },
+      {
+        "type": "pdf",
+        "link": "https://www.nature.com/articles/s42003-024-06273-8.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "7b2193c014996cdda5760beded2e7b3cdc0c050d",
+        "url": "https://www.semanticscholar.org/paper/7b2193c014996cdda5760beded2e7b3cdc0c050d"
+      },
+      {
+        "type": "corpusid",
+        "link": "269838108"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

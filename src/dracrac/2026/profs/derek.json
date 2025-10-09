@@ -1,0 +1,790 @@
+[
+  {
+    "paper_id": "a4aefa383748d68f54c3a23f46c9496b",
+    "title": "STAMP: Differentiable Task and Motion Planning via Stein Variational Gradient Descent",
+    "abstract": "Planning for many manipulation tasks, such as using tools or assembling parts, often requires both symbolic and geometric reasoning. Task and Motion Planning (TAMP) algorithms typically solve these problems by conducting a tree search over high-level task sequences while checking for kinematic and dynamic feasibility. While performant, most existing algorithms are highly inefficient as their time complexity grows exponentially with the number of possible actions and objects. Additionally, they only find a single solution to problems in which many feasible plans may exist. To address these limitations, we propose a novel algorithm called Stein Task and Motion Planning (STAMP) that leverages parallelization and differentiable simulation to efficiently search for multiple diverse plans. STAMP relaxes discrete-and-continuous TAMP problems into continuous optimization problems that can be solved using variational inference. Our algorithm builds upon Stein Variational Gradient Descent, a gradient-based variational inference algorithm, and parallelized differentiable physics simulators on the GPU to efficiently obtain gradients for inference. Further, we employ imitation learning to introduce action abstractions that reduce the inference problem to lower dimensions. We demonstrate our method on two TAMP problems and empirically show that STAMP is able to: 1) produce multiple diverse plans in parallel; and 2) search for plans more efficiently compared to existing TAMP baselines.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "863a2692c4a6c0a26359e3dd8a71330e",
+          "name": "Yewon Lee",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yewon_Lee1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256367382"
+            },
+            {
+              "type": "xplore",
+              "link": "624121375878319"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0338ac32e06b9e66bc5989aa7c24207e",
+            "name": "University of Toronto, Toronto, ON, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c46922bf5626ee65ddae036da59128b",
+            "name": "University of Toronto",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a0192286ade66e9e695264e0f606590e",
+          "name": "Philip Huang",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2253869207"
+            },
+            {
+              "type": "xplore",
+              "link": "37293061000"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3a92b8c97887b4d3d5a820b873a31553",
+            "name": "Carnegie Mellon University, Pittsburgh, PA, USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5cffccc10fbdaa58bd9db5868356af9a",
+            "name": "Carnegie Mellon University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d6fdf02bd7ccf4e04623da2ad3af7a3d",
+          "name": "Yizhou Huang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yizhou_Huang1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "cb1d7aaf5217ad4cb07b23f24b037f70",
+          "name": "Krishna Murthy",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Krishna_Murthy_Jatavallabhula1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265549845"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "7434636"
+            },
+            {
+              "type": "xplore",
+              "link": "37085828293"
+            },
+            {
+              "type": "xplore",
+              "link": "37086135299"
+            },
+            {
+              "type": "xplore",
+              "link": "37086947002"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "54b4dad10dd895626be532873832177d",
+            "name": "Massachusetts Institute of Technology",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77dc944e2d52b0ff67110b173a7efc0f",
+            "name": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7a40dc423aa2ff6377c84f3576c6c14f",
+            "name": "7 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8387fa8829389d517b301dc1dc41bccf",
+          "name": "Andrew Zou Li",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Andrew_Zou_Li1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258555838"
+            },
+            {
+              "type": "xplore",
+              "link": "365082059827741"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0338ac32e06b9e66bc5989aa7c24207e",
+            "name": "University of Toronto, Toronto, ON, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a76cddc5a41dc1bbe19f07b7165e9b2d",
+          "name": "Fabian Damken",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Fabian_Damken1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253461606"
+            },
+            {
+              "type": "xplore",
+              "link": "464095462924243"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0338ac32e06b9e66bc5989aa7c24207e",
+            "name": "University of Toronto, Toronto, ON, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3c46922bf5626ee65ddae036da59128b",
+            "name": "University of Toronto",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b0dc4cbd0f6cae5d919d20b81b1eea32",
+          "name": "Eric Heiden",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eric_Heiden1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268492070"
+            },
+            {
+              "type": "xplore",
+              "link": "37990849700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2dd679f5413ed1af79c069d88badf0d3",
+            "name": "NVIDIA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "46f0272194492f94f36abdf761fb23b1",
+            "name": "NVIDIA, Santa Clara, CA, USA",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f263ad8abab999edae5eb01208374a48",
+          "name": "Kevin A. Smith",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kevin_A._Smith1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2254284923"
+            },
+            {
+              "type": "xplore",
+              "link": "610498329921955"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "54b4dad10dd895626be532873832177d",
+            "name": "Massachusetts Institute of Technology",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77dc944e2d52b0ff67110b173a7efc0f",
+            "name": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7a40dc423aa2ff6377c84f3576c6c14f",
+            "name": "7 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f4352240236615d953759b2c275f90c3",
+          "name": "Derek Nowrouzezahrai",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "1411194062"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2175885527"
+            },
+            {
+              "type": "bio",
+              "link": "derek-nowrouzezahrai"
+            },
+            {
+              "type": "email.mila",
+              "link": "derek@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2947863582"
+            },
+            {
+              "type": "openreview",
+              "link": "~Derek_Nowrouzezahrai1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1795014"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2243007659"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2257204581"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268674651"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2274223000"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309478093"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2312292821"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33491"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33487"
+            },
+            {
+              "type": "xplore",
+              "link": "37947813400"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "37cbb61656909076bd81d12ea65c6755",
+            "name": "McGill University, Montreal, Quebec, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cc0243bac04d00bc46b3876ac62c7c95",
+          "name": "Fabio Ramos",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Fabio_Ramos1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253462342"
+            },
+            {
+              "type": "xplore",
+              "link": "37285364500"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2dd679f5413ed1af79c069d88badf0d3",
+            "name": "NVIDIA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "46f0272194492f94f36abdf761fb23b1",
+            "name": "NVIDIA, Santa Clara, CA, USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "57a7f560242d5a2d27983ed21c83cad6",
+            "name": "University of Sydney",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e11e31383cafa6524302b8075164a0b5",
+          "name": "Florian Shkurti",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Florian_Shkurti1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2162768"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253453447"
+            },
+            {
+              "type": "xplore",
+              "link": "37706697200"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0338ac32e06b9e66bc5989aa7c24207e",
+            "name": "University of Toronto, Toronto, ON, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5cffccc10fbdaa58bd9db5868356af9a",
+            "name": "Carnegie Mellon University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a2d8345ba0592c0f0bc97bdc755d7bbc",
+          "name": "Carnegie-mellon University",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "103126567"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "54b4dad10dd895626be532873832177d",
+            "name": "Massachusetts Institute of Technology",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7a40dc423aa2ff6377c84f3576c6c14f",
+            "name": "7 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "97aa067f3628044d3f4a30c707ea41a8",
+          "name": "M. I. O. Technology",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "51432736"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e3523e3cee10bf5af1d6bbd438248e9d",
+          "name": "Technische Universitat Darmstadt",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "88741935"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "94a5c005da89aa653c139d8fde0f397c",
+          "name": "Nvidia",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2253457406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334017135"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "57a7f560242d5a2d27983ed21c83cad6",
+            "name": "University of Sydney",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ed74c61f48e5e47c82996e5629d4f1a1",
+          "name": "M. University",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "102970021"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "102970034"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253453958"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341315997"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "54b4dad10dd895626be532873832177d",
+            "name": "Massachusetts Institute of Technology",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7a40dc423aa2ff6377c84f3576c6c14f",
+            "name": "7 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9359768e51606aa9278a7d68163b88bc",
+          "name": "University of Sydney",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2190173536"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "5b7122d37217812ff04c571e97ae21d6",
+          "name": "IEEE Robotics and Automation Letters",
+          "type": "journal",
+          "date": {
+            "text": "2025-06",
+            "timestamp": 1748750400,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": "IEEE",
+          "series": "",
+          "volume": "10"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "6007-6014"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Physics"
+      },
+      {
+        "name": "Discrete Probability Distribution"
+      },
+      {
+        "name": "Physical Simulation"
+      },
+      {
+        "name": "Continuous Random Variable"
+      },
+      {
+        "name": "Posterior Distribution"
+      },
+      {
+        "name": "Mathematical models"
+      },
+      {
+        "name": "Path Planning"
+      },
+      {
+        "name": "Probabilistic logic"
+      },
+      {
+        "name": "Parallelization"
+      },
+      {
+        "name": "Search problems"
+      },
+      {
+        "name": "Sequence Of Actions"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Continuous Distribution"
+      },
+      {
+        "name": "Single Run"
+      },
+      {
+        "name": "Task and Motion Planning"
+      },
+      {
+        "name": "probabilistic inference"
+      },
+      {
+        "name": "Internal Energy Market"
+      },
+      {
+        "name": "Stochastic processes"
+      },
+      {
+        "name": "Tree Search"
+      },
+      {
+        "name": "Dynamic Motion Primitives"
+      },
+      {
+        "name": "Stein Variational Gradient Descent"
+      },
+      {
+        "name": "Motion Planning"
+      },
+      {
+        "name": "Task Planning"
+      },
+      {
+        "name": "Differentiable Physics Simulators"
+      },
+      {
+        "name": "Update Rule"
+      },
+      {
+        "name": "Alternative Distribution"
+      },
+      {
+        "name": "SGD Optimizer"
+      },
+      {
+        "name": "Variational Inference"
+      },
+      {
+        "name": "Discrete Action"
+      },
+      {
+        "name": "Inference algorithms"
+      },
+      {
+        "name": "End-effector"
+      },
+      {
+        "name": "Set Of Plans"
+      },
+      {
+        "name": "Target Distribution"
+      },
+      {
+        "name": "Posterior Probability"
+      },
+      {
+        "name": "Trajectory"
+      },
+      {
+        "name": "Continuous Domain"
+      },
+      {
+        "name": "Geometric Reasoning"
+      },
+      {
+        "name": "Graphics processing units"
+      },
+      {
+        "name": "European Union Energy"
+      },
+      {
+        "name": "Stochastic Gradient Descent"
+      },
+      {
+        "name": "Multiple Solutions"
+      },
+      {
+        "name": "Optimization"
+      },
+      {
+        "name": "Surrogate Distribution"
+      },
+      {
+        "name": "Inference Problem"
+      },
+      {
+        "name": "Top Solution"
+      },
+      {
+        "name": "Parallel Computing"
+      },
+      {
+        "name": "Weak Solution"
+      },
+      {
+        "name": "General Solution"
+      },
+      {
+        "name": "Cost Function"
+      },
+      {
+        "name": "Continuous Parameters"
+      },
+      {
+        "name": "Task and motion planning"
+      },
+      {
+        "name": "EU Energy"
+      },
+      {
+        "name": "Discrete Distribution"
+      },
+      {
+        "name": "Planning"
+      },
+      {
+        "name": "Discrete Parameters"
+      },
+      {
+        "name": "Feasible Plan"
+      },
+      {
+        "name": "Symbolic Actions"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1109/LRA.2025.3561575",
+        "url": "https://doi.org/10.1109/LRA.2025.3561575"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2310.01775",
+        "url": "https://doi.org/10.48550/arXiv.2310.01775"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "jtxPRTTgx1",
+        "url": "https://openreview.net/forum?id=jtxPRTTgx1"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "jtxPRTTgx1",
+        "url": "https://openreview.net/pdf?id=jtxPRTTgx1"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2310.01775",
+        "url": "https://arxiv.org/abs/2310.01775"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2310.01775",
+        "url": "https://arxiv.org/pdf/2310.01775.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2310-01775",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2310-01775"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://export.arxiv.org/pdf/2310.01775"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "c79602789edc32fbef6100aae8638fb16c003f20",
+        "url": "https://www.semanticscholar.org/paper/c79602789edc32fbef6100aae8638fb16c003f20"
+      },
+      {
+        "type": "corpusid",
+        "link": "263608311"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

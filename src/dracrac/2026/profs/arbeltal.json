@@ -1,0 +1,2132 @@
+[
+  {
+    "paper_id": "a24c05cbc5854976f1411586905aa754",
+    "title": "The role of AI for MRI-analysis in multiple sclerosis—A brief overview",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "dbcc8a3eb3ec38a171b279c321e77d79",
+          "name": "Jean-Pierre R. Falet",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jean-Pierre_René_Falet1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "11866454"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "973d35a2fc73399b8e6d543c56caa74a",
+          "name": "Steven Nobile",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2354408095"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8a4e10db5edf83869bb2bc00d7baa13b",
+          "name": "Aliya Szpindel",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1384211380"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9e21df4a8ae7edf5c89fd682002d53fc",
+          "name": "Berardino Barile",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1729311774"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "85757ab45c4b5cceb693ae971f2583c5",
+          "name": "Amar Kumar",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Amar_Kumar1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2180509595"
+            },
+            {
+              "type": "xplore",
+              "link": "37086227047"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ae4c9f8c84d10e85b12e8e47cc3cc916",
+          "name": "Joshua D. Durso-Finley",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Joshua_D._Durso-Finley1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1707936879"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ee9231dae3a3256f27934976f88e871d",
+          "name": "Tal Arbel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "tal-arbel"
+            },
+            {
+              "type": "email.mila",
+              "link": "arbeltal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1253744446"
+            },
+            {
+              "type": "openreview",
+              "link": "~Tal_Arbel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699104"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33484"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33480"
+            },
+            {
+              "type": "xplore",
+              "link": "37087987199"
+            },
+            {
+              "type": "xplore",
+              "link": "37269971900"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c80fc46c6d57cbb9435c31b48c00f888",
+          "name": "Douglas Arnold",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Douglas_Arnold1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Douglas_Lorne_Arnold1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145427218"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2084618458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2271366748"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276568289"
+            },
+            {
+              "type": "xplore",
+              "link": "38557450800"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "55c8cc4bf5557aaac9c1e37d9f9d5ead",
+          "name": "Frontiers Artif. Intell.",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "131462e8e6e8ebc6746e4efaca46db09",
+          "name": "Frontiers in Artificial Intelligence",
+          "type": "journal",
+          "date": {
+            "text": "2025-04-08",
+            "timestamp": 1744084800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "2d27b7a155726b6ca0f3ea532ef7e693",
+          "name": "Frontiers in Artificial Intelligence",
+          "type": "review",
+          "date": {
+            "text": "2025-04-08",
+            "timestamp": 1744084800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "8"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "76cb684c5f647ea0a6df513cd672bf12",
+          "name": "Frontiers Artif. Intell.",
+          "type": "review",
+          "date": {
+            "text": "2025-04-08",
+            "timestamp": 1744084800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "8"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "2fee1e1cf3b87c4ce49c28320f6f453e",
+          "name": "Frontiers in Artificial Intelligence",
+          "type": "journal",
+          "date": {
+            "text": "2025-04-08",
+            "timestamp": 1744084800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.3389/frai.2025.1478068",
+        "url": "https://doi.org/10.3389/frai.2025.1478068"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "40265105",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40265105"
+      },
+      {
+        "type": "pmc.abstract",
+        "link": "12011719",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12011719"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/frai/FaletNSBKDAA25",
+        "url": "https://dblp.uni-trier.de/rec/journals/frai/FaletNSBKDAA25"
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.3389/frai.2025.1478068"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "e5ba70a37af04ee389ab02d9758627ba4e5199f2",
+        "url": "https://www.semanticscholar.org/paper/e5ba70a37af04ee389ab02d9758627ba4e5199f2"
+      },
+      {
+        "type": "corpusid",
+        "link": "277641892"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "bfca529102ebb84c53b90076d222b545",
+    "title": "PRISM: High-Resolution&Precise Counterfactual Medical Image Generation using Language-guided Stable Diffusion",
+    "abstract": "Developing reliable and generalizable deep learning systems for medical imaging faces significant obstacles due to spurious correlations, data imbalances, and limited text annotations in datasets. Addressing these challenges requires architectures robust to the unique complexities posed by medical imaging data. The rapid advancements in vision-language foundation models within the natural image domain prompt the question of how they can be adapted for medical imaging tasks. In this work, we present PRISM, a framework that leverages foundation models to generate high-resolution, language-guided medical image counterfactuals using Stable Diffusion. Our approach demonstrates unprecedented precision in selectively modifying spurious correlations (the medical devices) and disease features, enabling the removal and addition of specific attributes while preserving other image characteristics. Through extensive evaluation, we show how PRISM advances counterfactual generation and enables the development of more robust downstream classifiers for clinically deployable solutions. To facilitate broader adoption and research, we make our code publicly available at https://github.com/Amarkr1/PRISM.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "85757ab45c4b5cceb693ae971f2583c5",
+          "name": "Amar Kumar",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Amar_Kumar1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2180509595"
+            },
+            {
+              "type": "xplore",
+              "link": "37086227047"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9e0df75a3cff64b9ed79fa91a003507d",
+          "name": "Anita Kriz",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Anita_Kriz1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2339270068"
+            },
+            {
+              "type": "xplore",
+              "link": "751277242402484"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "944ea1a9eaa58335c089a0af2b513307",
+          "name": "Mohammad Havaei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mohammad_Havaei2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2203743"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301313394"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304550577"
+            },
+            {
+              "type": "xplore",
+              "link": "37085431132"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3ed660bb948b546c97f8ec9f6f1c9574",
+            "name": "Google Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ee9231dae3a3256f27934976f88e871d",
+          "name": "Tal Arbel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "tal-arbel"
+            },
+            {
+              "type": "email.mila",
+              "link": "arbeltal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1253744446"
+            },
+            {
+              "type": "openreview",
+              "link": "~Tal_Arbel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699104"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33484"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33480"
+            },
+            {
+              "type": "xplore",
+              "link": "37087987199"
+            },
+            {
+              "type": "xplore",
+              "link": "37269971900"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "78cb45e485dc8e0df96baa6f862e16eb",
+          "name": "MIDL.io/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-03-27",
+            "timestamp": 1743048000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "MIDL.io/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "MIDL 2025"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "78cb45e485dc8e0df96baa6f862e16eb",
+          "name": "MIDL.io/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-03-27",
+            "timestamp": 1743048000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "MIDL.io/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "MIDL 2025"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Counterfactual Image Synthesis"
+      },
+      {
+        "name": "Foundation Models"
+      },
+      {
+        "name": "Image Synthesis"
+      },
+      {
+        "name": "Generative Models"
+      },
+      {
+        "name": "Diffusion"
+      },
+      {
+        "name": "Large Language Models"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2503.00196",
+        "url": "https://doi.org/10.48550/arXiv.2503.00196"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "UpJMAlZNuo",
+        "url": "https://openreview.net/forum?id=UpJMAlZNuo"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "UpJMAlZNuo",
+        "url": "https://openreview.net/pdf?id=UpJMAlZNuo"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2503.00196",
+        "url": "https://arxiv.org/abs/2503.00196"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2503.00196",
+        "url": "https://arxiv.org/pdf/2503.00196.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2503-00196",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2503-00196"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "f2429013f82f41f331a79a7abe254bf5473a3297",
+        "url": "https://www.semanticscholar.org/paper/f2429013f82f41f331a79a7abe254bf5473a3297"
+      },
+      {
+        "type": "corpusid",
+        "link": "276742370"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9243a8029062534978adc9847a9e38a3",
+    "title": "Conditional Diffusion Models are Medical Image Classifiers that Provide Explainability and Uncertainty for Free",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9f2a77f0cc8d138b25ec77027ebfd85b",
+          "name": "Gian Mario Favero",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gian_Mario_Favero1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2324786777"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2344087413"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9734d921c83e0cfd32883ef2e98b2f12",
+          "name": "Parham Saremi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Parham_Saremi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2177439526"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "97a821d65377133ae465a6a643c93c13",
+          "name": "Emily Kaczmarek",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Emily_Kaczmarek2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2344118041"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9457762d6707c9e28b436acaf711ffc6",
+          "name": "Brennan Nichyporuk",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Brennan_Nichyporuk1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2051891988"
+            },
+            {
+              "type": "xplore",
+              "link": "989391994881058"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ee9231dae3a3256f27934976f88e871d",
+          "name": "Tal Arbel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "tal-arbel"
+            },
+            {
+              "type": "email.mila",
+              "link": "arbeltal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1253744446"
+            },
+            {
+              "type": "openreview",
+              "link": "~Tal_Arbel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699104"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33484"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33480"
+            },
+            {
+              "type": "xplore",
+              "link": "37087987199"
+            },
+            {
+              "type": "xplore",
+              "link": "37269971900"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "78cb45e485dc8e0df96baa6f862e16eb",
+          "name": "MIDL.io/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-03-27",
+            "timestamp": 1743048000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "MIDL.io/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "MIDL 2025"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "78cb45e485dc8e0df96baa6f862e16eb",
+          "name": "MIDL.io/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-03-27",
+            "timestamp": 1743048000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "MIDL.io/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "MIDL 2025"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "explainability"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "diffusion"
+      },
+      {
+        "name": "classification"
+      },
+      {
+        "name": "Computer Vision and Pattern Recognition (cs.CV)"
+      },
+      {
+        "name": "uncertainty"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2502.03687",
+        "url": "https://doi.org/10.48550/arXiv.2502.03687"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "3LySEy7MR3",
+        "url": "https://openreview.net/forum?id=3LySEy7MR3"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "3LySEy7MR3",
+        "url": "https://openreview.net/pdf?id=3LySEy7MR3"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2502.03687",
+        "url": "https://arxiv.org/abs/2502.03687"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2502.03687",
+        "url": "https://arxiv.org/pdf/2502.03687.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2502-03687",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2502-03687"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "28c2a744e8a492f90f7b278a50ffecf8e1a5f734",
+        "url": "https://www.semanticscholar.org/paper/28c2a744e8a492f90f7b278a50ffecf8e1a5f734"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "74d4f280e2a6c958e2260c9e5cf5a424223889a0",
+        "url": "https://www.semanticscholar.org/paper/74d4f280e2a6c958e2260c9e5cf5a424223889a0"
+      },
+      {
+        "type": "corpusid",
+        "link": "276160882"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2502.03687"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "b244aa7e9dbcd751f1666cbc7a3833e0",
+    "title": "Improving Robustness and Reliability in Medical Image Classification with Latent-Guided Diffusion and Nested-Ensembles",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c9c1b2feb869bd07bed513f19b9a85a7",
+          "name": "Xing Shen",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2261454637"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2373454558"
+            },
+            {
+              "type": "xplore",
+              "link": "37577524100"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "116728c796f47f51a225f6b66ef5b796",
+            "name": "Centre for Intelligent Machines, McGill University, Montreal, QC, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "14f5cb0ecc5a16f339acc51f85384de0",
+            "name": "Singapore",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5b7c6ec0c583acd7785e32cd78b0f652",
+            "name": "University of Singapore",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d5e12e8c842505440874b68de665a67e",
+          "name": "Hengguan Huang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hengguan_Huang1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "120738202"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261394094"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2373601357"
+            },
+            {
+              "type": "xplore",
+              "link": "37085697839"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "14f5cb0ecc5a16f339acc51f85384de0",
+            "name": "Singapore",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5b7c6ec0c583acd7785e32cd78b0f652",
+            "name": "University of Singapore",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7f94c8bf2c382f4b38a732b07e5f7180",
+            "name": "Department of Public Health, Section for Health Data Science and AI, University of Copenhagen, København, Denmark",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9457762d6707c9e28b436acaf711ffc6",
+          "name": "Brennan Nichyporuk",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Brennan_Nichyporuk1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2051891988"
+            },
+            {
+              "type": "xplore",
+              "link": "989391994881058"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "32297710ff33d7ad70002f115e5ad7dd",
+            "name": "Mila – Quebec AI Institute, Montreal, QC, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ee9231dae3a3256f27934976f88e871d",
+          "name": "Tal Arbel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "tal-arbel"
+            },
+            {
+              "type": "email.mila",
+              "link": "arbeltal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1253744446"
+            },
+            {
+              "type": "openreview",
+              "link": "~Tal_Arbel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699104"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33484"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33480"
+            },
+            {
+              "type": "xplore",
+              "link": "37087987199"
+            },
+            {
+              "type": "xplore",
+              "link": "37269971900"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "116728c796f47f51a225f6b66ef5b796",
+            "name": "Centre for Intelligent Machines, McGill University, Montreal, QC, Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "128951c36facf425a706c1c6cfe287bb",
+          "name": "IEEE Transactions on Medical Imaging",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": "IEEE",
+          "series": "",
+          "volume": "PP"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "1-1"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Transformers"
+      },
+      {
+        "name": "Ensemble learning"
+      },
+      {
+        "name": "Medical Image Analysis"
+      },
+      {
+        "name": "Invariant Features"
+      },
+      {
+        "name": "Medical Image Classification"
+      },
+      {
+        "name": "Ensemble Method"
+      },
+      {
+        "name": "Diagnostic Imaging"
+      },
+      {
+        "name": "Fast Gradient Sign Method"
+      },
+      {
+        "name": "Covariate Shift"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Ensemble Learning Method"
+      },
+      {
+        "name": "Gaussian Noise"
+      },
+      {
+        "name": "Prediction Confidence"
+      },
+      {
+        "name": "Chest Radiography"
+      },
+      {
+        "name": "Diffusion-based Generative Models"
+      },
+      {
+        "name": "Vision Transformer"
+      },
+      {
+        "name": "Feed-forward Network"
+      },
+      {
+        "name": "Transformer Encoder"
+      },
+      {
+        "name": "Skin Tumors"
+      },
+      {
+        "name": "Chest X-ray"
+      },
+      {
+        "name": "Uncertainty"
+      },
+      {
+        "name": "Artificial intelligence"
+      },
+      {
+        "name": "Adversarial Robustness"
+      },
+      {
+        "name": "Deep Learning"
+      },
+      {
+        "name": "Uncertainty Quantification"
+      },
+      {
+        "name": "Image X"
+      },
+      {
+        "name": "Predictive Distribution"
+      },
+      {
+        "name": "Training"
+      },
+      {
+        "name": "Ensemble Methods"
+      },
+      {
+        "name": "Robustness"
+      },
+      {
+        "name": "Medical Classification"
+      },
+      {
+        "name": "Tuberculosis"
+      },
+      {
+        "name": "Diffusion Model"
+      },
+      {
+        "name": "Adversarial Attacks"
+      },
+      {
+        "name": "Extensive Experiments"
+      },
+      {
+        "name": "Invariant Characteristics"
+      },
+      {
+        "name": "Feature extraction"
+      },
+      {
+        "name": "Medical Imaging"
+      },
+      {
+        "name": "Diffusion models"
+      },
+      {
+        "name": "Latent Variables"
+      },
+      {
+        "name": "Ensemble Members"
+      },
+      {
+        "name": "Image classification"
+      },
+      {
+        "name": "Artificial Intelligence Training"
+      },
+      {
+        "name": "Clinical Imaging"
+      },
+      {
+        "name": "Adversarial Perturbations"
+      },
+      {
+        "name": "Feedforward Neural Network"
+      },
+      {
+        "name": "Skin Cancer"
+      },
+      {
+        "name": "Projected Gradient Descent"
+      },
+      {
+        "name": "Biomedical imaging"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1109/TMI.2025.3583974",
+        "url": "https://doi.org/10.1109/TMI.2025.3583974"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2310.15952",
+        "url": "https://doi.org/10.48550/arXiv.2310.15952"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2310.15952",
+        "url": "https://arxiv.org/abs/2310.15952"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2310.15952",
+        "url": "https://arxiv.org/pdf/2310.15952.pdf"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "40587343",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40587343"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2310-15952",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2310-15952"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "004c8c5e20bf261334d7bca9ddce23c9bc07449a",
+        "url": "https://www.semanticscholar.org/paper/004c8c5e20bf261334d7bca9ddce23c9bc07449a"
+      },
+      {
+        "type": "corpusid",
+        "link": "264439285"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "e8de16574cd3ab2bba7d6674ced71cfa",
+    "title": "Exploring Compound Loss Functions for Brain Tumor Segmentation",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9e0df75a3cff64b9ed79fa91a003507d",
+          "name": "Anita Kriz",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Anita_Kriz1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2339270068"
+            },
+            {
+              "type": "xplore",
+              "link": "751277242402484"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9291953d6b5f733c5884c63093f5ba09",
+          "name": "Raghav Mehta",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Raghav_Mehta1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3417010"
+            },
+            {
+              "type": "xplore",
+              "link": "37085785989"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9457762d6707c9e28b436acaf711ffc6",
+          "name": "Brennan Nichyporuk",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Brennan_Nichyporuk1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2051891988"
+            },
+            {
+              "type": "xplore",
+              "link": "989391994881058"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ee9231dae3a3256f27934976f88e871d",
+          "name": "Tal Arbel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "tal-arbel"
+            },
+            {
+              "type": "email.mila",
+              "link": "arbeltal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1253744446"
+            },
+            {
+              "type": "openreview",
+              "link": "~Tal_Arbel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699104"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33484"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33480"
+            },
+            {
+              "type": "xplore",
+              "link": "37087987199"
+            },
+            {
+              "type": "xplore",
+              "link": "37269971900"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "40a2c1af7c0801aa2ad06d72f028c6de",
+          "name": "Lecture Notes in Computer Science",
+          "type": "conference",
+          "date": {
+            "text": "2024-12-28",
+            "timestamp": 1735362000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1007/978-3-031-76163-8_27",
+        "url": "https://doi.org/10.1007/978-3-031-76163-8_27"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/miccai/KrizMNA23",
+        "url": "https://dblp.uni-trier.de/rec/conf/miccai/KrizMNA23"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "b944a5a486614c543a7a45c7c1df15ddf3e8dd13",
+        "url": "https://www.semanticscholar.org/paper/b944a5a486614c543a7a45c7c1df15ddf3e8dd13"
+      },
+      {
+        "type": "corpusid",
+        "link": "275406535"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8ea47c51b6155e8a479c6e23310fb722",
+    "title": "Probabilistic Temporal Prediction of Continuous Disease Trajectories and Treatment Effects Using Neural SDEs",
+    "abstract": "Personalized medicine based on medical images, including predicting future individualized clinical disease progression and treatment response, would have an enormous impact on healthcare and drug development, particularly for diseases (e.g. multiple sclerosis (MS)) with long term, complex, heterogeneous evolutions and no cure. In this work, we present the first stochastic causal temporal framework to model the continuous temporal evolution of disease progression via Neural Stochastic Differential Equations (NSDE). The proposed causal inference model takes as input the patient's high dimensional images (MRI) and tabular data, and predicts both factual and counterfactual progression trajectories on different treatments in latent space. The NSDE permits the estimation of high-confidence personalized trajectories and treatment effects. Extensive experiments were performed on a large, multi-centre, proprietary dataset of patient 3D MRI and clinical data acquired during several randomized clinical trials for MS treatments. Our results present the first successful uncertainty-based causal Deep Learning (DL) model to: (a) accurately predict future patient MS disability evolution (e.g. EDSS) and treatment effects leveraging baseline MRI, and (b) permit the discovery of subgroups of patients for which the model has high confidence in their response to treatment even in clinical trials which did not reach their clinical endpoints.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ae4c9f8c84d10e85b12e8e47cc3cc916",
+          "name": "Joshua D. Durso-Finley",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Joshua_D._Durso-Finley1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1707936879"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "47f7eda2662071a08ef89c1b837f23f5",
+            "name": "Center for Intelligent Machines, McGill University.",
+            "category": "academia"
+          },
+          {
+            "institution_id": "59f91880f966d424b4df348553e5d4db",
+            "name": "McGill University.",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9e21df4a8ae7edf5c89fd682002d53fc",
+          "name": "Berardino Barile",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1729311774"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "47f7eda2662071a08ef89c1b837f23f5",
+            "name": "Center for Intelligent Machines, McGill University.",
+            "category": "academia"
+          },
+          {
+            "institution_id": "59f91880f966d424b4df348553e5d4db",
+            "name": "McGill University.",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dbcc8a3eb3ec38a171b279c321e77d79",
+          "name": "Jean-Pierre R. Falet",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jean-Pierre_René_Falet1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "11866454"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c80fc46c6d57cbb9435c31b48c00f888",
+          "name": "Douglas Arnold",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Douglas_Arnold1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Douglas_Lorne_Arnold1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145427218"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2084618458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2271366748"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276568289"
+            },
+            {
+              "type": "xplore",
+              "link": "38557450800"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d981f92b669ff4ec602bcaf8ebaa12ad",
+          "name": "Nick Pawlowski",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Nick_Pawlowski2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2122367673"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276566947"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10d0ffdac4992d2a6165804b7850468d",
+            "name": "Microsoft Research.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ee9231dae3a3256f27934976f88e871d",
+          "name": "Tal Arbel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "tal-arbel"
+            },
+            {
+              "type": "email.mila",
+              "link": "arbeltal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1253744446"
+            },
+            {
+              "type": "openreview",
+              "link": "~Tal_Arbel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699104"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33484"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33480"
+            },
+            {
+              "type": "xplore",
+              "link": "37087987199"
+            },
+            {
+              "type": "xplore",
+              "link": "37269971900"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "47f7eda2662071a08ef89c1b837f23f5",
+            "name": "Center for Intelligent Machines, McGill University.",
+            "category": "academia"
+          },
+          {
+            "institution_id": "59f91880f966d424b4df348553e5d4db",
+            "name": "McGill University.",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "203cdc35c1be27be100af9a6da5b4d8e",
+          "name": "Lecture Notes in Computer Science",
+          "type": "conference",
+          "date": {
+            "text": "2024-10-03",
+            "timestamp": 1727928000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Biology"
+      },
+      {
+        "name": "Engineering"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1007/978-3-031-72384-1_38",
+        "url": "https://doi.org/10.1007/978-3-031-72384-1_38"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2406.12807",
+        "url": "https://doi.org/10.48550/arXiv.2406.12807"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2406.12807",
+        "url": "https://arxiv.org/abs/2406.12807"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2406.12807",
+        "url": "https://arxiv.org/pdf/2406.12807.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/miccai/DursoFinleyBFAPA24",
+        "url": "https://dblp.uni-trier.de/rec/conf/miccai/DursoFinleyBFAPA24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2406-12807",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2406-12807"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "881906874c22a660ddd2d76bd9858ab6e022e16f",
+        "url": "https://www.semanticscholar.org/paper/881906874c22a660ddd2d76bd9858ab6e022e16f"
+      },
+      {
+        "type": "corpusid",
+        "link": "270562490"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "ba0c7e4100a4536c3c737754dca42399",
+    "title": "DeCoDEx: Confounder Detector Guidance for Improved Diffusion-based Counterfactual Explanations",
+    "abstract": "Deep learning classifiers are prone to latching onto dominant confounders present in a dataset rather than on the causal markers associated with the target class, leading to poor generalization and biased predictions. Although explainability via counterfactual image generation has been successful at exposing the problem, bias mitigation strategies that permit accurate explainability in the presence of dominant and diverse artifacts remain unsolved. In this work, we propose the DeCoDEx framework and show how an external, pre-trained binary artifact detector can be leveraged during inference to guide a diffusion-based counterfactual image generator towards accurate explainability. Experiments on the CheXpert dataset, using both synthetic artifacts and real visual artifacts (support devices), show that the proposed method successfully synthesizes the counterfactual images that change the causal pathology markers associated with Pleural Effusion while preserving or ignoring the visual artifacts. Augmentation of ERM and Group-DRO classifiers with the DeCoDEx generated images substantially improves the results across underrepresented groups that are out of distribution for each class. The code is made publicly available at https://github.com/NimaFathi/DeCoDEx.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ae070e09fe00b3ce27840e76279257ad",
+          "name": "Nima Fathi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Nima_Fathi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301311537"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "73584812"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "85757ab45c4b5cceb693ae971f2583c5",
+          "name": "Amar Kumar",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Amar_Kumar1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2180509595"
+            },
+            {
+              "type": "xplore",
+              "link": "37086227047"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9457762d6707c9e28b436acaf711ffc6",
+          "name": "Brennan Nichyporuk",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Brennan_Nichyporuk1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2051891988"
+            },
+            {
+              "type": "xplore",
+              "link": "989391994881058"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "944ea1a9eaa58335c089a0af2b513307",
+          "name": "Mohammad Havaei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mohammad_Havaei2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2203743"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301313394"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304550577"
+            },
+            {
+              "type": "xplore",
+              "link": "37085431132"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "17536952fb5368c3400d993ff9049b8c",
+            "name": "Google Research Tal Arbel",
+            "category": "industry"
+          },
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3ed660bb948b546c97f8ec9f6f1c9574",
+            "name": "Google Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ee9231dae3a3256f27934976f88e871d",
+          "name": "Tal Arbel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "tal-arbel"
+            },
+            {
+              "type": "email.mila",
+              "link": "arbeltal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1253744446"
+            },
+            {
+              "type": "openreview",
+              "link": "~Tal_Arbel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699104"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33484"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33480"
+            },
+            {
+              "type": "xplore",
+              "link": "37087987199"
+            },
+            {
+              "type": "xplore",
+              "link": "37269971900"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "3e6ef0e5634ff5eaa253ccf60abd6871",
+          "name": "MIDL.io/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-06-06",
+            "timestamp": 1717646400,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "MIDL.io/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "MIDL 2024"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Counterfactual Image Synthesis"
+      },
+      {
+        "name": "Causality"
+      },
+      {
+        "name": "Diffusion"
+      },
+      {
+        "name": "Explainability"
+      },
+      {
+        "name": "Bias Mitigation"
+      },
+      {
+        "name": "Spurious Correlations"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2405.09288",
+        "url": "https://doi.org/10.48550/arXiv.2405.09288"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "M6CfJ5H7XH",
+        "url": "https://openreview.net/forum?id=M6CfJ5H7XH"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "M6CfJ5H7XH",
+        "url": "https://openreview.net/pdf?id=M6CfJ5H7XH"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2405.09288",
+        "url": "https://arxiv.org/abs/2405.09288"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2405.09288",
+        "url": "https://arxiv.org/pdf/2405.09288.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/midl/FathiKNHA24",
+        "url": "https://dblp.uni-trier.de/rec/conf/midl/FathiKNHA24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2405-09288",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2405-09288"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://proceedings.mlr.press/v250/fathi24a.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "c37a1c2f4ccbd868565eecc46f8bad5761efcbda",
+        "url": "https://www.semanticscholar.org/paper/c37a1c2f4ccbd868565eecc46f8bad5761efcbda"
+      },
+      {
+        "type": "corpusid",
+        "link": "269773138"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

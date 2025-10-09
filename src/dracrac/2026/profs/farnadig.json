@@ -1,0 +1,3846 @@
+[
+  {
+    "paper_id": "a4d92e14506607f14dc5b2220508e88b",
+    "title": "Adaptation, Comparison and Practical Implementation of Fairness Schemes in Kidney Exchange Programs",
+    "abstract": "In Kidney Exchange Programs (KEPs), each participating patient is registered together with an incompatible donor. Donors without an incompatible patient can also register. Then, KEPs typically maximize overall patient benefit through donor exchanges. This aggregation of benefits calls into question potential individual patient disparities in terms of access to transplantation in KEPs. Considering solely this utilitarian objective may become an issue in the case where multiple exchange plans are optimal or near-optimal. In fact, current KEP policies are all-or-nothing, meaning that only one exchange plan is determined. Each patient is either selected or not as part of that unique solution. In this work, we seek instead to find a policy that contemplates the probability of patients of being in a solution. To guide the determination of our policy, we adapt popular fairness schemes to KEPs to balance the usual approach of maximizing the utilitarian objective. Different combinations of fairness and utilitarian objectives are modelled as conic programs with an exponential number of variables. We propose a column generation approach to solve them effectively in practice. Finally, we make an extensive comparison of the different schemes in terms of the balance of utility and fairness score, and validate the scalability of our methodology for benchmark instances from the literature.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "86083c186a844e32ee7b9bcbff53e676",
+          "name": "William St-Arnaud",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~William_St-Arnaud1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1456860184"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "14f9cab38a465b6f6c4571009e8b92a5",
+            "name": "Mila-Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "74807fa7ba7b5fd21677478fe8917829",
+            "name": "Universite de Montreal",
+            "category": "academia"
+          },
+          {
+            "institution_id": "796a0668f689d44904a0ba2a549a8302",
+            "name": "CIRRELT",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e936192a3cb15b6af3b6936406280054",
+          "name": "Margarida Carvalho",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "Margarida.Carvalho@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2337925916"
+            },
+            {
+              "type": "openreview",
+              "link": "~Margarida_Carvalho1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2344-0960"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "143747602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2075424647"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2075426379"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237953987"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283121545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285091187"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286622541"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291903549"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292171974"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293670574"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2353703278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "48075546"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "14f9cab38a465b6f6c4571009e8b92a5",
+            "name": "Mila-Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "74807fa7ba7b5fd21677478fe8917829",
+            "name": "Universite de Montreal",
+            "category": "academia"
+          },
+          {
+            "institution_id": "796a0668f689d44904a0ba2a549a8302",
+            "name": "CIRRELT",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0ea2649fa678b9cac97a8a62adf7e041",
+            "name": "HEC Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "14f9cab38a465b6f6c4571009e8b92a5",
+            "name": "Mila-Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "438de4974be5575712747949d8f5ee90",
+          "name": "European Journal of Operational Research",
+          "type": "journal",
+          "date": {
+            "text": "2025-08",
+            "timestamp": 1754020800,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1016/j.ejor.2025.02.014",
+        "url": "https://doi.org/10.1016/j.ejor.2025.02.014"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2207.00241",
+        "url": "https://arxiv.org/abs/2207.00241"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2207.00241",
+        "url": "https://arxiv.org/pdf/2207.00241.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/eor/StArnaudCF25",
+        "url": "https://dblp.uni-trier.de/rec/journals/eor/StArnaudCF25"
+      },
+      {
+        "type": "pdf",
+        "link": "http://export.arxiv.org/pdf/2207.00241"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "d48e8db737aeddf6c76a4381584867ff9f6d5aa4",
+        "url": "https://www.semanticscholar.org/paper/d48e8db737aeddf6c76a4381584867ff9f6d5aa4"
+      },
+      {
+        "type": "corpusid",
+        "link": "250243903"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9aa4c18a391e5afca10cdc330fc1242c",
+    "title": "A Learning-Based Framework for Fair and Scalable Solution Generation in Kidney Exchange Problems",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "86083c186a844e32ee7b9bcbff53e676",
+          "name": "William St-Arnaud",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~William_St-Arnaud1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1456860184"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e936192a3cb15b6af3b6936406280054",
+          "name": "Margarida Carvalho",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "Margarida.Carvalho@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2337925916"
+            },
+            {
+              "type": "openreview",
+              "link": "~Margarida_Carvalho1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-2344-0960"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "143747602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2075424647"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2075426379"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237953987"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283121545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285091187"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286622541"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291903549"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292171974"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293670574"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2353703278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "48075546"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6b52336c89226015eae3287e9d7e8f1f",
+          "name": "Trans. Mach. Learn. Res.",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "2025"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "378fbd4ca941585e46f21b52307f00fa",
+          "name": "Trans. Mach. Learn. Res.",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "35c1e3b509fcf96215b14f20f2d75474",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2025-04-27",
+            "timestamp": 1745726400,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "IizmQoF86Y",
+        "url": "https://openreview.net/forum?id=IizmQoF86Y"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "IizmQoF86Y",
+        "url": "https://openreview.net/pdf?id=IizmQoF86Y"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/tmlr/St-ArnaudCF25",
+        "url": "https://dblp.uni-trier.de/rec/journals/tmlr/St-ArnaudCF25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=IizmQoF86Y"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "0214f08c7764551ff4afb3a4e46b5c407bb899cc",
+        "url": "https://www.semanticscholar.org/paper/0214f08c7764551ff4afb3a4e46b5c407bb899cc"
+      },
+      {
+        "type": "corpusid",
+        "link": "278712973"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "cd2a379c9c7ce2e5291a71434e7007df",
+    "title": "Multilingual Hallucination Gaps",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "6946cba8d9da0c337907bd2bce188a94",
+          "name": "Cléa Chataigner",
+          "links": []
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "36a99ea79f6c22565c31d067a1843ca9",
+            "name": "Mila, McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "88c23b7f055e6a5e9fb252f0ac633ee6",
+          "name": "Afaf Taïk",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2172481903"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327337467"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "36a99ea79f6c22565c31d067a1843ca9",
+            "name": "Mila, McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "4ded8186ece852f07a6a840b298df25c",
+          "name": "Proceedings of the Algorithmic Fairness Through the Lens of Metrics and Evaluation",
+          "type": "unknown",
+          "date": {
+            "text": "2025-04-23",
+            "timestamp": 1745380800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "279"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "133-155"
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "mlr.abstract",
+        "link": "279/chataigner25a",
+        "url": "https://proceedings.mlr.press/v279/chataigner25a.html"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v279/main/assets/chataigner25a/chataigner25a.pdf"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "c78c661c88f1465504a2b5a3d6f0176c",
+    "title": "Algorithmic Fairness Through the Lens of Metrics and Evaluation (AFME) 2024",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b30ee4d0f64ca1e41c1fbc955d003775",
+          "name": "Miriam Rateike",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2267486972"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "740d738029438f70cc5112151169933d",
+            "name": "University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "92ddc2b282144766ec5c93d16767fbae",
+          "name": "Awa Dieng",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2064110017"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "06fa2f396b00a21d12b6c853cbb1c368",
+          "name": "Jamelle Watson-Daniels",
+          "links": []
+        },
+        "affiliations": [
+          {
+            "institution_id": "53ebc9c43621e396de19895e697cb413",
+            "name": "Meta",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a23100a40b53b6ebaa6d5c2bb7ce3f56",
+          "name": "Ferdinando Fioretto",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2141569789"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2355493002"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1f5887d47b4f864b10775367ffb152d4",
+            "name": "University of Virginia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "520eb76afec40752b16071469980ee08",
+            "name": "McGill University, Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "4ded8186ece852f07a6a840b298df25c",
+          "name": "Proceedings of the Algorithmic Fairness Through the Lens of Metrics and Evaluation",
+          "type": "unknown",
+          "date": {
+            "text": "2025-04-23",
+            "timestamp": 1745380800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "279"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "1-7"
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "mlr.abstract",
+        "link": "279/rateike25a",
+        "url": "https://proceedings.mlr.press/v279/rateike25a.html"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v279/main/assets/rateike25a/rateike25a.pdf"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "89d4304cd8a03cf73489bb15054e3109",
+    "title": "Privacy-Preserving Group Fairness in Cross-Device Federated Learning",
+    "abstract": "Group fairness ensures that the outcome of machine learning (ML) based decision making systems are notbiased towards a certain group of people defined by a sensitive attribute such as gender or ethnicity. Achievinggroup fairness in Federated Learning (FL) is challenging because mitigating bias inherently requires usingthe sensitive attribute values of all clients, while FL is aimed precisely at protecting privacy by not givingaccess to the clients’ data. As we show in this paper, this conflict between fairness and privacy in FL can beresolved by combining FL with Secure Multiparty Computation (MPC) and Differential Privacy (DP). Tothis end, we propose a privacy-preserving approach to calculate group fairness notions in the cross-device FLsetting. Then, we propose two bias mitigation pre-processing and post-processing techniques in cross-deviceFL under formal privacy guarantees, without requiring the clients to disclose their sensitive attribute values.Empirical evaluations on real world datasets demonstrate the effectiveness of our solution to train fair andaccurate ML models in federated cross-device setups with privacy guarantees to the users.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "8cddbf2289f2a7f65599958d4f421194",
+          "name": "Sikha Pentyala",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2047996928"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c12a3b0d39018a419cad479863ea9230",
+          "name": "Nicola Neophytou",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2133300815"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c13d6c3ac9711a197a761c905df1fa25",
+          "name": "Anderson Nascimento",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2707168"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9e3b85da5f22ddaa2a41532129b6cd66",
+          "name": "Martine De Cock",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "33330805"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "4502624"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "4ded8186ece852f07a6a840b298df25c",
+          "name": "Proceedings of the Algorithmic Fairness Through the Lens of Metrics and Evaluation",
+          "type": "unknown",
+          "date": {
+            "text": "2025-04-23",
+            "timestamp": 1745380800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "279"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "173-198"
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "mlr.abstract",
+        "link": "279/pentyala25a",
+        "url": "https://proceedings.mlr.press/v279/pentyala25a.html"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v279/main/assets/pentyala25a/pentyala25a.pdf"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "0c504d2844791520725f4a8b265cc6de",
+    "title": "Bridging Causality, Individual Fairness, and Adversarial Robustness in the Absence of Structural Causal Model",
+    "abstract": "Despite the essential need for comprehensive considerations in responsible AI, factors such as robustness, fairness, and causality are often studied in isolation. Adversarial perturbation, used to identify vulnerabilities in models, and individual fairness, aiming for equitable treatment of similar individuals, despite initial differences, both depend on metrics to generate comparable input data instances. Previous attempts to define such joint metrics often lack general assumptions about data and were unable to reflect counterfactual proximity. To address this, our paper introduces a \\emph{causal fair metric} formulated based on causal structures encompassing sensitive attributes and protected causal perturbation. To enhance the practicality of our metric, we propose metric learning as a method for metric estimation and deployment in real-world problems in the absence of structural causal models. We also demonstrate the applications of the causal fair metric in classifiers. Empirical evaluation of real-world and synthetic datasets illustrates the effectiveness of our proposed metric in achieving an accurate classifier with fairness, resilience to adversarial perturbations, and a nuanced understanding of causal relationships.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "e76525f343f63aaea3857b79255f0205",
+          "name": "Ahmad Reza Ehyaei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ahmad_Reza_Ehyaei1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9aa4c5dd53da3f6bc6a2ed81f82f8581",
+          "name": "Samira Samadi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Samira_Samadi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265753204"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "24b69c18aa303876a53cfae284b228c6",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2025-02-03",
+            "timestamp": 1738558800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "2nRcWy3RLM",
+        "url": "https://openreview.net/forum?id=2nRcWy3RLM"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "2nRcWy3RLM",
+        "url": "https://openreview.net/pdf?id=2nRcWy3RLM"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9102155e67c27c35c167daefe0f3c4df",
+    "title": "What Secrets Do Your Manifolds Hold? Understanding the Local Geometry of Generative Models",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a5db2fa91f04fd4783d98f5aba7ebd98",
+          "name": "Ahmed Imtiaz Humayun",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ahmed_Imtiaz_Humayun1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "34657588"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aec816299dbd8c3eb3de57008395a30d",
+          "name": "Ibtihel Amara",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ibtihel_Amara1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "34563866"
+            },
+            {
+              "type": "xplore",
+              "link": "37086389757"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aa06e61cd63f0fcd91dec49f8ffddf51",
+          "name": "Candice Schumann",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Candice_Schumann1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316125882"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f26f03c6d45e0b799c3aba0f1ea81263",
+          "name": "Cristina Nader Vasconcelos",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Cristina_Nader_Vasconcelos1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e5a985e902e96e376dfe261d01cc743b",
+          "name": "Deepak Ramachandran",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Deepak_Ramachandran2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2320521800"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ce5b7fa405f6f38b6b2d7add2568c39f",
+          "name": "Negar Rostamzadeh",
+          "links": [
+            {
+              "type": "bio",
+              "link": "negar-rostamzadeh"
+            },
+            {
+              "type": "email.mila",
+              "link": "negar.rostamzadeh@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2043949869"
+            },
+            {
+              "type": "openreview",
+              "link": "~Negar_Rostamzadeh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237983659"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261926590"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304550560"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2599281"
+            },
+            {
+              "type": "wpid_en",
+              "link": "1943"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "1946"
+            },
+            {
+              "type": "xplore",
+              "link": "38546862800"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "82a3761a9b67515969e5d66383eb8601",
+          "name": "Junfeng He",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Junfeng_He4"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "944ea1a9eaa58335c089a0af2b513307",
+          "name": "Mohammad Havaei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mohammad_Havaei2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2203743"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301313394"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304550577"
+            },
+            {
+              "type": "xplore",
+              "link": "37085431132"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "edf83a036686ec030f2bda088352d047",
+          "name": "Katherine Heller",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Katherine_A_Heller1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145993598"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2059111128"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256408619"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2290026370"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "0f594c4031b8803ff34b6648f833802f",
+          "name": "ICLR",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Memorization"
+      },
+      {
+        "name": "Geometry"
+      },
+      {
+        "name": "VAE"
+      },
+      {
+        "name": "Generative Models"
+      },
+      {
+        "name": "Out-of-Distribution Detection"
+      },
+      {
+        "name": "Diffusion models"
+      },
+      {
+        "name": "Guidance"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "etif9j1CnG",
+        "url": "https://openreview.net/forum?id=etif9j1CnG"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "etif9j1CnG",
+        "url": "https://openreview.net/pdf?id=etif9j1CnG"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2408.08307",
+        "url": "https://arxiv.org/abs/2408.08307"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2408.08307",
+        "url": "https://arxiv.org/pdf/2408.08307.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/iclr/HumayunAVRSHHFR25",
+        "url": "https://dblp.uni-trier.de/rec/conf/iclr/HumayunAVRSHHFR25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=etif9j1CnG"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "72bb291691a554c6602e631e1b5480c045345bc4",
+        "url": "https://www.semanticscholar.org/paper/72bb291691a554c6602e631e1b5480c045345bc4"
+      },
+      {
+        "type": "corpusid",
+        "link": "271874286"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8407ea5975b8f089261e59387225e4ee",
+    "title": "Embedding Cultural Diversity in Prototype-based Recommender Systems",
+    "abstract": "Popularity bias in recommender systems can increase cultural overrepresentation by favoring norms from dominant cultures and marginalizing underrepresented groups. This issue is critical for platforms offering cultural products, as they influence consumption patterns and human perceptions. In this work, we address popularity bias by identifying demographic biases within prototype-based matrix factorization methods. Using the country of origin as a proxy for cultural identity, we link this demographic attribute to popularity bias by refining the embedding space learning process. First, we propose filtering out irrelevant prototypes to improve representativity. Second, we introduce a regularization technique to enforce a uniform distribution of prototypes within the embedding space. Across four datasets, our results demonstrate a 27\\% reduction in the average rank of long-tail items and a 2\\% reduction in the average rank of items from underrepresented countries. Additionally, our model achieves a 2\\% improvement in HitRatio@10 compared to the state-of-the-art, highlighting that fairness is enhanced without compromising recommendation quality. Moreover, the distribution of prototypes leads to more inclusive explanations by better aligning items with diverse prototypes.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "f6e56bf480b4e918ab95268241b02a9e",
+          "name": "Armin Moradi",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2237988241"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c12a3b0d39018a419cad479863ea9230",
+          "name": "Nicola Neophytou",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2133300815"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b28fc8c5c7df38873efca0910ccdb85e",
+          "name": "Florian Carichon",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Florian_Carichon1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303655941"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "229f7009e2f419f53e2bd58f7b399fe8",
+          "name": "European Conference on Information Retrieval",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Computers and Society (cs.CY)"
+      },
+      {
+        "name": "Information Retrieval (cs.IR)"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1007/978-3-031-88708-6_2",
+        "url": "https://doi.org/10.1007/978-3-031-88708-6_2"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2412.14329",
+        "url": "https://doi.org/10.48550/arXiv.2412.14329"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2412.14329",
+        "url": "https://arxiv.org/abs/2412.14329"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2412.14329",
+        "url": "https://arxiv.org/pdf/2412.14329.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/ecir/MoradiNCF25",
+        "url": "https://dblp.uni-trier.de/rec/conf/ecir/MoradiNCF25"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2412-14329",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2412-14329"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "438959e1277609e11ba0782976078f2a4cdcc980",
+        "url": "https://www.semanticscholar.org/paper/438959e1277609e11ba0782976078f2a4cdcc980"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "4fa4d1eb428cbf54c6ad69ef9bf537d140f66c9e",
+        "url": "https://www.semanticscholar.org/paper/4fa4d1eb428cbf54c6ad69ef9bf537d140f66c9e"
+      },
+      {
+        "type": "corpusid",
+        "link": "274859496"
+      },
+      {
+        "type": "corpusid",
+        "link": "277953366"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2412.14329"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9b39ab0b3f7cb0b7a4a2adda0a2304fe",
+    "title": "Different Horses for Different Courses: Comparing Bias Mitigation Algorithms in ML",
+    "abstract": "With fairness concerns gaining significant attention in Machine Learning (ML), several bias mitigation techniques have been proposed, often compared against each other to find the best method. These benchmarking efforts tend to use a common setup for evaluation under the assumption that providing a uniform environment ensures a fair comparison. However, bias mitigation techniques are sensitive to hyperparameter choices, random seeds, feature selection, etc., meaning that comparison on just one setting can unfairly favour certain algorithms. In this work, we show significant variance in fairness achieved by several algorithms and the influence of the learning pipeline on fairness scores. We highlight that most bias mitigation techniques can achieve comparable performance, given the freedom to perform hyperparameter optimization, suggesting that the choice of the evaluation parameters-rather than the mitigation technique itself-can sometimes create the perceived superiority of one method over another. We hope our work encourages future research on how various choices in the lifecycle of developing an algorithm impact fairness, and trends that guide the selection of appropriate algorithms.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "abf25d6d6cee86c649a1e962165cb854",
+          "name": "Prakhar Ganeesh",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2331328624"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2db31d8d4d5316514cb10f377e5447d8",
+            "name": "Iowa State University",
+            "category": "academia"
+          },
+          {
+            "institution_id": "520eb76afec40752b16071469980ee08",
+            "name": "McGill University, Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a6bf8b4cf81a92b90972198977e9b3d6",
+          "name": "Usman Gohar",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1386345955"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2349386157"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2db31d8d4d5316514cb10f377e5447d8",
+            "name": "Iowa State University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a02b41468238d7d636bb5ec75c5ee2f0",
+          "name": "Lu Cheng",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2331366892"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "520eb76afec40752b16071469980ee08",
+            "name": "McGill University, Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "4ded8186ece852f07a6a840b298df25c",
+          "name": "Proceedings of the Algorithmic Fairness Through the Lens of Metrics and Evaluation",
+          "type": "unknown",
+          "date": {
+            "text": "2025-04-23",
+            "timestamp": 1745380800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "279"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "96-118"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Computers and Society (cs.CY)"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2411.11101",
+        "url": "https://doi.org/10.48550/arXiv.2411.11101"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "279/ganesh25a",
+        "url": "https://proceedings.mlr.press/v279/ganesh25a.html"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2411.11101",
+        "url": "https://arxiv.org/abs/2411.11101"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2411.11101",
+        "url": "https://arxiv.org/pdf/2411.11101.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2411-11101",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2411-11101"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v279/main/assets/ganesh25a/ganesh25a.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "a8e1786e47920fb913d74d1a5c2c1619007ee492",
+        "url": "https://www.semanticscholar.org/paper/a8e1786e47920fb913d74d1a5c2c1619007ee492"
+      },
+      {
+        "type": "corpusid",
+        "link": "274131106"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2411.11101"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "c6db4c985f6bf9b982ab394117a146a8",
+    "title": "Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "8e4abcdef297c883f985d3ac3645588d",
+          "name": "Shahrad Mohammadzadeh",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Shahrad_Mohammadzadeh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281945133"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25a2529b21ca9fca7e23d964104e89e7",
+            "name": "1 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d0cb384467c123266465cc5b0e3c0bc0",
+          "name": "Juan David Guerra",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Juan_David_Guerra1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326989698"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25a2529b21ca9fca7e23d964104e89e7",
+            "name": "1 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b510ea41c37ae1ed1b639bc479df250a",
+          "name": "Marco Bonizzato",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "marco.bonizzato@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "71824530"
+            },
+            {
+              "type": "openreview",
+              "link": "~Marco_Bonizzato1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144374661"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265738568"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284245460"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326993291"
+            },
+            {
+              "type": "xplore",
+              "link": "38540200600"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25a2529b21ca9fca7e23d964104e89e7",
+            "name": "1 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cd1c17c2c15db042ca9c236bd6595cc1",
+          "name": "Reihaneh Rabbany",
+          "links": [
+            {
+              "type": "bio",
+              "link": "reihaneh-rabbany"
+            },
+            {
+              "type": "email.mila",
+              "link": "reihaneh.rabbany@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1904584114"
+            },
+            {
+              "type": "mag",
+              "link": "3040238663"
+            },
+            {
+              "type": "mag",
+              "link": "3045152381"
+            },
+            {
+              "type": "openreview",
+              "link": "~Reihaneh_Rabbany1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-2348-0353"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306673886"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2490772"
+            },
+            {
+              "type": "wpid_en",
+              "link": "31285"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "31281"
+            },
+            {
+              "type": "xplore",
+              "link": "37089734072"
+            },
+            {
+              "type": "xplore",
+              "link": "37992331800"
+            },
+            {
+              "type": "xplore",
+              "link": "38230107800"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25a2529b21ca9fca7e23d964104e89e7",
+            "name": "1 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25a2529b21ca9fca7e23d964104e89e7",
+            "name": "1 McGill University",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "3edeff95de07cf53f1b11315c3607a02",
+          "name": "ACL (1)",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "5538-5554"
+      },
+      {
+        "venue": {
+          "venue_id": "042f4e5cb97c31f0eac5b42719b3ffb2",
+          "name": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+          "type": "conference",
+          "date": {
+            "text": "2025-07",
+            "timestamp": 1751342400,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.18653/v1/2025.acl-long.276",
+        "url": "https://doi.org/10.18653/v1/2025.acl-long.276"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2410.15460",
+        "url": "https://arxiv.org/abs/2410.15460"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2410.15460",
+        "url": "https://arxiv.org/pdf/2410.15460.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/acl/MohammadzadehGB25",
+        "url": "https://dblp.uni-trier.de/rec/conf/acl/MohammadzadehGB25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://aclanthology.org/2025.acl-long.276/"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "5007770db8cc18a48c319aba2db7b68ce2fba653",
+        "url": "https://www.semanticscholar.org/paper/5007770db8cc18a48c319aba2db7b68ce2fba653"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "9ca26cc48ffbbc4c0f8391935fe6442b201c1921",
+        "url": "https://www.semanticscholar.org/paper/9ca26cc48ffbbc4c0f8391935fe6442b201c1921"
+      },
+      {
+        "type": "corpusid",
+        "link": "275342966"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a11e156bdd16068aa3447c17144a398b",
+    "title": "Understanding Intrinsic Socioeconomic Biases in Large Language Models",
+    "abstract": "Large Language Models (LLMs) are increasingly integrated into critical decision-making processes, such as loan approvals and visa applications, where inherent biases can lead to discriminatory outcomes. In this paper, we examine the nuanced relationship between demographic attributes and socioeconomic biases in LLMs, a crucial yet understudied area of fairness in LLMs. We introduce a novel dataset of one million English sentences to systematically quantify socioeconomic biases across various demographic groups. Our findings reveal pervasive socioeconomic biases in both established models such as GPT-2 and state-of-the-art models like Llama 2 and Falcon. We demonstrate that these biases are significantly amplified when considering intersectionality, with LLMs exhibiting a remarkable capacity to extract multiple demographic attributes from names and then correlate them with specific socioeconomic biases. This research highlights the urgent necessity for proactive and robust bias mitigation techniques to safeguard against discriminatory outcomes when deploying these powerful models in critical real-world applications.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "bd10c799575768a30a868de12287bab7",
+          "name": "Mina Arzaghi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mina_Arzaghi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303656535"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2b976736c779d4a00a03c8f6f2b41873",
+            "name": "MILA - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5f5de00d918eb2635b1200231cb7fa6e",
+            "name": "HEC Montreal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b28fc8c5c7df38873efca0910ccdb85e",
+          "name": "Florian Carichon",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Florian_Carichon1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303655941"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "5f5de00d918eb2635b1200231cb7fa6e",
+            "name": "HEC Montreal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2b976736c779d4a00a03c8f6f2b41873",
+            "name": "MILA - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "2431370c1d62c8ff1dbfe45eec46e842",
+          "name": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+          "type": "journal",
+          "date": {
+            "text": "2024-10-16",
+            "timestamp": 1729051200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1609/aies.v7i1.31616",
+        "url": "https://doi.org/10.1609/aies.v7i1.31616"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2405.18662",
+        "url": "https://doi.org/10.48550/arXiv.2405.18662"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2405.18662",
+        "url": "https://arxiv.org/abs/2405.18662"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2405.18662",
+        "url": "https://arxiv.org/pdf/2405.18662.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/aies/ArzaghiCF24",
+        "url": "https://dblp.uni-trier.de/rec/conf/aies/ArzaghiCF24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2405-18662",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2405-18662"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "68ccf70f9e3193eb11687bb8e12509641dd40652",
+        "url": "https://www.semanticscholar.org/paper/68ccf70f9e3193eb11687bb8e12509641dd40652"
+      },
+      {
+        "type": "corpusid",
+        "link": "270095451"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9fb76de820b79d24d48010211dbd19d8",
+    "title": "Wasserstein Distributionally Robust Optimization through the Lens of Structural Causal Models and Individual Fairness",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "e76525f343f63aaea3857b79255f0205",
+          "name": "Ahmad Reza Ehyaei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ahmad_Reza_Ehyaei1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9aa4c5dd53da3f6bc6a2ed81f82f8581",
+          "name": "Samira Samadi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Samira_Samadi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265753204"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "6664b75136f9ea5042c37ecf6eeb0537",
+            "name": "Max Planck Institute for Intelligent Systems",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6da82fe20bb4cd8a7c2841c5541c86c0",
+            "name": "Germany",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Wasserstein Distributionally Robust Optimization"
+      },
+      {
+        "name": "Individual Fairness"
+      },
+      {
+        "name": "Regularized Optimization"
+      },
+      {
+        "name": "Structural Causal Model"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "piOzFx9whU",
+        "url": "https://openreview.net/forum?id=piOzFx9whU"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "piOzFx9whU",
+        "url": "https://openreview.net/pdf?id=piOzFx9whU"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "ba7a35b6ef76e72f605a11be90941974",
+    "title": "From Representational Harms to Quality-of-Service Harms: A Case Study on Llama 2 Safety Safeguards",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "aa2f9416cc9bb298b92f2bd52201e8f7",
+          "name": "Khaoula Chehbouni",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Khaoula_Chehbouni1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2193386368"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8dec96a6fd308c78c6c4179a9f565fc3",
+          "name": "Megha Roshan",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2292258816"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "28e9e3e07d018dc25de1f00cbc5087eb",
+            "name": "University of Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a4d59bda333294f235622c40d5748ba9",
+          "name": "Emmanuel Ma",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2292258768"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "833fe4ce84a7ee977c31f700f431be4a",
+          "name": "Futian Andrew Wei",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2292260852"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "88c23b7f055e6a5e9fb252f0ac633ee6",
+          "name": "Afaf Taïk",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2172481903"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327337467"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "28e9e3e07d018dc25de1f00cbc5087eb",
+            "name": "University of Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d13bad8991436ee7fbdea8ebad79ed54",
+          "name": "Jackie CK Cheung",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "153322272"
+            },
+            {
+              "type": "bio",
+              "link": "jackie-cheung"
+            },
+            {
+              "type": "email.mila",
+              "link": "cheungja@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2148676791"
+            },
+            {
+              "type": "openreview",
+              "link": "~Jackie_CK_Cheung1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265755538"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269460072"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2272316148"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2272316158"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273560843"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273676374"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292258217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303642323"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3159752"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27324"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27322"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6d6b608d569518793ac311887eb81b54",
+          "name": "Findings of the Association for Computational Linguistics ACL 2024",
+          "type": "conference",
+          "date": {
+            "text": "2024-08",
+            "timestamp": 1722484800,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.18653/v1/2024.findings-acl.927",
+        "url": "https://doi.org/10.18653/v1/2024.findings-acl.927"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2403.13213",
+        "url": "https://doi.org/10.48550/arXiv.2403.13213"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2403.13213",
+        "url": "https://arxiv.org/abs/2403.13213"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2403.13213",
+        "url": "https://arxiv.org/pdf/2403.13213.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/acl/ChehbouniRMWTCF24",
+        "url": "https://dblp.uni-trier.de/rec/conf/acl/ChehbouniRMWTCF24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2403-13213",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2403-13213"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "1bffb2aad9d34e5b74de328acd04d01355d4680f",
+        "url": "https://www.semanticscholar.org/paper/1bffb2aad9d34e5b74de328acd04d01355d4680f"
+      },
+      {
+        "type": "corpusid",
+        "link": "268536898"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8ee9d2db9a4917dd1846f5306480cef7",
+    "title": "Trust No Bot: Discovering Personal Disclosures in Human-LLM Conversations in the Wild",
+    "abstract": "Measuring personal disclosures made in human-chatbot interactions can provide a better understanding of users' AI literacy and facilitate privacy research for large language models (LLMs). We run an extensive, fine-grained analysis on the personal disclosures made by real users to commercial GPT models, investigating the leakage of personally identifiable and sensitive information. To understand the contexts in which users disclose to chatbots, we develop a taxonomy of tasks and sensitive topics, based on qualitative and quantitative analysis of naturally occurring conversations. We discuss these potential privacy harms and observe that: (1) personally identifiable information (PII) appears in unexpected contexts such as in translation or code editing (48% and 16% of the time, respectively) and (2) PII detection alone is insufficient to capture the sensitive topics that are common in human-chatbot interactions, such as detailed sexual preferences or specific drug use habits. We believe that these high disclosure rates are of significant importance for researchers and data curators, and we call for the design of appropriate nudging mechanisms to help users moderate their interactions.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "bbddef8b5c9f29ae61a5ff59265f7d96",
+          "name": "Niloofar Mireshghallah",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Niloofar_Mireshghallah1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2254272878"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "12170b8cd0174fd437692f321465fb08",
+            "name": "University of Washington",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b2f69d69beeddfb15e35f1a6b3379527",
+          "name": "Maria Antoniak",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Maria_Antoniak1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2266838583"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c5791b3e690a3bc4bd9654b705eb1cf8",
+          "name": "Yash More",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yash_More1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2290910028"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309480286"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330193672"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cb0c8e9224bbbcc358a1176e6d1975eb",
+          "name": "Yejin Choi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yejin_Choi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1699545"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253903625"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2257385140"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2296751113"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311569892"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2374284148"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "12170b8cd0174fd437692f321465fb08",
+            "name": "University of Washington",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "1d3242607b3556631a773efc55cc1f17",
+          "name": "colmweb.org/COLM/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-07-10",
+            "timestamp": 1720584000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "colmweb.org/COLM/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "COLM"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "d"
+      },
+      {
+        "name": "i"
+      },
+      {
+        "name": "y"
+      },
+      {
+        "name": "e"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "t"
+      },
+      {
+        "name": " "
+      },
+      {
+        "name": "v"
+      },
+      {
+        "name": "h"
+      },
+      {
+        "name": "-"
+      },
+      {
+        "name": "c"
+      },
+      {
+        "name": "s"
+      },
+      {
+        "name": "p"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "a"
+      },
+      {
+        "name": "u"
+      },
+      {
+        "name": "r"
+      },
+      {
+        "name": "o"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "name": ","
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2407.11438",
+        "url": "https://doi.org/10.48550/arXiv.2407.11438"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "tIpWtMYkzU",
+        "url": "https://openreview.net/forum?id=tIpWtMYkzU"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "tIpWtMYkzU",
+        "url": "https://openreview.net/pdf?id=tIpWtMYkzU"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2407.11438",
+        "url": "https://arxiv.org/abs/2407.11438"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2407.11438",
+        "url": "https://arxiv.org/pdf/2407.11438.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2407-11438",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2407-11438"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "10ebf46ee0e51f7859541035bc97613441c804e7",
+        "url": "https://www.semanticscholar.org/paper/10ebf46ee0e51f7859541035bc97613441c804e7"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "5434749482040ab4cd8be325046b6df06bddd2c9",
+        "url": "https://www.semanticscholar.org/paper/5434749482040ab4cd8be325046b6df06bddd2c9"
+      },
+      {
+        "type": "corpusid",
+        "link": "271218850"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "bfec897c91affa792e43e7e1ad245490",
+    "title": "Position: Cracking the Code of Cascading Disparity Towards Marginalized Communities",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a3e41bf813867f6b9ac7ec60ee9b5aeb",
+          "name": "Golnoosh Farnadi",
+          "links": [
+            {
+              "type": "bio",
+              "link": "golnoosh-farnadi"
+            },
+            {
+              "type": "email.mila",
+              "link": "farnadig@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2227223751"
+            },
+            {
+              "type": "mag",
+              "link": "3032449739"
+            },
+            {
+              "type": "openreview",
+              "link": "~Golnoosh_Farnadi1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0003-4504-8668"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2086602"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2338893151"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36277"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43026"
+            },
+            {
+              "type": "xplore",
+              "link": "37085754587"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3ed660bb948b546c97f8ec9f6f1c9574",
+            "name": "Google Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "944ea1a9eaa58335c089a0af2b513307",
+          "name": "Mohammad Havaei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mohammad_Havaei2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2203743"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301313394"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304550577"
+            },
+            {
+              "type": "xplore",
+              "link": "37085431132"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3ed660bb948b546c97f8ec9f6f1c9574",
+            "name": "Google Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ce5b7fa405f6f38b6b2d7add2568c39f",
+          "name": "Negar Rostamzadeh",
+          "links": [
+            {
+              "type": "bio",
+              "link": "negar-rostamzadeh"
+            },
+            {
+              "type": "email.mila",
+              "link": "negar.rostamzadeh@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2043949869"
+            },
+            {
+              "type": "openreview",
+              "link": "~Negar_Rostamzadeh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237983659"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261926590"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304550560"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2599281"
+            },
+            {
+              "type": "wpid_en",
+              "link": "1943"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "1946"
+            },
+            {
+              "type": "xplore",
+              "link": "38546862800"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2159f4ac258624233fdc2d3a8d2b716f",
+            "name": "Montreal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3ed660bb948b546c97f8ec9f6f1c9574",
+            "name": "Google Research",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "13072-13085"
+      },
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2406.01757",
+        "url": "https://doi.org/10.48550/arXiv.2406.01757"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/farnadi24a",
+        "url": "https://proceedings.mlr.press/v235/farnadi24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "XDz9leJ9iK",
+        "url": "https://openreview.net/forum?id=XDz9leJ9iK"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "XDz9leJ9iK",
+        "url": "https://openreview.net/pdf?id=XDz9leJ9iK"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2406.01757",
+        "url": "https://arxiv.org/abs/2406.01757"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2406.01757",
+        "url": "https://arxiv.org/pdf/2406.01757.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/icml/FarnadiHR24",
+        "url": "https://dblp.uni-trier.de/rec/conf/icml/FarnadiHR24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2406-01757",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2406-01757"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/farnadi24a/farnadi24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=XDz9leJ9iK"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "7a79d484cb01f988bc70a07d2f81e7407e07405c",
+        "url": "https://www.semanticscholar.org/paper/7a79d484cb01f988bc70a07d2f81e7407e07405c"
+      },
+      {
+        "type": "corpusid",
+        "link": "270226090"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

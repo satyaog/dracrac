@@ -1,0 +1,1122 @@
+[
+  {
+    "paper_id": "cde6b3cf0616114289deda846fadef27",
+    "title": "Studying the Interplay Between the Actor and Critic Representations in Reinforcement Learning",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "cdb2e24cb87b984ec0392a8de85f6062",
+          "name": "Samuel Garcin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Samuel_Garcin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2122909780"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b673a1823994b5421c383f3cb6dda7a3",
+          "name": "Trevor McInroe",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Trevor_McInroe1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1914794749"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aed506b4327d44bf60b8c2693d9eec5c",
+          "name": "Pablo Castro",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "pablo-samuel.castro@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2577615642"
+            },
+            {
+              "type": "openreview",
+              "link": "~Pablo_Samuel_Castro1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256994343"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268317844"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286026633"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286305981"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313170594"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "39163115"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d69179a890390b340990067f9871e73a",
+          "name": "Prakash Panangaden",
+          "links": [
+            {
+              "type": "bio",
+              "link": "prakash-panangaden"
+            },
+            {
+              "type": "email.mila",
+              "link": "prakash.panangaden@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2216498992"
+            },
+            {
+              "type": "openreview",
+              "link": "~Prakash_Panangaden1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-8763-6172"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1784317"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249830094"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259361518"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265131813"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33456"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33452"
+            },
+            {
+              "type": "xplore",
+              "link": "37271174600"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "92efdf264c6c432d1c791d149bcab473",
+          "name": "Christopher G. Lucas",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Christopher_G._Lucas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2254255058"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "aa1651569ea0f807b70580513baed4a0",
+          "name": "David Abel",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Abel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "152422014"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065497577"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2349362231"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c134fc762d48f13ada3f9e6395b431c8",
+          "name": "Stefano V Albrecht",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Stefano_V_Albrecht1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2254225294"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Representation Learning"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Transfer Learning"
+      },
+      {
+        "name": "Reinforcement Learning"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      },
+      {
+        "name": "Information Theory"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2503.06343",
+        "url": "https://doi.org/10.48550/arXiv.2503.06343"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "tErHYBGlWc",
+        "url": "https://openreview.net/forum?id=tErHYBGlWc"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "tErHYBGlWc",
+        "url": "https://openreview.net/pdf?id=tErHYBGlWc"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2503.06343",
+        "url": "https://arxiv.org/abs/2503.06343"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2503.06343",
+        "url": "https://arxiv.org/pdf/2503.06343.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2503-06343",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2503-06343"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "509582ec1526594be2b3488dd67da2cc7196b01d",
+        "url": "https://www.semanticscholar.org/paper/509582ec1526594be2b3488dd67da2cc7196b01d"
+      },
+      {
+        "type": "corpusid",
+        "link": "276902821"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2503.06343"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "b272d520a0ebe901a55f22cb8a27c02b",
+    "title": "Optimal Approximate Minimization of One-Letter Weighted Finite Automata",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ba9f603e51ab01c45c752ab0515f8269",
+          "name": "Clara Lacroce",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0002-2087-7630"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "104241651"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2a8e3b4104bc652e3bae4ff0eaec4830",
+            "name": "Mila, Montréal, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "516ee1128e86980736b3e7a77905aae4",
+            "name": "School of Computer Science, McGill University, Montréal, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ac613efcfe6b7b7436faedc5fb135044",
+          "name": "Borja Balle",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1718064"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "73381f2809c7ca1e6b90f27bd3309e85",
+            "name": "DeepMind",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "753b42f4bc10cbaf382f8859fb324120",
+            "name": "DeepMind, London, United Kingdom.",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d69179a890390b340990067f9871e73a",
+          "name": "Prakash Panangaden",
+          "links": [
+            {
+              "type": "bio",
+              "link": "prakash-panangaden"
+            },
+            {
+              "type": "email.mila",
+              "link": "prakash.panangaden@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2216498992"
+            },
+            {
+              "type": "openreview",
+              "link": "~Prakash_Panangaden1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-8763-6172"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1784317"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249830094"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259361518"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265131813"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33456"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33452"
+            },
+            {
+              "type": "xplore",
+              "link": "37271174600"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a39fd2f89d1388233518b6d42998a225",
+          "name": "Guillaume Rabusseau",
+          "links": [
+            {
+              "type": "bio",
+              "link": "guillaume-rabusseau"
+            },
+            {
+              "type": "email.mila",
+              "link": "rabussgu@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1902962254"
+            },
+            {
+              "type": "openreview",
+              "link": "~Guillaume_Rabusseau1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-8090-2810"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2123387257"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3047362"
+            },
+            {
+              "type": "wpid_en",
+              "link": "29931"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "29928"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2a8e3b4104bc652e3bae4ff0eaec4830",
+            "name": "Mila, Montréal, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "52c3c44e922c9720e94dc69a8c15b095",
+          "name": "Mathematical Structures in Computer Science",
+          "type": "journal",
+          "date": {
+            "text": "2024-11-08",
+            "timestamp": 1731042000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1017/S0960129524000276",
+        "url": "https://doi.org/10.1017/S0960129524000276"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.1017/s0960129524000276",
+        "url": "https://doi.org/10.1017/s0960129524000276"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2306.00135",
+        "url": "https://doi.org/10.48550/arXiv.2306.00135"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2306.00135",
+        "url": "https://arxiv.org/abs/2306.00135"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2306.00135",
+        "url": "https://arxiv.org/pdf/2306.00135.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2306-00135",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2306-00135"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/mscs/LacroceBPR24",
+        "url": "https://dblp.uni-trier.de/rec/journals/mscs/LacroceBPR24"
+      },
+      {
+        "type": "pdf",
+        "link": "http://export.arxiv.org/pdf/2306.00135"
+      },
+      {
+        "type": "pdf",
+        "link": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9733CA9F3079F9186103F8515DE86D96/S0960129524000276a.pdf/div-class-title-optimal-approximate-minimization-of-one-letter-weighted-finite-automata-div.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "7153a7eecf7c4db7654de8b4f9ac03c3f1560adb",
+        "url": "https://www.semanticscholar.org/paper/7153a7eecf7c4db7654de8b4f9ac03c3f1560adb"
+      },
+      {
+        "type": "corpusid",
+        "link": "259000012"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a740182e4b1f862d7eb3d8336d8fdc16",
+    "title": "Sum and Tensor of Quantitative Effects",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ac13170e150f154d35345e11ae2cfc8c",
+          "name": "Giorgio Bacci",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0003-4004-6049"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1802189"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e24a14bbfbe720f0f8911b8144b7b0e4",
+          "name": "Radu Mardare",
+          "links": [
+            {
+              "type": "orcid",
+              "link": "0000-0001-8660-1832"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2520676"
+            },
+            {
+              "type": "xplore",
+              "link": "37595750600"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d69179a890390b340990067f9871e73a",
+          "name": "Prakash Panangaden",
+          "links": [
+            {
+              "type": "bio",
+              "link": "prakash-panangaden"
+            },
+            {
+              "type": "email.mila",
+              "link": "prakash.panangaden@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2216498992"
+            },
+            {
+              "type": "openreview",
+              "link": "~Prakash_Panangaden1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-8763-6172"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1784317"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249830094"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259361518"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265131813"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33456"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33452"
+            },
+            {
+              "type": "xplore",
+              "link": "37271174600"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "90af43c11acb504593641b111de7a7c3",
+          "name": "Gordon Plotkin",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "1708988"
+            },
+            {
+              "type": "xplore",
+              "link": "37352635200"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "02e3b30b86ee3c56806dd81f72b40267",
+            "name": "University of Edinburgh",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1fb47633ea839f22da57d7018ffcec6c",
+            "name": "School of Informatics",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "7f5b8c4f48741da7730320997d233c43",
+          "name": "Logical Methods in Computer Science",
+          "type": "journal",
+          "date": {
+            "text": "2024-10-29",
+            "timestamp": 1730174400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.46298/lmcs-20(4:9)2024",
+        "url": "https://doi.org/10.46298/lmcs-20(4:9)2024"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2212.11784",
+        "url": "https://doi.org/10.48550/arXiv.2212.11784"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2212.11784",
+        "url": "https://arxiv.org/abs/2212.11784"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2212.11784",
+        "url": "https://arxiv.org/pdf/2212.11784.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2212-11784",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2212-11784"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/lmcs/BacciMPP24",
+        "url": "https://dblp.uni-trier.de/rec/journals/lmcs/BacciMPP24"
+      },
+      {
+        "type": "pdf",
+        "link": "http://export.arxiv.org/pdf/2212.11784"
+      },
+      {
+        "type": "pdf",
+        "link": "https://doi.org/10.46298/lmcs-20(4:9)2024"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "302772242cfc2e7f3799a441ccd08dbfb408868f",
+        "url": "https://www.semanticscholar.org/paper/302772242cfc2e7f3799a441ccd08dbfb408868f"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "5d57f51dbb5add1e430a4812cbe8967f33ff0703",
+        "url": "https://www.semanticscholar.org/paper/5d57f51dbb5add1e430a4812cbe8967f33ff0703"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "860378fa919cb5b9db9a3242df0d96443714ba52",
+        "url": "https://www.semanticscholar.org/paper/860378fa919cb5b9db9a3242df0d96443714ba52"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "aa784dadabcfcd91095394df03eeb2c71657fe95",
+        "url": "https://www.semanticscholar.org/paper/aa784dadabcfcd91095394df03eeb2c71657fe95"
+      },
+      {
+        "type": "corpusid",
+        "link": "254974377"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "87adbc05b90993b3e167f8b34144c1fb",
+    "title": "Conditions on Preference Relations that Guarantee the Existence of Optimal Policies",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "be942473a25fd7b0605833d41db1378a",
+          "name": "Jonathan Colaco Carr",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2265387552"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330401416"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d69179a890390b340990067f9871e73a",
+          "name": "Prakash Panangaden",
+          "links": [
+            {
+              "type": "bio",
+              "link": "prakash-panangaden"
+            },
+            {
+              "type": "email.mila",
+              "link": "prakash.panangaden@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2216498992"
+            },
+            {
+              "type": "openreview",
+              "link": "~Prakash_Panangaden1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0001-8763-6172"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1784317"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249830094"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2259361518"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265131813"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33456"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33452"
+            },
+            {
+              "type": "xplore",
+              "link": "37271174600"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f0f6549152ff58dde589fae483ae061b",
+          "name": "Doina Precup",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "115325970"
+            },
+            {
+              "type": "bio",
+              "link": "doina-precup"
+            },
+            {
+              "type": "email.mila",
+              "link": "precupdo@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2049838"
+            },
+            {
+              "type": "mag",
+              "link": "2584303792"
+            },
+            {
+              "type": "mag",
+              "link": "2763943850"
+            },
+            {
+              "type": "mag",
+              "link": "2789843807"
+            },
+            {
+              "type": "mag",
+              "link": "2792787841"
+            },
+            {
+              "type": "mag",
+              "link": "2965467369"
+            },
+            {
+              "type": "mag",
+              "link": "3010809802"
+            },
+            {
+              "type": "mag",
+              "link": "3011193713"
+            },
+            {
+              "type": "mag",
+              "link": "3189931171"
+            },
+            {
+              "type": "openreview",
+              "link": "~Doina_Precup1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144368601"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249762747"
+            },
+            {
+              "type": "wpid_en",
+              "link": "26106"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "26116"
+            },
+            {
+              "type": "xplore",
+              "link": "37284893100"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "1700eecf728afe415427673fc4883183",
+          "name": "Proceedings of The 27th International Conference on Artificial Intelligence and Statistics",
+          "type": "unknown",
+          "date": {
+            "text": "2024-04-18",
+            "timestamp": 1713412800,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "238"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "3916-3924"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2311.01990",
+        "url": "https://doi.org/10.48550/arXiv.2311.01990"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "238/colaco-carr24a",
+        "url": "https://proceedings.mlr.press/v238/colaco-carr24a.html"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2311.01990",
+        "url": "https://arxiv.org/abs/2311.01990"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2311.01990",
+        "url": "https://arxiv.org/pdf/2311.01990.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/aistats/CarrPP24",
+        "url": "https://dblp.uni-trier.de/rec/conf/aistats/CarrPP24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2311-01990",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2311-01990"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://proceedings.mlr.press/v238/colaco-carr24a/colaco-carr24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://proceedings.mlr.press/v238/colaco-carr24a.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "e6a207308c3f898d2c97ddf771c0060c23b93fe5",
+        "url": "https://www.semanticscholar.org/paper/e6a207308c3f898d2c97ddf771c0060c23b93fe5"
+      },
+      {
+        "type": "corpusid",
+        "link": "265019425"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

@@ -1,0 +1,1408 @@
+[
+  {
+    "paper_id": "b488b1e2543c05f3a694dc964206c569",
+    "title": "Fast Controlled Generation from Language Models with Adaptive Weighted Rejection Sampling",
+    "abstract": "The dominant approach to generating from language models subject to some constraint is locally constrained decoding (LCD), incrementally sampling tokens at each time step such that the constraint is never violated. Typically, this is achieved through token masking: looping over the vocabulary and excluding non-conforming tokens. There are two important problems with this approach. (i) Evaluating the constraint on every token can be prohibitively expensive---LM vocabularies often exceed 100,000 tokens. (ii) LCD can distort the global distribution over strings, sampling tokens based only on local information, even if they lead down dead-end paths. This work introduces a new algorithm that addresses both these problems. First, to avoid evaluating a constraint on the full vocabulary at each step of generation, we propose an adaptive rejection sampling algorithm that typically requires orders of magnitude fewer constraint evaluations. Second, we show how this algorithm can be extended to produce low-variance, unbiased estimates of importance weights at a very small additional cost---estimates that can be soundly used within previously proposed sequential Monte Carlo algorithms to correct for the myopic behavior of local constraint enforcement. Through extensive empirical evaluation in text-to-SQL, molecular synthesis, goal inference, pattern matching, and JSON domains, we show that our approach is superior to state-of-the-art baselines, supporting a broader class of constraints and improving both runtime and performance. Additional theoretical and empirical analyses show that our method's runtime efficiency is driven by its dynamic use of computation, scaling with the divergence between the unconstrained and constrained LM, and as a consequence, runtime improvements are greater for better models.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c742d385b8d972934f5f53f939d054b1",
+          "name": "Ben Lipkin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ben_Lipkin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2098806399"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "90255507e4fb036563d38a2218086261",
+          "name": "Benjamin LeBrun",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Benjamin_LeBrun1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2159712810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "700f8883de53be1ca3074a4ce2dad708",
+          "name": "Jacob Hoover Vigly",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jacob_Hoover_Vigly1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "88a422098223997d60d3469ff88f54aa",
+          "name": "João Loula",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~João_Loula1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "700e682723bf28653cfeab27a956da24",
+          "name": "David R. MacIver",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_R._MacIver1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e2b3e308f8e015a3393319fa14b87ed6",
+          "name": "Lei Du",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Li_Du2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2004846174"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2027158227"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2068124160"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2068125621"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2068127372"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2111854654"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2238554086"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2638154"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "39778396"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "50644865"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "34d1b2d28a85578dd8c9b55e49405d05",
+          "name": "Jason Eisner",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jason_Eisner1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ef53206f46d30047d4c76595593674e8",
+          "name": "Ryan Cotterell",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryan_Cotterell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1750769"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2070989574"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284218270"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326993383"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9dc5aad21bff4db800a877c194a586a8",
+          "name": "Vikash Mansinghka",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Vikash_Mansinghka1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8c818155c9751d498c2687153e01c162",
+          "name": "Timothy J. O'Donnell",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "107634413"
+            },
+            {
+              "type": "bio",
+              "link": "timothy-j-odonnell"
+            },
+            {
+              "type": "email.mila",
+              "link": "odonnelt@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2149876592"
+            },
+            {
+              "type": "mag",
+              "link": "2974667428"
+            },
+            {
+              "type": "mag",
+              "link": "2974927656"
+            },
+            {
+              "type": "openreview",
+              "link": "~Timothy_J._O'Donnell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "11030219"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1400877758"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2272513147"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33477"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33473"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0819d592365a6df8b4706931456ed610",
+            "name": "McGill",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "0792726c3638a777e0a5f3ea8f701326",
+          "name": "Alexander K. Lew",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alexander_K._Lew1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1a237d7334697babe83d6104e10b4691",
+            "name": "MIT",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "363a90e5acca9a022fcf9ffe1cac4661",
+            "name": "Yale",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b93546ad9ca64a2484754fc10f3a0c8b",
+          "name": "Tim Vieira",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tim_Vieira1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2396787"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "5de0fe32a82e8d276db15c116ef3d123",
+          "name": "colmweb.org/COLM/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-07-07",
+            "timestamp": 1751860800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "colmweb.org/COLM/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "COLM 2025"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Controlled generation"
+      },
+      {
+        "name": "Decoding methods"
+      },
+      {
+        "name": "Bayesian inference"
+      },
+      {
+        "name": "Approximate sampling"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "3BmPSFAdq3",
+        "url": "https://openreview.net/forum?id=3BmPSFAdq3"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "3BmPSFAdq3",
+        "url": "https://openreview.net/pdf?id=3BmPSFAdq3"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "961aa5ac33114869ee69fc30ab53500f",
+    "title": "From Language Models over Tokens to Language Models over Characters",
+    "abstract": "Modern language models are internally—and mathematically—distributions over *token* strings rather than *character* strings, posing numerous challenges for programmers building user applications on top of them.  For example, if a prompt is specified as a character string, it must be tokenized before passing it to the token-level language model.  Thus, the tokenizer and consequent processing are very sensitive to the specification of the prompt (e.g., whether the prompt ends with a space or not).  This paper presents algorithms for converting token-level language models to character-level ones.  We present both exact and approximate algorithms. In the empirical portion of the paper, we benchmark the practical runtime and approximation quality.  Across four publicly available language models, we find that—even with a small computation budget—our method is able to accurately approximate the character-level distribution at reasonably fast speeds, and that a significant improvement in the language model's compression rate (bits/byte) is achieved.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b93546ad9ca64a2484754fc10f3a0c8b",
+          "name": "Tim Vieira",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tim_Vieira1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2396787"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "90255507e4fb036563d38a2218086261",
+          "name": "Benjamin LeBrun",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Benjamin_LeBrun1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2159712810"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a1abb0927ad318e311686a357a6c7e2c",
+          "name": "Mario Giulianelli",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mario_Giulianelli1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "24068173"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "581548cdae8f89fa05982be139259547",
+          "name": "Juan Luis Gastaldi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Juan_Luis_Gastaldi1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "7672e9522e80744357ae0af89edbebdb",
+          "name": "Brian DuSell",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Brian_DuSell1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "5663a18b1156a8ba8ea1703efae3bf3f",
+          "name": "John Terilla",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~John_Terilla1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8c818155c9751d498c2687153e01c162",
+          "name": "Timothy J. O'Donnell",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "107634413"
+            },
+            {
+              "type": "bio",
+              "link": "timothy-j-odonnell"
+            },
+            {
+              "type": "email.mila",
+              "link": "odonnelt@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2149876592"
+            },
+            {
+              "type": "mag",
+              "link": "2974667428"
+            },
+            {
+              "type": "mag",
+              "link": "2974927656"
+            },
+            {
+              "type": "openreview",
+              "link": "~Timothy_J._O'Donnell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "11030219"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1400877758"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2272513147"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33477"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33473"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ef53206f46d30047d4c76595593674e8",
+          "name": "Ryan Cotterell",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryan_Cotterell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1750769"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2070989574"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284218270"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326993383"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "0281af1c0f0ec7713bc48f38436923a4",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML spotlightposter 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "bytes"
+      },
+      {
+        "name": "probabilistic reasoning"
+      },
+      {
+        "name": "tokens"
+      },
+      {
+        "name": "probabilistic inference"
+      },
+      {
+        "name": "tokenization"
+      },
+      {
+        "name": "language models"
+      },
+      {
+        "name": "character"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "sQS0roNQZR",
+        "url": "https://openreview.net/forum?id=sQS0roNQZR"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "sQS0roNQZR",
+        "url": "https://openreview.net/pdf?id=sQS0roNQZR"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9340b066fca092c36979679ea115990e",
+    "title": "Language Models over Canonical Byte-Pair Encodings",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b93546ad9ca64a2484754fc10f3a0c8b",
+          "name": "Tim Vieira",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tim_Vieira1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2396787"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d2636d5c3fc5990149575233dc2ccea4",
+          "name": "Tianyu Liu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tianyu_Liu5"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1701889"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2115346102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2115346239"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2115347075"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "23bbcbd43458971e3f924d62dda21128",
+          "name": "Clemente Pasti",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Clemente_Pasti1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "23da95aaee6cd55013144cc07842cca5",
+          "name": "Yahya Emara",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yahya_Emara1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "7672e9522e80744357ae0af89edbebdb",
+          "name": "Brian DuSell",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Brian_DuSell1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "90255507e4fb036563d38a2218086261",
+          "name": "Benjamin LeBrun",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Benjamin_LeBrun1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2159712810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a1abb0927ad318e311686a357a6c7e2c",
+          "name": "Mario Giulianelli",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mario_Giulianelli1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "24068173"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "581548cdae8f89fa05982be139259547",
+          "name": "Juan Luis Gastaldi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Juan_Luis_Gastaldi1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8c818155c9751d498c2687153e01c162",
+          "name": "Timothy J. O'Donnell",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "107634413"
+            },
+            {
+              "type": "bio",
+              "link": "timothy-j-odonnell"
+            },
+            {
+              "type": "email.mila",
+              "link": "odonnelt@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2149876592"
+            },
+            {
+              "type": "mag",
+              "link": "2974667428"
+            },
+            {
+              "type": "mag",
+              "link": "2974927656"
+            },
+            {
+              "type": "openreview",
+              "link": "~Timothy_J._O'Donnell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "11030219"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1400877758"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2272513147"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33477"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33473"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ef53206f46d30047d4c76595593674e8",
+          "name": "Ryan Cotterell",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryan_Cotterell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1750769"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2070989574"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284218270"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326993383"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2ec899b6c552863a0c11f3e816f1d799",
+            "name": "ETH Zürich",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "probabilistic inference"
+      },
+      {
+        "name": "structured prediction"
+      },
+      {
+        "name": "tokenization"
+      },
+      {
+        "name": "constrained generation"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "eCVrfVDNSY",
+        "url": "https://openreview.net/forum?id=eCVrfVDNSY"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "eCVrfVDNSY",
+        "url": "https://openreview.net/pdf?id=eCVrfVDNSY"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "8bf926358a0321a97836bc522a827ad8",
+    "title": "Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo",
+    "abstract": "A wide range of LM applications require generating text that conforms to syntactic or semantic constraints. Imposing such constraints can be naturally framed as probabilistic conditioning, but exact generation from the resulting distribution—which can differ substantially from the LM’s base distribution—is generally intractable. In this work, we develop an architecture for controlled LM generation based on sequential Monte Carlo (SMC). This SMC framework allows us to flexibly incorporate domain- and problem-specific constraints at inference\ntime, and efficiently reallocate computational resources in light of new information during the course of generation. By comparing to a number of alternatives and ablations on four challenging domains—Python code generation for data science, text-to-SQL, goal inference, and molecule synthesis—we demonstrate that, with little overhead, our approach allows small open-source language models to outperform models over 8× larger, as well as closed-source, fine-tuned ones. In support of the probabilistic perspective, we show that these performance improvements are driven by better approximation to the posterior distribution. [Our system](https://github.com/probcomp/genparse) builds on the framework of Lew et al. (2023) and integrates with its language model probabilistic programming language, giving users a simple, programmable way to apply SMC to a broad variety of controlled generation problems.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "88a422098223997d60d3469ff88f54aa",
+          "name": "João Loula",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~João_Loula1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "90255507e4fb036563d38a2218086261",
+          "name": "Benjamin LeBrun",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Benjamin_LeBrun1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2159712810"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e2b3e308f8e015a3393319fa14b87ed6",
+          "name": "Lei Du",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Li_Du2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2004846174"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2027158227"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2068124160"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2068125621"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2068127372"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2111854654"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2238554086"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2638154"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "39778396"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "50644865"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c742d385b8d972934f5f53f939d054b1",
+          "name": "Ben Lipkin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ben_Lipkin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2098806399"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "23bbcbd43458971e3f924d62dda21128",
+          "name": "Clemente Pasti",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Clemente_Pasti1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "28fd19f4bc00f84dfa11890f3476e21d",
+          "name": "Gabriel Grand",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gabriel_Grand1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d2636d5c3fc5990149575233dc2ccea4",
+          "name": "Tianyu Liu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tianyu_Liu5"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1701889"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2115346102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2115346239"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2115347075"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "23da95aaee6cd55013144cc07842cca5",
+          "name": "Yahya Emara",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yahya_Emara1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "49e928c58df141de37d77c3916b53bf2",
+          "name": "Marjorie Freedman",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Marjorie_Freedman1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "34d1b2d28a85578dd8c9b55e49405d05",
+          "name": "Jason Eisner",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jason_Eisner1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ef53206f46d30047d4c76595593674e8",
+          "name": "Ryan Cotterell",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryan_Cotterell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1750769"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2070989574"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284218270"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326993383"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9dc5aad21bff4db800a877c194a586a8",
+          "name": "Vikash Mansinghka",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Vikash_Mansinghka1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "0792726c3638a777e0a5f3ea8f701326",
+          "name": "Alexander K. Lew",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alexander_K._Lew1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "b93546ad9ca64a2484754fc10f3a0c8b",
+          "name": "Tim Vieira",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tim_Vieira1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2396787"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "8c818155c9751d498c2687153e01c162",
+          "name": "Timothy J. O'Donnell",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "107634413"
+            },
+            {
+              "type": "bio",
+              "link": "timothy-j-odonnell"
+            },
+            {
+              "type": "email.mila",
+              "link": "odonnelt@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2149876592"
+            },
+            {
+              "type": "mag",
+              "link": "2974667428"
+            },
+            {
+              "type": "mag",
+              "link": "2974927656"
+            },
+            {
+              "type": "openreview",
+              "link": "~Timothy_J._O'Donnell1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "11030219"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1400877758"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2272513147"
+            },
+            {
+              "type": "wpid_en",
+              "link": "33477"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "33473"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "oral",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Probabilistic programming"
+      },
+      {
+        "name": "Sequential Monte Carlo"
+      },
+      {
+        "name": "Semantic parsing"
+      },
+      {
+        "name": "SMC"
+      },
+      {
+        "name": "Language Models"
+      },
+      {
+        "name": "Bayesian inference"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "xoXn62FzD0",
+        "url": "https://openreview.net/forum?id=xoXn62FzD0"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "xoXn62FzD0",
+        "url": "https://openreview.net/pdf?id=xoXn62FzD0"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

@@ -1,0 +1,3497 @@
+[
+  {
+    "paper_id": "8026a1f7e7ebf2aa7f1f287471d77c97",
+    "title": "Learning to combine top-down context and feed-forward representations under ambiguity with apical and basal dendrites",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "826204b9a8b40d57c24b3d1dbb62aca2",
+          "name": "Nizar Islah",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Nizar_Islah1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1923356952"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1f5601f1265596ac7d183eb6670800ab",
+            "name": "These authors contributed equally to this work",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "263b01f30ad6e98760cc9d40953dca7b",
+            "name": "Mila - Quebec AI Institute , 6666 Rue Saint-Urbain, Montréal H2S 3H1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2917c5806c12114ea8d948dbb14288ad",
+            "name": "Département d’informatique et de recherche opérationnelle, Université de Montréal , Pavillon André-Aisenstadt, 2920, chemin de la Tour local 2194, Montréal, H3T 1N8, Québec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "533d7ecc924925e2526452da51168285",
+            "name": "Centre de Recherche Azrieli du CHU Ste-Justine, Université de Montréal , 3175 Chem. de la Côte-Sainte-Catherine, Montréal H3T 1C5, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c1e1c50feefb5343f295e2574086bb80",
+          "name": "Guillaume Etter",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2273566596"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1f5601f1265596ac7d183eb6670800ab",
+            "name": "These authors contributed equally to this work",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "263b01f30ad6e98760cc9d40953dca7b",
+            "name": "Mila - Quebec AI Institute , 6666 Rue Saint-Urbain, Montréal H2S 3H1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "533d7ecc924925e2526452da51168285",
+            "name": "Centre de Recherche Azrieli du CHU Ste-Justine, Université de Montréal , 3175 Chem. de la Côte-Sainte-Catherine, Montréal H3T 1C5, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "997affc6904568656b837e7aa7b86811",
+          "name": "Mashbayar Tugsbayar",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2273557172"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "068922b3b6aae02238b520a867142b60",
+            "name": "Montreal Neurological Institute, McGill University , 3801 Rue University, Montréal H3A 2B4, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "116e805ff5a05dbc91f3598c6427ed3d",
+            "name": "Department of Neurology and Neurosurgery, McGill University , 1033 Pine Avenue West, Montréal H3A 1A1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1f5601f1265596ac7d183eb6670800ab",
+            "name": "These authors contributed equally to this work",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "263b01f30ad6e98760cc9d40953dca7b",
+            "name": "Mila - Quebec AI Institute , 6666 Rue Saint-Urbain, Montréal H2S 3H1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bec5656d6bf0638ea8b458c2614a3caa",
+          "name": "Busra Tugce Gurbuz",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Busra_Tugce_Gurbuz1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2161158474"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273557191"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2368323859"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "068922b3b6aae02238b520a867142b60",
+            "name": "Montreal Neurological Institute, McGill University , 3801 Rue University, Montréal H3A 2B4, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "263b01f30ad6e98760cc9d40953dca7b",
+            "name": "Mila - Quebec AI Institute , 6666 Rue Saint-Urbain, Montréal H2S 3H1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "533d7ecc924925e2526452da51168285",
+            "name": "Centre de Recherche Azrieli du CHU Ste-Justine, Université de Montréal , 3175 Chem. de la Côte-Sainte-Catherine, Montréal H3T 1C5, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "61ced764f5a317c3ed3f15225cf60dae",
+            "name": "Department of Quantitative Life Sciences, McGill University , 550 Sherbrooke W., Montréal H3A 1E3, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "068922b3b6aae02238b520a867142b60",
+            "name": "Montreal Neurological Institute, McGill University , 3801 Rue University, Montréal H3A 2B4, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "0dcab0d48c6350cdb883de2e3cae272b",
+            "name": "School of Computer Science, McGill University , 3480 Rue University, Montréal H3A 2A7, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "116e805ff5a05dbc91f3598c6427ed3d",
+            "name": "Department of Neurology and Neurosurgery, McGill University , 1033 Pine Avenue West, Montréal H3A 1A1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1359e6e0add333f68e4efb59bc6542ab",
+            "name": "CIFAR Learning in Machines and Brains Program , 661 University Ave., Suite 505, Toronto M5G 1M1, Ontario ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "263b01f30ad6e98760cc9d40953dca7b",
+            "name": "Mila - Quebec AI Institute , 6666 Rue Saint-Urbain, Montréal H2S 3H1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "77037ad2f971c7d1731b60ffce98dcb4",
+            "name": "Mila Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ff814ae18b37499766bad67aeb5c6147",
+          "name": "Eilif B. Muller",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2061778418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "71483752"
+            },
+            {
+              "type": "bio",
+              "link": "eilifmuller"
+            },
+            {
+              "type": "email.mila",
+              "link": "eilif.muller@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2147898063"
+            },
+            {
+              "type": "mag",
+              "link": "2916749639"
+            },
+            {
+              "type": "mag",
+              "link": "2947631912"
+            },
+            {
+              "type": "mag",
+              "link": "3093822009"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2061778474"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276441570"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2459990"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49110043"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "43034"
+            },
+            {
+              "type": "xplore",
+              "link": "37845497200"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "19883f6d077b98c3284ffbb77eb64451",
+            "name": "Université de Montréal , Faculté de médecine, , Pavillon Paul-G.-Desmarais, 2960 chemin de la Tour local 111, Montréal H3T 1J4, Québec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "263b01f30ad6e98760cc9d40953dca7b",
+            "name": "Mila - Quebec AI Institute , 6666 Rue Saint-Urbain, Montréal H2S 3H1, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2917c5806c12114ea8d948dbb14288ad",
+            "name": "Département d’informatique et de recherche opérationnelle, Université de Montréal , Pavillon André-Aisenstadt, 2920, chemin de la Tour local 2194, Montréal, H3T 1N8, Québec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "533d7ecc924925e2526452da51168285",
+            "name": "Centre de Recherche Azrieli du CHU Ste-Justine, Université de Montréal , 3175 Chem. de la Côte-Sainte-Catherine, Montréal H3T 1C5, Quebec ,",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "55126409340c789f1f223b293d6b2ee3",
+            "name": "Département de neurosciences , Faculté de médecine, , Pavillon Paul-G.-Desmarais, 2960 chemin de la Tour local 111, Montréal H3T 1J4, Québec ,",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "390af040ad390a2fb25f77758bd05f75",
+          "name": "Cerebral Cortex (New York, NY)",
+          "type": "journal",
+          "date": {
+            "text": "2025-06-23",
+            "timestamp": 1750651200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "Oxford University Press",
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "7cb345606f8bd0ffdd94e1fe4fad92ac",
+          "name": "Cerebral Cortex",
+          "type": "journal",
+          "date": {
+            "text": "2025-06-23",
+            "timestamp": 1750651200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "pyramidal neuron"
+      },
+      {
+        "name": "top-down"
+      },
+      {
+        "name": "contextual integration"
+      },
+      {
+        "name": "Biology"
+      },
+      {
+        "name": "apical dendrite"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1093/cercor/bhaf134",
+        "url": "https://doi.org/10.1093/cercor/bhaf134"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2312.05484",
+        "url": "https://arxiv.org/abs/2312.05484"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2312.05484",
+        "url": "https://arxiv.org/pdf/2312.05484.pdf"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "40548512",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40548512"
+      },
+      {
+        "type": "pmc.abstract",
+        "link": "12205961",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12205961"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "8245cacfb8d79126588d2208ddfd581f1071897b",
+        "url": "https://www.semanticscholar.org/paper/8245cacfb8d79126588d2208ddfd581f1071897b"
+      },
+      {
+        "type": "corpusid",
+        "link": "266163371"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "974bd3ea5a572608e9681f7b4a813409",
+    "title": "Language Agents Mirror Human Causal Reasoning Biases. How Can We Help Them Think Like Scientists?",
+    "abstract": "Language model (LM) agents are increasingly used as autonomous decision-makers who need to actively gather information to guide their decisions. A crucial cognitive skill for such agents is the efficient exploration and understanding of the causal structure of the world -- key to robust, scientifically grounded reasoning. Yet, it remains unclear whether LMs possess this capability or exhibit systematic biases leading to erroneous conclusions. In this work, we examine LMs' ability to explore and infer causal relationships, using the well-established\"Blicket Test\"paradigm from developmental psychology. We find that LMs reliably infer the common, intuitive disjunctive causal relationships but systematically struggle with the unusual, yet equally (or sometimes even more) evidenced conjunctive ones. This\"disjunctive bias\"persists across model families, sizes, and prompting strategies, and performance further declines as task complexity increases. Interestingly, an analogous bias appears in human adults, suggesting that LMs may have inherited deep-seated reasoning heuristics from their training data. To this end, we quantify similarities between LMs and humans, finding that LMs exhibit adult-like inference profiles (but not children-like). Finally, we propose a test-time sampling method which explicitly samples and eliminates hypotheses about causal relationships from the LM. This scalable approach significantly reduces the disjunctive bias and moves LMs closer to the goal of scientific, causally rigorous reasoning.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c077ba233f1af3c2929c42f90b4d8bc9",
+          "name": "Anthony GX-Chen",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Anthony_GX-Chen1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2148899281"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "584f07cf35322150fe0265616e6b8172",
+            "name": "2 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8d3aa975c30145bb7acdcb09f2e078ce",
+          "name": "Dongyan Lin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Dongyan_Lin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2181993665"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2361654557"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8977305"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "584f07cf35322150fe0265616e6b8172",
+            "name": "2 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b6e3ca93a035d06a27517b49ab8b8a02",
+          "name": "Mandana Samiei",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mandana_Samiei1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1379976263"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "584f07cf35322150fe0265616e6b8172",
+            "name": "2 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f0f6549152ff58dde589fae483ae061b",
+          "name": "Doina Precup",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "115325970"
+            },
+            {
+              "type": "bio",
+              "link": "doina-precup"
+            },
+            {
+              "type": "email.mila",
+              "link": "precupdo@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2049838"
+            },
+            {
+              "type": "mag",
+              "link": "2584303792"
+            },
+            {
+              "type": "mag",
+              "link": "2763943850"
+            },
+            {
+              "type": "mag",
+              "link": "2789843807"
+            },
+            {
+              "type": "mag",
+              "link": "2792787841"
+            },
+            {
+              "type": "mag",
+              "link": "2965467369"
+            },
+            {
+              "type": "mag",
+              "link": "3010809802"
+            },
+            {
+              "type": "mag",
+              "link": "3011193713"
+            },
+            {
+              "type": "mag",
+              "link": "3189931171"
+            },
+            {
+              "type": "openreview",
+              "link": "~Doina_Precup1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144368601"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249762747"
+            },
+            {
+              "type": "wpid_en",
+              "link": "26106"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "26116"
+            },
+            {
+              "type": "xplore",
+              "link": "37284893100"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "584f07cf35322150fe0265616e6b8172",
+            "name": "2 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "584f07cf35322150fe0265616e6b8172",
+            "name": "2 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a455c449d7ae7fc6e09e686adac18881",
+          "name": "Rob Fergus",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rob_Fergus1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276554"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316562177"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "584f07cf35322150fe0265616e6b8172",
+            "name": "2 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bc7e869d34c051e615edd3a826f415fd",
+          "name": "Kenneth Marino",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kenneth_Marino1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316561978"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2361265889"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "584f07cf35322150fe0265616e6b8172",
+            "name": "2 McGill University",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "5de0fe32a82e8d276db15c116ef3d123",
+          "name": "colmweb.org/COLM/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-07-07",
+            "timestamp": 1751860800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "colmweb.org/COLM/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "COLM 2025"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "causal inference"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "decision making"
+      },
+      {
+        "name": "exploration"
+      },
+      {
+        "name": "agents"
+      },
+      {
+        "name": "cognitive science"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      },
+      {
+        "name": "Computation and Language (cs.CL)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2505.09614",
+        "url": "https://doi.org/10.48550/arXiv.2505.09614"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "LKINTp7Gdo",
+        "url": "https://openreview.net/forum?id=LKINTp7Gdo"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "LKINTp7Gdo",
+        "url": "https://openreview.net/pdf?id=LKINTp7Gdo"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2505.09614",
+        "url": "https://arxiv.org/abs/2505.09614"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2505.09614",
+        "url": "https://arxiv.org/pdf/2505.09614.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2505-09614",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2505-09614"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "b2ae9bbb93de53ced13a4e4e53883193d45b7a77",
+        "url": "https://www.semanticscholar.org/paper/b2ae9bbb93de53ced13a4e4e53883193d45b7a77"
+      },
+      {
+        "type": "corpusid",
+        "link": "278602122"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2505.09614"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "a488d4c413969cf6a5793b1687500dad",
+    "title": "Multi-agent cooperation through learning-aware policy gradients",
+    "abstract": "Self-interested individuals often fail to cooperate, posing a fundamental challenge for multi-agent learning. How can we achieve cooperation among self-interested, independent learning agents? Promising recent work has shown that in certain tasks cooperation can be established between learning-aware agents who model the learning dynamics of each other. Here, we present the first unbiased, higher-derivative-free policy gradient algorithm for learning-aware reinforcement learning, which takes into account that other agents are themselves learning through trial and error based on multiple noisy trials. We then leverage efficient sequence models to condition behavior on long observation histories that contain traces of the learning dynamics of other agents. Training long-context policies with our algorithm leads to cooperative behavior and high returns on standard social dilemmas, including a challenging environment where temporally-extended action coordination is required. Finally, we derive from the iterated prisoner's dilemma a novel explanation for how and when cooperation arises among self-interested learning-aware agents.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "87966158bc6f325384501ab0921fee99",
+          "name": "Alexander Meulemans",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Alexander_Meulemans1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1753618449"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8707510c7a61eb7339e25ea720e7eb22",
+          "name": "Seijin Kobayashi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Seijin_Kobayashi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51194506"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b5bfd66712794b50efbcb0f363764656",
+          "name": "Johannes Von Oswald",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Johannes_Von_Oswald1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Johannes_von_Oswald2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145167136"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f6c7d0e6fac432d502f354cd6d652256",
+          "name": "Nino Scherrer",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Nino_Scherrer1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1742339548"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b4caad4dd9ab7b913baa72736d4bc9ae",
+          "name": "Eric Elmoznino",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eric_Elmoznino1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2326838414"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66964504"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2eec89bc75abb41329e7dc3a0acd32e",
+          "name": "Guillaume Lajoie",
+          "links": [
+            {
+              "type": "bio",
+              "link": "guillaume-lajoie"
+            },
+            {
+              "type": "email.mila",
+              "link": "guillaume.lajoie@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104265377"
+            },
+            {
+              "type": "openreview",
+              "link": "~Guillaume_Lajoie1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2237996672"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253462182"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261390836"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276569996"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281705425"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2284250160"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287810628"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309379331"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310335041"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2342207019"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362091793"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366006096"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "33970865"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49921594"
+            },
+            {
+              "type": "wpid_en",
+              "link": "30429"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "30432"
+            },
+            {
+              "type": "xplore",
+              "link": "37088414698"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a60511b332a83310b67a97b7a7aee9ea",
+          "name": "Blaise Aguera y Arcas",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Blaise_Aguera_y_Arcas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2661025"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c7b87f2712f04494220eb3fe3cb191db",
+          "name": "João Sacramento",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Joao_Sacramento1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2276434301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285240183"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3105061"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "0f594c4031b8803ff34b6648f833802f",
+          "name": "ICLR",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "melting pot"
+      },
+      {
+        "name": "multi-agent learning"
+      },
+      {
+        "name": "decentralized training"
+      },
+      {
+        "name": "reinforcement learning"
+      },
+      {
+        "name": "cooperation"
+      },
+      {
+        "name": "iterated prisoner's dilemma"
+      },
+      {
+        "name": "social dilemmas"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2410.18636",
+        "url": "https://doi.org/10.48550/arXiv.2410.18636"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "GkWA6NjePN",
+        "url": "https://openreview.net/forum?id=GkWA6NjePN"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "GkWA6NjePN",
+        "url": "https://openreview.net/pdf?id=GkWA6NjePN"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2410.18636",
+        "url": "https://arxiv.org/abs/2410.18636"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2410.18636",
+        "url": "https://arxiv.org/pdf/2410.18636.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/iclr/MeulemansKOSERL25",
+        "url": "https://dblp.uni-trier.de/rec/conf/iclr/MeulemansKOSERL25"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2410-18636",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2410-18636"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=GkWA6NjePN"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "03286274afdbb48ee0d0af2093448684a9c7866a",
+        "url": "https://www.semanticscholar.org/paper/03286274afdbb48ee0d0af2093448684a9c7866a"
+      },
+      {
+        "type": "corpusid",
+        "link": "273549846"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "2fb45454699a969c39fca77c482ca554",
+    "title": "Multi-session, multi-task neural decoding from distinct cell-types and brain regions",
+    "abstract": "Recent work has shown that scale is important for improved brain decoding, with more data leading to greater decoding accuracy. However, large-scale decoding across many different datasets is challenging because neural circuits are heterogeneous---each brain region contains a unique mix of cellular sub-types, and the responses to different stimuli are diverse across regions and sub-types. It is unknown whether it is possible to pre-train and transfer brain decoding models between distinct tasks, cellular sub-types, and brain regions. To address these questions, we developed a multi-task transformer architecture and trained it on the entirety of the Allen Institute's Brain Observatory dataset. This dataset contains responses from over 100,000 neurons in 6 areas of the brains of mice, observed with two-photon calcium imaging, recorded while the mice observed different types of visual stimuli. Our results demonstrate that transfer is indeed possible -combining data from different sources is beneficial for a number of downstream decoding tasks. As well, we can transfer the model between regions and sub-types, demonstrating that there is in fact common information in diverse circuits that can be extracted by an appropriately designed model. Interestingly, we found that the model's latent representations showed clear distinctions between different brain regions and cellular sub-types, even though it was never given any information about these distinctions. Altogether, our work demonstrates that training a large-scale neural decoding model on diverse data is possible, and this provides a means of studying the differences and similarities between heterogeneous neural circuits.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "82c18f185de9faa3430f7218ac9e4076",
+          "name": "Mehdi Azabou",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mehdi_Azabou2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2039962468"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "74c2cd5f4ad8e6a75ada0953553a7b5d",
+          "name": "Krystal Xuejing Pan",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Krystal_Xuejing_Pan1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "a16dcf0ada7c3921e5ac13026e27a581",
+          "name": "Vinam Arora",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Vinam_Arora1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261390667"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "2f595ee981e3a74b9beca1b4f82a5d2d",
+          "name": "Ian Jarratt Knight",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ian_Jarratt_Knight1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "cc99f28dbe6642a730d279fb0cb40beb",
+          "name": "Eva L Dyer",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eva_L_Dyer1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256503494"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "spotlight",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "transformer"
+      },
+      {
+        "name": "tokenization"
+      },
+      {
+        "name": "multi-task"
+      },
+      {
+        "name": "two-photon calcium imaging"
+      },
+      {
+        "name": "cell types"
+      },
+      {
+        "name": "neural population"
+      },
+      {
+        "name": "visual stimuli"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "IuU0wcO0mo",
+        "url": "https://openreview.net/forum?id=IuU0wcO0mo"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "IuU0wcO0mo",
+        "url": "https://openreview.net/pdf?id=IuU0wcO0mo"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d148a147365d6d291543dbb5e0a62681",
+    "title": "Learning Successor Features the Simple Way",
+    "abstract": "In Deep Reinforcement Learning (RL), it is a challenge to learn representations that do not exhibit catastrophic forgetting or interference in non-stationary environments. Successor Features (SFs) offer a potential solution to this challenge. However, canonical techniques for learning SFs from pixel-level observations often lead to representation collapse, wherein representations degenerate and fail to capture meaningful variations in the data. More recent methods for learning SFs can avoid representation collapse, but they often involve complex losses and multiple learning phases, reducing their efficiency. We introduce a novel, simple method for learning SFs directly from pixels. Our approach uses a combination of a Temporal-difference (TD) loss and a reward prediction loss, which together capture the basic mathematical definition of SFs. We show that our approach matches or outperforms existing SF learning techniques in both 2D (Minigrid), 3D (Miniworld) mazes and Mujoco, for both single and continual learning scenarios. As well, our technique is efficient, and can reach higher levels of performance in less time than other approaches. Our work provides a new, streamlined technique for learning SFs directly from pixel observations, with no pretraining required.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "8d1072f45bb5e16eb078ae706bb508a3",
+          "name": "Raymond Chua",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Raymond_Chua1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2125360401"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b926105821d51cb8baa257c44c685337",
+          "name": "Arna Ghosh",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Arna_Ghosh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2148625573"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265819283"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2461629"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "95ea847e8e9d9a5aecd260001697425a",
+          "name": "Christos Kaplanis",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Christos_Kaplanis2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "11596459"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2279830599"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "09ca5444ed05ac4705d5cf04ebe58ba5",
+            "name": "Google Deepmind",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f0f6549152ff58dde589fae483ae061b",
+          "name": "Doina Precup",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "115325970"
+            },
+            {
+              "type": "bio",
+              "link": "doina-precup"
+            },
+            {
+              "type": "email.mila",
+              "link": "precupdo@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2049838"
+            },
+            {
+              "type": "mag",
+              "link": "2584303792"
+            },
+            {
+              "type": "mag",
+              "link": "2763943850"
+            },
+            {
+              "type": "mag",
+              "link": "2789843807"
+            },
+            {
+              "type": "mag",
+              "link": "2792787841"
+            },
+            {
+              "type": "mag",
+              "link": "2965467369"
+            },
+            {
+              "type": "mag",
+              "link": "3010809802"
+            },
+            {
+              "type": "mag",
+              "link": "3011193713"
+            },
+            {
+              "type": "mag",
+              "link": "3189931171"
+            },
+            {
+              "type": "openreview",
+              "link": "~Doina_Precup1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144368601"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249762747"
+            },
+            {
+              "type": "wpid_en",
+              "link": "26106"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "26116"
+            },
+            {
+              "type": "xplore",
+              "link": "37284893100"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "09ca5444ed05ac4705d5cf04ebe58ba5",
+            "name": "Google Deepmind",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2636f80f4cde670e0ed0a05fae19c290",
+            "name": "School of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "continual reinforcement learning"
+      },
+      {
+        "name": "deep reinforcement learning"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "successor feature"
+      },
+      {
+        "name": "representation learning"
+      },
+      {
+        "name": "successor representation"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2410.22133",
+        "url": "https://doi.org/10.48550/arXiv.2410.22133"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "rI7oZj1WMc",
+        "url": "https://openreview.net/forum?id=rI7oZj1WMc"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "rI7oZj1WMc",
+        "url": "https://openreview.net/pdf?id=rI7oZj1WMc"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2410.22133",
+        "url": "https://arxiv.org/abs/2410.22133"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2410.22133",
+        "url": "https://arxiv.org/pdf/2410.22133.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2410-22133",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2410-22133"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "44123ff6c8858841345bf98985525ddc2b7665fb",
+        "url": "https://www.semanticscholar.org/paper/44123ff6c8858841345bf98985525ddc2b7665fb"
+      },
+      {
+        "type": "corpusid",
+        "link": "273662175"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "ae9a3c3c5473b748033d8b52defd6e50",
+    "title": "Towards a \"Universal Translator\" for Neural Dynamics at Single-Cell, Single-Spike Resolution",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c2de147c4cdcc36587c2d523b0449410",
+          "name": "Yizi Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yizi_Zhang1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25af08ad337ff985f8e0a8e846849632",
+            "name": "Columbia University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8aa8fa252769d8821e3be6872b3f8817",
+          "name": "Yanchen Wang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yanchen_Wang1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25af08ad337ff985f8e0a8e846849632",
+            "name": "Columbia University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b39bbe4624728f5bdbb58f48de342640",
+          "name": "Donato M. Jiménez-Benetó",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Donato_M._Jiménez-Benetó1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "c3209c91287a5ac50d1d10e3f50504f6",
+          "name": "Zixuan Wang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Zixuan_Wang13"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2117423735"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "50218326"
+            },
+            {
+              "type": "xplore",
+              "link": "37088496554"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1c705da307472a217e76830c44bf8f99",
+            "name": "Zhejiang University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "25af08ad337ff985f8e0a8e846849632",
+            "name": "Columbia University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "82c18f185de9faa3430f7218ac9e4076",
+          "name": "Mehdi Azabou",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mehdi_Azabou2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2039962468"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "688b4ca07dea16bb456493b0ce9e0e89",
+            "name": "Georgia Institute of Technology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "36a99ea79f6c22565c31d067a1843ca9",
+            "name": "Mila, McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cc64aeddbcee0e26a7a114145076db27",
+          "name": "Renee Tung",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Renee_Tung1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25af08ad337ff985f8e0a8e846849632",
+            "name": "Columbia University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "83852ad2e3a40037fc1005bbd257003d",
+          "name": "Olivier Winter",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Olivier_Winter1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "9fb9791f461f0f944f44b4a10c7e8ff0",
+          "name": "International Brain Laboratory",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~International_Brain_Laboratory1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "cc99f28dbe6642a730d279fb0cb40beb",
+          "name": "Eva L Dyer",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Eva_L_Dyer1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256503494"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "688b4ca07dea16bb456493b0ce9e0e89",
+            "name": "Georgia Institute of Technology",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c6f81a05708b5b40d030f50c9445a260",
+          "name": "Liam Paninski",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Liam_Paninski1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25af08ad337ff985f8e0a8e846849632",
+            "name": "Columbia University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b3234816c1bff01a2c10808dd708d0ea",
+          "name": "Cole Lincoln Hurwitz",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Cole_Lincoln_Hurwitz1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51251174"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "25af08ad337ff985f8e0a8e846849632",
+            "name": "Columbia University",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "pretraining"
+      },
+      {
+        "name": "transformer"
+      },
+      {
+        "name": "self-supervised learning"
+      },
+      {
+        "name": "neural dynamics"
+      },
+      {
+        "name": "multi-task learning"
+      },
+      {
+        "name": "brain-computer interfaces"
+      },
+      {
+        "name": "masked modeling"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "nRRJsDahEg",
+        "url": "https://openreview.net/forum?id=nRRJsDahEg"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "nRRJsDahEg",
+        "url": "https://openreview.net/pdf?id=nRRJsDahEg"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "9c12ec54cf2e8f22d057de218ad7bd89",
+    "title": "Harnessing small projectors and multiple views for efficient vision pretraining",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ce657de3efa111285a21b03e56f5aacd",
+          "name": "Kumar Krishna Agrawal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kumar_Krishna_Agrawal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262484159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275195347"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "6565766"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0ca9813dbc90d180d36d67892102294c",
+            "name": "UC Berkeley",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5dccef41870354e16fd55fbde2db5aba",
+            "name": "Equal Contribution",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b926105821d51cb8baa257c44c685337",
+          "name": "Arna Ghosh",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Arna_Ghosh1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2148625573"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265819283"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2461629"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5dccef41870354e16fd55fbde2db5aba",
+            "name": "Equal Contribution",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bde319069aac2ffa4639c401353e745c",
+          "name": "Shagun Sodhani",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Shagun_Sodhani1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2462516"
+            },
+            {
+              "type": "xplore",
+              "link": "37086532939"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f85d14a9098367196fd5f46ebfc80ff8",
+          "name": "Adam Oberman",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "145235792"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2006944980"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2062054358"
+            },
+            {
+              "type": "bio",
+              "link": "adam-oberman"
+            },
+            {
+              "type": "email.mila",
+              "link": "adam.oberman@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2276214182"
+            },
+            {
+              "type": "mag",
+              "link": "2604689134"
+            },
+            {
+              "type": "mag",
+              "link": "3037040153"
+            },
+            {
+              "type": "openreview",
+              "link": "~Adam_M_Oberman1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Adam_Oberman1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275197926"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331626309"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2362299086"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "35143140"
+            },
+            {
+              "type": "wpid_en",
+              "link": "40923"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "40919"
+            },
+            {
+              "type": "xplore",
+              "link": "37945815500"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "421dee7f6ec6140ceb1c7e539d95f35a",
+            "name": "Statistics",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7670cba27ff6504bc12641f8f72f01ff",
+            "name": "Montreal Neurological Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "learning dynamics"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "self-supervised learning"
+      },
+      {
+        "name": "data-augmentation"
+      },
+      {
+        "name": "sample efficient SSL"
+      },
+      {
+        "name": "compute efficient SSL"
+      },
+      {
+        "name": "representation learning"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "Y5DPSJzpra",
+        "url": "https://openreview.net/forum?id=Y5DPSJzpra"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "Y5DPSJzpra",
+        "url": "https://openreview.net/pdf?id=Y5DPSJzpra"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2312.10725",
+        "url": "https://arxiv.org/abs/2312.10725"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2312.10725",
+        "url": "https://arxiv.org/pdf/2312.10725.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/nips/GhoshASOR24",
+        "url": "https://dblp.uni-trier.de/rec/conf/nips/GhoshASOR24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "64b0563c098eae22be6975912b9e941280b98dbf",
+        "url": "https://www.semanticscholar.org/paper/64b0563c098eae22be6975912b9e941280b98dbf"
+      },
+      {
+        "type": "corpusid",
+        "link": "266359501"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "dfcdc3e4459a61de129d92162c2743cc",
+    "title": "Stimulus information guides the emergence of behavior-related signals in primary somatosensory cortex during learning.",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ddda0748084d3f27162cf0a53e43edf3",
+          "name": "Mariangela Panniello",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "28901958"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "10eb4319eb2fc3a436a4da7dc2c53f0d",
+            "name": "Optical Approaches to Brain Function Laboratory, Istituto Italiano di Tecnologia, 16163 Genova, Italy",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e702e92ba1b7a87ce62afed2b04df2d",
+            "name": "School of Psychology and Neuroscience, University of Glasgow, Glasgow G12 8QQ, UK",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "30cb941a940a72a64ec866266da4a490",
+            "name": "Department of Physiology, Anatomy and Genetics, University of Oxford",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "535e562677d1032e17a9635b1759b537",
+            "name": "School of Psychology and Neuroscience, University of Glasgow, Glasgow",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6cdb0454bf41abc1bae570b26d2a212b",
+            "name": "Department of Physiology, Anatomy and Genetics, University of Oxford, Oxford OX1 3PT, UK",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "794a6665541d9d2e922fac603a00188e",
+            "name": "Optical Approaches to Brain Function Laboratory, Istituto Italiano di Tecnologia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ba28130ae966857f005ee1a559d91981",
+          "name": "Colleen J Gillon",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Colleen_J_Gillon1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "49053365"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "06a0dd712a83e41b371c2b0460677cfd",
+            "name": "Department of Biological Sciences, University of Toronto Scarborough, Toronto, ON M1C 1A4, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2d378c066ec3d94b5012b1c55edadf09",
+            "name": "Department of Cell & Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5ffa4f63130c4bd633339d6c4c30b53a",
+            "name": "Department of Cell & Systems Biology, University of Toronto",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "660bf1a7ff7ca3d47fdddfe807f15eb1",
+            "name": "Mila, Montréal, QC H2S 3H1, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6bad4dd5bbff332ff2fad6ce85b1b045",
+            "name": "Department of Biological Sciences, University of Toronto Scarborough",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7e07f6980737a91edebe3878e1ad3f49",
+            "name": "Mila, Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b304d024e67468d024530a49c49b0bf8",
+          "name": "Roberto Maffulli",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2295900140"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0b9a3a768e84994e1bedfc3af66a227f",
+            "name": "Neural Computation Laboratory, Center for Human Technologies, Istituto Italiano di Tecnologia, 16163 Genova, Italy",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "30cb941a940a72a64ec866266da4a490",
+            "name": "Department of Physiology, Anatomy and Genetics, University of Oxford",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c01961e727aa474737d38329e694dce",
+            "name": "Neural Computation Laboratory, Center for Human Technologies, Istituto Italiano di Tecnologia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9dc1fc7bd4ed333c17e759f3392a6f40",
+          "name": "Marco Celotto",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "52023505"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0b2956349bd469bca7d07f2ed4c165d3",
+            "name": "Institute of Neural Information Processing, Center for Molecular Neurobiology (ZMNH), University Medical Center Hamburg-Eppendorf (UKE), 20251 Hamburg, Germany",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "0b9a3a768e84994e1bedfc3af66a227f",
+            "name": "Neural Computation Laboratory, Center for Human Technologies, Istituto Italiano di Tecnologia, 16163 Genova, Italy",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "165935fd7b805e7c443a1fbf8d0eacbc",
+            "name": "Department of Pharmacy and Biotechnology, University of Bologna",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "204ec277bf63e1ac825e962fc8e09777",
+            "name": "Department of Neural Information Processing, Center for Molecular Neurobiology (ZMNH), University Medical Center Hamburg-Eppendorf (UKE)",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2c8462230fc4a31f856ddac9f1b9568c",
+            "name": "Department of Pharmacy and Biotechnology, University of Bologna, 40126 Bologna, Italy",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c01961e727aa474737d38329e694dce",
+            "name": "Neural Computation Laboratory, Center for Human Technologies, Istituto Italiano di Tecnologia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f9761d711df6c2063ab3e695ac96b236",
+          "name": "Stefano Panzeri",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2278858230"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2383425"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0b2956349bd469bca7d07f2ed4c165d3",
+            "name": "Institute of Neural Information Processing, Center for Molecular Neurobiology (ZMNH), University Medical Center Hamburg-Eppendorf (UKE), 20251 Hamburg, Germany",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "0b9a3a768e84994e1bedfc3af66a227f",
+            "name": "Neural Computation Laboratory, Center for Human Technologies, Istituto Italiano di Tecnologia, 16163 Genova, Italy",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "204ec277bf63e1ac825e962fc8e09777",
+            "name": "Department of Neural Information Processing, Center for Molecular Neurobiology (ZMNH), University Medical Center Hamburg-Eppendorf (UKE)",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c01961e727aa474737d38329e694dce",
+            "name": "Neural Computation Laboratory, Center for Human Technologies, Istituto Italiano di Tecnologia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bf2cd3f3b2ba24a22260dab855f8184f",
+          "name": "Blake Aaron Richards",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "2082416418"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "7592593"
+            },
+            {
+              "type": "bio",
+              "link": "blake-richards"
+            },
+            {
+              "type": "email.mila",
+              "link": "blake.richards@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2104222656"
+            },
+            {
+              "type": "mag",
+              "link": "2942921867"
+            },
+            {
+              "type": "openreview",
+              "link": "~Blake_Aaron_Richards1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261391109"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265655417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267718937"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273332511"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287807305"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311697786"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "38498866"
+            },
+            {
+              "type": "wpid_en",
+              "link": "36421"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "36419"
+            },
+            {
+              "type": "xplore",
+              "link": "37088877229"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "00503d49b8ea2ce50c8ed06c00f935a8",
+            "name": "School of Computer Science, McGill University, Montréal, QC H3A 2A7, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2fadeeab77b5a018a118599c6c79df8d",
+            "name": "Department of Neurology & Neurosurgery, McGill University, Montréal, QC H3A 1A1, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b5efb2c34212d6a5878bd827d65371e",
+            "name": "School of Computer Science, McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "42389e97ba064abd380573ce4bcbbfb1",
+            "name": "Department of Neurology & Neurosurgery, McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "42f27caa440ef9ab82344310682b3d5b",
+            "name": "Montreal Neurological Institute, Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "544585fc3692e3d5485e49c76328cfea",
+            "name": "Learning in Machines and Brains Program, Canadian Institute for Advanced Research, Toronto, ON M5G 1M1, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "55fc87c84518c5d87cd5591a2cb6bc84",
+            "name": "Montreal Neurological Institute, Montréal, QC H3A 2B4, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6012c30d64014fc55ba5f1f8e47ff55f",
+            "name": "Learning in Machines and Brains Program, Canadian Institute for Advanced Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "660bf1a7ff7ca3d47fdddfe807f15eb1",
+            "name": "Mila, Montréal, QC H2S 3H1, Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7e07f6980737a91edebe3878e1ad3f49",
+            "name": "Mila, Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d35651d1c144e7041fda556043042353",
+          "name": "Michael M Kohl",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2303278019"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "48402967"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e702e92ba1b7a87ce62afed2b04df2d",
+            "name": "School of Psychology and Neuroscience, University of Glasgow, Glasgow G12 8QQ, UK",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "30cb941a940a72a64ec866266da4a490",
+            "name": "Department of Physiology, Anatomy and Genetics, University of Oxford",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "535e562677d1032e17a9635b1759b537",
+            "name": "School of Psychology and Neuroscience, University of Glasgow, Glasgow",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "6cdb0454bf41abc1bae570b26d2a212b",
+            "name": "Department of Physiology, Anatomy and Genetics, University of Oxford, Oxford OX1 3PT, UK",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "075302b4c7a3ca854c6125b5b23226e7",
+          "name": "Cell Reports",
+          "type": "journal",
+          "date": {
+            "text": "2024-05-25",
+            "timestamp": 1716609600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "43"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "513a71bf9ebba9f67e9c2bdf7ae0c37b",
+          "name": "Cell Reports",
+          "type": "journal",
+          "date": {
+            "text": "2024-05-25",
+            "timestamp": 1716609600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": "43 6"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "545d8b9669ba9c9eb7f4b8528eb2e6da",
+          "name": "Cell Reports",
+          "type": "journal",
+          "date": {
+            "text": "2024-06",
+            "timestamp": 1717214400,
+            "precision": 2
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "2ff5e6c7691947bf9de65e22163190eb",
+          "name": "Cell Reports",
+          "type": "journal",
+          "date": {
+            "text": "2024-05-25",
+            "timestamp": 1716609600,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "Cell Press",
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "sensory coding"
+      },
+      {
+        "name": "mouse"
+      },
+      {
+        "name": "two-photon imaging"
+      },
+      {
+        "name": "Biology"
+      },
+      {
+        "name": "decision-making"
+      },
+      {
+        "name": "information theory"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1016/j.celrep.2024.114244",
+        "url": "https://doi.org/10.1016/j.celrep.2024.114244"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.1101/2022.12.04.518156",
+        "url": "https://doi.org/10.1101/2022.12.04.518156"
+      },
+      {
+        "type": "pubmed.abstract",
+        "link": "38796851",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38796851"
+      },
+      {
+        "type": "pmc.abstract",
+        "link": "11913744",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11913744"
+      },
+      {
+        "type": "pdf",
+        "link": "http://www.cell.com/article/S2211124724005722/pdf"
+      },
+      {
+        "type": "pdf",
+        "link": "https://eprints.gla.ac.uk/325908/1/325908.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "770744d49903f3c374e1c4ab8e0d90f2ceda2020",
+        "url": "https://www.semanticscholar.org/paper/770744d49903f3c374e1c4ab8e0d90f2ceda2020"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "f9b70e57b166e9e8ce36af6987846e0fcc80044d",
+        "url": "https://www.semanticscholar.org/paper/f9b70e57b166e9e8ce36af6987846e0fcc80044d"
+      },
+      {
+        "type": "corpusid",
+        "link": "254295287"
+      },
+      {
+        "type": "corpusid",
+        "link": "270048745"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

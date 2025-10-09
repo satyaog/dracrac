@@ -1,0 +1,2014 @@
+[
+  {
+    "paper_id": "b97f0534906a9a48f682f6d3d903fd3c",
+    "title": "Addressing Concept Mislabeling in Concept Bottleneck Models Through Preference Optimization",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "87efdfd6b27195a9157d5bcbb7755fab",
+          "name": "Emiliano Penaloza",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Emiliano_Penaloza1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2191075777"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "684b2f0ea9826afd9f680645cf9fa011",
+            "name": "Mila - Québec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f9312a6862d47af065f0c6507eef84a7",
+          "name": "Tianyue H. Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Tianyue_H._Zhang1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2328811547"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "47593151"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "684b2f0ea9826afd9f680645cf9fa011",
+            "name": "Mila - Québec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e0bfb665e32015be0fce39fe81cab64e",
+          "name": "Laurent Charlin",
+          "links": [
+            {
+              "type": "bio",
+              "link": "charlin-laurent"
+            },
+            {
+              "type": "email.mila",
+              "link": "lcharlin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "242798638"
+            },
+            {
+              "type": "mag",
+              "link": "2714390036"
+            },
+            {
+              "type": "openreview",
+              "link": "~Laurent_Charlin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1778839"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066204138"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295207634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327863121"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336737850"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870413"
+            },
+            {
+              "type": "wpid_en",
+              "link": "367"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "335"
+            },
+            {
+              "type": "xplore",
+              "link": "37087130375"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0ea2649fa678b9cac97a8a62adf7e041",
+            "name": "HEC Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "684b2f0ea9826afd9f680645cf9fa011",
+            "name": "Mila - Québec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "7629380ab11749b9eb6cd28f8db102cb",
+          "name": "Mateo Espinosa Zarlenga",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mateo_Espinosa_Zarlenga1"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Concept Bottleneck Models"
+      },
+      {
+        "name": "Interpretable AI"
+      },
+      {
+        "name": "XAI"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "sQ6lqdjGBX",
+        "url": "https://openreview.net/forum?id=sQ6lqdjGBX"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "sQ6lqdjGBX",
+        "url": "https://openreview.net/pdf?id=sQ6lqdjGBX"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "81ff0553d160535bffffe33e0ec8feab",
+    "title": "LitLLMs, LLMs for Literature Review: Are we there yet?",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ae5d82f6189308152cf7cc5449a7cf6b",
+          "name": "Shubham Agarwal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Shubham_Agarwal3"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144992211"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275258816"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334523376"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2356133781"
+            },
+            {
+              "type": "xplore",
+              "link": "37090074927"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5f5de00d918eb2635b1200231cb7fa6e",
+            "name": "HEC Montreal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c2936ff5de9bf72d78af351c692b1496",
+          "name": "Gaurav Sahu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Gaurav_Sahu2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064714291"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2267339519"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310436558"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "67c0324091c565359e74b364e884e3fa",
+            "name": "University of Waterloo",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9f442450c0ffa317cf8f23f0b875ad42",
+          "name": "Abhay Puri",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Abhay_Puri1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310436656"
+            },
+            {
+              "type": "xplore",
+              "link": "923452443799552"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "87333899dba4abea1ef8e1dc79c5da40",
+          "name": "Issam Hadj Laradji",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Issam_H._Laradji1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3266173"
+            },
+            {
+              "type": "xplore",
+              "link": "329179047815940"
+            },
+            {
+              "type": "xplore",
+              "link": "37088228079"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "59e9c458a753a30c5f6b46de9cb633b0",
+            "name": "University of British Columbia",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "912078fb2cfe1ff35a0d4b2d74b5cf49",
+          "name": "Krishnamurthy Dj Dvijotham",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Krishnamurthy_Dj_Dvijotham1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1729912"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "fefab605ea1301403b2f3382452978ee",
+          "name": "Jason Stanley",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jason_Stanley2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336738047"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348252674"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e0bfb665e32015be0fce39fe81cab64e",
+          "name": "Laurent Charlin",
+          "links": [
+            {
+              "type": "bio",
+              "link": "charlin-laurent"
+            },
+            {
+              "type": "email.mila",
+              "link": "lcharlin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "242798638"
+            },
+            {
+              "type": "mag",
+              "link": "2714390036"
+            },
+            {
+              "type": "openreview",
+              "link": "~Laurent_Charlin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1778839"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066204138"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295207634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327863121"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336737850"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870413"
+            },
+            {
+              "type": "wpid_en",
+              "link": "367"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "335"
+            },
+            {
+              "type": "xplore",
+              "link": "37087130375"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5f5de00d918eb2635b1200231cb7fa6e",
+            "name": "HEC Montreal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "edf3b5dc95783e9520279792a0e4aaae",
+          "name": "Christopher Pal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "pal-christopher"
+            },
+            {
+              "type": "email.mila",
+              "link": "christopher.pal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2168619732"
+            },
+            {
+              "type": "mag",
+              "link": "2900737546"
+            },
+            {
+              "type": "mag",
+              "link": "2910816495"
+            },
+            {
+              "type": "mag",
+              "link": "2923024885"
+            },
+            {
+              "type": "openreview",
+              "link": "~Christopher_Pal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1972076"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2061666783"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2061666816"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2061666830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2132432404"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2242198325"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2243333924"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249529376"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2252966270"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265966393"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275240361"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282539195"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283771332"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285639401"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288590587"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2294173613"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2294691864"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295623112"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310239092"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2329187891"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2332312189"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2355349207"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363570233"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2367050057"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375383698"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "98109738"
+            },
+            {
+              "type": "wpid_en",
+              "link": "362"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "329"
+            },
+            {
+              "type": "xplore",
+              "link": "37086726955"
+            },
+            {
+              "type": "xplore",
+              "link": "37282879700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7a75522c2119e92f05aafa9e1b96fb0c",
+            "name": "Polytechnique Montreal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "7414402478563cfc4c8c00a868bc55f3",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2025-04-01",
+            "timestamp": 1743480000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "378fbd4ca941585e46f21b52307f00fa",
+          "name": "Trans. Mach. Learn. Res.",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "heeJqQXKg7",
+        "url": "https://openreview.net/forum?id=heeJqQXKg7"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "heeJqQXKg7",
+        "url": "https://openreview.net/pdf?id=heeJqQXKg7"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2412.15249",
+        "url": "https://arxiv.org/abs/2412.15249"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2412.15249",
+        "url": "https://arxiv.org/pdf/2412.15249.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/tmlr/AgarwalSPLDSCP25",
+        "url": "https://dblp.uni-trier.de/rec/journals/tmlr/AgarwalSPLDSCP25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=heeJqQXKg7"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "3bf29a0420b1042f5e0a319c27cb32d46d9cde3e",
+        "url": "https://www.semanticscholar.org/paper/3bf29a0420b1042f5e0a319c27cb32d46d9cde3e"
+      },
+      {
+        "type": "corpusid",
+        "link": "274965768"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "023e4b0c0989804a5f418638901d8508",
+    "title": "Integrating Present and Past in Unsupervised Continual Learning",
+    "abstract": "We formulate a unifying framework for *unsupervised continual learning (UCL)*, which disentangles learning objectives that are specific to the present and the past data, encompassing *stability*, *plasticity*, and *cross-task consolidation*. The framework reveals that many existing UCL approaches overlook cross-task consolidation and try to balance plasticity and stability in a shared embedding space. This results in worse performance due to a lack of within-task data diversity and reduced effectiveness in learning the current task. Our method, *Osiris*, which explicitly optimizes all three objectives on separate embedding spaces, achieves state-of-the-art performance on all benchmarks, including two novel ones proposed in this paper featuring semantically structured task sequences. Finally, we show some preliminary evidence that continual models can benefit from such more realistic learning scenarios.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "824de987cc1a5e9bb3c3e8864287e42e",
+          "name": "Yipeng Zhang",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2145027457"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e0bfb665e32015be0fce39fe81cab64e",
+          "name": "Laurent Charlin",
+          "links": [
+            {
+              "type": "bio",
+              "link": "charlin-laurent"
+            },
+            {
+              "type": "email.mila",
+              "link": "lcharlin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "242798638"
+            },
+            {
+              "type": "mag",
+              "link": "2714390036"
+            },
+            {
+              "type": "openreview",
+              "link": "~Laurent_Charlin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1778839"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066204138"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295207634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327863121"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336737850"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870413"
+            },
+            {
+              "type": "wpid_en",
+              "link": "367"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "335"
+            },
+            {
+              "type": "xplore",
+              "link": "37087130375"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "d6335ec40b14319d5fb19f566c10a02d",
+          "name": "Richard Zemel",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Richard_Zemel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1804104"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2261362897"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348258633"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "96bce914a91c1f4059bf61df004ea2fa",
+          "name": "Mengye Ren",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2540599"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "29189d994670bca9508bee14387ad403",
+          "name": "Proceedings of The 3rd Conference on Lifelong Learning Agents",
+          "type": "unknown",
+          "date": {
+            "text": "2025-02-17",
+            "timestamp": 1739768400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "274"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "388-409"
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "mlr.abstract",
+        "link": "274/zhang25a",
+        "url": "https://proceedings.mlr.press/v274/zhang25a.html"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v274/main/assets/zhang25a/zhang25a.pdf"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "413bfc51ef31ca15dc16d584cf183c2c",
+    "title": "TEARS: Text Representations for Scrutable Recommendations",
+    "abstract": "Traditional recommender systems rely on high-dimensional (latent)\nembeddings for modeling user-item interactions, often resulting in\nopaque representations that lack interpretability. Moreover, these\nsystems offer limited control to users over their recommendations.\nInspired by recent work, we introduce TExtuAl Representations for\nScrutable recommendations (TEARS) to address these challenges.\nInstead of representing a user’s interests through latent embed-\ndings, TEARS encodes them in natural text, providing transparency\nand allowing users to edit them. To encode such preferences, we\nuse modern LLMs to generate high-quality user summaries which\nwe find uniquely capture user preferences. Using these summaries\nwe take a hybrid approach where we use an optimal transport\nprocedure to align the summaries’ representations with the repre-\nsentation of a standard VAE for collaborative filtering. We find this\napproach can surpass the performance of the three popular VAE\nmodels while providing user-controllable recommendations. We\nfurther analyze the controllability of TEARS through three simu-\nlated user tasks to evaluate the effectiveness of user edits on their\nsummaries. Our code and all user-summaries can be seen in an\nanonymized repository.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "87efdfd6b27195a9157d5bcbb7755fab",
+          "name": "Emiliano Penaloza",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Emiliano_Penaloza1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2191075777"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "4b6d3fe65c81aeec8d461e3cc7ccde56",
+          "name": "Olivier Gouvert",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Olivier_Gouvert1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "ad5626443519521c4db7f6bbd187603a",
+          "name": "Haolun Wu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Haolun_Wu1"
+            },
+            {
+              "type": "orcid",
+              "link": "0000-0002-8206-4969"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "107747459"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2328250099"
+            },
+            {
+              "type": "xplore",
+              "link": "37089923750"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e0bfb665e32015be0fce39fe81cab64e",
+          "name": "Laurent Charlin",
+          "links": [
+            {
+              "type": "bio",
+              "link": "charlin-laurent"
+            },
+            {
+              "type": "email.mila",
+              "link": "lcharlin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "242798638"
+            },
+            {
+              "type": "mag",
+              "link": "2714390036"
+            },
+            {
+              "type": "openreview",
+              "link": "~Laurent_Charlin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1778839"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066204138"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295207634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327863121"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336737850"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870413"
+            },
+            {
+              "type": "wpid_en",
+              "link": "367"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "335"
+            },
+            {
+              "type": "xplore",
+              "link": "37087130375"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "7979914d642db0860236d62110a20afc",
+          "name": "ACM.org/TheWebConf/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-29",
+            "timestamp": 1738126800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ACM.org/TheWebConf/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "WWW 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Recommender Systems"
+      },
+      {
+        "name": "Interpretable AI"
+      },
+      {
+        "name": "Large language models"
+      },
+      {
+        "name": "Scutable models"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "cMn2KCzjaX",
+        "url": "https://openreview.net/forum?id=cMn2KCzjaX"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "cMn2KCzjaX",
+        "url": "https://openreview.net/pdf?id=cMn2KCzjaX"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "bd0278041b085844aea4dff42fe93245",
+    "title": "Towards Modular LLMs by Building and Reusing a Library of LoRAs",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "93da3886dde9d11793d555390360c6e4",
+          "name": "Oleksiy Ostapenko",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Oleksiy_Ostapenko1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145191120"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4451a1ae8149cca63b2d51dc7541fb98",
+            "name": "Microsoft Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "eb7a025528fec735dcb56d530945124c",
+          "name": "Zhan Su",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Zhan_Su1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2072597939"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301180105"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "50030404"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "dc3b7456738f1de0758301c3f1742fc8",
+          "name": "Edoardo Ponti",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Edoardo_Ponti1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3381663"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0ea2649fa678b9cac97a8a62adf7e041",
+            "name": "HEC Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e0bfb665e32015be0fce39fe81cab64e",
+          "name": "Laurent Charlin",
+          "links": [
+            {
+              "type": "bio",
+              "link": "charlin-laurent"
+            },
+            {
+              "type": "email.mila",
+              "link": "lcharlin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "242798638"
+            },
+            {
+              "type": "mag",
+              "link": "2714390036"
+            },
+            {
+              "type": "openreview",
+              "link": "~Laurent_Charlin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1778839"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066204138"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295207634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327863121"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336737850"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870413"
+            },
+            {
+              "type": "wpid_en",
+              "link": "367"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "335"
+            },
+            {
+              "type": "xplore",
+              "link": "37087130375"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0ea2649fa678b9cac97a8a62adf7e041",
+            "name": "HEC Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d7662e896a0b4b27a23c086022b1b43d",
+          "name": "Nicolas Roux",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "104267194"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "119858926"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "145812554"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2065684773"
+            },
+            {
+              "type": "bio",
+              "link": "nicolas-le-roux"
+            },
+            {
+              "type": "email.mila",
+              "link": "lerouxni@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2044175236"
+            },
+            {
+              "type": "mag",
+              "link": "2921142555"
+            },
+            {
+              "type": "openreview",
+              "link": "~Nicolas_Le_Roux1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Nicolas_Le_Roux2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "104267194"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145812554"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065684773"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2251458410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256269507"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2268218772"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287846033"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2299948386"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350753633"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "7245737"
+            },
+            {
+              "type": "wpid_en",
+              "link": "30443"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "30446"
+            },
+            {
+              "type": "xplore",
+              "link": "37087732846"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4451a1ae8149cca63b2d51dc7541fb98",
+            "name": "Microsoft Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a69aeb80e7b6b86f93d2143ca4b55d8d",
+          "name": "Matheus Pereira",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Matheus_Pereira1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2190187886"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4451a1ae8149cca63b2d51dc7541fb98",
+            "name": "Microsoft Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9600a4cb95dff2f450476d4b8351dcb1",
+          "name": "Lucas Caccia",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Lucas_Caccia1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2031471548"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51889580"
+            },
+            {
+              "type": "xplore",
+              "link": "37087324814"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "4451a1ae8149cca63b2d51dc7541fb98",
+            "name": "Microsoft Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d826419f97237c49236b0e8fdd511e8c",
+          "name": "Alessandro Sordoni",
+          "links": [
+            {
+              "type": "bio",
+              "link": "alessandro-sordoni"
+            },
+            {
+              "type": "email.mila",
+              "link": "alessandro.sordoni@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "65685553"
+            },
+            {
+              "type": "openreview",
+              "link": "~Alessandro_Sordoni1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Alessandro_Sordoni2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2041695"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2344248516"
+            },
+            {
+              "type": "wpid_en",
+              "link": "52620"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "52652"
+            },
+            {
+              "type": "xplore",
+              "link": "37088488915"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4451a1ae8149cca63b2d51dc7541fb98",
+            "name": "Microsoft Research",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "38885-38904"
+      },
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2405.11157",
+        "url": "https://doi.org/10.48550/arXiv.2405.11157"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/ostapenko24a",
+        "url": "https://proceedings.mlr.press/v235/ostapenko24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "0ZFWfeVsaD",
+        "url": "https://openreview.net/forum?id=0ZFWfeVsaD"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "0ZFWfeVsaD",
+        "url": "https://openreview.net/pdf?id=0ZFWfeVsaD"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2405.11157",
+        "url": "https://arxiv.org/abs/2405.11157"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2405.11157",
+        "url": "https://arxiv.org/pdf/2405.11157.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2405-11157",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2405-11157"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/ostapenko24a/ostapenko24a.pdf"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "6839e8ef0205ad4732e9f743977eb5bfc296ec2c",
+        "url": "https://www.semanticscholar.org/paper/6839e8ef0205ad4732e9f743977eb5bfc296ec2c"
+      },
+      {
+        "type": "corpusid",
+        "link": "269922018"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "c2462e1cb2c0ccd56a873ef885485061",
+    "title": "Applying Recurrent Neural Networks and Blocked Cross-Validation to Model Conventional Drinking Water Treatment Processes",
+    "abstract": "The jar test is the current standard method for predicting the performance of a conventional drinking water treatment (DWT) process and optimizing the coagulant dose. This test is time-consuming and requires human intervention, meaning it is infeasible for making continuous process predictions. As a potential alternative, we developed a machine learning (ML) model from historical DWT plant data that can operate continuously using real-time sensor data without human intervention for predicting clarified water turbidity 15 min in advance. We evaluated three types of models: multilayer perceptron (MLP), the long short-term memory (LSTM) recurrent neural network (RNN), and the gated recurrent unit (GRU) RNN. We also employed two training methodologies: the commonly used holdout method and the theoretically correct blocked cross-validation (BCV) method. We found that the RNN with GRU was the best model type overall and achieved a mean absolute error on an independent production set of as low as 0.044 NTU. We further found that models trained using BCV typically achieve errors equal to or lower than their counterparts trained using holdout. These results suggest that RNNs trained using BCV are superior for the development of ML models for DWT processes compared to those reported in earlier literature.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9d027367d331b60972f63926c3de01a8",
+          "name": "Aleksandar Jakovljevic",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2295207661"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "035fbf02a0c60856d9bf2c62ad42b0e1",
+            "name": "Department of Civil, Geological and Mining Engineering, Polytechnique Montréal, 2500 Chemin de Polytechnique, Montréal, QC H3T 1J4, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "e0bfb665e32015be0fce39fe81cab64e",
+          "name": "Laurent Charlin",
+          "links": [
+            {
+              "type": "bio",
+              "link": "charlin-laurent"
+            },
+            {
+              "type": "email.mila",
+              "link": "lcharlin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "242798638"
+            },
+            {
+              "type": "mag",
+              "link": "2714390036"
+            },
+            {
+              "type": "openreview",
+              "link": "~Laurent_Charlin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1778839"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066204138"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295207634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327863121"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336737850"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870413"
+            },
+            {
+              "type": "wpid_en",
+              "link": "367"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "335"
+            },
+            {
+              "type": "xplore",
+              "link": "37087130375"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1ed617c71f96f0d28ae3e4d8d4a7a708",
+            "name": "Department of Decision Sciences, HEC Montréal, 3000 Chemin de la Côte-Sainte-Catherine, Montréal, QC H3T 2A7, Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bdcb4365085534e6c44b9eec75663675",
+          "name": "Benoit Barbeau",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2267381862"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "035fbf02a0c60856d9bf2c62ad42b0e1",
+            "name": "Department of Civil, Geological and Mining Engineering, Polytechnique Montréal, 2500 Chemin de Polytechnique, Montréal, QC H3T 1J4, Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "49c80a1c344a9abd0bd0d106139ab57c",
+          "name": "Water",
+          "type": "journal",
+          "date": {
+            "text": "2024-04-04",
+            "timestamp": 1712203200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "02ef83890b2ce61794e586af4c9e5ae8",
+          "name": "Water",
+          "type": "journal",
+          "date": {
+            "text": "2024-04-04",
+            "timestamp": 1712203200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.3390/w16071042",
+        "url": "https://doi.org/10.3390/w16071042"
+      },
+      {
+        "type": "pdf",
+        "link": "https://www.mdpi.com/2073-4441/16/7/1042/pdf?version=1712235207"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "61db801acfc88a66c44a79f239d9c57240d16f16",
+        "url": "https://www.semanticscholar.org/paper/61db801acfc88a66c44a79f239d9c57240d16f16"
+      },
+      {
+        "type": "corpusid",
+        "link": "268939658"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "94e997cc8db901f500ca0f0ebe418a7f",
+    "title": "Price Forecasting in the Ontario Electricity Market via TriConvGRU Hybrid Model: Univariate vs. Multivariate Frameworks",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "87c1dfd12be79a9999c6a6a2015bcb9b",
+          "name": "Behdad Ehsani",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2164292371"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "86643d0c02a6f98392abb7800f724826",
+          "name": "Pierre-Olivier Pineau",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "46178335"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e0bfb665e32015be0fce39fe81cab64e",
+          "name": "Laurent Charlin",
+          "links": [
+            {
+              "type": "bio",
+              "link": "charlin-laurent"
+            },
+            {
+              "type": "email.mila",
+              "link": "lcharlin@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "242798638"
+            },
+            {
+              "type": "mag",
+              "link": "2714390036"
+            },
+            {
+              "type": "openreview",
+              "link": "~Laurent_Charlin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1778839"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066204138"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295207634"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327863121"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336737850"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870406"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870410"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2378870413"
+            },
+            {
+              "type": "wpid_en",
+              "link": "367"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "335"
+            },
+            {
+              "type": "xplore",
+              "link": "37087130375"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "6265ce476c7c75e0e2665b207ed1fce3",
+          "name": "Social Science Research Network",
+          "type": "journal",
+          "date": {
+            "text": "2024-04-01",
+            "timestamp": 1711944000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.2139/ssrn.4430405",
+        "url": "https://doi.org/10.2139/ssrn.4430405"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "0efd58dbcde41f5e51a4a677dade04c1063eefac",
+        "url": "https://www.semanticscholar.org/paper/0efd58dbcde41f5e51a4a677dade04c1063eefac"
+      },
+      {
+        "type": "corpusid",
+        "link": "258452073"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

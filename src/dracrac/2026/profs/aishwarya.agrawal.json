@@ -1,0 +1,2591 @@
+[
+  {
+    "paper_id": "93a2a8abd77e0a5b31d481f0c7eba4b5",
+    "title": "UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "dc2d5279ff709bb87cce72e33dfdf103",
+          "name": "Shravan Nayak",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Shravan_Nayak1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311383215"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311507230"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348426792"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d5be45ab64befa7563fd5b1abccf5cf2",
+          "name": "Xiangru Jian",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Xiangru_Jian1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334357492"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c67ccde626b85e7a8084fdf1837bf466",
+          "name": "Kevin Qinghong Lin",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kevin_Qinghong_Lin1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351409697"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "55719f3bbd2b061f4774b224860ae7af",
+            "name": "National University of Singapore",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f52b8b6609067e6dc50aeb2d558827f5",
+          "name": "Juan A. Rodriguez",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Juan_A._Rodriguez1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2116899991"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275292416"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310475166"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334438384"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2335627132"
+            },
+            {
+              "type": "xplore",
+              "link": "37089719052"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0ad03f468636ac0848056cf9269da144",
+            "name": "École de Technologie Supérieure",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f47c23a633f91be06936efc7a2bfc4ac",
+          "name": "Montek Kalsi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Montek_Kalsi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292197874"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9dc18ed3e1f5fb3b30fac1bf5a522f54",
+          "name": "Rabiul Awal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rabiul_Awal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2019829"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66736108"
+            },
+            {
+              "type": "xplore",
+              "link": "37089703671"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e4da00af93939f0a15ba05654aa604b8",
+          "name": "Nicolas Chapados",
+          "links": [
+            {
+              "type": "email.mila",
+              "link": "Nicolas.chapados@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "1566711909"
+            },
+            {
+              "type": "openreview",
+              "link": "~Nicolas_Chapados1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065948996"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275599436"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295731339"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2298041402"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301248563"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348258595"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2748188"
+            },
+            {
+              "type": "wpid_en",
+              "link": "3167"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "3169"
+            },
+            {
+              "type": "xplore",
+              "link": "37323336600"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "81b150c3b7701ac9cac3c1c08340e0f8",
+          "name": "M. Tamer Özsu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~M._Tamer_Özsu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351072345"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "cccdae97d25ba9697d65d6334c09c07b",
+          "name": "Aishwarya Pravin Agrawal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "aishwarya-agrawal"
+            },
+            {
+              "type": "email.mila",
+              "link": "aishwarya.agrawal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2117267436"
+            },
+            {
+              "type": "openreview",
+              "link": "~Aishwarya_Agrawal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1500398330"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270055975"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293394830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2801949"
+            },
+            {
+              "type": "wpid_en",
+              "link": "38508"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "38504"
+            },
+            {
+              "type": "xplore",
+              "link": "37085397548"
+            },
+            {
+              "type": "xplore",
+              "link": "37085742308"
+            },
+            {
+              "type": "xplore",
+              "link": "37087883810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2546c6e9d8c21e4c211681939b29ef03",
+            "name": "CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d6d0826009741b0547b563e94d4fb31a",
+          "name": "David Vazquez",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Vazquez1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "115932032"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "146560965"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064388271"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064388282"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064388326"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262443763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269970290"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275588082"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2279541098"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286356245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2298040691"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331331488"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351057662"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354554295"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357081550"
+            },
+            {
+              "type": "xplore",
+              "link": "37089271024"
+            },
+            {
+              "type": "xplore",
+              "link": "37529967800"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "edf3b5dc95783e9520279792a0e4aaae",
+          "name": "Christopher Pal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "pal-christopher"
+            },
+            {
+              "type": "email.mila",
+              "link": "christopher.pal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2168619732"
+            },
+            {
+              "type": "mag",
+              "link": "2900737546"
+            },
+            {
+              "type": "mag",
+              "link": "2910816495"
+            },
+            {
+              "type": "mag",
+              "link": "2923024885"
+            },
+            {
+              "type": "openreview",
+              "link": "~Christopher_Pal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1972076"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2061666783"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2061666816"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2061666830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2132432404"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2242198325"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2243333924"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249529376"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2252966270"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265966393"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275240361"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2282539195"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283771332"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285639401"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2288590587"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2294173613"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2294691864"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295623112"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310239092"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2329187891"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2332312189"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2355349207"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363570233"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2367050057"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375383698"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "98109738"
+            },
+            {
+              "type": "wpid_en",
+              "link": "362"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "329"
+            },
+            {
+              "type": "xplore",
+              "link": "37086726955"
+            },
+            {
+              "type": "xplore",
+              "link": "37282879700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2546c6e9d8c21e4c211681939b29ef03",
+            "name": "CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a9cced6b76609cb450d4e04d1d8c39a1",
+          "name": "Perouz Taslakian",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Perouz_Taslakian1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1784150"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "ca2e2624b0a736b3c18f6d91de44a28f",
+          "name": "Spandana Gella",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Spandana_Gella2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2334357578"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2921001"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "dc45642752414314e9304a17905194a0",
+          "name": "Sai Rajeswar",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Sai_Rajeswar2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1818842"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253453798"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2305622582"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306961146"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310435776"
+            },
+            {
+              "type": "xplore",
+              "link": "37085491827"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b30005bae19b4b58be27520a13e7c7ee",
+          "name": "Human Annotator",
+          "links": [
+            {
+              "type": "semantic_scholar",
+              "link": "2351072785"
+            }
+          ]
+        },
+        "affiliations": []
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Multimodal models"
+      },
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Computer Vision and Pattern Recognition (cs.CV)"
+      },
+      {
+        "name": "Large language models"
+      },
+      {
+        "name": "GUI"
+      },
+      {
+        "name": "Artificial Intelligence (cs.AI)"
+      },
+      {
+        "name": "Autonomous agents"
+      },
+      {
+        "name": "VLMs"
+      },
+      {
+        "name": "Computation and Language (cs.CL)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2503.15661",
+        "url": "https://doi.org/10.48550/arXiv.2503.15661"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "5Rtj4mYH1C",
+        "url": "https://openreview.net/forum?id=5Rtj4mYH1C"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "5Rtj4mYH1C",
+        "url": "https://openreview.net/pdf?id=5Rtj4mYH1C"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2503.15661",
+        "url": "https://arxiv.org/abs/2503.15661"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2503.15661",
+        "url": "https://arxiv.org/pdf/2503.15661.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2503-15661",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2503-15661"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "6254219f2e508f938becaa5920e68f361e489b73",
+        "url": "https://www.semanticscholar.org/paper/6254219f2e508f938becaa5920e68f361e489b73"
+      },
+      {
+        "type": "corpusid",
+        "link": "277150577"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2503.15661"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "960b2a02faf977db1d900855c604a408",
+    "title": "Improving Text-to-Image Consistency via Automatic Prompt Optimization",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "c703bfd85fa7dce2b376406f90faaa65",
+          "name": "Oscar Mañas",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Oscar_Mañas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1796269096"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306962147"
+            },
+            {
+              "type": "xplore",
+              "link": "37088889151"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a5829668ce4563932d836324e80b598f",
+          "name": "Pietro Astolfi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pietro_Astolfi1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2274101827"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "28898388"
+            },
+            {
+              "type": "xplore",
+              "link": "37088408640"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c69dfaa64bb64ecbef4ff5b192bcea9a",
+          "name": "Melissa Hall",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Melissa_Hall1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "120861776"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293590162"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "852dae60e16c2b2fc282d6336232af79",
+          "name": "Candace Ross",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Candace_Ross1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2256372432"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "51519704"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d637e66c00415447222adfbeeba85376",
+          "name": "Jack Urbanek",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Jack_Urbanek1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293393100"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "39219656"
+            },
+            {
+              "type": "xplore",
+              "link": "164411072767893"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bc4779ef2865d23ee1802019eb4b6aa4",
+          "name": "Adina Williams",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Adina_Williams1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2110032535"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2273924060"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275820246"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293907712"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2297757196"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "81840293"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cccdae97d25ba9697d65d6334c09c07b",
+          "name": "Aishwarya Pravin Agrawal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "aishwarya-agrawal"
+            },
+            {
+              "type": "email.mila",
+              "link": "aishwarya.agrawal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2117267436"
+            },
+            {
+              "type": "openreview",
+              "link": "~Aishwarya_Agrawal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1500398330"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270055975"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293394830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2801949"
+            },
+            {
+              "type": "wpid_en",
+              "link": "38508"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "38504"
+            },
+            {
+              "type": "xplore",
+              "link": "37085397548"
+            },
+            {
+              "type": "xplore",
+              "link": "37085742308"
+            },
+            {
+              "type": "xplore",
+              "link": "37087883810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cb3db6ef476a84609a9b9e4d1adb47f5",
+          "name": "Adriana Romero",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "144439227"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2041727353"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "88175459"
+            },
+            {
+              "type": "bio",
+              "link": "adriana romero-soriano"
+            },
+            {
+              "type": "email.mila",
+              "link": "adriana.romero-soriano@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "3163437364"
+            },
+            {
+              "type": "openreview",
+              "link": "~Adriana_Romero-Soriano1"
+            },
+            {
+              "type": "openreview",
+              "link": "~Adriana_Romero1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144290131"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1456285042"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2069136633"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249760034"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2285134481"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287096974"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "71431385"
+            },
+            {
+              "type": "wpid_en",
+              "link": "1939"
+            },
+            {
+              "type": "xplore",
+              "link": "37088716584"
+            },
+            {
+              "type": "xplore",
+              "link": "38290714100"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "8ee5cf6ff1d1141286ffb3fb38288a5d",
+          "name": "Michal Drozdzal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Michal_Drozdzal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3325894"
+            },
+            {
+              "type": "xplore",
+              "link": "37541311900"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "034f9bef1f4381f68f2bd1df3c3e5340",
+            "name": "1 FAIR at Meta, 2 Mila, 3 Université de Montréal, 4 McGill University, 5 Canada CIFAR AI Chair",
+            "category": "academia"
+          },
+          {
+            "institution_id": "2213f430fa6838d97995b0cd9bd5c837",
+            "name": "4 McGill University",
+            "category": "academia"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "7616b953ffec238e71d6aa4beb9b8977",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2024-12-03",
+            "timestamp": 1733202000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2403.17804",
+        "url": "https://doi.org/10.48550/arXiv.2403.17804"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "g12Gdl6aDL",
+        "url": "https://openreview.net/forum?id=g12Gdl6aDL"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "g12Gdl6aDL",
+        "url": "https://openreview.net/pdf?id=g12Gdl6aDL"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2403.17804",
+        "url": "https://arxiv.org/abs/2403.17804"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2403.17804",
+        "url": "https://arxiv.org/pdf/2403.17804.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2403-17804",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2403-17804"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "4777305738fd1aa30243f96a1687d57d8f70fa5d",
+        "url": "https://www.semanticscholar.org/paper/4777305738fd1aa30243f96a1687d57d8f70fa5d"
+      },
+      {
+        "type": "corpusid",
+        "link": "268691649"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "cbc2711b162c2e453cc49faacb872392",
+    "title": "Assessing and Learning Alignment of Unimodal Vision and Language Models",
+    "abstract": "How well are unimodal vision and language models aligned? Although prior work have approached answering this question, their assessment methods do not directly translate to how these models are used in practical vision-language tasks. In this paper, we propose a direct assessment method, inspired by linear probing, to assess vision-language alignment. We identify that the degree of alignment of the SSL vision models depends on their SSL training objective, and we find that the clustering quality of SSL representations has a stronger impact on alignment performance than their linear separability. Next, we introduce Swift Alignment of Image and Language (SAIL), a efficient transfer learning framework that aligns pretrained unimodal vision and language models for downstream vision-language tasks. Since SAIL leverages the strengths of pretrained unimodal models, it requires significantly fewer (6%) paired image-text data for the multimodal alignment compared to models like CLIP which are trained from scratch. SAIL training only requires a single A100 GPU, 5 hours of training and can accommodate a batch size up to 32,768. SAIL achieves 73.4% zero-shot accuracy on ImageNet (vs. CLIP's 72.7%) and excels in zero-shot retrieval, complex reasoning, and semantic segmentation. Additionally, SAIL improves the language-compatibility of vision encoders that in turn enhance the performance of multimodal large language models. The entire codebase and model weights are open-source: https://lezhang7.github.io/sail.github.io/",
+    "authors": [
+      {
+        "author": {
+          "author_id": "d8bdd8227292ae95fbd80c5fb0556c71",
+          "name": "Le Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Le_Zhang6"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005316"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005521"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005528"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108006873"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2119685417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2164729643"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336102720"
+            },
+            {
+              "type": "xplore",
+              "link": "37085632708"
+            },
+            {
+              "type": "xplore",
+              "link": "924350237007911"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b43e155949b63ca67f22fa35089c3fcc",
+          "name": "Qian Yang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Qian_Yang4"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2117860658"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2140195726"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2310779828"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cccdae97d25ba9697d65d6334c09c07b",
+          "name": "Aishwarya Pravin Agrawal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "aishwarya-agrawal"
+            },
+            {
+              "type": "email.mila",
+              "link": "aishwarya.agrawal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2117267436"
+            },
+            {
+              "type": "openreview",
+              "link": "~Aishwarya_Agrawal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1500398330"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270055975"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293394830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2801949"
+            },
+            {
+              "type": "wpid_en",
+              "link": "38508"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "38504"
+            },
+            {
+              "type": "xplore",
+              "link": "37085397548"
+            },
+            {
+              "type": "xplore",
+              "link": "37085742308"
+            },
+            {
+              "type": "xplore",
+              "link": "37087883810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "55d03083c40d8bcc32b1399200e00984",
+          "name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "type": "conference",
+          "date": {
+            "text": "2025-06-10",
+            "timestamp": 1749528000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Computer Vision and Pattern Recognition (cs.CV)"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1109/CVPR52734.2025.01361",
+        "url": "https://doi.org/10.1109/CVPR52734.2025.01361"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2412.04616",
+        "url": "https://doi.org/10.48550/arXiv.2412.04616"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2412.04616",
+        "url": "https://arxiv.org/abs/2412.04616"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2412.04616",
+        "url": "https://arxiv.org/pdf/2412.04616.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2412-04616",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2412-04616"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "059e0cac46dcf75b82d3e18740b026037c5e2f5a",
+        "url": "https://www.semanticscholar.org/paper/059e0cac46dcf75b82d3e18740b026037c5e2f5a"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "9c613ac042fc7cb59ec8237d5e012810be0fe549",
+        "url": "https://www.semanticscholar.org/paper/9c613ac042fc7cb59ec8237d5e012810be0fe549"
+      },
+      {
+        "type": "corpusid",
+        "link": "274581926"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2412.04616"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "b6d37880118efbdffd3472d01c223bfc",
+    "title": "CTRL-O: Language-Controllable Object-Centric Visual Representation Learning",
+    "abstract": "Object-centric representation learning aims to decompose visual scenes into fixed-size vectors called \"slots\" or \"object files\", where each slot captures a distinct object. Current state-of-the-art models have shown remarkable success in object discovery, particularly in complex real-world scenes, while also generalizing well to unseen domains. However, these models suffer from a key limitation: they lack controllability. Specifically, current object-centric models learn representations based on their preconceived understanding of objects and parts, without allowing user input to guide or modify which objects are represented. Introducing controllability into object-centric models could unlock a range of useful capabilities, such as enabling models to represent scenes at variable levels of granularity based on user specification. In this work, we propose a novel approach that conditions slot representations through guided decomposition, paired with a novel contrastive learning objective, to enable user-directed control over which objects are represented. Our method achieves such controllability without any mask supervision and successfully binds to user-specified objects in complex real-world scenes.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "8d9f3ed24401a90abfd78d19b0a40744",
+          "name": "Aniket Rajiv Didolkar",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Aniket_Rajiv_Didolkar1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "150010392"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5a71dcb7d269209d8fd1e3b1b22d263b",
+            "name": "University of Amsterdam",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "989116be0bf393a5648d27bf5977cd1d",
+          "name": "Andrii Zadaianchuk",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Andrii_Zadaianchuk1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1961461507"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "09feda6a3d379e9083a33fdfe41ccb39",
+            "name": "University of Amsterdam,The Netherlands",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9dc18ed3e1f5fb3b30fac1bf5a522f54",
+          "name": "Rabiul Awal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rabiul_Awal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2019829"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66736108"
+            },
+            {
+              "type": "xplore",
+              "link": "37089703671"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5a71dcb7d269209d8fd1e3b1b22d263b",
+            "name": "University of Amsterdam",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "955c6fcbcd6fecbd82058a07df8f0b90",
+          "name": "Maximilian Seitzer",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Maximilian_Seitzer1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348556"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "29e602a4fd3c0466ee57864451733cff",
+            "name": "University of T&#x00FC;bingen",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "95528b00f29ef3da35008a15a308bb84",
+          "name": "Efstratios Gavves",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Efstratios_Gavves1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2304222"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "09feda6a3d379e9083a33fdfe41ccb39",
+            "name": "University of Amsterdam,The Netherlands",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cccdae97d25ba9697d65d6334c09c07b",
+          "name": "Aishwarya Pravin Agrawal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "aishwarya-agrawal"
+            },
+            {
+              "type": "email.mila",
+              "link": "aishwarya.agrawal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2117267436"
+            },
+            {
+              "type": "openreview",
+              "link": "~Aishwarya_Agrawal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1500398330"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270055975"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293394830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2801949"
+            },
+            {
+              "type": "wpid_en",
+              "link": "38508"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "38504"
+            },
+            {
+              "type": "xplore",
+              "link": "37085397548"
+            },
+            {
+              "type": "xplore",
+              "link": "37085742308"
+            },
+            {
+              "type": "xplore",
+              "link": "37087883810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5a71dcb7d269209d8fd1e3b1b22d263b",
+            "name": "University of Amsterdam",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "55d03083c40d8bcc32b1399200e00984",
+          "name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "type": "conference",
+          "date": {
+            "text": "2025-06-10",
+            "timestamp": 1749528000,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "object-centric representation learning"
+      },
+      {
+        "name": "language guided control"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1109/CVPR52734.2025.02749",
+        "url": "https://doi.org/10.1109/CVPR52734.2025.02749"
+      },
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2503.21747",
+        "url": "https://doi.org/10.48550/arXiv.2503.21747"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "BE2u2KF4Tb",
+        "url": "https://openreview.net/forum?id=BE2u2KF4Tb"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "BE2u2KF4Tb",
+        "url": "https://openreview.net/pdf?id=BE2u2KF4Tb"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2503.21747",
+        "url": "https://arxiv.org/abs/2503.21747"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2503.21747",
+        "url": "https://arxiv.org/pdf/2503.21747.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2503-21747",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2503-21747"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "0470aa6d6877dd7d06b9d7a2f615370b95d17a38",
+        "url": "https://www.semanticscholar.org/paper/0470aa6d6877dd7d06b9d7a2f615370b95d17a38"
+      },
+      {
+        "type": "corpusid",
+        "link": "275466373"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "89568f1bd267bc19ed5efdda98590949",
+    "title": "VisMin: Visual Minimal-Change Understanding",
+    "abstract": "Fine-grained understanding of objects, attributes, and relationships between objects is crucial for visual-language models (VLMs). To evaluate VLMs' fine-grained understanding, existing benchmarks primarily focus on evaluating VLMs' capability to distinguish between two very similar captions given an image. In this paper, our focus is on evaluating VLMs' capability to distinguish between two very similar images given a caption. To this end, we introduce a new, challenging benchmark termed Visual Minimal-Change Understanding (VisMin), which requires models to predict the correct image-caption match given two images and two captions. Importantly, the image pair (as well as the caption pair) contains minimal changes, i.e., between the two images (as well as between the two captions), only one aspect changes at a time from among the following possible types of changes: object, attribute, count, and spatial relation. These four types of minimal changes are specifically designed to test the models' understanding of objects, attributes of objects (such as color, material, shape), counts of objects, and spatial relationships between objects. To curate our benchmark, we built an automatic pipeline using large language models and diffusion models, followed by a rigorous 4-step verification process by human annotators. Empirical experiments reveal that current VLMs exhibit notable deficiencies in understanding spatial relationships and counting abilities. Furthermore, leveraging the automated nature of our data creation process, we generate a large-scale training dataset, which we use to finetune CLIP (a foundational VLM) and Idefics2 (a multimodal large language model). Our findings show that both these models benefit significantly from fine-tuning on this data, as evident by marked improvements in fine-grained understanding across a wide range of benchmarks. Additionally, such fine-tuning improves CLIP's general image-text alignment capabilities too. All resources including the benchmark, the training data, and the finetuned model checkpoints will be released.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "9dc18ed3e1f5fb3b30fac1bf5a522f54",
+          "name": "Rabiul Awal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rabiul_Awal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2019829"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66736108"
+            },
+            {
+              "type": "xplore",
+              "link": "37089703671"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c79fe712315e62a0537b9b9779b2cf48",
+          "name": "Saba Ahmadi",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Saba_Ahmadi2"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "12841008"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2120590362"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d8bdd8227292ae95fbd80c5fb0556c71",
+          "name": "Le Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Le_Zhang6"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005316"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005521"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005528"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108006873"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2119685417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2164729643"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336102720"
+            },
+            {
+              "type": "xplore",
+              "link": "37085632708"
+            },
+            {
+              "type": "xplore",
+              "link": "924350237007911"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cccdae97d25ba9697d65d6334c09c07b",
+          "name": "Aishwarya Pravin Agrawal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "aishwarya-agrawal"
+            },
+            {
+              "type": "email.mila",
+              "link": "aishwarya.agrawal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2117267436"
+            },
+            {
+              "type": "openreview",
+              "link": "~Aishwarya_Agrawal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1500398330"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270055975"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293394830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2801949"
+            },
+            {
+              "type": "wpid_en",
+              "link": "38508"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "38504"
+            },
+            {
+              "type": "xplore",
+              "link": "37085397548"
+            },
+            {
+              "type": "xplore",
+              "link": "37085742308"
+            },
+            {
+              "type": "xplore",
+              "link": "37087883810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "286e8e2015982a1386f7584de964f5f9",
+          "name": "NeurIPS.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-09-25",
+            "timestamp": 1727236800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "vision-language"
+      },
+      {
+        "name": "fine-grained understanding"
+      },
+      {
+        "name": "multimodal representation"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2407.16772",
+        "url": "https://doi.org/10.48550/arXiv.2407.16772"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "bJddXCyosA",
+        "url": "https://openreview.net/forum?id=bJddXCyosA"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "bJddXCyosA",
+        "url": "https://openreview.net/pdf?id=bJddXCyosA"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2407.16772",
+        "url": "https://arxiv.org/abs/2407.16772"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2407.16772",
+        "url": "https://arxiv.org/pdf/2407.16772.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/nips/AwalAZA24",
+        "url": "https://dblp.uni-trier.de/rec/conf/nips/AwalAZA24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2407-16772",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2407-16772"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "http://papers.nips.cc/paper_files/paper/2024/hash/c3070c3388552a08a3326f0d28dc2af9-Abstract-Conference.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "a06b2b335c2f9ab8f8d10520eac9b409aa8e5f37",
+        "url": "https://www.semanticscholar.org/paper/a06b2b335c2f9ab8f8d10520eac9b409aa8e5f37"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "af54b39ba652e9181ee45b0fe36cbd9cbd8bd804",
+        "url": "https://www.semanticscholar.org/paper/af54b39ba652e9181ee45b0fe36cbd9cbd8bd804"
+      },
+      {
+        "type": "corpusid",
+        "link": "271404384"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "dd747c83d75a00a0733d75304fab4b3a",
+    "title": "Contrasting Intra-Modal and Ranking Cross-Modal Hard Negatives to Enhance Visio-Linguistic Compositional Understanding",
+    "abstract": "Vision-Language Models (VLMs), such as CLIP, exhibit strong image-text comprehension abilities, facilitating advances in several downstream tasks such as zero-shot image classification, image-text retrieval, and text-to-image generation. However, the compositional reasoning abilities of existing VLMs remains subpar. The root of this limitation lies in the inadequate alignment between the images and captions in the pretraining datasets. Additionally, the current contrastive learning objective fails to focus on fine-grained grounding components like relations, actions, and attributes, resulting in\"bag-of-words\"representations. We introduce a simple and effective method to improve compositional reasoning in VLMs. Our method better leverages available datasets by refining and expanding the standard image-text contrastive learning framework. Our approach does not require specific annotations and does not incur extra parameters. When integrated with CLIP, our technique yields notable improvement over state-of-the-art baselines across five vision-language compositional benchmarks. We open-source our code at https://github.com/lezhang7/Enhance-FineGrained.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "d8bdd8227292ae95fbd80c5fb0556c71",
+          "name": "Le Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Le_Zhang6"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005316"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005521"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108005528"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2108006873"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2119685417"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2164729643"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336102720"
+            },
+            {
+              "type": "xplore",
+              "link": "37085632708"
+            },
+            {
+              "type": "xplore",
+              "link": "924350237007911"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9dc18ed3e1f5fb3b30fac1bf5a522f54",
+          "name": "Rabiul Awal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Rabiul_Awal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2019829"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "66736108"
+            },
+            {
+              "type": "xplore",
+              "link": "37089703671"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cccdae97d25ba9697d65d6334c09c07b",
+          "name": "Aishwarya Pravin Agrawal",
+          "links": [
+            {
+              "type": "bio",
+              "link": "aishwarya-agrawal"
+            },
+            {
+              "type": "email.mila",
+              "link": "aishwarya.agrawal@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2117267436"
+            },
+            {
+              "type": "openreview",
+              "link": "~Aishwarya_Agrawal1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1500398330"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270055975"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2293394830"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2801949"
+            },
+            {
+              "type": "wpid_en",
+              "link": "38508"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "38504"
+            },
+            {
+              "type": "xplore",
+              "link": "37085397548"
+            },
+            {
+              "type": "xplore",
+              "link": "37085742308"
+            },
+            {
+              "type": "xplore",
+              "link": "37087883810"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2e7644e4488777eb735a190201699cd0",
+            "name": "Mila - Quebec AI Institute",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "283d81814812d4b8bf8437c0e9a08bbf",
+          "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "type": "journal",
+          "date": {
+            "text": "2024-06-16",
+            "timestamp": 1718510400,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "IEEE",
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "13774-13784"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Negative Type"
+      },
+      {
+        "name": "Stable Training"
+      },
+      {
+        "name": "Segmented Regression"
+      },
+      {
+        "name": "Bag-of-words Model"
+      },
+      {
+        "name": "contrastive learning"
+      },
+      {
+        "name": "Adaptive Threshold"
+      },
+      {
+        "name": "Progressive Training"
+      },
+      {
+        "name": "Contrastive Learning"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Annotations"
+      },
+      {
+        "name": "Ranking Loss"
+      },
+      {
+        "name": "Cognition"
+      },
+      {
+        "name": "Contrast Objective"
+      },
+      {
+        "name": "Benchmark testing"
+      },
+      {
+        "name": "Self-supervised Learning"
+      },
+      {
+        "name": "Scene Graph"
+      },
+      {
+        "name": "Text to image"
+      },
+      {
+        "name": "True Pairs"
+      },
+      {
+        "name": "Contrastive Loss"
+      },
+      {
+        "name": "Image Classification"
+      },
+      {
+        "name": "COCO Dataset"
+      },
+      {
+        "name": "Hinge Loss"
+      },
+      {
+        "name": "Upper Bound"
+      },
+      {
+        "name": "Language Model"
+      },
+      {
+        "name": "Specific Annotation"
+      },
+      {
+        "name": "Threshold Regression"
+      },
+      {
+        "name": "compositional understanding"
+      },
+      {
+        "name": "Curriculum Learning"
+      },
+      {
+        "name": "Vision-language models"
+      },
+      {
+        "name": "Image Generation"
+      },
+      {
+        "name": "Contrastive learning"
+      },
+      {
+        "name": "Semantics"
+      },
+      {
+        "name": "Comprehensive Dataset"
+      },
+      {
+        "name": "Visual Question Answering"
+      },
+      {
+        "name": "Refining"
+      },
+      {
+        "name": "Bag-of-words"
+      },
+      {
+        "name": "Similarity Score"
+      },
+      {
+        "name": "Extra Resources"
+      },
+      {
+        "name": "Segmentation Model"
+      },
+      {
+        "name": "Additional Annotations"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.1109/CVPR52733.2024.01307",
+        "url": "https://doi.org/10.1109/CVPR52733.2024.01307"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2306.08832",
+        "url": "https://arxiv.org/abs/2306.08832"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2306.08832",
+        "url": "https://arxiv.org/pdf/2306.08832.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/cvpr/ZhangAA24",
+        "url": "https://dblp.uni-trier.de/rec/conf/cvpr/ZhangAA24"
+      },
+      {
+        "type": "pdf",
+        "link": "https://export.arxiv.org/pdf/2306.08832"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "b634f9ba35123d40f0af8d96a9c154025cf2cf2a",
+        "url": "https://www.semanticscholar.org/paper/b634f9ba35123d40f0af8d96a9c154025cf2cf2a"
+      },
+      {
+        "type": "corpusid",
+        "link": "266573547"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]

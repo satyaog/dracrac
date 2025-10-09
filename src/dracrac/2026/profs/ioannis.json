@@ -1,0 +1,3666 @@
+[
+  {
+    "paper_id": "a44246302449db00004a10acd65328a0",
+    "title": "An Empirical Study of Pre-trained Model Selection for Out-of-Distribution Generalization and Calibration",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a5f66233b9c4ee82cc0cc58c9dbd2343",
+          "name": "Hiroki Naganuma",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hiroki_Naganuma1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065887868"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1738899f40b882ede0540c6f87c0cc7a",
+            "name": "2 Université de Montréal",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "acf02b59629d8a81a2ef160ed56bd110",
+          "name": "Ryuichiro Hataya",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryuichiro_Hataya1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "90269003"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "02d7fb28132074cdd60cf03c0d21af85",
+            "name": "Japan",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1738899f40b882ede0540c6f87c0cc7a",
+            "name": "2 Université de Montréal",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b87e0d2627625994ce17fc86c7b50534",
+          "name": "Kotaro Yoshida",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kotaro_Yoshida1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2281998487"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1738899f40b882ede0540c6f87c0cc7a",
+            "name": "2 Université de Montréal",
+            "category": "academia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "1738899f40b882ede0540c6f87c0cc7a",
+            "name": "2 Université de Montréal",
+            "category": "academia"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "378fbd4ca941585e46f21b52307f00fa",
+          "name": "Trans. Mach. Learn. Res.",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "45e45117ca3fd89524f8ce9328a17a6c",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2025-05-13",
+            "timestamp": 1747108800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "tYjoHjShxF",
+        "url": "https://openreview.net/forum?id=tYjoHjShxF"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "tYjoHjShxF",
+        "url": "https://openreview.net/pdf?id=tYjoHjShxF"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2307.08187",
+        "url": "https://arxiv.org/abs/2307.08187"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2307.08187",
+        "url": "https://arxiv.org/pdf/2307.08187.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/tmlr/NaganumaHYM25",
+        "url": "https://dblp.uni-trier.de/rec/journals/tmlr/NaganumaHYM25"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=tYjoHjShxF"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "37f729f59495f001cee0eff1637afdb92f1ab3e7",
+        "url": "https://www.semanticscholar.org/paper/37f729f59495f001cee0eff1637afdb92f1ab3e7"
+      },
+      {
+        "type": "corpusid",
+        "link": "259936895"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "966be07ad86f719304db17526dde6e29",
+    "title": "Compositional Risk Minimization",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "8466acee300fb2d703da5742588184bf",
+          "name": "Divyat Mahajan",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Divyat_Mahajan1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "133841722"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bcc0172756c1cbe7b9d24ff14521620a",
+          "name": "Mohammad Pezeshki",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Mohammad_Pezeshki1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145507036"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2066044581"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249759469"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "32edeaaa66a5ca3931e0d8747bf3c63a",
+          "name": "Charles Arnal",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Charles_Arnal1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c30cd7030a137370e6c373b70ed3c15d",
+          "name": "Kartik Ahuja",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kartik_Ahuja1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2242252645"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3048927"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f863a93af6ca1099ec5051192f338fd1",
+          "name": "Pascal Vincent",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "113022866"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "143735324"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "145178903"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "145417957"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "145467694"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "145467704"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "145467708"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "145490329"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "147852674"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "152725347"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "153035932"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "153470197"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "153470206"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "1997308130"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2065987868"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2065988059"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2066169209"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2090593084"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2091067535"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2091067541"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2094648964"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "2105438"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "4446311"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "46509624"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "48962436"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "49531226"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "81195476"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "90520795"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "94969008"
+            },
+            {
+              "type": "!semantic_scholar",
+              "link": "95192812"
+            },
+            {
+              "type": "bio",
+              "link": "pascal-vincent"
+            },
+            {
+              "type": "email.mila",
+              "link": "vincentp@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2397241174"
+            },
+            {
+              "type": "openreview",
+              "link": "~Pascal_Vincent1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "120247189"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "145467703"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065988059"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065988715"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2090593084"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2249761104"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275214192"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2287613774"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2301494553"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "48019727"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "94969008"
+            },
+            {
+              "type": "wpid_en",
+              "link": "311"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "307"
+            },
+            {
+              "type": "xplore",
+              "link": "37087234109"
+            },
+            {
+              "type": "xplore",
+              "link": "37088064458"
+            },
+            {
+              "type": "xplore",
+              "link": "37278457700"
+            },
+            {
+              "type": "xplore",
+              "link": "37439738700"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "5aba91d6a514aff0054d48b987c3fea6",
+            "name": "DIRO",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "35a209951c8914caa8d407864b03c764",
+          "name": "ICML.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-05-01",
+            "timestamp": 1746072000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Compositional Generalization"
+      },
+      {
+        "name": "Compositional Shifts"
+      },
+      {
+        "name": "Out of Distribution Generalization"
+      },
+      {
+        "name": "Provable Extrapolation"
+      },
+      {
+        "name": "Energy Based Models"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2410.06303",
+        "url": "https://doi.org/10.48550/arXiv.2410.06303"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "YtAhOVCy2t",
+        "url": "https://openreview.net/forum?id=YtAhOVCy2t"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "axN83wi3NH",
+        "url": "https://openreview.net/forum?id=axN83wi3NH"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "tx148Q8KoB",
+        "url": "https://openreview.net/forum?id=tx148Q8KoB"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "YtAhOVCy2t",
+        "url": "https://openreview.net/pdf?id=YtAhOVCy2t"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "axN83wi3NH",
+        "url": "https://openreview.net/pdf?id=axN83wi3NH"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "tx148Q8KoB",
+        "url": "https://openreview.net/pdf?id=tx148Q8KoB"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2410.06303",
+        "url": "https://arxiv.org/abs/2410.06303"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2410.06303",
+        "url": "https://arxiv.org/pdf/2410.06303.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2410-06303",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2410-06303"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "d992087f6bb23395f9c62f80109f2e1fad852508",
+        "url": "https://www.semanticscholar.org/paper/d992087f6bb23395f9c62f80109f2e1fad852508"
+      },
+      {
+        "type": "corpusid",
+        "link": "273229459"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "94f4b90c1ec475338806f66dbf4b084c",
+    "title": "Feature learning as alignment: a structural property of gradient descent in non-linear neural networks",
+    "abstract": "Understanding the mechanisms through which neural networks extract statistics from input-label pairs through feature learning is one of the most important unsolved problems in supervised learning. Prior works demonstrated that the gram matrices of the weights (the neural feature matrices, NFM) and the  average gradient outer products (AGOP) become correlated during training, in a statement known as the neural feature ansatz (NFA). Through the NFA, the authors introduce mapping with the AGOP as a general mechanism for neural feature learning. However, these works do not provide a theoretical explanation for this correlation or its origins. In this work, we further clarify the nature of this correlation, and explain its emergence. We show that this correlation is equivalent to alignment between the left singular structure of the weight matrices and the newly defined pre-activation tangent features at each layer. We further establish that the alignment is driven by the interaction of weight changes induced by SGD with the pre-activation features, and analyze the resulting dynamics analytically at early times in terms of simple statistics of the inputs and labels. We prove the derivative alignment occurs with high probability in specific high dimensional settings. Finally, motivated by the observation that the NFA is driven by this centered correlation, we introduce a simple optimization rule that dramatically increases the NFA correlations at any given layer and improves the quality of features learned.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "88eb76b67dfa98be3ba3e2569b808756",
+          "name": "Daniel Beaglehole",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Daniel_Beaglehole1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2123039306"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "52bed53ac7e9dd0ad6ebd9d1d5d58f11",
+            "name": "UC San Diego",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "85dc8baec8020b69b9c3bab5318cf90c",
+          "name": "Atish Agarwala",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Atish_Agarwala1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "33612913"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "58e92d245c675497138754d320a69f1a",
+            "name": "Google DeepMind",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "4542bc69eb6f96a1952414086e49ae0a",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2024-11-11",
+            "timestamp": 1731301200,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "JXCe2ZcUXr",
+        "url": "https://openreview.net/forum?id=JXCe2ZcUXr"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "JXCe2ZcUXr",
+        "url": "https://openreview.net/pdf?id=JXCe2ZcUXr"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2402.05271",
+        "url": "https://arxiv.org/abs/2402.05271"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2402.05271",
+        "url": "https://arxiv.org/pdf/2402.05271.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/tmlr/BeagleholeMA24",
+        "url": "https://dblp.uni-trier.de/rec/journals/tmlr/BeagleholeMA24"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=JXCe2ZcUXr"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "e7259e25247ea91d3952d904b438f474882300a9",
+        "url": "https://www.semanticscholar.org/paper/e7259e25247ea91d3952d904b438f474882300a9"
+      },
+      {
+        "type": "corpusid",
+        "link": "267547436"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "d7ee9c5d9aa753633907c6a93805ce49",
+    "title": "Solving Hidden Monotone Variational Inequalities with Surrogate Losses",
+    "abstract": "Deep learning has proven to be effective in a wide variety of loss minimization problems. However, many applications of interest, like minimizing projected Bellman error and min-max optimization, cannot be modelled as minimizing a scalar loss function but instead correspond to solving a variational inequality (VI) problem. This difference in setting has caused many practical challenges as naive gradient-based approaches from supervised learning tend to diverge and cycle in the VI case. In this work, we propose a principled surrogate-based approach compatible with deep learning to solve VIs. We show that our surrogate-based approach has three main benefits: (1) under assumptions that are realistic in practice (when hidden monotone structure is present, interpolation, and sufficient optimization of the surrogates), it guarantees convergence, (2) it provides a unifying perspective of existing methods, and (3) is amenable to existing deep learning optimizers like ADAM. Experimentally, we demonstrate our surrogate-based approach is effective in min-max optimization and minimizing projected Bellman error. Furthermore, in the deep reinforcement learning case, we propose a novel variant of TD(0) which is more compute and sample efficient.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "b2460fd1ce4526436d96de45f2368773",
+          "name": "Ryan D'Orazio",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Ryan_D'Orazio1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1414056326"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330082785"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "e6b7ccfa2c196937d27b646f95803bfd",
+          "name": "Danilo Vucetic",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Danilo_Vucetic1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2164093453"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253655066"
+            },
+            {
+              "type": "xplore",
+              "link": "37089594358"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9121d2fca475e3e0d6bc4d8de2b0be83",
+          "name": "Zichu Liu",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Zichu_Liu1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330169817"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "c28342afb089418e4596d3fadfa5ebe1",
+          "name": "Junhyung Lyle Kim",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Junhyung_Lyle_Kim1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2120215686"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3d041ce8296f4cea6a3aa7c7eead7120",
+            "name": "USA",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "593d1326e75476ef17fd7c19ee90db27",
+            "name": "Department of Computer Science",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7fbbdee264abb92529d85ab61fea539f",
+            "name": "Rice University",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2546c6e9d8c21e4c211681939b29ef03",
+            "name": "CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "9c81d52a835b574e15d59d9b39254580",
+          "name": "Gauthier Gidel",
+          "links": [
+            {
+              "type": "bio",
+              "link": "gauthier-gidel"
+            },
+            {
+              "type": "email.mila",
+              "link": "gidelgau@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2539484857"
+            },
+            {
+              "type": "openreview",
+              "link": "~Gauthier_Gidel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "8150760"
+            },
+            {
+              "type": "wpid_en",
+              "link": "56939"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "56938"
+            },
+            {
+              "type": "xplore",
+              "link": "403674162029036"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "2546c6e9d8c21e4c211681939b29ef03",
+            "name": "CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "3b267db4aea551ea093661ef7519c1ec",
+            "name": "Mila Québec AI Institute",
+            "category": "academia"
+          },
+          {
+            "institution_id": "4cfe82f20f6016691ccda3e248335bd9",
+            "name": "Canada",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "738170766aa834f90568b272e04b83c9",
+          "name": "ICLR.cc/2025/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2025-01-22",
+            "timestamp": 1737522000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICLR.cc/2025/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICLR 2025"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      },
+      {
+        "venue": {
+          "venue_id": "0f594c4031b8803ff34b6648f833802f",
+          "name": "ICLR",
+          "type": "journal",
+          "date": {
+            "text": "2025",
+            "timestamp": 1735707600,
+            "precision": 1
+          },
+          "links": [],
+          "publisher": null,
+          "series": "",
+          "volume": null
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "FOS: Computer and information sciences"
+      },
+      {
+        "name": "Mathematics"
+      },
+      {
+        "name": "Variational Inequality"
+      },
+      {
+        "name": "Optimization and Control (math.OC)"
+      },
+      {
+        "name": "Surrogate"
+      },
+      {
+        "name": "Hidden Monotone"
+      },
+      {
+        "name": "Min-max"
+      },
+      {
+        "name": "Optimization"
+      },
+      {
+        "name": "Projected Bellman Error"
+      },
+      {
+        "name": "Min-max Optimization"
+      },
+      {
+        "name": "Machine Learning (cs.LG)"
+      },
+      {
+        "name": "FOS: Mathematics"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2411.05228",
+        "url": "https://doi.org/10.48550/arXiv.2411.05228"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "4ZX2a3OKEV",
+        "url": "https://openreview.net/forum?id=4ZX2a3OKEV"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "YAeS4mKyz5",
+        "url": "https://openreview.net/forum?id=YAeS4mKyz5"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "4ZX2a3OKEV",
+        "url": "https://openreview.net/pdf?id=4ZX2a3OKEV"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "YAeS4mKyz5",
+        "url": "https://openreview.net/pdf?id=YAeS4mKyz5"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2411.05228",
+        "url": "https://arxiv.org/abs/2411.05228"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2411.05228",
+        "url": "https://arxiv.org/pdf/2411.05228.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/iclr/DOrazioVLKMG25",
+        "url": "https://dblp.uni-trier.de/rec/conf/iclr/DOrazioVLKMG25"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2411-05228",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2411-05228"
+      },
+      {
+        "type": "pdf",
+        "link": ""
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=4ZX2a3OKEV"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "6079ecad1868fed9a3f68e223d5647007351fec0",
+        "url": "https://www.semanticscholar.org/paper/6079ecad1868fed9a3f68e223d5647007351fec0"
+      },
+      {
+        "type": "corpusid",
+        "link": "273950322"
+      },
+      {
+        "type": "url",
+        "link": "https://arxiv.org/abs/2411.05228"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "b4b1ae3a985927f78a478c43696b4f33",
+    "title": "Pseudo-Asynchronous Local SGD: Robust and Efficient Data-Parallel Training",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "a5f66233b9c4ee82cc0cc58c9dbd2343",
+          "name": "Hiroki Naganuma",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hiroki_Naganuma1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065887868"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "1042235e7555586e74eee2136f6fbf48",
+          "name": "Xinzhi Zhang",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Xinzhi_Zhang2"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "12170b8cd0174fd437692f321465fb08",
+            "name": "University of Washington",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "39086564bbc1022465ee59f3e8d6989e",
+          "name": "Man-Chung Yue",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Man-Chung_Yue1"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "3af1107be097c30010a7ae39cdef1808",
+            "name": "The University of Hong Kong",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "0a4595cdfa4e6d9d22cc74f6a6a2666f",
+            "name": "Canada CIFAR AI Chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "aceef53941b4514e1a4826a77472bcb7",
+          "name": "Russell J. Hewett",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Russell_J._Hewett1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2945519"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "48233abfaf6d4bbd3d581d71c8e1362e",
+          "name": "Philipp Andre Witte",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Philipp_Andre_Witte1"
+            }
+          ]
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "author_id": "df5605336efa874b141f362c4f1e2f4a",
+          "name": "Yin Tat Lee",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Yin_Tat_Lee1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2239163839"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "12170b8cd0174fd437692f321465fb08",
+            "name": "University of Washington",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "1d87173d030a40540bf06512ae5aa179",
+            "name": "Microsoft",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "33439c65df4210f585836cc6f18afe72",
+          "name": "TMLR",
+          "type": "unknown",
+          "date": {
+            "text": "2025-09-15",
+            "timestamp": 1757908800,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "TMLR"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "by TMLR"
+        },
+        "peer_reviewed": true,
+        "status": "accepted",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "optimization"
+      },
+      {
+        "name": "local sgd"
+      },
+      {
+        "name": "data parallel training"
+      },
+      {
+        "name": "distributed deep learning"
+      }
+    ],
+    "links": [
+      {
+        "type": "openreview.abstract",
+        "link": "8VTrvS5vN7",
+        "url": "https://openreview.net/forum?id=8VTrvS5vN7"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "UTzB9rG0k7",
+        "url": "https://openreview.net/forum?id=UTzB9rG0k7"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "8VTrvS5vN7",
+        "url": "https://openreview.net/pdf?id=8VTrvS5vN7"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "UTzB9rG0k7",
+        "url": "https://openreview.net/pdf?id=UTzB9rG0k7"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "ba4b226f95788095453ab2dbbbee65fd",
+    "title": "Expecting The Unexpected: Towards Broad Out-Of-Distribution Detection",
+    "abstract": "",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ec6d445d9d0b22cddb6292d4437654f9",
+          "name": "Charles Guille-Escuret",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Charles_Guille-Escuret1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1417260182"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "cf9e8d41fed9107e9593d4c918b12ba9",
+          "name": "Pierre-Andre Noel",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Pierre-Andre_Noel1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1387900763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1828090"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2270915411"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "200bed81461cad607d593360fe5fcc0a",
+            "name": "Université de Montréal",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "438a7357214acdfec9d5341907f3afa4",
+            "name": "Canada CIFAR AI chair",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "7c73e6c07b58e2198ed49ebb6e6e6bd0",
+            "name": "Mila, Université de Montréal",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "d6d0826009741b0547b563e94d4fb31a",
+          "name": "David Vazquez",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~David_Vazquez1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "115932032"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "146560965"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064388271"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064388282"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2064388326"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262443763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2269970290"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2275588082"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2279541098"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2286356245"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2298040691"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331331488"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351057662"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354554295"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357081550"
+            },
+            {
+              "type": "xplore",
+              "link": "37089271024"
+            },
+            {
+              "type": "xplore",
+              "link": "37529967800"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "bafe9e65045b3fa58f521902e1eb6e9b",
+          "name": "Joao Monteiro",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Joao_Monteiro1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "144903711"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2165647953"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262443863"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2346835807"
+            },
+            {
+              "type": "xplore",
+              "link": "37088485069"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "522e63b4a8e0b8cd3098fffadf9a9b05",
+            "name": "ServiceNow Research",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38d149f31276f4b2b56ff618712cc42e",
+          "name": "NeurIPS.cc/2024/Datasets_and_Benchmarks_Track",
+          "type": "track",
+          "date": {
+            "text": "2024-09-26",
+            "timestamp": 1727323200,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "NeurIPS.cc/2024/Datasets_and_Benchmarks_Track"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "NeurIPS Track Datasets and Benchmarks 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "outlier detection"
+      },
+      {
+        "name": "adversarial detection"
+      },
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "broad OOD detection"
+      },
+      {
+        "name": "BROAD"
+      },
+      {
+        "name": "out-of-distribution detection"
+      },
+      {
+        "name": "detection benchmark"
+      },
+      {
+        "name": "distribution shifts"
+      },
+      {
+        "name": "broad"
+      },
+      {
+        "name": "OOD detection"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2308.11480",
+        "url": "https://doi.org/10.48550/arXiv.2308.11480"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "QxJHh7Z39R",
+        "url": "https://openreview.net/forum?id=QxJHh7Z39R"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "RxhOEngX8s",
+        "url": "https://openreview.net/forum?id=RxhOEngX8s"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "QxJHh7Z39R",
+        "url": "https://openreview.net/pdf?id=QxJHh7Z39R"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "RxhOEngX8s",
+        "url": "https://openreview.net/pdf?id=RxhOEngX8s"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2308.11480",
+        "url": "https://arxiv.org/abs/2308.11480"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2308.11480",
+        "url": "https://arxiv.org/pdf/2308.11480.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/nips/Guille-EscuretN24",
+        "url": "https://dblp.uni-trier.de/rec/conf/nips/Guille-EscuretN24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2308-11480",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2308-11480"
+      },
+      {
+        "type": "pdf",
+        "link": "https://export.arxiv.org/pdf/2308.11480"
+      },
+      {
+        "type": "html",
+        "link": "http://papers.nips.cc/paper_files/paper/2024/hash/ec80d18205e39d42a27192d5f3ddd688-Abstract-Datasets_and_Benchmarks_Track.html"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "bb3b1f13a400f77348443d4405caba366b5e2328",
+        "url": "https://www.semanticscholar.org/paper/bb3b1f13a400f77348443d4405caba366b5e2328"
+      },
+      {
+        "type": "corpusid",
+        "link": "265829511"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  },
+  {
+    "paper_id": "cab74ff59cf1d69c52a0927a107cc4ea",
+    "title": "No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths",
+    "abstract": "Understanding the optimization dynamics of neural networks is necessary for closing the gap between theory and practice. Stochastic first-order optimization algorithms are known to efficiently locate favorable minima in deep neural networks. This efficiency, however, contrasts with the non-convex and seemingly complex structure of neural loss landscapes. In this study, we delve into the fundamental geometric properties of sampled gradients along optimization paths. We focus on two key quantities, which appear in the restricted secant inequality and error bound. Both hold high significance for first-order optimization. Our analysis reveals that these quantities exhibit predictable, consistent behavior throughout training, despite the stochasticity induced by sampling minibatches. Our findings suggest that not only do optimization trajectories never encounter significant obstacles, but they also maintain stable dynamics during the majority of training. These observed properties are sufficiently expressive to theoretically guarantee linear convergence and prescribe learning rate schedules mirroring empirical practices. We conduct our experiments on image classification, semantic segmentation and language modeling across different batch sizes, network architectures, datasets, optimizers, and initialization seeds. We discuss the impact of each factor. Our work provides novel insights into the properties of neural network loss functions, and opens the door to theoretical frameworks more relevant to prevalent practice.",
+    "authors": [
+      {
+        "author": {
+          "author_id": "ec6d445d9d0b22cddb6292d4437654f9",
+          "name": "Charles Guille-Escuret",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Charles_Guille-Escuret1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "1417260182"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "a5f66233b9c4ee82cc0cc58c9dbd2343",
+          "name": "Hiroki Naganuma",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Hiroki_Naganuma1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065887868"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "b629e7bb984956722db5f825b9c3b79a",
+          "name": "Kilian FATRAS",
+          "links": [
+            {
+              "type": "openreview",
+              "link": "~Kilian_FATRAS1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "89090410"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "2d64978822ccf8676fd9f98e10c823c2",
+            "name": "McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "36a99ea79f6c22565c31d067a1843ca9",
+            "name": "Mila, McGill University",
+            "category": "unknown"
+          },
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      },
+      {
+        "author": {
+          "author_id": "f5603fd357c604d6c52e7949a2615ae8",
+          "name": "Ioannis Mitliagkas",
+          "links": [
+            {
+              "type": "!semantic_scholar",
+              "link": "147495102"
+            },
+            {
+              "type": "bio",
+              "link": "ioannis-mitliagkas"
+            },
+            {
+              "type": "email.mila",
+              "link": "ioannis@mila.quebec"
+            },
+            {
+              "type": "mag",
+              "link": "2714540783"
+            },
+            {
+              "type": "mag",
+              "link": "3041943730"
+            },
+            {
+              "type": "mag",
+              "link": "3170144952"
+            },
+            {
+              "type": "mag",
+              "link": "802187145"
+            },
+            {
+              "type": "openreview",
+              "link": "~Ioannis_Mitliagkas1"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2065139188"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2253572542"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2258478301"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2262715429"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2265552132"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2283303750"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2291495102"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2292455185"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295317814"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2295996458"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2303474119"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257352"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2306257354"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2307272791"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2308126463"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2309830007"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2311376050"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313348973"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2313936763"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2315503724"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2316421217"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2321745489"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2322248943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325259719"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2325744611"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2327966435"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2330181848"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2331508011"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2333916943"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2336558555"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2341075858"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2348259751"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2350474035"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2351891350"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2354736180"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2357073063"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2363733159"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2366221874"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2369939855"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2375282278"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2376133284"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2379011534"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "2380698713"
+            },
+            {
+              "type": "semantic_scholar",
+              "link": "3168518"
+            },
+            {
+              "type": "wpid_en",
+              "link": "27980"
+            },
+            {
+              "type": "wpid_fr",
+              "link": "27984"
+            },
+            {
+              "type": "xplore",
+              "link": "37974127300"
+            }
+          ]
+        },
+        "affiliations": [
+          {
+            "institution_id": "78a83265183550c66a78ff9b5f9b960f",
+            "name": "Mila",
+            "category": "unknown"
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "venue": {
+          "venue_id": "38ec3923bfe8956adbad534d5c94cd14",
+          "name": "Proceedings of the 41st International Conference on Machine Learning",
+          "type": "unknown",
+          "date": {
+            "text": "2024-07-08",
+            "timestamp": 1720411200,
+            "precision": 3
+          },
+          "links": [],
+          "publisher": "PMLR",
+          "series": "",
+          "volume": "235"
+        },
+        "peer_reviewed": true,
+        "status": "published",
+        "pages": "16751-16772"
+      },
+      {
+        "venue": {
+          "venue_id": "6ee40ec701fe5c2ef177617c4e0e32e2",
+          "name": "ICML.cc/2024/Conference",
+          "type": "conference",
+          "date": {
+            "text": "2024-05-01",
+            "timestamp": 1714536000,
+            "precision": 3
+          },
+          "links": [
+            {
+              "type": "openreview-venue",
+              "link": "ICML.cc/2024/Conference"
+            }
+          ],
+          "publisher": null,
+          "series": "",
+          "volume": "ICML 2024"
+        },
+        "peer_reviewed": true,
+        "status": "poster",
+        "pages": null
+      }
+    ],
+    "topics": [
+      {
+        "name": "Computer Science"
+      },
+      {
+        "name": "Loss Landscape"
+      },
+      {
+        "name": "Mathematics"
+      },
+      {
+        "name": "Deep learning"
+      },
+      {
+        "name": "Optimization"
+      }
+    ],
+    "links": [
+      {
+        "type": "doi.abstract",
+        "link": "10.48550/arXiv.2306.11922",
+        "url": "https://doi.org/10.48550/arXiv.2306.11922"
+      },
+      {
+        "type": "mlr.abstract",
+        "link": "235/guille-escuret24a",
+        "url": "https://proceedings.mlr.press/v235/guille-escuret24a.html"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "60vx5AfM3C",
+        "url": "https://openreview.net/forum?id=60vx5AfM3C"
+      },
+      {
+        "type": "openreview.abstract",
+        "link": "tf6nR1B8Nt",
+        "url": "https://openreview.net/forum?id=tf6nR1B8Nt"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "60vx5AfM3C",
+        "url": "https://openreview.net/pdf?id=60vx5AfM3C"
+      },
+      {
+        "type": "openreview.pdf",
+        "link": "tf6nR1B8Nt",
+        "url": "https://openreview.net/pdf?id=tf6nR1B8Nt"
+      },
+      {
+        "type": "arxiv.abstract",
+        "link": "2306.11922",
+        "url": "https://arxiv.org/abs/2306.11922"
+      },
+      {
+        "type": "arxiv.pdf",
+        "link": "2306.11922",
+        "url": "https://arxiv.org/pdf/2306.11922.pdf"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "conf/icml/Guille-EscuretN24",
+        "url": "https://dblp.uni-trier.de/rec/conf/icml/Guille-EscuretN24"
+      },
+      {
+        "type": "dblp.abstract",
+        "link": "journals/corr/abs-2306-11922",
+        "url": "https://dblp.uni-trier.de/rec/journals/corr/abs-2306-11922"
+      },
+      {
+        "type": "pdf",
+        "link": "http://export.arxiv.org/pdf/2306.11922"
+      },
+      {
+        "type": "pdf",
+        "link": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/guille-escuret24a/guille-escuret24a.pdf"
+      },
+      {
+        "type": "html",
+        "link": "https://openreview.net/forum?id=60vx5AfM3C"
+      },
+      {
+        "type": "semantic_scholar.abstract",
+        "link": "df3d9a4acc1e65a54dd4901f78d4a26989394e6e",
+        "url": "https://www.semanticscholar.org/paper/df3d9a4acc1e65a54dd4901f78d4a26989394e6e"
+      },
+      {
+        "type": "corpusid",
+        "link": "259212097"
+      }
+    ],
+    "flags": [
+      {
+        "name": "validation",
+        "value": 1
+      }
+    ],
+    "validated": true,
+    "citation_count": 0,
+    "excerpt": null
+  }
+]
