@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#   "pyyaml",
+#   "rootutils",
+# ]
+# ///
+
 import argparse
 import json
 import logging
@@ -8,13 +16,13 @@ from pathlib import Path
 import yaml
 
 try:
-    from .split_authors import filter_papers
+    from .filter import filter_papers
 
 except ImportError:
     import rootutils
 
     rootutils.setup_root(__file__, indicator=".project-root")
-    from split_authors import filter_papers  # pyright: ignore[reportMissingImports]
+    from filter import filter_papers  # pyright: ignore[reportMissingImports]
 
 
 if __name__ == "__main__":

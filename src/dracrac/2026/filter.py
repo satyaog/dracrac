@@ -2,6 +2,11 @@
 # do
 #   python3 filter.py paperoni-2024-10-09.json --author "${author}" >paperoni-2024-10-09_"${author// /_}".json
 # done
+
+# /// script
+# requires-python = ">=3.10"
+# ///
+
 import argparse
 import json
 import logging

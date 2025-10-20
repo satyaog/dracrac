@@ -1,2 +1,2 @@
-  55 : NeurIPS 2024                                                                                                            
-  12 : NeurIPS.cc/2024/Datasets_and_Benchmarks_Track                                                                           
+  55  NeurIPS 2024
+  12  NeurIPS.cc/2024/Datasets_and_Benchmarks_Track

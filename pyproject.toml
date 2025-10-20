@@ -24,10 +24,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = [
-  "rootutils",
-  "pyyaml",
-]
+dependencies = []
 
 [project.urls]
 Documentation = "https://github.com/Satya Ortiz-Gagne/dracrac#readme"
@@ -41,20 +38,49 @@ dracrac = "dracrac.cli:dracrac"
 path = "src/dracrac/__about__.py"
 
 [tool.hatch.envs.default]
+detach = true
 installer = "uv"
-post-install-commands = [
-    "sync",
+dependencies = [
+  "uv==0.9.4"
 ]
 
-[tool.hatch.envs.default.scripts]
-sync = "uv sync --active --all-extras"
-add = [
-  "sync",
-  "uv add --active {args}",
+[tool.hatch.envs.2026.scripts]
+list-refs = [
+  "",
+  """
+  cd {root:real}/src/dracrac/2026
+  uv lock --script filter.py
+  uv lock --script list_papers.py
+  uv run --script filter.py "paperoni-2024-04-01--2025-10-09.json" --authors "profs.txt" --start "2024-04-01" --out "profs/"
+  uv run --script list_papers.py --out refs/papers.json --format json profs/*.json
+  uv run --script list_papers.py --out refs/papers.csv --format csv profs/*.json
+  """
 ]
-"@" = [
-  "sync",
-  "{args}"
+bin-venues = [
+  "",
+  """
+  cd {root:real}/src/dracrac/2026
+  uv lock --script bin_venues.py
+  if [ -f "venues/bins.yaml" ]
+  then
+    uv run --script bin_venues.py "paperoni-2024-04-01--2025-10-09.json" --start "2024-04-01" --end "2025-04-01" --bins "venues/bins.yaml" --out "venues/bins.txt"
+    cat "venues/bins.txt"
+  else
+    uv run --script bin_venues.py "paperoni-2024-04-01--2025-10-09.json" --start "2024-04-01" --end "2025-04-01" --out "venues/all.txt"
+    for v in "International Conference on Learning Representations" \
+      "ICLR" \
+      "International Conference on Machine Learning" \
+      "ICML" \
+      "Neural Information Processing Systems" \
+      "NeurIPS"
+    do
+      grep -i "$v" venues/all.txt >"venues/$v.txt"
+      echo "venues/$v.txt"
+      cat "venues/$v.txt"
+    done
+    echo "Please update the 'venues/bins.yaml' file by looking at the matches in 'venues/*.txt'. Then run this script again."
+  fi
+  """
 ]
 
 [tool.hatch.envs.types]

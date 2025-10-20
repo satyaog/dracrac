@@ -2,6 +2,11 @@
 # do
 #   python3 print_ref.py paperoni-2024-10-09.json --year 2024 --format json >"${author}".html
 # done
+
+# /// script
+# requires-python = ">=3.10"
+# ///
+
 import argparse
 import csv
 import io
