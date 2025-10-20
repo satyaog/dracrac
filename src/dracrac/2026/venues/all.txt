@@ -1,0 +1,445 @@
+   1  2024 16th International Conference on Cyber Conflict: Over the Horizon (CyCon)
+   1  2024 20th International Conference on the Design of Reliable Communication Networks (DRCN)
+   1  2024 4th International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)
+   1  2024 58th Asilomar Conference on Signals, Systems, and Computers
+   1  2024 6th International Conference on Computer Communication and the Internet (ICCCI)
+   3  2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)
+   1  2024 IEEE 40th International Conference on Data Engineering (ICDE)
+   2  2024 IEEE 63rd Conference on Decision and Control (CDC)
+   1  2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)
+   1  2024 IEEE International Conference on Big Data (BigData)
+   1  2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+   1  2024 IEEE International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA)
+   1  2024 IEEE International Conference on Recent Advances in Systems Science and Engineering (RASSE)
+   6  2024 IEEE International Conference on Robotics and Automation (ICRA)
+   2  2024 IEEE International Conference on Software Maintenance and Evolution (ICSME)
+   1  2024 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+   1  2024 IEEE International Symposium on Biomedical Imaging (ISBI)
+   1  2024 IEEE International Symposium on Circuits and Systems (ISCAS)
+   1  2024 IEEE Power & Energy Society General Meeting (PESGM)
+   4  2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+   4  2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+   1  2024 International Conference on Machine Learning and Applications (ICMLA)
+   1  2024 International Conference on Smart Applications, Communications and Networking (SmartNets)
+   1  2024 International Joint Conference on Neural Networks (IJCNN)
+   5  2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+   1  2025 International Conference on 3D Vision (3DV)
+   1  AABI - Archival Track 2024
+   1  AABI 2024
+   5  ACL (1)
+   2  ACL (Findings)
+   1  ACM Computing Surveys
+   1  ACM Journal of Data and Information Quality
+   1  ACM SIGCAS Computers and Society
+   2  ACM Symposium on User Interface Software and Technology
+   1  ACM Trans. Archit. Code Optim.
+   3  ACM Trans. Softw. Eng. Methodol.
+   1  ACM Transactions on Architecture and Code Optimization
+   1  ACM Transactions on Architecture and Code Optimization (TACO)
+   1  ACM Transactions on Information Systems
+   6  ACM Transactions on Software Engineering and Methodology
+   1  ACM Transactions on the Web
+   1  ACML Conference Track 2024
+   4  AISTATS
+  16  AISTATS 2025
+   1  ANT/EDI40
+   1  Advances in Materials
+   1  American Journal of Botany
+   1  American-Eurasian journal of botany
+   2  Annals of Epidemiology
+   1  Applied Energy
+   1  Archives of Gerontology and Geriatrics
+   1  Asia and South Pacific Design Automation Conference
+   1  Asilomar Conference on Signals, Systems and Computers
+   2  BMC Bioinformatics
+   1  BMC Cancer
+   1  BMC Medical Education
+   1  BMJ Global Health
+   1  BMJ Neurology Open
+   1  BMJ Open
+   1  BOKU.ac.at/2024/AI4Mat
+   1  Bernoulli
+   1  Bildverarbeitung für die Medizin
+   1  Bioelectronic Medicine
+   2  Biological Psychiatry
+   1  Biological Psychiatry Global Open Science
+   1  Biological Psychiatry: Cognitive Neuroscience and Neuroimaging
+   1  Brachytherapy
+   1  Brain Communications
+   1  Brazilian Journal of Anesthesiology
+   1  Brazilian Journal of Anesthesiology (English Edition)
+   1  Briefings Bioinform.
+   2  Briefings in Bioinformatics
+   1  Bulletin of the World Health Organization
+   2  CHASE@ICSE
+   1  CHI Extended Abstracts
+   1  CLEaR
+   1  CLeaR
+   1  CLeaR 2025
+  11  COLM
+   4  CVPR
+   1  Canadian Journal of Anaesthesia-journal Canadien D Anesthesie
+   1  Canadian Journal of Anesthesia/Journal canadien d'anesthésie
+   1  Canadian Journal of Cardiology
+   1  Canadian Journal of Diabetes
+   1  Canadian Journal of Political Science
+   1  Canadian Journal of Political Science/Revue canadienne de science politique
+   2  Canadian Journal of Public Health
+   1  Canadian Journal of Surgery
+   2  Canadian journal of public health
+   3  Canadian journal of surgery. Journal canadien de chirurgie
+   1  Cancer Research
+   1  Cell
+   1  Cell Genomics
+   2  Cell Reports
+   2  Cerebral Cortex (New York, NY)
+   1  Children
+   1  Circulation
+   1  Clinical Oncology
+   1  Clinics in oncology
+   1  CoRL 2024
+   5  Communications Biology
+   2  Communications in Computer and Information Science
+   1  Companion Proceedings of the ACM on Web Conference 2024
+   1  Comptabilite Controle Audit
+   1  Comptabilité Contrôle Audit
+   2  Comput. Biol. Medicine
+   1  Comput. Ind. Eng.
+   1  Computational Economics
+   1  Computational Visual Media
+   1  Computer Graphics Forum
+   2  Computer Vision and Pattern Recognition
+   1  Computers & Operations Research
+   4  Computers &amp; Operations Research
+   2  Computers in Biology and Medicine
+   1  Conference on Designing Interactive Systems
+   1  Data & Policy
+   1  Data &amp; Policy
+   1  Database Security
+   3  Designing Interactive Systems Conference
+   1  Digital Chemical Engineering
+   1  Digital Investigation. The International Journal of Digital Forensics and Incident Response
+   1  Earth and Space 2024
+   1  Ecography
+   1  Education Sciences
+   1  Education and Information Technologies
+   1  Education and Information Technologies : Official Journal of the IFIP technical committee on Education
+   1  Education sciences
+   2  Electric Power Systems Research
+   1  Electric power systems research
+   5  Empir. Softw. Eng.
+   8  Empirical Software Engineering
+   1  Engineering Applications of Artificial Intelligence
+   1  Engineering applications of artificial intelligence
+   1  Environmental Data Science
+   1  Environmental Microbiology
+   2  Environmental Research Letters
+   1  Ethics and Information Technology
+   1  European Conference on Information Retrieval
+   2  European Journal of Neurology
+   1  European Journal of Nuclear Medicine and Molecular Imaging
+   1  Expert Syst. Appl.
+   2  Expert Systems with Applications
+   2  Expert systems with applications
+   1  Extended Abstracts of the CHI Conference on Human Factors in Computing Systems
+   1  FAccT
+   1  Family Medicine and Community Health
+   1  Finance Contrôle Stratégie
+   3  Findings of the Association for Computational Linguistics ACL 2024
+   1  Findings of the Association for Computational Linguistics: EMNLP 2024
+   1  Findings of the Association for Computational Linguistics: NAACL 2024
+   1  Forensic Science International: Digital Investigation
+   1  Found. Trends Optim.
+   1  Foundations and Trends® in Optimization
+   1  Frontiers Artif. Intell.
+   1  Frontiers Digit. Health
+   1  Frontiers in Artificial Intelligence and Applications
+   1  Frontiers in Digital Health
+   1  Frontiers in Immunology
+   1  Functional Imaging and Modeling of the Heart
+   1  GECCO Companion
+   1  Games
+   1  Games Res. Pract.
+   1  Games: Research and Practice
+   1  Genome Biology
+   1  Geriatrics
+   1  Glia
+   1  Government and Opposition
+   1  Graphics Interface
+   1  Ground-based and Airborne Instrumentation for Astronomy X
+   2  Harm Reduction Journal
+   3  ICASSP
+   3  ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+   3  ICC 2024 - IEEE International Conference on Communications
+  41  ICLR
+  69  ICLR 2025
+   1  ICLR.cc/2025/BlogPosts
+  52  ICML 2024
+   1  IEEE Access
+   1  IEEE Commun. Surv. Tutorials
+   2  IEEE Conference on Decision and Control
+   1  IEEE International Conference on Data Engineering
+   1  IEEE Internet Things J.
+   1  IEEE Internet of Things Journal
+   1  IEEE Open Journal of Vehicular Technology
+   1  IEEE Power & Energy Society General Meeting
+   3  IEEE Robotics and Automation Letters
+   1  IEEE Softw.
+   1  IEEE Software
+   1  IEEE Trans Autom. Sci. Eng.
+   1  IEEE Trans. Autom. Control.
+   1  IEEE Trans. Neural Networks Learn. Syst.
+   1  IEEE Trans. Pattern Anal. Mach. Intell.
+   1  IEEE Transactions on Automatic Control
+   1  IEEE Transactions on Automation Science and Engineering
+   1  IEEE Transactions on Biomedical Engineering
+   1  IEEE Transactions on Computational Social Systems
+   1  IEEE Transactions on Dependable and Secure Computing
+   1  IEEE Transactions on Field Robotics
+   1  IEEE Transactions on Image Processing
+   1  IEEE Transactions on Industrial Electronics
+   1  IEEE Transactions on Industrial Informatics
+   1  IEEE Transactions on Knowledge and Data Engineering
+   1  IEEE Transactions on Medical Imaging
+   3  IEEE Transactions on Pattern Analysis and Machine Intelligence
+   1  IEEE Transactions on Power Delivery
+   1  IEEE Transactions on Robotics
+   2  IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control
+   1  IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control
+   1  IEEE Transactions on Visualization and Computer Graphics
+   1  IEEE Wireless Communications Letters
+   1  IEEE transactions on industrial electronics (1982. Print)
+   1  IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies
+   1  IEEE/ACM International Symposium on Code Generation and Optimization
+   1  IEEE/RJS International Conference on Intelligent RObots and Systems
+   1  INFOR Inf. Syst. Oper. Res.
+   1  INFOR. Information systems and operational research
+   1  INFOR: Information Systems and Operational Research
+   1  INFORMS J. Comput.
+   1  INFORMS Journal on Computing
+   1  ITiCSE (2)
+   6  Imaging Neuroscience
+   1  Informatik aktuell
+   1  Information
+   1  Int. J. Inf. Sec.
+   1  Int. J. Robotics Res.
+   1  Int. Trans. Oper. Res.
+   1  Integer Programming and Combinatorial Optimization
+   2  Integration of Constraint Programming, Artificial Intelligence, and Operations Research
+   6  Intensive Care Medicine
+   1  International Conference on Artificial Intelligence and Statistics
+   1  International Conference on Computational Collective Intelligence
+   1  International Conference on Cyber Conflict
+   1  International Conference on Foundations of Digital Games
+   1  International Conference on Learning Analytics and Knowledge
+  12  International Conference on Learning Representations
+   1  International Conference on Machine Learning and Computing
+   1  International Conference on Smart Communications and Networking
+   1  International Joint Conference on Artificial Intelligence
+   1  International Journal of Behavioral Nutrition and Physical Activity
+   1  International Journal of Epidemiology
+   1  International Journal of Information Security
+   1  International Journal of Science Education
+   1  International Journal of Technology Assessment in Health Care
+   1  International Review of Education
+   1  Internet Things
+   1  Internet of Things
+   2  Interspeech 2024
+   1  J. Netw. Comput. Appl.
+   1  J. Syst. Softw.
+   1  JMIR Aging
+   1  JMIR Public Health and Surveillance
+   1  Journal du Droit de la Santé et de l’Assurance - Maladie (JDSAM)
+   1  Journal of Biomedical Informatics
+   1  Journal of Chemical Physics
+   1  Journal of Data and Information Quality
+   2  Journal of Energy Storage
+   1  Journal of Fish Biology
+   1  Journal of Geophysical Research
+   1  Journal of Geophysical Research: Machine Learning and Computation
+   1  Journal of Integrative Nursing and Palliative Care
+   1  Journal of Medical Internet Research
+   1  Journal of Network and Computer Applications
+   1  Journal of Neural Engineering
+   1  Journal of Open Source Software
+  13  Journal of Pediatric Surgery
+   2  Journal of Surgical Research
+   1  Journal of Systems and Software
+   1  Journal of Vision
+   1  Journal of the American College of Surgeons
+   1  Knowl. Based Syst.
+   2  Knowledge-Based Systems
+   1  Language and Linguistics Compass
+  24  Lecture Notes in Computer Science
+   2  Lex Electronica
+   2  LoG 2024
+   1  Logical Methods in Computer Science
+   1  MIDL 2024
+   2  MIDL 2025
+   1  MIDL.io/2024/Short_Papers
+   1  MM2024
+   1  MSR
+  10  Magnetic Resonance in Medicine
+   1  Materials Today Communications
+   1  Mathematical Structures in Computer Science
+   1  Medical Image Anal.
+   1  Medical Image Analysis
+   1  Medical Informatics Europe
+   4  Medical Physics
+   5  Medical Physics (Lancaster)
+   1  Microscopy and Microanalysis
+   1  Molecular Genetics and Metabolism
+   2  NAACL (Findings)
+   2  NAACL (Long Papers)
+   1  NAR Genomics and Bioinformatics
+   2  Nature
+   1  Nature Biotechnology
+   1  Nature Climate Change
+   9  Nature Communications
+   1  Nature Computational Science
+   1  Nature Human Behaviour
+   2  Nature Machine Intelligence
+   1  Nature Medicine
+   1  Nature Reviews Biodiversity
+   1  Networks
+  55  NeurIPS 2024
+  12  NeurIPS.cc/2024/Datasets_and_Benchmarks_Track
+   4  Neural Networks
+   1  Neuromodec Journal
+   1  Neuron
+   1  Neuropsychologia
+   3  North American Chapter of the Association for Computational Linguistics
+   1  Nutrients
+   1  Omega
+   1  Open Access Government
+   1  Oper. Res.
+   1  Operations Research Forum
+   1  Optics Express
+   1  PLANTS, PEOPLE, PLANET
+   1  PLOS Biology
+   2  PLOS Computational Biology
+   2  PLOS ONE
+   1  PLoS Biology
+   2  PLoS ONE
+   1  PNAS Nexus
+   3  Pediatric Surgery International
+   3  Pediatric surgery international (Print)
+   1  Personality and Individual Differences
+   1  Petra
+   1  Philobiblon Transylvanian Journal of Multidisciplinary Research in Humanities
+   1  Philobiblon. Transylvanian Journal of Multidisciplinary Research in the Humanities
+   1  Philosophical Transactions of the Royal Society B: Biological Sciences
+   1  Philosophical Transactions of the Royal Society of London. Biological Sciences
+   2  Physical Review Letters
+   1  Physics and Imaging in Radiation Oncology
+   4  Physics in Medicine &amp; Biology
+   3  Physics in Medicine and Biology
+   1  Physics of Life Reviews
+   1  Physiological Reports
+   2  Plant and Soil
+   1  Plants, People, Planet
+   1  Proc. ACM Softw. Eng.
+   1  Procedia Computer Science
+  17  Proceedings of The 27th International Conference on Artificial Intelligence and Statistics
+   7  Proceedings of The 3rd Conference on Lifelong Learning Agents
+   1  Proceedings of The 8th Conference on Robot Learning
+   1  Proceedings of Thirty Seventh Conference on Learning Theory
+   3  Proceedings of the 15th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics
+   1  Proceedings of the 15th International Learning Analytics and Knowledge Conference
+   1  Proceedings of the 16th Asian Conference on Machine Learning
+   1  Proceedings of the 17th International Conference on PErvasive Technologies Related to Assistive Environments
+   1  Proceedings of the 19th International Conference on Software Technologies
+   1  Proceedings of the 19th International Conference on the Foundations of Digital Games
+   1  Proceedings of the 1st ACM International Conference on AI-Powered Software
+   3  Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+   1  Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+   1  Proceedings of the 2024 IEEE/ACM 17th International Conference on Cooperative and Human Aspects of Software Engineering
+   1  Proceedings of the 2024 IEEE/ACM First International Conference on AI Foundation Models and Software Engineering
+   1  Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization
+   1  Proceedings of the 30th Asia and South Pacific Design Automation Conference
+   2  Proceedings of the 33rd ACM International Conference on Information and Knowledge Management
+   1  Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering
+  65  Proceedings of the 41st International Conference on Machine Learning
+   1  Proceedings of the 46th International Conference on Software Engineering: Software Engineering in Practice
+   1  Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval
+   1  Proceedings of the 4th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+   1  Proceedings of the 4th Machine Learning for Health Symposium
+   1  Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+   1  Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)
+   1  Proceedings of the 6th Annual Learning for Dynamics & Control Conference
+   1  Proceedings of the 6th Symposium on Advances in Approximate Bayesian Inference
+   1  Proceedings of the 9th Machine Learning for Healthcare Conference
+   2  Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+   1  Proceedings of the ACM on Software Engineering
+   3  Proceedings of the CHI Conference on Human Factors in Computing Systems
+   1  Proceedings of the Canadian Engineering Education Association (CEEA)
+   4  Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence
+   1  Proceedings of the Genetic and Evolutionary Computation Conference Companion
+   1  Proceedings of the IEEE/ACM 46th International Conference on Software Engineering
+   1  Proceedings of the Royal Society B: Biological Sciences
+   4  Proceedings of the Second Learning on Graphs Conference
+   1  Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence
+   1  Proceedings of the fifth Conference on Health, Inference, and Learning
+   6  RLC 2024
+   1  Radiation Detection Technology and Methods
+   1  Radiation Protection Dosimetry
+   1  Radiology: Artificial Intelligence
+   2  Radiotherapy and Oncology
+   1  Remote Sensing of Environment
+   1  Research Ideas and Outcomes
+   1  Robotics: Science and Systems XX
+   1  SHS Web of Conferences
+   1  SIAM Review
+   1  SIGCAS Comput. Soc.
+   1  SSE
+   1  SSRN Electronic Journal
+   1  STAR Protocols
+   1  SampTA 2025
+   2  Science
+   1  Science of Remote Sensing
+   1  Scientific Data
+   4  Scientific Reports
+   1  Signal Process.
+   1  Social Neuroscience
+   3  Social Science Research Network
+   1  Space Science Reviews
+   1  Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers '24
+   1  Special Issue 5: Grappling With the Generative AI Revolution
+   2  Statistics in Medicine
+   1  Studies in Educational Evaluation
+   1  Studies in Health Technology and Informatics
+   1  Supportive Care in Cancer
+   1  Systems and Control Transactions
+  32  TMLR
+   5  The 2024 ACM Conference on Fairness, Accountability, and Transparency
+   2  The 37th Annual ACM Symposium on User Interface Software and Technology
+   1  The American Journal of Clinical Nutrition
+   1  The Annals of Applied Statistics
+   5  The Astrophysical Journal
+   1  The European Physical Journal C
+   1  The European Physical Journal Plus
+   1  The International Journal of Behavioral Nutrition and Physical Activity
+   1  The International Journal of Robotics Research
+   1  The Journal of Chemical Physics
+   1  The Journal of Creative Behavior
+   1  The Journal of creative behavior
+   2  The Spine Journal
+   1  The Web Conference
+   2  The spine journal
+  17  Trans. Mach. Learn. Res.
+   2  Transactions of the Association for Computational Linguistics
+   1  Transactions on Pattern Languages of Programming
+   1  Transportation Research Part E: Logistics and Transportation Review
+   1  Transportation Research Procedia
+   2  UAI
+   4  UAI 2024
+   1  Value in Health
+   1  WMU Journal of Maritime Affairs (JoMA)
+   1  WWW 2025
+   1  Water
+   1  World Journal of Surgery
+   1  eLife
+   1  eNeuro
+   1  iScience
+   1  mBio
+   1  npj Digit. Medicine

@@ -81,6 +81,20 @@ def filter_date(papers: list, start: datetime, end: datetime):
     yield from filter_on_releases(papers, check=check)
 
 
+def filter_papers(
+    papers: list, author_emails: list[str], start: datetime, end: datetime
+) -> list:
+    papers = filter_peer_reviewed(papers)
+
+    if author_emails:
+        papers = filter_authors(papers, author_emails)
+
+    if start or end:
+        papers = filter_date(papers, start, end)
+
+    return list(papers)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -141,15 +155,7 @@ if __name__ == "__main__":
     logging.info(f"Splitting papers for authors {author_emails}")
 
     all_papers = json.loads(options.paperoni.read_text())
-    papers = filter_peer_reviewed(all_papers)
-
-    if author_emails:
-        papers = filter_authors(papers, author_emails)
-
-    if options.start or options.end:
-        papers = filter_date(papers, options.start, options.end)
-
-    papers = list(papers)
+    papers = filter_papers(all_papers, author_emails, options.start, options.end)
 
     logging.info(f"Filtered {len(papers)}/{len(all_papers)} papers")
 

@@ -25,7 +25,8 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "click",
+  "rootutils",
+  "pyyaml",
 ]
 
 [project.urls]
@@ -38,6 +39,23 @@ dracrac = "dracrac.cli:dracrac"
 
 [tool.hatch.version]
 path = "src/dracrac/__about__.py"
+
+[tool.hatch.envs.default]
+installer = "uv"
+post-install-commands = [
+    "sync",
+]
+
+[tool.hatch.envs.default.scripts]
+sync = "uv sync --active --all-extras"
+add = [
+  "sync",
+  "uv add --active {args}",
+]
+"@" = [
+  "sync",
+  "{args}"
+]
 
 [tool.hatch.envs.types]
 extra-dependencies = [
